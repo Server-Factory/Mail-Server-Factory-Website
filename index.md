@@ -9,11 +9,11 @@ description: Deploy production-ready mail server infrastructure with zero hassle
     <div class="hero-badge">
       <span class="badge-text">Enterprise Grade</span>
       <span class="badge-divider">•</span>
-      <span class="badge-text">100% Test Success</span>
+      <span class="badge-text">Automated Installation</span>
       <span class="badge-divider">•</span>
-      <span class="badge-text">47 Tests Passing</span>
+      <span class="badge-text">Comprehensive Testing</span>
       <span class="badge-divider">•</span>
-      <span class="badge-text">SonarQube 100%</span>
+      <span class="badge-text">Multi-Distribution</span>
     </div>
     <h1 class="hero-title">Run Your Mail Server <span class="highlight">Like The Boss</span></h1>
     <p class="hero-subtitle">Enterprise-grade mail server automation powered by Kotlin, Docker, and proven technology. Deploy complete mail infrastructure with a single JSON configuration file.</p>
@@ -27,20 +27,20 @@ description: Deploy production-ready mail server infrastructure with zero hassle
     </div>
     <div class="hero-stats">
       <div class="stat">
-        <div class="stat-value">Enterprise Security</div>
-        <div class="stat-label">AES-256-GCM Encryption</div>
+        <div class="stat-value">12 Distributions</div>
+        <div class="stat-label">Fully Tested & Supported</div>
       </div>
       <div class="stat">
-        <div class="stat-value">Real-time Monitoring</div>
-        <div class="stat-label">Prometheus Metrics</div>
+        <div class="stat-value">100% Automated</div>
+        <div class="stat-label">Single JSON Config</div>
       </div>
       <div class="stat">
-        <div class="stat-value">Hot Reloading</div>
-        <div class="stat-label">Zero-downtime Config</div>
+        <div class="stat-value">Production Ready</div>
+        <div class="stat-label">SMTP/IMAP/POP3</div>
       </div>
       <div class="stat">
-        <div class="stat-value">85%+ Coverage</div>
-        <div class="stat-label">Test Coverage</div>
+        <div class="stat-value">Enterprise Grade</div>
+        <div class="stat-label">Docker + QEMU Ready</div>
       </div>
     </div>
   </div>
@@ -444,33 +444,153 @@ sh Core/Utils/init_ssh_access.sh your-server.local</pre>
 
 <section class="compatibility">
   <div class="container">
-    <h2 class="section-title">OS Compatibility</h2>
-    <p class="section-subtitle">Deploy on your preferred Linux distribution</p>
+    <h2 class="section-title">Distribution Support Matrix</h2>
+    <p class="section-subtitle">Deploy on the latest modern Linux server distributions</p>
 
     <div class="os-grid">
       <div class="os-card">
-        <div class="os-icon">🐧</div>
-        <h4>CentOS</h4>
-        <p>Versions 7 & 8</p>
+        <div class="os-icon">🟠</div>
+        <h4>Ubuntu Server</h4>
+        <p>22.04 LTS, 24.04 LTS</p>
+      </div>
+      <div class="os-card">
+        <div class="os-icon">🔴</div>
+        <h4>Debian</h4>
+        <p>11 (Bullseye), 12 (Bookworm)</p>
       </div>
       <div class="os-card">
         <div class="os-icon">🎩</div>
         <h4>Fedora Server</h4>
-        <p>Versions 30-34</p>
+        <p>38, 39, 40, 41</p>
       </div>
       <div class="os-card">
-        <div class="os-icon">🎯</div>
-        <h4>Fedora Workstation</h4>
-        <p>Versions 30-34</p>
+        <div class="os-icon">🔵</div>
+        <h4>AlmaLinux</h4>
+        <p>9.5</p>
       </div>
       <div class="os-card">
-        <div class="os-icon">🟠</div>
-        <h4>Ubuntu Desktop</h4>
-        <p>Versions 20 & 21</p>
+        <div class="os-icon">🟢</div>
+        <h4>Rocky Linux</h4>
+        <p>9.5</p>
+      </div>
+      <div class="os-card">
+        <div class="os-icon">🔴</div>
+        <h4>RHEL</h4>
+        <p>9</p>
+      </div>
+      <div class="os-card">
+        <div class="os-icon">🦎</div>
+        <h4>openSUSE Leap</h4>
+        <p>15.6</p>
       </div>
     </div>
 
-    <p class="compatibility-note">Note: SELinux enforcing is not currently supported. More distributions coming soon.</p>
+    <div style="margin-top: 3rem;">
+      <h3 class="section-subtitle" style="margin-bottom: 2rem;">Comprehensive Testing Coverage</h3>
+
+      <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+        <thead style="background: linear-gradient(120deg, var(--logo-black), var(--logo-gray-dark)); color: white;">
+          <tr>
+            <th style="padding: 1rem; text-align: left; border-bottom: 2px solid var(--logo-gold);">Distribution Family</th>
+            <th style="padding: 1rem; text-align: left; border-bottom: 2px solid var(--logo-gold);">Distribution</th>
+            <th style="padding: 1rem; text-align: left; border-bottom: 2px solid var(--logo-gold);">Version</th>
+            <th style="padding: 1rem; text-align: center; border-bottom: 2px solid var(--logo-gold);">Tested</th>
+            <th style="padding: 1rem; text-align: left; border-bottom: 2px solid var(--logo-gold);">Configuration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom: 1px solid #e1e4e8;">
+            <td style="padding: 1rem;" rowspan="2"><strong>Debian-based</strong></td>
+            <td style="padding: 1rem;">Ubuntu Server</td>
+            <td style="padding: 1rem;">22.04 LTS (Jammy)</td>
+            <td style="padding: 1rem; text-align: center;">✅</td>
+            <td style="padding: 1rem;"><code>Examples/Ubuntu_22.json</code></td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e1e4e8;">
+            <td style="padding: 1rem;">Ubuntu Server</td>
+            <td style="padding: 1rem;">24.04 LTS (Noble)</td>
+            <td style="padding: 1rem; text-align: center;">✅</td>
+            <td style="padding: 1rem;"><code>Examples/Ubuntu_24.json</code></td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e1e4e8;">
+            <td style="padding: 1rem;" rowspan="2"><strong>Debian</strong></td>
+            <td style="padding: 1rem;">Debian</td>
+            <td style="padding: 1rem;">11 (Bullseye)</td>
+            <td style="padding: 1rem; text-align: center;">✅</td>
+            <td style="padding: 1rem;"><code>Examples/Debian_11.json</code></td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e1e4e8;">
+            <td style="padding: 1rem;">Debian</td>
+            <td style="padding: 1rem;">12 (Bookworm)</td>
+            <td style="padding: 1rem; text-align: center;">✅</td>
+            <td style="padding: 1rem;"><code>Examples/Debian_12.json</code></td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e1e4e8;">
+            <td style="padding: 1rem;" rowspan="7"><strong>RHEL-based</strong></td>
+            <td style="padding: 1rem;">Red Hat Enterprise Linux</td>
+            <td style="padding: 1rem;">9</td>
+            <td style="padding: 1rem; text-align: center;">✅</td>
+            <td style="padding: 1rem;"><code>Examples/RHEL_9.json</code></td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e1e4e8;">
+            <td style="padding: 1rem;">AlmaLinux</td>
+            <td style="padding: 1rem;">9.5</td>
+            <td style="padding: 1rem; text-align: center;">✅</td>
+            <td style="padding: 1rem;"><code>Examples/AlmaLinux_9.json</code></td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e1e4e8;">
+            <td style="padding: 1rem;">Rocky Linux</td>
+            <td style="padding: 1rem;">9.5</td>
+            <td style="padding: 1rem; text-align: center;">✅</td>
+            <td style="padding: 1rem;"><code>Examples/Rocky_9.json</code></td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e1e4e8;">
+            <td style="padding: 1rem;">Fedora Server</td>
+            <td style="padding: 1rem;">38</td>
+            <td style="padding: 1rem; text-align: center;">✅</td>
+            <td style="padding: 1rem;"><code>Examples/Fedora_Server_38.json</code></td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e1e4e8;">
+            <td style="padding: 1rem;">Fedora Server</td>
+            <td style="padding: 1rem;">39</td>
+            <td style="padding: 1rem; text-align: center;">✅</td>
+            <td style="padding: 1rem;"><code>Examples/Fedora_Server_39.json</code></td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e1e4e8;">
+            <td style="padding: 1rem;">Fedora Server</td>
+            <td style="padding: 1rem;">40</td>
+            <td style="padding: 1rem; text-align: center;">✅</td>
+            <td style="padding: 1rem;"><code>Examples/Fedora_Server_40.json</code></td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e1e4e8;">
+            <td style="padding: 1rem;">Fedora Server</td>
+            <td style="padding: 1rem;">41</td>
+            <td style="padding: 1rem; text-align: center;">✅</td>
+            <td style="padding: 1rem;"><code>Examples/Fedora_Server_41.json</code></td>
+          </tr>
+          <tr>
+            <td style="padding: 1rem;"><strong>SUSE-based</strong></td>
+            <td style="padding: 1rem;">openSUSE Leap</td>
+            <td style="padding: 1rem;">15.6</td>
+            <td style="padding: 1rem; text-align: center;">✅</td>
+            <td style="padding: 1rem;"><code>Examples/openSUSE_Leap_15.json</code></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="margin-top: 2rem; padding: 1.5rem; background: linear-gradient(135deg, #e8f5e9 0%, #ffffff 100%); border-radius: 12px; border: 2px solid var(--success-color);">
+      <h4 style="color: var(--success-color); margin-bottom: 1rem;">✅ All Distributions Fully Tested</h4>
+      <p style="margin: 0; color: var(--text-dark);">
+        Every distribution has been validated with automated installation tests, ISO verification, and QEMU virtualization.
+        All configurations are production-ready and actively maintained.
+      </p>
+    </div>
+
+    <p class="compatibility-note" style="margin-top: 2rem;">
+      <strong>Note:</strong> SELinux enforcing mode is not currently supported. Please use permissive or disabled mode.
+      All distributions support Docker-based deployment with full automation.
+    </p>
   </div>
 </section>
 

@@ -7,12 +7,20 @@
     CSS VARIABLES - Brand Colors & Theme
     ============================================ */
 
-/* Light Theme (Default) */
+/* Light Theme (Default) - Using Logo Colors */
 :root {
-    --primary-dark: #1a1a1a;
-    --primary-gray: #2c2c2c;
-    --accent-color: #4a90e2;
-    --accent-hover: #357abd;
+    /* Logo-based colors: Yellow/Gold gears + Gray envelope */
+    --logo-gold: #E6C300;
+    --logo-gold-dark: #C7A600;
+    --logo-gray: #8B8B8B;
+    --logo-gray-dark: #6B6B6B;
+    --logo-black: #000000;
+
+    /* Theme colors based on logo */
+    --primary-dark: var(--logo-black);
+    --primary-gray: var(--logo-gray-dark);
+    --accent-color: var(--logo-gold);
+    --accent-hover: var(--logo-gold-dark);
     --success-color: #28a745;
     --text-dark: #2c3e50;
     --text-light: #6c757d;
@@ -21,18 +29,24 @@
     --card-shadow-hover: 0 8px 16px rgba(0, 0, 0, 0.15);
     --bg-primary: #ffffff;
     --bg-secondary: #f8f9fa;
-    --bg-header: linear-gradient(120deg, #1a1a1a, #2c2c2c);
+    --bg-header: linear-gradient(120deg, var(--logo-black), var(--logo-gray-dark));
     --text-on-dark: #ffffff;
     --text-on-dark-secondary: rgba(255, 255, 255, 0.8);
     --transition: all 0.3s ease;
 }
 
-/* Dark Theme */
+/* Dark Theme - Using Logo Colors */
 [data-theme="dark"] {
-    --primary-dark: #292929;
-    --primary-gray: #3c3c3c;
-    --accent-color: #4a90e2;
-    --accent-hover: #357abd;
+    /* Keep logo colors consistent */
+    --logo-gold: #F0D000;
+    --logo-gold-dark: #D4B800;
+    --logo-gray: #A0A0A0;
+    --logo-gray-dark: #808080;
+
+    --primary-dark: #1a1a1a;
+    --primary-gray: var(--logo-gray);
+    --accent-color: var(--logo-gold);
+    --accent-hover: var(--logo-gold-dark);
     --success-color: #28a745;
     --text-dark: #e4e4e4;
     --text-light: #b0b0b0;
@@ -41,7 +55,7 @@
     --card-shadow-hover: 0 8px 16px rgba(0, 0, 0, 0.4);
     --bg-primary: #1a1a1a;
     --bg-secondary: #2c2c2c;
-    --bg-header: linear-gradient(120deg, #292929, #3c3c3c);
+    --bg-header: linear-gradient(120deg, #1a1a1a, var(--logo-gray-dark));
     --text-on-dark: #ffffff;
     --text-on-dark-secondary: rgba(255, 255, 255, 0.8);
 }
