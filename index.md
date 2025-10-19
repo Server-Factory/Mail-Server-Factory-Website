@@ -580,9 +580,10 @@ sh Core/Utils/init_ssh_access.sh your-server.local</pre>
     </div>
 
     <div style="margin-top: 2rem; padding: 1.5rem; background: linear-gradient(135deg, #e8f5e9 0%, #ffffff 100%); border-radius: 12px; border: 2px solid var(--success-color);">
-      <h4 style="color: var(--success-color); margin-bottom: 1rem;">✅ All Distributions Fully Tested</h4>
+      <h4 style="color: var(--success-color); margin-bottom: 1rem;">✅ Automated Testing Available</h4>
       <p style="margin: 0; color: var(--text-dark);">
-        Every distribution has been validated with automated installation tests, ISO verification, and QEMU virtualization.
+        All distributions are ready for automated testing with QEMU virtualization. 
+        The testing framework includes ISO verification, automated installation, and configuration validation. 
         All configurations are production-ready and actively maintained.
       </p>
     </div>
