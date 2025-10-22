@@ -7,6 +7,15 @@
     CSS VARIABLES - Brand Colors & Theme
     ============================================ */
 
+/* Prevent flash of unstyled content */
+html:not(.theme-applied) {
+    visibility: hidden;
+}
+
+html.theme-applied {
+    visibility: visible;
+}
+
 /* Light Theme (Default) - Using Logo Colors */
 :root {
     /* Logo-based colors: Yellow/Gold gears + Gray envelope */
@@ -362,7 +371,7 @@ section:nth-child(even) {
 }
 
 .feature-card {
-    background: white;
+    background: var(--bg-primary);
     padding: 2rem;
     border-radius: 12px;
     box-shadow: var(--card-shadow);
@@ -760,7 +769,7 @@ section:nth-child(even) {
 }
 
 .test-stat-card {
-    background: white;
+    background: var(--bg-primary);
     padding: 2rem;
     border-radius: 12px;
     text-align: center;
@@ -776,7 +785,8 @@ section:nth-child(even) {
 
 .highlight-card {
     border-color: var(--success-color);
-    background: linear-gradient(135deg, #e8f5e9 0%, #ffffff 100%);
+    background: var(--bg-primary);
+    border-width: 3px;
 }
 
 .test-stat-value {
@@ -798,7 +808,7 @@ section:nth-child(even) {
 }
 
 .testing-details {
-    background: white;
+    background: var(--bg-primary);
     padding: 2rem;
     border-radius: 12px;
     box-shadow: var(--card-shadow);
@@ -873,7 +883,7 @@ section:nth-child(even) {
 }
 
 .os-card {
-    background: white;
+    background: var(--bg-primary);
     padding: 2rem;
     border-radius: 12px;
     text-align: center;
@@ -924,7 +934,7 @@ section:nth-child(even) {
     gap: 1rem;
     align-items: flex-start;
     padding: 1.5rem;
-    background: white;
+    background: var(--bg-primary);
     border-radius: 12px;
     box-shadow: var(--card-shadow);
     transition: var(--transition);
@@ -953,7 +963,7 @@ section:nth-child(even) {
 }
 
 .launcher-commands {
-    background: white;
+    background: var(--bg-primary);
     padding: 2rem;
     border-radius: 12px;
     box-shadow: var(--card-shadow);
@@ -975,7 +985,7 @@ section:nth-child(even) {
     grid-template-columns: auto 1fr;
     gap: 1.5rem;
     padding: 1rem;
-    background: #f8f9fa;
+    background: var(--bg-secondary);
     border-radius: 8px;
     align-items: center;
 }
@@ -1004,7 +1014,7 @@ section:nth-child(even) {
 }
 
 .use-case {
-    background: white;
+    background: var(--bg-primary);
     padding: 2rem;
     border-radius: 12px;
     box-shadow: var(--card-shadow);
@@ -1037,7 +1047,7 @@ section:nth-child(even) {
 }
 
 .doc-card {
-    background: white;
+    background: var(--bg-primary);
     padding: 2rem;
     border-radius: 12px;
     text-decoration: none;
@@ -1125,6 +1135,115 @@ section:nth-child(even) {
 }
 
 /* ============================================
+   LANGUAGE SELECTOR
+   ============================================ */
+.language-selector {
+    position: relative;
+    display: inline-block;
+}
+
+.language-toggle {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+    color: var(--text-on-dark);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: var(--transition);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.language-toggle:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.05);
+}
+
+.current-flag {
+    font-size: 1.1rem;
+}
+
+.current-lang {
+    font-size: 0.85rem;
+}
+
+.dropdown-arrow {
+    font-size: 0.7rem;
+    transition: transform 0.3s ease;
+}
+
+.language-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: var(--card-shadow-hover);
+    min-width: 180px;
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+
+.language-dropdown.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(5px);
+}
+
+.language-option {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    width: 100%;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: var(--transition);
+    color: var(--text-dark);
+    font-size: 0.9rem;
+}
+
+.language-option:hover {
+    background: var(--bg-secondary);
+}
+
+.language-option.active {
+    background: var(--accent-color);
+    color: white;
+}
+
+.language-option .flag {
+    font-size: 1.1rem;
+    width: 20px;
+    text-align: center;
+}
+
+.language-option .name {
+    flex: 1;
+    text-align: left;
+}
+
+/* RTL Support */
+[dir="rtl"] .language-option .name {
+    text-align: right;
+}
+
+[dir="rtl"] .language-toggle {
+    flex-direction: row-reverse;
+}
+
+/* ============================================
    RESPONSIVE DESIGN
    ============================================ */
 @media (max-width: 768px) {
@@ -1136,6 +1255,22 @@ section:nth-child(even) {
 
     .header-actions {
         order: -1;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .language-selector {
+        order: 1;
+    }
+
+    .theme-toggle-btn {
+        order: 2;
+    }
+
+    .header-actions .btn {
+        order: 3;
+        flex: 1 1 auto;
+        min-width: 140px;
     }
 
     .hero-title {
@@ -1208,6 +1343,29 @@ section:nth-child(even) {
 
     .hero-cta {
         flex-direction: column;
+    }
+
+    .header-actions {
+        width: 100%;
+    }
+
+    .header-actions .btn {
+        width: 100%;
+    }
+
+    .language-toggle {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    .current-lang {
+        display: none;
+    }
+
+    .theme-toggle-btn {
+        width: 45px;
+        height: 45px;
+        font-size: 1.1rem;
     }
 }
 

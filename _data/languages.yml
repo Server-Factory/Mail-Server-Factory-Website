@@ -1,0 +1,144 @@
+en:
+  name: "English"
+  flag: "🇺🇸"
+  code: "en"
+
+ru:
+  name: "Русский"
+  flag: "🇷🇺"
+  code: "ru"
+
+be:
+  name: "Беларуская"
+  flag: "🇧🇾"
+  code: "be"
+
+zh:
+  name: "中文"
+  flag: "🇨🇳"
+  code: "zh"
+
+hi:
+  name: "हिन्दी"
+  flag: "🇮🇳"
+  code: "hi"
+
+fa:
+  name: "فارسی"
+  flag: "🇮🇷"
+  code: "fa"
+
+ar:
+  name: "العربية"
+  flag: "🇸🇦"
+  code: "ar"
+
+ko:
+  name: "한국어"
+  flag: "🇰🇷"
+  code: "ko"
+
+ja:
+  name: "日本語"
+  flag: "🇯🇵"
+  code: "ja"
+
+sr:
+  name: "Српски"
+  flag: "🇷🇸"
+  code: "sr"
+
+fr:
+  name: "Français"
+  flag: "🇫🇷"
+  code: "fr"
+
+de:
+  name: "Deutsch"
+  flag: "🇩🇪"
+  code: "de"
+
+es:
+  name: "Español"
+  flag: "🇪🇸"
+  code: "es"
+
+pt:
+  name: "Português"
+  flag: "🇵🇹"
+  code: "pt"
+
+no:
+  name: "Norsk"
+  flag: "🇳🇴"
+  code: "no"
+
+da:
+  name: "Dansk"
+  flag: "🇩🇰"
+  code: "da"
+
+sv:
+  name: "Svenska"
+  flag: "🇸🇪"
+  code: "sv"
+
+is:
+  name: "Íslenska"
+  flag: "🇮🇸"
+  code: "is"
+
+bg:
+  name: "Български"
+  flag: "🇧🇬"
+  code: "bg"
+
+ro:
+  name: "Română"
+  flag: "🇷🇴"
+  code: "ro"
+
+hu:
+  name: "Magyar"
+  flag: "🇭🇺"
+  code: "hu"
+
+it:
+  name: "Italiano"
+  flag: "🇮🇹"
+  code: "it"
+
+el:
+  name: "Ελληνικά"
+  flag: "🇬🇷"
+  code: "el"
+
+he:
+  name: "עברית"
+  flag: "🇮🇱"
+  code: "he"
+
+ka:
+  name: "ქართული"
+  flag: "🇬🇪"
+  code: "ka"
+
+kk:
+  name: "Қазақ"
+  flag: "🇰🇿"
+  code: "kk"
+
+uz:
+  name: "Oʻzbek"
+  flag: "🇺🇿"
+  code: "uz"
+
+tg:
+  name: "Тоҷикӣ"
+  flag: "🇹🇯"
+  code: "tg"
+
+tr:
+  name: "Türkçe"
+  flag: "🇹🇷"
+  code: "tr"

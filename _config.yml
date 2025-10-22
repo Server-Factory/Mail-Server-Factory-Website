@@ -1,3 +1,49 @@
 theme: jekyll-theme-cayman
 title: Mail Server Factory
 description: "Run your mail server like the boss!"
+lang: en
+languages:
+  - en
+  - ru
+  - be
+  - zh
+  - hi
+  - fa
+  - ar
+  - ko
+  - ja
+  - sr
+  - fr
+  - de
+  - es
+  - pt
+  - no
+  - da
+  - sv
+  - is
+  - bg
+  - ro
+  - hu
+  - it
+  - el
+  - he
+  - ka
+  - kk
+  - uz
+  - tg
+  - tr
+default_lang: en
+exclude:
+  - "*.md"
+  - "*.html"
+  - "_layouts/"
+  - "_includes/"
+  - "assets/"
+  - "_data/"
+  - "_sass/"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules/"
+  - "vendor/"
+  - "*.gemspec"
+  - "*.rb"
