@@ -9,6 +9,7 @@
     "test:browser": "node test-website.js"
   },
   "dependencies": {
+    "@vitalets/google-translate-api": "^9.2.1",
     "puppeteer": "^21.0.0"
   },
   "engines": {

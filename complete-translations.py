@@ -12,7 +12,7 @@ from pathlib import Path
 def load_yaml(file_path):
     """Load YAML file safely."""
     with open(file_path, 'r', encoding='utf-8') as f:
-        return yaml.safe_load(f)
+        return yaml.load(f, Loader=yaml.Loader)
 
 def save_yaml(file_path, data):
     """Save YAML file safely."""

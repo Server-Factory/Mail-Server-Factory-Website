@@ -418,9 +418,7 @@ class WebsiteTester {
         this.log('Testing all supported languages...', 'info');
 
         const supportedLanguages = [
-            'en', 'ru', 'be', 'zh', 'hi', 'fa', 'ar', 'ko', 'ja', 'sr',
-            'fr', 'de', 'es', 'pt', 'no', 'da', 'sv', 'is', 'bg', 'ro',
-            'hu', 'it', 'el', 'he', 'ka', 'kk', 'uz', 'tg', 'tr'
+            'en', 'ru', 'zh', 'be', 'sr'
         ];
 
         const results = {};

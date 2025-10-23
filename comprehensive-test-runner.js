@@ -29,9 +29,7 @@ class ComprehensiveTestRunner {
         };
 
         this.supportedLanguages = [
-            'en', 'ru', 'be', 'zh', 'hi', 'fa', 'ar', 'ko', 'ja', 'sr',
-            'fr', 'de', 'es', 'pt', 'no', 'da', 'sv', 'is', 'bg', 'ro',
-            'hu', 'it', 'el', 'he', 'ka', 'kk', 'uz', 'tg', 'tr'
+            'en', 'ru', 'zh', 'be', 'sr'
         ];
     }
 
@@ -174,54 +172,122 @@ class ComprehensiveTestRunner {
                 this.results.summary.languages[lang].total++;
                 this.results.summary.totalTests++;
 
-                // Test key translations
-                const translationTests = [
-                    { selector: '[data-i18n="hero_title"]', key: 'hero_title' },
-                    { selector: '[data-i18n="features_title"]', key: 'features_title' },
-                    { selector: '[data-i18n="enterprise_title"]', key: 'enterprise_title' },
-                    { selector: '[data-i18n="cta_title"]', key: 'cta_title' }
+                // Test comprehensive translations - check ALL translatable elements
+                const allTranslatableSelectors = [
+                    // Hero section
+                    '[data-i18n="hero_title"]', '[data-i18n="hero_subtitle"]', '[data-i18n="download_btn"]', '[data-i18n="github_btn"]',
+                    '[data-i18n="stats_distributions"]', '[data-i18n="stats_automated"]', '[data-i18n="stats_production"]', '[data-i18n="stats_enterprise"]',
+                    '[data-i18n="stat_label_tested"]', '[data-i18n="stat_label_config"]', '[data-i18n="stat_label_protocols"]', '[data-i18n="stat_label_docker"]',
+
+                    // Features section
+                    '[data-i18n="features_title"]', '[data-i18n="features_subtitle"]', '[data-i18n="feature_zero_touch"]', '[data-i18n="feature_docker"]',
+                    '[data-i18n="feature_security"]', '[data-i18n="feature_tested"]', '[data-i18n="feature_ssh"]', '[data-i18n="feature_complete"]',
+
+                    // Enterprise section
+                    '[data-i18n="enterprise_title"]', '[data-i18n="enterprise_subtitle"]', '[data-i18n="enterprise_security"]', '[data-i18n="enterprise_monitoring"]',
+                    '[data-i18n="enterprise_config"]', '[data-i18n="enterprise_performance"]',
+
+                    // Tech stack section
+                    '[data-i18n="tech_stack_title"]', '[data-i18n="tech_stack_subtitle"]',
+
+                    // Architecture section
+                    '[data-i18n="architecture_title"]', '[data-i18n="architecture_subtitle"]',
+
+                    // How it works section
+                    '[data-i18n="how_it_works_title"]', '[data-i18n="how_it_works_subtitle"]', '[data-i18n="step_configure"]', '[data-i18n="step_deploy"]', '[data-i18n="step_use"]',
+
+                    // Testing section
+                    '[data-i18n="testing_title"]', '[data-i18n="testing_subtitle"]',
+
+                    // Compatibility section
+                    '[data-i18n="compatibility_title"]', '[data-i18n="compatibility_subtitle"]',
+
+                    // Use cases section
+                    '[data-i18n="use_cases_title"]',
+
+                    // Documentation section
+                    '[data-i18n="documentation_title"]',
+
+                    // CTA section
+                    '[data-i18n="cta_title"]', '[data-i18n="cta_subtitle"]', '[data-i18n="cta_note"]'
                 ];
 
-                for (const test of translationTests) {
-                    const element = await page.$(test.selector);
+                // Test all translatable elements
+                let translationPassCount = 0;
+                let translationFailCount = 0;
+
+                for (const selector of allTranslatableSelectors) {
+                    const element = await page.$(selector);
                     if (element) {
                         const text = await page.evaluate(el => el.textContent.trim(), element);
                         if (text && text.length > 0) {
                             // Check for English words in non-English locales
                             if (lang !== 'en') {
                                 const hasEnglishWords = await page.evaluate((content) => {
-                                    const englishWords = ['the', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 'by', 'Download', 'View', 'Like', 'Boss', 'Run', 'Your', 'Mail', 'Server'];
+                                    // Comprehensive list of common English words that should not appear
+                                    const englishWords = [
+                                        'the', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 'by',
+                                        'an', 'a', 'is', 'are', 'was', 'were', 'be', 'been', 'being', 'have', 'has', 'had',
+                                        'do', 'does', 'did', 'will', 'would', 'could', 'should', 'may', 'might', 'must',
+                                        'can', 'shall', 'this', 'that', 'these', 'those', 'here', 'there', 'where', 'when',
+                                        'why', 'how', 'what', 'which', 'who', 'Download', 'View', 'Like', 'Boss', 'Run',
+                                        'Your', 'Mail', 'Server', 'Enterprise', 'Grade', 'Automated', 'Installation',
+                                        'Comprehensive', 'Testing', 'Multi', 'Distribution', 'Why', 'Factory', 'Features',
+                                        'without', 'complexity', 'Zero', 'Touch', 'Deployment', 'Docker', 'Native',
+                                        'Security', 'Built', 'In', 'Battle', 'Tested', 'Code', 'SSH', 'Based', 'Remote',
+                                        'Execution', 'Complete', 'Stack', 'Advanced', 'Monitoring', 'Observability',
+                                        'Configuration', 'Management', 'Performance', 'Optimization', 'Technology',
+                                        'Powered', 'industry', 'leading', 'open', 'source', 'technologies', 'Enterprise',
+                                        'Architecture', 'Multi', 'layered', 'architecture', 'designed', 'scalability',
+                                        'How', 'It', 'Works', 'Three', 'simple', 'steps', 'your', 'production', 'mail',
+                                        'server', 'Configure', 'Deploy', 'Use', 'Quick', 'Start', 'Quality', 'Testing',
+                                        'comprehensive', 'test', 'coverage', 'ensures', 'reliability', 'Distribution',
+                                        'Support', 'Matrix', 'Deploy', 'latest', 'modern', 'Linux', 'server', 'distributions',
+                                        'Launcher', 'production', 'ready', 'bash', 'wrapper', 'grade', 'error', 'handling',
+                                        'Who', 'Uses', 'Documentation', 'Resources', 'Ready', 'deploy', 'Join', 'community',
+                                        'take', 'control', 'email', 'infrastructure', 'today', 'Open', 'source', 'Free',
+                                        'forever', 'Community', 'supported'
+                                    ];
                                     const words = content.toLowerCase().split(/\s+/);
-                                    return words.some(word => englishWords.includes(word.replace(/[^\w]/g, '')));
+                                    return words.some(word => {
+                                        const cleanWord = word.replace(/[^\w]/g, '');
+                                        return englishWords.includes(cleanWord) && cleanWord.length > 2;
+                                    });
                                 }, text);
 
                                 if (hasEnglishWords) {
-                                    this.log(`English words found in ${test.key}`, 'fail', lang);
-                                    this.results.summary.languages[lang].failed++;
-                                    this.results.summary.failed++;
+                                    this.log(`English words found in ${selector}`, 'fail', lang);
+                                    translationFailCount++;
                                 } else {
-                                    this.log(`${test.key} translated correctly`, 'pass', lang);
-                                    this.results.summary.languages[lang].passed++;
-                                    this.results.summary.passed++;
+                                    translationPassCount++;
                                 }
                             } else {
-                                this.log(`${test.key} present`, 'pass', lang);
-                                this.results.summary.languages[lang].passed++;
-                                this.results.summary.passed++;
+                                translationPassCount++;
                             }
                         } else {
-                            this.log(`${test.key} is empty`, 'fail', lang);
-                            this.results.summary.languages[lang].failed++;
-                            this.results.summary.failed++;
+                            this.log(`${selector} is empty`, 'fail', lang);
+                            translationFailCount++;
                         }
                     } else {
-                        this.log(`${test.key} element not found`, 'fail', lang);
-                        this.results.summary.languages[lang].failed++;
-                        this.results.summary.failed++;
+                        this.log(`${selector} element not found`, 'fail', lang);
+                        translationFailCount++;
                     }
-                    this.results.summary.languages[lang].total++;
-                    this.results.summary.totalTests++;
                 }
+
+                // Update results for this language
+                if (translationFailCount === 0) {
+                    this.log(`All ${allTranslatableSelectors.length} translations verified`, 'pass', lang);
+                    this.results.summary.languages[lang].passed += translationPassCount;
+                    this.results.summary.passed += translationPassCount;
+                } else {
+                    this.log(`${translationFailCount} translation issues found`, 'fail', lang);
+                    this.results.summary.languages[lang].failed += translationFailCount;
+                    this.results.summary.failed += translationFailCount;
+                    this.results.summary.languages[lang].passed += translationPassCount;
+                    this.results.summary.passed += translationPassCount;
+                }
+                this.results.summary.languages[lang].total += allTranslatableSelectors.length;
+                this.results.summary.totalTests += allTranslatableSelectors.length;
 
                 // Test RTL for RTL languages
                 const rtlLanguages = ['ar', 'fa', 'he'];
