@@ -184,7 +184,6 @@ en:
   enterprise_monitoring_item2: Automated health checks
   enterprise_monitoring_item3: Structured logging with correlation IDs
   enterprise_monitoring_item4: Real-time performance monitoring
-     enterprise_performance_desc: 'उन्नत कैशिंग, JVM ट्यूनिंग और अनुकूलित संसाधन उपयोग के साथ एंटरप्राइज़-स्केल प्रदर्शन।'
      JVM tuning, and optimized resource utilization.
   enterprise_performance_item1: Caffeine-based multi-region caching
   enterprise_performance_item2: JVM performance tuning (G1GC)
@@ -952,8 +951,6 @@ hi:
   enterprise_config_desc: पर्यावरण समर्थन, हॉट रीलोडिंग और एंटरप्राइज़ सत्यापन के साथ उन्नत कॉन्फ़िगरेशन सिस्टम।
   enterprise_monitoring_desc: Prometheus मेट्रिक्स, स्वास्थ्य जांच, संरचित लॉगिंग और एंटरप्राइज़ अलर्टिंग के साथ पूर्ण निगरानी समाधान।
   enterprise_security_desc: AES-256-GCM एन्क्रिप्शन, व्यापक ऑडिट लॉगिंग, सेशन प्रबंधन और TLS 1.3 प्रवर्तन के साथ एंटरप्राइज़-ग्रेड सुरक्षा।
-     enterprise_performance_desc: |
-       उन्नत कैशिंग, JVM ट्यूनिंग और अनुकूलित संसाधन उपयोग के साथ एंटरप्राइज़-स्केल प्रदर्शन।
     tech_stack_title: प्रौद्योगिकी स्टैक
     tech_stack_subtitle: उद्योग-अग्रणी ओपन सोर्स तकनीकों द्वारा संचालित
     architecture_title: एंटरप्राइज़ आर्किटेक्चर
