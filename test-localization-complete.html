@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Localization Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .test-section { margin: 20px 0; padding: 20px; border: 1px solid #ccc; }
+        .success { color: green; }
+        .error { color: red; }
+        .warning { color: orange; }
+        .test-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .language-test { border: 1px solid #ddd; padding: 15px; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <h1>Complete Localization Test</h1>
+    
+    <div class="test-section">
+        <h2>Translation Keys Coverage Test</h2>
+        <div id="coverage-test">
+            <p>Testing translation keys coverage...</p>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>Language Switching Test</h2>
+        <div id="language-test">
+            <p>Testing language switching...</p>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>Hero Title Styling Test</h2>
+        <div id="styling-test">
+            <p>Testing hero title styling...</p>
+        </div>
+    </div>
+
+    <script>
+        // Test translation keys coverage
+        function testTranslationCoverage() {
+            const testDiv = document.getElementById('coverage-test');
+            
+            // Check if translations object exists
+            if (typeof window.siteTranslations !== 'undefined') {
+                testDiv.innerHTML += `<p class="success">✓ Translations object found</p>`;
+                
+                // Check English translations
+                if (window.siteTranslations.en) {
+                    testDiv.innerHTML += `<p class="success">✓ English translations found</p>`;
+                    
+                    // Test key categories
+                    const keyCategories = {
+                        'Hero Section': ['hero_title', 'hero_subtitle', 'download_btn', 'github_btn'],
+                        'Features': ['features_title', 'features_subtitle', 'feature_zero_touch', 'feature_docker'],
+                        'Enterprise': ['enterprise_title', 'enterprise_subtitle', 'enterprise_security', 'enterprise_monitoring'],
+                        'Technology': ['tech_stack_title', 'tech_stack_subtitle', 'tech_postfix', 'tech_dovecot'],
+                        'Architecture': ['architecture_title', 'architecture_subtitle', 'architecture_security_layer', 'architecture_performance_layer'],
+                        'How It Works': ['how_it_works_title', 'how_it_works_subtitle', 'step_configure', 'step_deploy'],
+                        'Testing': ['testing_title', 'testing_subtitle', 'testing_stat_total', 'testing_stat_success'],
+                        'Compatibility': ['compatibility_title', 'compatibility_subtitle', 'distro_ubuntu', 'distro_debian'],
+                        'Launcher': ['launcher_title', 'launcher_subtitle', 'launcher_feature1', 'launcher_feature2'],
+                        'Use Cases': ['use_cases_title', 'use_case1', 'use_case2', 'use_case3'],
+                        'Documentation': ['documentation_title', 'doc_readme', 'doc_testing', 'doc_enterprise'],
+                        'CTA': ['cta_title', 'cta_subtitle', 'cta_download', 'cta_github'],
+                        'Code Examples': ['code_json_example', 'code_deploy_command', 'code_verify_command', 'code_web_installer'],
+                        'Statistics': ['test_stat_value_total', 'test_stat_value_success', 'test_stat_value_coverage', 'test_stat_value_smells'],
+                        'Distributions': ['distro_ubuntu', 'distro_debian', 'distro_fedora', 'distro_almalinux']
+                    };
+                    
+                    let totalKeys = 0;
+                    let foundKeys = 0;
+                    
+                    Object.entries(keyCategories).forEach(([category, keys]) => {
+                        let categoryFound = true;
+                        keys.forEach(key => {
+                            totalKeys++;
+                            if (!window.siteTranslations.en[key]) {
+                                categoryFound = false;
+                                testDiv.innerHTML += `<p class="error">✗ Missing key "${key}" in ${category}</p>`;
+                            } else {
+                                foundKeys++;
+                            }
+                        });
+                        
+                        if (categoryFound) {
+                            testDiv.innerHTML += `<p class="success">✓ All ${category} keys found</p>`;
+                        }
+                    });
+                    
+                    const coveragePercentage = Math.round((foundKeys / totalKeys) * 100);
+                    testDiv.innerHTML += `<p class="${coveragePercentage === 100 ? 'success' : 'warning'}">📊 Translation coverage: ${coveragePercentage}% (${foundKeys}/${totalKeys} keys)</p>`;
+                    
+                    if (coveragePercentage === 100) {
+                        testDiv.innerHTML += `<p class="success">🎉 All translation keys are properly defined!</p>`;
+                    }
+                } else {
+                    testDiv.innerHTML += `<p class="error">✗ English translations missing</p>`;
+                }
+            } else {
+                testDiv.innerHTML += `<p class="error">✗ Translations object not found</p>`;
+            }
+        }
+
+        // Test language switching
+        function testLanguageSwitching() {
+            const testDiv = document.getElementById('language-test');
+            
+            // Check if LanguageSelector class exists
+            if (typeof LanguageSelector !== 'undefined') {
+                testDiv.innerHTML += `<p class="success">✓ LanguageSelector class found</p>`;
+                
+                try {
+                    const selector = new LanguageSelector();
+                    testDiv.innerHTML += `<p class="success">✓ LanguageSelector instance created</p>`;
+                    testDiv.innerHTML += `<p>Current language: ${selector.currentLang}</p>`;
+                    
+                    // Test switching to different languages
+                    const testLanguages = ['ru', 'de', 'es', 'ja', 'fr'];
+                    let successfulSwitches = 0;
+                    
+                    testLanguages.forEach(lang => {
+                        try {
+                            selector.changeLanguage(lang);
+                            testDiv.innerHTML += `<p class="success">✓ Switched to ${lang}</p>`;
+                            successfulSwitches++;
+                        } catch (error) {
+                            testDiv.innerHTML += `<p class="error">✗ Failed to switch to ${lang}: ${error.message}</p>`;
+                        }
+                    });
+                    
+                    // Switch back to English
+                    selector.changeLanguage('en');
+                    testDiv.innerHTML += `<p class="success">✓ Switched back to English</p>`;
+                    
+                    if (successfulSwitches === testLanguages.length) {
+                        testDiv.innerHTML += `<p class="success">🎉 All language switches successful!</p>`;
+                    }
+                } catch (error) {
+                    testDiv.innerHTML += `<p class="error">✗ LanguageSelector failed: ${error.message}</p>`;
+                }
+            } else {
+                testDiv.innerHTML += `<p class="error">✗ LanguageSelector class not found</p>`;
+            }
+        }
+
+        // Test hero title styling
+        function testHeroStyling() {
+            const testDiv = document.getElementById('styling-test');
+            
+            // Create a test hero title element
+            const testTitle = document.createElement('h1');
+            testTitle.className = 'hero-title';
+            testTitle.innerHTML = 'Run Your Mail Server <span class="highlight">Like The Boss</span>';
+            
+            document.body.appendChild(testTitle);
+            
+            // Check computed styles
+            const highlightElement = testTitle.querySelector('.highlight');
+            if (highlightElement) {
+                const computedStyle = window.getComputedStyle(highlightElement);
+                
+                // Check if background is removed
+                const backgroundColor = computedStyle.backgroundColor;
+                const isBackgroundRemoved = backgroundColor === 'rgba(0, 0, 0, 0)' || backgroundColor === 'transparent';
+                
+                // Check for text shadow
+                const textShadow = computedStyle.textShadow;
+                const hasTextShadow = textShadow && textShadow !== 'none';
+                
+                if (isBackgroundRemoved) {
+                    testDiv.innerHTML += `<p class="success">✓ White background removed from "Like The Boss"</p>`;
+                } else {
+                    testDiv.innerHTML += `<p class="error">✗ White background still present: ${backgroundColor}</p>`;
+                }
+                
+                if (hasTextShadow) {
+                    testDiv.innerHTML += `<p class="success">✓ Drop shadow effect applied</p>`;
+                } else {
+                    testDiv.innerHTML += `<p class="error">✗ No drop shadow effect found</p>`;
+                }
+                
+                if (isBackgroundRemoved && hasTextShadow) {
+                    testDiv.innerHTML += `<p class="success">🎉 Hero title styling is perfect!</p>`;
+                }
+            } else {
+                testDiv.innerHTML += `<p class="error">✗ Could not find highlight element</p>`;
+            }
+            
+            // Clean up
+            document.body.removeChild(testTitle);
+        }
+
+        // Run all tests when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            testTranslationCoverage();
+            testLanguageSwitching();
+            testHeroStyling();
+        });
+    </script>
+
+    <!-- Include the actual language selector script -->
+    <script src="assets/js/language-selector.js"></script>
+</body>
+</html>

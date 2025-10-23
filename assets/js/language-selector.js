@@ -424,6 +424,15 @@ class LanguageSelector {
                 }
             });
         }
+
+        // Handle code blocks and pre elements specially
+        const codeElements = document.querySelectorAll('pre[data-i18n], code[data-i18n]');
+        codeElements.forEach(element => {
+            const key = element.getAttribute('data-i18n');
+            if (translations[key]) {
+                element.textContent = translations[key];
+            }
+        });
     }
 }
 

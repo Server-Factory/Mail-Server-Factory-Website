@@ -270,11 +270,18 @@ html {
     font-weight: 700;
     margin: 1rem 0;
     line-height: 1.2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .hero-title .highlight {
     color: var(--accent-color);
     position: relative;
+    background: none !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3), 0 0 20px rgba(230, 195, 0, 0.4);
+    font-weight: 800;
+    letter-spacing: 0.5px;
 }
 
 .hero-subtitle {

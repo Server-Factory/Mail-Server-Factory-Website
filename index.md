@@ -308,12 +308,12 @@ description: Deploy production-ready mail server infrastructure with zero hassle
 
     <div class="steps">
       <div class="step">
-        <div class="step-number">1</div>
+        <div class="step-number" data-i18n="step_number1">1</div>
         <div class="step-content">
           <h3 data-i18n="step_configure">Configure</h3>
           <p data-i18n="step_configure_desc">Create a JSON configuration file specifying your mail server details, accounts, and target host.</p>
           <div class="code-sample">
-            <pre>{
+            <pre data-i18n="code_json_example">{
   "hostname": "mail.example.com",
   "accounts": [...],
   "database": {...}
@@ -323,23 +323,23 @@ description: Deploy production-ready mail server infrastructure with zero hassle
       </div>
 
       <div class="step">
-        <div class="step-number">2</div>
+        <div class="step-number" data-i18n="step_number2">2</div>
         <div class="step-content">
           <h3 data-i18n="step_deploy">Deploy</h3>
           <p data-i18n="step_deploy_desc">Run the mail_factory launcher with your configuration. Sit back while it installs and configures everything.</p>
           <div class="code-sample">
-            <pre>./mail_factory config.json</pre>
+            <pre data-i18n="code_deploy_command">./mail_factory config.json</pre>
           </div>
         </div>
       </div>
 
       <div class="step">
-        <div class="step-number">3</div>
+        <div class="step-number" data-i18n="step_number3">3</div>
         <div class="step-content">
           <h3 data-i18n="step_use">Use</h3>
           <p data-i18n="step_use_desc">Connect your email clients to the deployed server. All services are running, configured, and ready to handle email.</p>
           <div class="code-sample">
-            <pre>docker ps -a  # Verify running services</pre>
+            <pre data-i18n="code_verify_command">docker ps -a  # Verify running services</pre>
           </div>
         </div>
       </div>
@@ -355,12 +355,12 @@ description: Deploy production-ready mail server infrastructure with zero hassle
       <div class="tab-content">
         <h3 data-i18n="quick_start_web_installer">Web Installer (Recommended)</h3>
         <div class="code-block">
-          <pre>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Server-Factory/Utils/master/web_installer.sh)"</pre>
+          <pre data-i18n="code_web_installer">/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Server-Factory/Utils/master/web_installer.sh)"</pre>
         </div>
 
         <h3 data-i18n="quick_start_manual_install">Manual Installation</h3>
         <div class="code-block">
-          <pre># Clone the repository
+          <pre data-i18n="code_manual_install"># Clone the repository
 mkdir Factory && cd Factory
 git clone --recurse-submodules git@github.com:Server-Factory/Mail-Server-Factory.git .
 
@@ -373,7 +373,7 @@ git clone --recurse-submodules git@github.com:Server-Factory/Mail-Server-Factory
 
         <h3 data-i18n="quick_start_ssh_setup">Setup SSH Access</h3>
         <div class="code-block">
-          <pre># Enable passwordless SSH to target host
+          <pre data-i18n="code_ssh_setup"># Enable passwordless SSH to target host
 sh Core/Utils/init_ssh_access.sh your-server.local</pre>
         </div>
       </div>
@@ -388,19 +388,19 @@ sh Core/Utils/init_ssh_access.sh your-server.local</pre>
 
     <div class="testing-grid">
       <div class="test-stat-card">
-        <div class="test-stat-value">47</div>
+        <div class="test-stat-value" data-i18n="test_stat_value_total">47</div>
         <div class="test-stat-label" data-i18n="testing_stat_total">Total Tests</div>
       </div>
       <div class="test-stat-card highlight-card">
-        <div class="test-stat-value">100%</div>
+        <div class="test-stat-value" data-i18n="test_stat_value_success">100%</div>
         <div class="test-stat-label" data-i18n="testing_stat_success">Success Rate</div>
       </div>
       <div class="test-stat-card">
-        <div class="test-stat-value">85%+</div>
+        <div class="test-stat-value" data-i18n="test_stat_value_coverage">85%+</div>
         <div class="test-stat-label" data-i18n="testing_stat_coverage">Coverage</div>
       </div>
       <div class="test-stat-card">
-        <div class="test-stat-value">0</div>
+        <div class="test-stat-value" data-i18n="test_stat_value_smells">0</div>
         <div class="test-stat-label" data-i18n="testing_stat_smells">Code Smells</div>
       </div>
     </div>
@@ -411,7 +411,7 @@ sh Core/Utils/init_ssh_access.sh your-server.local</pre>
         <div class="coverage-item">
           <div class="coverage-header">
             <span class="coverage-name" data-i18n="testing_coverage_factory">Factory Module</span>
-            <span class="coverage-value">85%+ Coverage</span>
+            <span class="coverage-value" data-i18n="coverage_value_factory">85%+ Coverage</span>
           </div>
           <div class="coverage-bar">
             <div class="coverage-fill" style="width: 85%"></div>
@@ -420,7 +420,7 @@ sh Core/Utils/init_ssh_access.sh your-server.local</pre>
         <div class="coverage-item">
           <div class="coverage-header">
             <span class="coverage-name" data-i18n="testing_coverage_core">Core Framework</span>
-            <span class="coverage-value">85%+ Coverage</span>
+            <span class="coverage-value" data-i18n="coverage_value_core">85%+ Coverage</span>
           </div>
           <div class="coverage-bar">
             <div class="coverage-fill" style="width: 85%"></div>
@@ -429,7 +429,7 @@ sh Core/Utils/init_ssh_access.sh your-server.local</pre>
         <div class="coverage-item">
           <div class="coverage-header">
             <span class="coverage-name" data-i18n="testing_coverage_enterprise">Enterprise Features</span>
-            <span class="coverage-value">100% Coverage</span>
+            <span class="coverage-value" data-i18n="coverage_value_enterprise">100% Coverage</span>
           </div>
           <div class="coverage-bar">
             <div class="coverage-fill" style="width: 100%"></div>
@@ -450,38 +450,38 @@ sh Core/Utils/init_ssh_access.sh your-server.local</pre>
     <div class="os-grid">
       <div class="os-card">
         <div class="os-icon">🟠</div>
-        <h4>Ubuntu Server</h4>
-        <p>22.04 LTS, 24.04 LTS</p>
+        <h4 data-i18n="distro_ubuntu">Ubuntu Server</h4>
+        <p data-i18n="distro_ubuntu_versions">22.04 LTS, 24.04 LTS</p>
       </div>
       <div class="os-card">
         <div class="os-icon">🔴</div>
-        <h4>Debian</h4>
-        <p>11 (Bullseye), 12 (Bookworm)</p>
+        <h4 data-i18n="distro_debian">Debian</h4>
+        <p data-i18n="distro_debian_versions">11 (Bullseye), 12 (Bookworm)</p>
       </div>
       <div class="os-card">
         <div class="os-icon">🎩</div>
-        <h4>Fedora Server</h4>
-        <p>38, 39, 40, 41</p>
+        <h4 data-i18n="distro_fedora">Fedora Server</h4>
+        <p data-i18n="distro_fedora_versions">38, 39, 40, 41</p>
       </div>
       <div class="os-card">
         <div class="os-icon">🔵</div>
-        <h4>AlmaLinux</h4>
-        <p>9.5</p>
+        <h4 data-i18n="distro_almalinux">AlmaLinux</h4>
+        <p data-i18n="distro_almalinux_versions">9.5</p>
       </div>
       <div class="os-card">
         <div class="os-icon">🟢</div>
-        <h4>Rocky Linux</h4>
-        <p>9.5</p>
+        <h4 data-i18n="distro_rocky">Rocky Linux</h4>
+        <p data-i18n="distro_rocky_versions">9.5</p>
       </div>
       <div class="os-card">
         <div class="os-icon">🔴</div>
-        <h4>RHEL</h4>
-        <p>9</p>
+        <h4 data-i18n="distro_rhel">RHEL</h4>
+        <p data-i18n="distro_rhel_versions">9</p>
       </div>
       <div class="os-card">
         <div class="os-icon">🦎</div>
-        <h4>openSUSE Leap</h4>
-        <p>15.6</p>
+        <h4 data-i18n="distro_opensuse">openSUSE Leap</h4>
+        <p data-i18n="distro_opensuse_versions">15.6</p>
       </div>
     </div>
 
@@ -500,80 +500,80 @@ sh Core/Utils/init_ssh_access.sh your-server.local</pre>
         </thead>
         <tbody>
           <tr style="border-bottom: 1px solid #e1e4e8;">
-            <td style="padding: 1rem;" rowspan="2"><strong>Debian-based</strong></td>
-            <td style="padding: 1rem;">Ubuntu Server</td>
-            <td style="padding: 1rem;">22.04 LTS (Jammy)</td>
+            <td style="padding: 1rem;" rowspan="2" data-i18n="table_family_debian"><strong>Debian-based</strong></td>
+            <td style="padding: 1rem;" data-i18n="distro_ubuntu">Ubuntu Server</td>
+            <td style="padding: 1rem;" data-i18n="table_version_ubuntu22">22.04 LTS (Jammy)</td>
             <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code>Examples/Ubuntu_22.json</code></td>
+            <td style="padding: 1rem;"><code data-i18n="table_config_ubuntu22">Examples/Ubuntu_22.json</code></td>
           </tr>
           <tr style="border-bottom: 1px solid #e1e4e8;">
-            <td style="padding: 1rem;">Ubuntu Server</td>
-            <td style="padding: 1rem;">24.04 LTS (Noble)</td>
+            <td style="padding: 1rem;" data-i18n="distro_ubuntu">Ubuntu Server</td>
+            <td style="padding: 1rem;" data-i18n="table_version_ubuntu24">24.04 LTS (Noble)</td>
             <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code>Examples/Ubuntu_24.json</code></td>
+            <td style="padding: 1rem;"><code data-i18n="table_config_ubuntu24">Examples/Ubuntu_24.json</code></td>
           </tr>
           <tr style="border-bottom: 1px solid #e1e4e8;">
-            <td style="padding: 1rem;" rowspan="2"><strong>Debian</strong></td>
-            <td style="padding: 1rem;">Debian</td>
-            <td style="padding: 1rem;">11 (Bullseye)</td>
+            <td style="padding: 1rem;" rowspan="2" data-i18n="distro_debian"><strong>Debian</strong></td>
+            <td style="padding: 1rem;" data-i18n="distro_debian">Debian</td>
+            <td style="padding: 1rem;" data-i18n="table_version_debian11">11 (Bullseye)</td>
             <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code>Examples/Debian_11.json</code></td>
+            <td style="padding: 1rem;"><code data-i18n="table_config_debian11">Examples/Debian_11.json</code></td>
           </tr>
           <tr style="border-bottom: 1px solid #e1e4e8;">
-            <td style="padding: 1rem;">Debian</td>
-            <td style="padding: 1rem;">12 (Bookworm)</td>
+            <td style="padding: 1rem;" data-i18n="distro_debian">Debian</td>
+            <td style="padding: 1rem;" data-i18n="table_version_debian12">12 (Bookworm)</td>
             <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code>Examples/Debian_12.json</code></td>
+            <td style="padding: 1rem;"><code data-i18n="table_config_debian12">Examples/Debian_12.json</code></td>
           </tr>
           <tr style="border-bottom: 1px solid #e1e4e8;">
-            <td style="padding: 1rem;" rowspan="7"><strong>RHEL-based</strong></td>
-            <td style="padding: 1rem;">Red Hat Enterprise Linux</td>
-            <td style="padding: 1rem;">9</td>
+            <td style="padding: 1rem;" rowspan="7" data-i18n="table_family_rhel"><strong>RHEL-based</strong></td>
+            <td style="padding: 1rem;" data-i18n="distro_rhel">Red Hat Enterprise Linux</td>
+            <td style="padding: 1rem;" data-i18n="table_version_rhel9">9</td>
             <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code>Examples/RHEL_9.json</code></td>
+            <td style="padding: 1rem;"><code data-i18n="table_config_rhel9">Examples/RHEL_9.json</code></td>
           </tr>
           <tr style="border-bottom: 1px solid #e1e4e8;">
-            <td style="padding: 1rem;">AlmaLinux</td>
-            <td style="padding: 1rem;">9.5</td>
+            <td style="padding: 1rem;" data-i18n="distro_almalinux">AlmaLinux</td>
+            <td style="padding: 1rem;" data-i18n="table_version_almalinux95">9.5</td>
             <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code>Examples/AlmaLinux_9.json</code></td>
+            <td style="padding: 1rem;"><code data-i18n="table_config_almalinux9">Examples/AlmaLinux_9.json</code></td>
           </tr>
           <tr style="border-bottom: 1px solid #e1e4e8;">
-            <td style="padding: 1rem;">Rocky Linux</td>
-            <td style="padding: 1rem;">9.5</td>
+            <td style="padding: 1rem;" data-i18n="distro_rocky">Rocky Linux</td>
+            <td style="padding: 1rem;" data-i18n="table_version_rocky95">9.5</td>
             <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code>Examples/Rocky_9.json</code></td>
+            <td style="padding: 1rem;"><code data-i18n="table_config_rocky9">Examples/Rocky_9.json</code></td>
           </tr>
           <tr style="border-bottom: 1px solid #e1e4e8;">
-            <td style="padding: 1rem;">Fedora Server</td>
-            <td style="padding: 1rem;">38</td>
+            <td style="padding: 1rem;" data-i18n="distro_fedora">Fedora Server</td>
+            <td style="padding: 1rem;" data-i18n="table_version_fedora38">38</td>
             <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code>Examples/Fedora_Server_38.json</code></td>
+            <td style="padding: 1rem;"><code data-i18n="table_config_fedora38">Examples/Fedora_Server_38.json</code></td>
           </tr>
           <tr style="border-bottom: 1px solid #e1e4e8;">
-            <td style="padding: 1rem;">Fedora Server</td>
-            <td style="padding: 1rem;">39</td>
+            <td style="padding: 1rem;" data-i18n="distro_fedora">Fedora Server</td>
+            <td style="padding: 1rem;" data-i18n="table_version_fedora39">39</td>
             <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code>Examples/Fedora_Server_39.json</code></td>
+            <td style="padding: 1rem;"><code data-i18n="table_config_fedora39">Examples/Fedora_Server_39.json</code></td>
           </tr>
           <tr style="border-bottom: 1px solid #e1e4e8;">
-            <td style="padding: 1rem;">Fedora Server</td>
-            <td style="padding: 1rem;">40</td>
+            <td style="padding: 1rem;" data-i18n="distro_fedora">Fedora Server</td>
+            <td style="padding: 1rem;" data-i18n="table_version_fedora40">40</td>
             <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code>Examples/Fedora_Server_40.json</code></td>
+            <td style="padding: 1rem;"><code data-i18n="table_config_fedora40">Examples/Fedora_Server_40.json</code></td>
           </tr>
           <tr style="border-bottom: 1px solid #e1e4e8;">
-            <td style="padding: 1rem;">Fedora Server</td>
-            <td style="padding: 1rem;">41</td>
+            <td style="padding: 1rem;" data-i18n="distro_fedora">Fedora Server</td>
+            <td style="padding: 1rem;" data-i18n="table_version_fedora41">41</td>
             <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code>Examples/Fedora_Server_41.json</code></td>
+            <td style="padding: 1rem;"><code data-i18n="table_config_fedora41">Examples/Fedora_Server_41.json</code></td>
           </tr>
           <tr>
-            <td style="padding: 1rem;"><strong>SUSE-based</strong></td>
-            <td style="padding: 1rem;">openSUSE Leap</td>
-            <td style="padding: 1rem;">15.6</td>
+            <td style="padding: 1rem;" data-i18n="table_family_suse"><strong>SUSE-based</strong></td>
+            <td style="padding: 1rem;" data-i18n="distro_opensuse">openSUSE Leap</td>
+            <td style="padding: 1rem;" data-i18n="table_version_opensuse156">15.6</td>
             <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code>Examples/openSUSE_Leap_15.json</code></td>
+            <td style="padding: 1rem;"><code data-i18n="table_config_opensuse15">Examples/openSUSE_Leap_15.json</code></td>
           </tr>
         </tbody>
       </table>

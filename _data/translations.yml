@@ -293,6 +293,77 @@ en:
   cta_note: "Open source • Free forever • Community supported"
   cta_download: "Download Now"
   cta_github: "View on GitHub"
+  
+  # Step numbers
+  step_number1: "1"
+  step_number2: "2"
+  step_number3: "3"
+  
+  # Code examples
+  code_json_example: "{\n  \"hostname\": \"mail.example.com\",\n  \"accounts\": [...],\n  \"database\": {...}\n}"
+  code_deploy_command: "./mail_factory config.json"
+  code_verify_command: "docker ps -a  # Verify running services"
+  code_web_installer: "/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Server-Factory/Utils/master/web_installer.sh)\""
+  code_manual_install: "# Clone the repository\nmkdir Factory && cd Factory\ngit clone --recurse-submodules git@github.com:Server-Factory/Mail-Server-Factory.git .\n\n# Build the project\n./gradlew assemble\n\n# Run with your configuration\n./mail_factory Examples/Centos_8.json"
+  code_ssh_setup: "# Enable passwordless SSH to target host\nsh Core/Utils/init_ssh_access.sh your-server.local"
+  
+  # Test statistics
+  test_stat_value_total: "47"
+  test_stat_value_success: "100%"
+  test_stat_value_coverage: "85%+"
+  test_stat_value_smells: "0"
+  
+  # Coverage values
+  coverage_value_factory: "85%+ Coverage"
+  coverage_value_core: "85%+ Coverage"
+  coverage_value_enterprise: "100% Coverage"
+  
+  # Distribution names
+  distro_ubuntu: "Ubuntu Server"
+  distro_debian: "Debian"
+  distro_fedora: "Fedora Server"
+  distro_almalinux: "AlmaLinux"
+  distro_rocky: "Rocky Linux"
+  distro_rhel: "RHEL"
+  distro_opensuse: "openSUSE Leap"
+  
+  # Distribution versions
+  distro_ubuntu_versions: "22.04 LTS, 24.04 LTS"
+  distro_debian_versions: "11 (Bullseye), 12 (Bookworm)"
+  distro_fedora_versions: "38, 39, 40, 41"
+  distro_almalinux_versions: "9.5"
+  distro_rocky_versions: "9.5"
+  distro_rhel_versions: "9"
+  distro_opensuse_versions: "15.6"
+  
+  # Table content
+  table_family_debian: "Debian-based"
+  table_family_rhel: "RHEL-based"
+  table_family_suse: "SUSE-based"
+  table_version_ubuntu22: "22.04 LTS (Jammy)"
+  table_version_ubuntu24: "24.04 LTS (Noble)"
+  table_version_debian11: "11 (Bullseye)"
+  table_version_debian12: "12 (Bookworm)"
+  table_version_rhel9: "9"
+  table_version_almalinux95: "9.5"
+  table_version_rocky95: "9.5"
+  table_version_fedora38: "38"
+  table_version_fedora39: "39"
+  table_version_fedora40: "40"
+  table_version_fedora41: "41"
+  table_version_opensuse156: "15.6"
+  table_config_ubuntu22: "Examples/Ubuntu_22.json"
+  table_config_ubuntu24: "Examples/Ubuntu_24.json"
+  table_config_debian11: "Examples/Debian_11.json"
+  table_config_debian12: "Examples/Debian_12.json"
+  table_config_rhel9: "Examples/RHEL_9.json"
+  table_config_almalinux9: "Examples/AlmaLinux_9.json"
+  table_config_rocky9: "Examples/Rocky_9.json"
+  table_config_fedora38: "Examples/Fedora_Server_38.json"
+  table_config_fedora39: "Examples/Fedora_Server_39.json"
+  table_config_fedora40: "Examples/Fedora_Server_40.json"
+  table_config_fedora41: "Examples/Fedora_Server_41.json"
+  table_config_opensuse15: "Examples/openSUSE_Leap_15.json"
 
 # Russian
 ru:
