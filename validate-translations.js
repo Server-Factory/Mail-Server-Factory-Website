@@ -35,15 +35,20 @@ function validateTranslations() {
             // Check for untranslated content
             const technicalKeys = ['stat_label_protocols', 'architecture_badge_kotlin', 'architecture_badge_java', 'architecture_badge_gradle', 'architecture_badge_docker', 'architecture_badge_ssh', 'architecture_badge_json'];
             englishKeys.forEach(key => {
-                if (!technicalKeys.includes(key) && translations[lang][key] === translations.en[key]) {
+                const translation = translations[lang][key];
+                if (translation == null) return; // Skip if missing or null
+
+                if (!technicalKeys.includes(key) && translation === translations.en[key]) {
                     issues.push(`${lang}: Key '${key}' is not translated (same as English)`);
                     allValid = false;
                 }
 
                 // Check for English words in translation
+                if (typeof translation !== 'string') return; // Skip if not string
+
                 const englishWords = ['and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 'by', 'an', 'a', 'is', 'are', 'was', 'were', 'be', 'been', 'being', 'have', 'has', 'had', 'do', 'does', 'did', 'will', 'would', 'could', 'should', 'may', 'might', 'must', 'can', 'shall', 'this', 'that', 'these', 'those', 'here', 'there', 'where', 'when', 'why', 'how', 'what', 'which', 'who', 'Download', 'View', 'Like', 'Boss', 'Run', 'Your', 'Enterprise', 'Grade', 'Automated', 'Installation', 'Comprehensive', 'Testing', 'Multi', 'Distribution', 'Why', 'Factory', 'Features', 'without', 'complexity', 'Zero', 'Touch', 'Deployment', 'Docker', 'Native', 'Security', 'Built', 'In', 'Battle', 'Tested', 'Code', 'SSH', 'Based', 'Remote', 'Execution', 'Complete', 'Stack', 'Advanced', 'Monitoring', 'Observability', 'Configuration', 'Management', 'Performance', 'Optimization', 'Technology', 'Powered', 'industry', 'leading', 'open', 'source', 'technologies', 'Enterprise', 'Architecture', 'Multi', 'layered', 'architecture', 'designed', 'scalability', 'How', 'It', 'Works', 'Three', 'simple', 'steps', 'your', 'production', 'Configure', 'Deploy', 'Use', 'Quick', 'Start', 'Quality', 'Testing', 'comprehensive', 'test', 'coverage', 'ensures', 'reliability', 'Distribution', 'Support', 'Matrix', 'Deploy', 'latest', 'modern', 'Linux', 'distributions', 'Launcher', 'production', 'ready', 'bash', 'wrapper', 'grade', 'error', 'handling', 'Who', 'Uses', 'Documentation', 'Resources', 'Ready', 'deploy', 'Join', 'community', 'take', 'control', 'email', 'infrastructure', 'today', 'Open', 'source', 'Free', 'forever', 'Community', 'supported'];
 
-                const text = translations[lang][key].toLowerCase();
+                const text = translation.toLowerCase();
                 const words = text.split(/\s+/);
                 const foundEnglish = words.filter(word => {
                     const cleanWord = word.replace(/[^\w]/g, '');

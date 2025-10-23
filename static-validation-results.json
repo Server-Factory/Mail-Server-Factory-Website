@@ -1,0 +1,119 @@
+{
+  "summary": {
+    "totalChecks": 18,
+    "passed": 16,
+    "failed": 1,
+    "warnings": 1
+  },
+  "details": [
+    {
+      "message": "Found _data/translations.yml",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:36:03.262Z"
+    },
+    {
+      "message": "Found _data/languages.yml",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:36:03.263Z"
+    },
+    {
+      "message": "Found assets/js/language-selector.js",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:36:03.263Z"
+    },
+    {
+      "message": "Found assets/js/translations.js",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:36:03.263Z"
+    },
+    {
+      "message": "Found assets/css/style.scss",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:36:03.263Z"
+    },
+    {
+      "message": "Found _layouts/default.html",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:36:03.263Z"
+    },
+    {
+      "message": "Validation error: bad indentation of a mapping entry (187:33)\n\n 184 |   enterprise_monitoring_item2: Automated health checks\n 185 |   enterprise_monitoring_item3: Structured logging with correlat ...\n 186 |   enterprise_monitoring_item4: Real-time performance monitoring\n 187 |      enterprise_performance_desc: >\n---------------------------------------^\n 188 |        उन्नत कैशिंग, JVM ट्यूनिंग और अनुकूलित संसाधन उपयोग के स ...\n 189 |      JVM tuning, and optimized resource utilization.",
+      "status": "fail",
+      "language": null,
+      "timestamp": "2025-10-23T21:36:03.271Z"
+    },
+    {
+      "message": "JavaScript RTL direction setting implemented",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:36:03.272Z"
+    },
+    {
+      "message": "RTL languages properly configured in JavaScript",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:36:03.272Z"
+    },
+    {
+      "message": "CSS RTL styles present",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:36:03.272Z"
+    },
+    {
+      "message": "data-i18n attributes for translations found",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:36:03.272Z"
+    },
+    {
+      "message": "language selector container found",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:36:03.272Z"
+    },
+    {
+      "message": "lang attribute on html element found",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:36:03.272Z"
+    },
+    {
+      "message": "dir attribute on html element missing",
+      "status": "warning",
+      "language": null,
+      "timestamp": "2025-10-23T21:36:03.272Z"
+    },
+    {
+      "message": "Test file comprehensive-test-runner.js present",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:36:03.272Z"
+    },
+    {
+      "message": "Test file test-website.js present",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:36:03.272Z"
+    },
+    {
+      "message": "Test file package.json present",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:36:03.272Z"
+    },
+    {
+      "message": "Test scripts configured in package.json",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:36:03.272Z"
+    }
+  ],
+  "languages": {}
+}

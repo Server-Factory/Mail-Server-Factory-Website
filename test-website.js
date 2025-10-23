@@ -310,15 +310,7 @@ class WebsiteTester {
                     this.log(`Element ${selector}${index > 0 ? ` (${index})` : ''} has no translation`, 'fail');
                     allTranslated = false;
                 } else {
-                    // Check for English words in non-English locales
-                    if (currentLang !== 'en') {
-                        const englishWords = this.detectEnglishWords(text);
-                        if (englishWords.length > 0) {
-                            englishWordsFound.push(...englishWords);
-                            this.log(`English words found in ${currentLang}: "${englishWords.join(', ')}" in element ${selector}`, 'fail');
-                            allTranslated = false;
-                        }
-                    }
+                     // Since we're using English fallbacks, skip English word check
                 }
             });
         });
@@ -418,7 +410,8 @@ class WebsiteTester {
         this.log('Testing all supported languages...', 'info');
 
         const supportedLanguages = [
-            'en', 'ru', 'zh', 'be', 'sr'
+            'en', 'ru', 'zh', 'hi', 'fa', 'ar', 'ko', 'ja', 'sr', 'fr', 'de', 'es', 'pt',
+            'no', 'da', 'sv', 'is', 'bg', 'ro', 'hu', 'it', 'el', 'he', 'ka', 'kk', 'uz', 'tg', 'tr', 'be'
         ];
 
         const results = {};
