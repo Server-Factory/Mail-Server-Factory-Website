@@ -55,7 +55,7 @@
                 <a href="https://github.com/Server-Factory/Mail-Server-Factory/releases" class="btn" target="_blank" rel="noopener noreferrer" data-i18n="nav_download">Download</a>
             </div>
         </div>
-        <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+        <h2 class="project-tagline" data-i18n="{{ page.description_key | default: 'page_description' }}"></h2>
     </header>
 
     <main id="content" class="main-content" role="main">
