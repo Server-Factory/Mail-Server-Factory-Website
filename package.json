@@ -1,0 +1,26 @@
+{
+  "name": "mail-server-factory-website-tests",
+  "version": "1.0.0",
+  "description": "Comprehensive test suite for Mail Server Factory website localization and functionality",
+  "main": "comprehensive-test-runner.js",
+  "scripts": {
+    "test": "node comprehensive-test-runner.js",
+    "test:local": "node comprehensive-test-runner.js http://localhost:4000",
+    "test:browser": "node test-website.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "testing",
+    "localization",
+    "i18n",
+    "qa",
+    "automation"
+  ],
+  "author": "Mail Server Factory",
+  "license": "MIT"
+}
