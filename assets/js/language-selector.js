@@ -12,47 +12,57 @@ class LanguageSelector {
     }
 
     getCurrentLanguage() {
-        // Check URL parameter first
+        // Check URL parameter first (highest priority)
         const urlParams = new URLSearchParams(window.location.search);
         const langParam = urlParams.get('lang');
         if (langParam && this.isValidLanguage(langParam)) {
             return langParam;
         }
 
-        // Check localStorage
+        // Check localStorage (second priority)
         const storedLang = localStorage.getItem('mail-factory-lang');
         if (storedLang && this.isValidLanguage(storedLang)) {
             return storedLang;
         }
 
-        // Check browser language with better locale detection
-        const browserLang = navigator.language || navigator.userLanguage;
-        const shortLang = browserLang.split('-')[0];
+        // Check browser language with comprehensive locale detection
+        const browserLanguages = navigator.languages || [navigator.language || navigator.userLanguage];
         
-        // Check for exact match first
-        if (this.isValidLanguage(browserLang)) {
-            return browserLang;
-        }
-        
-        // Then check for short language code
-        if (this.isValidLanguage(shortLang)) {
-            return shortLang;
-        }
-
-        // Check for system locale via other methods
-        if (typeof Intl !== 'undefined') {
-            try {
-                const locale = Intl.NumberFormat().resolvedOptions().locale;
-                const localeShort = locale.split('-')[0];
-                if (this.isValidLanguage(localeShort)) {
-                    return localeShort;
-                }
-            } catch (e) {
-                console.warn('Could not detect system locale:', e);
+        // Try all browser languages in order of preference
+        for (const lang of browserLanguages) {
+            // Try exact match first
+            if (this.isValidLanguage(lang)) {
+                return lang;
+            }
+            
+            // Try short language code
+            const shortLang = lang.split('-')[0];
+            if (this.isValidLanguage(shortLang)) {
+                return shortLang;
             }
         }
 
-        // Default to English
+        // Check for system locale via Intl API
+        if (typeof Intl !== 'undefined') {
+            try {
+                const locale = Intl.DateTimeFormat().resolvedOptions().locale;
+                const shortLocale = locale.split('-')[0];
+                if (this.isValidLanguage(shortLocale)) {
+                    return shortLocale;
+                }
+            } catch (e) {
+                console.warn('Could not detect system locale via Intl:', e);
+            }
+        }
+
+        // Fallback to default language from Jekyll config
+        const jekyllLang = document.documentElement.lang || 'en';
+        const shortJekyllLang = jekyllLang.split('-')[0];
+        if (this.isValidLanguage(shortJekyllLang)) {
+            return shortJekyllLang;
+        }
+
+        // Final fallback to English
         return 'en';
     }
 
@@ -69,10 +79,14 @@ class LanguageSelector {
         const headerActions = document.querySelector('.header-actions');
         if (!headerActions) return;
 
+        // Remove any existing language selectors to avoid duplicates
+        const existingSelectors = headerActions.querySelectorAll('.language-selector');
+        existingSelectors.forEach(selector => selector.remove());
+
         const languageSelector = document.createElement('div');
         languageSelector.className = 'language-selector';
         languageSelector.innerHTML = `
-            <button class="language-toggle" aria-label="Select language">
+            <button class="language-toggle" aria-label="Select language" aria-expanded="false">
                 <span class="current-flag">${this.getFlag(this.currentLang)}</span>
                 <span class="current-lang">${this.getLanguageName(this.currentLang)}</span>
                 <span class="dropdown-arrow">▼</span>
@@ -192,6 +206,13 @@ class LanguageSelector {
         url.searchParams.set('lang', lang);
         window.history.replaceState({}, '', url);
 
+        // Update HTML lang attribute
+        document.documentElement.lang = lang;
+
+        // Update page direction for RTL languages
+        const rtlLanguages = ['ar', 'fa', 'he'];
+        document.documentElement.dir = rtlLanguages.includes(lang) ? 'rtl' : 'ltr';
+
         this.updateContent();
         this.updateSelector();
     }
@@ -211,13 +232,6 @@ class LanguageSelector {
 
     async updateContent() {
         console.log(`Language changed to: ${this.currentLang}`);
-        
-        // Update page direction for RTL languages
-        const rtlLanguages = ['ar', 'fa', 'he'];
-        document.documentElement.dir = rtlLanguages.includes(this.currentLang) ? 'rtl' : 'ltr';
-        
-        // Update lang attribute
-        document.documentElement.lang = this.currentLang;
         
         // Load and apply translations
         await this.loadTranslations();
