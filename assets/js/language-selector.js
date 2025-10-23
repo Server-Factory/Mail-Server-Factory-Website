@@ -397,82 +397,32 @@ class LanguageSelector {
         Object.keys(translations).forEach(key => {
             const elements = document.querySelectorAll(`[data-i18n="${key}"]`);
             elements.forEach(element => {
-                element.innerHTML = translations[key];
+                // Preserve HTML content for elements that need it (like hero_title with span)
+                if (translations[key].includes('<') && translations[key].includes('>')) {
+                    element.innerHTML = translations[key];
+                } else {
+                    element.textContent = translations[key];
+                }
             });
         });
 
-        // Also try to update elements by common selectors
-        if (translations.hero_title) {
-            const heroTitle = document.querySelector('.hero-title');
-            if (heroTitle) heroTitle.innerHTML = translations.hero_title;
-        }
-        
-        if (translations.hero_subtitle) {
-            const heroSubtitle = document.querySelector('.hero-subtitle');
-            if (heroSubtitle) heroSubtitle.textContent = translations.hero_subtitle;
-        }
-        
-        if (translations.download_btn) {
+        // Update CTA buttons with specific handling
+        if (translations.cta_download) {
             const downloadBtns = document.querySelectorAll('a[href*="releases"]');
             downloadBtns.forEach(btn => {
-                if (btn.textContent.includes('Download') || btn.textContent.includes('⬇')) {
-                    btn.innerHTML = translations.download_btn;
+                if (btn.classList.contains('btn-large')) {
+                    btn.textContent = translations.cta_download;
                 }
             });
         }
         
-        if (translations.github_btn) {
+        if (translations.cta_github) {
             const githubBtns = document.querySelectorAll('a[href*="github.com"]');
             githubBtns.forEach(btn => {
-                if (btn.textContent.includes('GitHub') || btn.textContent.includes('⭐')) {
-                    btn.innerHTML = translations.github_btn;
+                if (btn.classList.contains('btn-large')) {
+                    btn.textContent = translations.cta_github;
                 }
             });
-        }
-
-        // Update stats
-        if (translations.stats_distributions) {
-            const statElements = document.querySelectorAll('.stat-label');
-            statElements.forEach(el => {
-                if (el.textContent.includes('Distributions') || el.textContent.includes('Distribution')) {
-                    el.textContent = translations.stats_distributions;
-                }
-            });
-        }
-        
-        if (translations.stats_automated) {
-            const statElements = document.querySelectorAll('.stat-label');
-            statElements.forEach(el => {
-                if (el.textContent.includes('Automated')) {
-                    el.textContent = translations.stats_automated;
-                }
-            });
-        }
-        
-        if (translations.stats_production) {
-            const statElements = document.querySelectorAll('.stat-label');
-            statElements.forEach(el => {
-                if (el.textContent.includes('Production')) {
-                    el.textContent = translations.stats_production;
-                }
-            });
-        }
-        
-        if (translations.stats_enterprise) {
-            const statElements = document.querySelectorAll('.stat-label');
-            statElements.forEach(el => {
-                if (el.textContent.includes('Enterprise')) {
-                    el.textContent = translations.stats_enterprise;
-                }
-            });
-        }
-
-        // Update section titles
-        if (translations.features_title) {
-            const featuresTitle = document.querySelector('.features-title, .section-title');
-            if (featuresTitle && featuresTitle.textContent.includes('Why')) {
-                featuresTitle.textContent = translations.features_title;
-            }
         }
     }
 }
