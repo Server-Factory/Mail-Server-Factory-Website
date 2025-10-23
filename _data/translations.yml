@@ -184,8 +184,7 @@ en:
   enterprise_monitoring_item2: Automated health checks
   enterprise_monitoring_item3: Structured logging with correlation IDs
   enterprise_monitoring_item4: Real-time performance monitoring
-     enterprise_performance_desc: >
-       उन्नत कैशिंग, JVM ट्यूनिंग और अनुकूलित संसाधन उपयोग के साथ एंटरप्राइज़-स्केल प्रदर्शन।
+     enterprise_performance_desc: 'उन्नत कैशिंग, JVM ट्यूनिंग और अनुकूलित संसाधन उपयोग के साथ एंटरप्राइज़-स्केल प्रदर्शन।'
      JVM tuning, and optimized resource utilization.
   enterprise_performance_item1: Caffeine-based multi-region caching
   enterprise_performance_item2: JVM performance tuning (G1GC)
