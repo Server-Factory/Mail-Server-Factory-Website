@@ -25,11 +25,31 @@ class LanguageSelector {
             return storedLang;
         }
 
-        // Check browser language
+        // Check browser language with better locale detection
         const browserLang = navigator.language || navigator.userLanguage;
         const shortLang = browserLang.split('-')[0];
+        
+        // Check for exact match first
+        if (this.isValidLanguage(browserLang)) {
+            return browserLang;
+        }
+        
+        // Then check for short language code
         if (this.isValidLanguage(shortLang)) {
             return shortLang;
+        }
+
+        // Check for system locale via other methods
+        if (typeof Intl !== 'undefined') {
+            try {
+                const locale = Intl.NumberFormat().resolvedOptions().locale;
+                const localeShort = locale.split('-')[0];
+                if (this.isValidLanguage(localeShort)) {
+                    return localeShort;
+                }
+            } catch (e) {
+                console.warn('Could not detect system locale:', e);
+            }
         }
 
         // Default to English
@@ -189,10 +209,7 @@ class LanguageSelector {
         if (newActive) newActive.classList.add('active');
     }
 
-    updateContent() {
-        // This would typically fetch translations from a server
-        // For now, we'll use the translations we have in the data file
-        // In a real implementation, you would fetch the appropriate translation file
+    async updateContent() {
         console.log(`Language changed to: ${this.currentLang}`);
         
         // Update page direction for RTL languages
@@ -201,10 +218,254 @@ class LanguageSelector {
         
         // Update lang attribute
         document.documentElement.lang = this.currentLang;
+        
+        // Load and apply translations
+        await this.loadTranslations();
+    }
+
+    async loadTranslations() {
+        try {
+            // Use the translations from the YAML data via Jekyll
+            // Since Jekyll processes YAML files, we can access them through site.data
+            const translations = this.getTranslationsFromJekyll();
+            
+            if (translations[this.currentLang]) {
+                this.applyTranslations(translations[this.currentLang]);
+            }
+        } catch (error) {
+            console.warn('Error loading translations:', error);
+            // Fallback to hardcoded translations
+            const fallbackTranslations = this.getTranslations();
+            if (fallbackTranslations[this.currentLang]) {
+                this.applyTranslations(fallbackTranslations[this.currentLang]);
+            }
+        }
+    }
+
+    getTranslationsFromJekyll() {
+        // Try to get translations from Jekyll site data
+        if (typeof site !== 'undefined' && site.data && site.data.translations) {
+            return site.data.translations;
+        }
+        // Try to get from window.siteTranslations if available
+        if (typeof window.siteTranslations !== 'undefined') {
+            return window.siteTranslations;
+        }
+        return this.getTranslations();
+    }
+
+    getTranslations() {
+        // Return translations based on the current language
+        // This is a simplified approach - in a real Jekyll site, you'd use Jekyll's i18n features
+        return {
+            en: {
+                hero_title: "Run Your Mail Server <span class=\"highlight\">Like The Boss</span>",
+                hero_subtitle: "Enterprise-grade mail server automation powered by Kotlin, Docker, and proven technology. Deploy complete mail infrastructure with a single JSON configuration file.",
+                download_btn: "⬇ Download Latest Release",
+                github_btn: "⭐ View on GitHub",
+                stats_distributions: "12 Distributions",
+                stats_automated: "100% Automated",
+                stats_production: "Production Ready",
+                stats_enterprise: "Enterprise Grade",
+                features_title: "Why Mail Server Factory?",
+                features_subtitle: "Enterprise features without the enterprise complexity",
+                // Add more translations as needed
+            },
+            ru: {
+                hero_title: "Запустите свой почтовый сервер <span class=\"highlight\">Как Босс</span>",
+                hero_subtitle: "Автоматизация почтовых серверов корпоративного уровня на базе Kotlin, Docker и проверенных технологий. Разверните полную почтовую инфраструктуру с помощью одного JSON-файла конфигурации.",
+                download_btn: "⬇ Скачать последнюю версию",
+                github_btn: "⭐ Посмотреть на GitHub",
+                stats_distributions: "12 Дистрибутивов",
+                stats_automated: "100% Автоматизация",
+                stats_production: "Готов к продакшену",
+                stats_enterprise: "Корпоративный уровень",
+                features_title: "Почему Mail Server Factory?",
+                features_subtitle: "Корпоративные возможности без корпоративной сложности",
+                // Add more translations as needed
+            },
+            zh: {
+                hero_title: "像老板一样运行您的邮件服务器 <span class=\"highlight\">Like The Boss</span>",
+                hero_subtitle: "基于Kotlin、Docker和成熟技术的企业级邮件服务器自动化。通过单个JSON配置文件部署完整的邮件基础设施。",
+                download_btn: "⬇ 下载最新版本",
+                github_btn: "⭐ 在GitHub上查看",
+                stats_distributions: "12个发行版",
+                stats_automated: "100%自动化",
+                stats_production: "生产就绪",
+                stats_enterprise: "企业级",
+                features_title: "为什么选择Mail Server Factory？",
+                features_subtitle: "企业级功能，无企业级复杂性",
+                // Add more translations as needed
+            },
+            fr: {
+                hero_title: "Gérez votre serveur de messagerie <span class=\"highlight\">Comme un Patron</span>",
+                hero_subtitle: "Automatisation de serveur de messagerie de niveau entreprise alimentée par Kotlin, Docker et des technologies éprouvées. Déployez une infrastructure de messagerie complète avec un seul fichier de configuration JSON.",
+                download_btn: "⬇ Télécharger la dernière version",
+                github_btn: "⭐ Voir sur GitHub",
+                stats_distributions: "12 Distributions",
+                stats_automated: "100% Automatisé",
+                stats_production: "Prêt pour la production",
+                stats_enterprise: "Niveau Entreprise",
+                features_title: "Pourquoi Mail Server Factory ?",
+                features_subtitle: "Fonctionnalités d'entreprise sans la complexité d'entreprise",
+                // Add more translations as needed
+            },
+            de: {
+                hero_title: "Verwalten Sie Ihren Mail-Server <span class=\"highlight\">Wie ein Chef</span>",
+                hero_subtitle: "Automatisierung von Mail-Servern auf Enterprise-Niveau, angetrieben von Kotlin, Docker und bewährter Technologie. Implementieren Sie eine vollständige Mail-Infrastruktur mit einer einzigen JSON-Konfigurationsdatei.",
+                download_btn: "⬇ Neueste Version herunterladen",
+                github_btn: "⭐ Auf GitHub ansehen",
+                stats_distributions: "12 Distributionen",
+                stats_automated: "100% Automatisiert",
+                stats_production: "Produktionsbereit",
+                stats_enterprise: "Enterprise-Niveau",
+                features_title: "Warum Mail Server Factory?",
+                features_subtitle: "Enterprise-Funktionen ohne Enterprise-Komplexität",
+                // Add more translations as needed
+            },
+            es: {
+                hero_title: "Gestiona tu servidor de correo <span class=\"highlight\">Como un Jefe</span>",
+                hero_subtitle: "Automatización de servidores de correo de nivel empresarial impulsada por Kotlin, Docker y tecnología probada. Despliega infraestructura de correo completa con un solo archivo de configuración JSON.",
+                download_btn: "⬇ Descargar última versión",
+                github_btn: "⭐ Ver en GitHub",
+                stats_distributions: "12 Distribuciones",
+                stats_automated: "100% Automatizado",
+                stats_production: "Listo para producción",
+                stats_enterprise: "Nivel Empresarial",
+                features_title: "¿Por qué Mail Server Factory?",
+                features_subtitle: "Características empresariales sin la complejidad empresarial",
+                // Add more translations as needed
+            },
+            ja: {
+                hero_title: "メールサーバーを<span class=\"highlight\">ボスのように</span>運用",
+                hero_subtitle: "Kotlin、Docker、実証済み技術で動くエンタープライズグレードのメールサーバーオートメーション。単一のJSON設定ファイルで完全なメールインフラをデプロイ。",
+                download_btn: "⬇ 最新版をダウンロード",
+                github_btn: "⭐ GitHubで見る",
+                stats_distributions: "12ディストリビューション",
+                stats_automated: "100%自動化",
+                stats_production: "本番環境対応",
+                stats_enterprise: "エンタープライズグレード",
+                features_title: "なぜMail Server Factory？",
+                features_subtitle: "エンタープライズ機能、エンタープライズ複雑さなし",
+                // Add more translations as needed
+            },
+            ko: {
+                hero_title: "메일 서버를 <span class=\"highlight\">보스처럼</span> 운영하세요",
+                hero_subtitle: "Kotlin, Docker, 검증된 기술로 구동되는 엔터프라이즈급 메일 서버 자동화. 단일 JSON 구성 파일로 완전한 메일 인프라를 배포하세요.",
+                download_btn: "⬇ 최신 릴리즈 다운로드",
+                github_btn: "⭐ GitHub에서 보기",
+                stats_distributions: "12개 배포판",
+                stats_automated: "100% 자동화",
+                stats_production: "프로덕션 준비 완료",
+                stats_enterprise: "엔터프라이즈급",
+                features_title: "왜 Mail Server Factory인가?",
+                features_subtitle: "엔터프라이즈 복잡성 없는 엔터프라이즈 기능",
+                // Add more translations as needed
+            },
+            sr: {
+                hero_title: "Покрените свој поштански сервер <span class=\"highlight\">Као Шеф</span>",
+                hero_subtitle: "Аутоматизација поштанских сервера на нивоу предузећа заснована на Kotlin-у, Docker-у и провереним технологијама. Деплојујте комплетну поштанску инфраструктуру са једним JSON конфигурационим фајлом.",
+                download_btn: "⬇ Преузми најновију верзију",
+                github_btn: "⭐ Погледај на GitHub-у",
+                stats_distributions: "12 дистрибуција",
+                stats_automated: "100% аутоматизовано",
+                stats_production: "Спремно за продукцију",
+                stats_enterprise: "Ниво предузећа",
+                features_title: "Зашто Mail Server Factory?",
+                features_subtitle: "Функције предузећа без сложености предузећа",
+                // Add more translations as needed
+            }
+        };
+    }
+
+    applyTranslations(translations) {
+        // Apply translations to elements with data-i18n attributes
+        Object.keys(translations).forEach(key => {
+            const elements = document.querySelectorAll(`[data-i18n="${key}"]`);
+            elements.forEach(element => {
+                element.innerHTML = translations[key];
+            });
+        });
+
+        // Also try to update elements by common selectors
+        if (translations.hero_title) {
+            const heroTitle = document.querySelector('.hero-title');
+            if (heroTitle) heroTitle.innerHTML = translations.hero_title;
+        }
+        
+        if (translations.hero_subtitle) {
+            const heroSubtitle = document.querySelector('.hero-subtitle');
+            if (heroSubtitle) heroSubtitle.textContent = translations.hero_subtitle;
+        }
+        
+        if (translations.download_btn) {
+            const downloadBtns = document.querySelectorAll('a[href*="releases"]');
+            downloadBtns.forEach(btn => {
+                if (btn.textContent.includes('Download') || btn.textContent.includes('⬇')) {
+                    btn.innerHTML = translations.download_btn;
+                }
+            });
+        }
+        
+        if (translations.github_btn) {
+            const githubBtns = document.querySelectorAll('a[href*="github.com"]');
+            githubBtns.forEach(btn => {
+                if (btn.textContent.includes('GitHub') || btn.textContent.includes('⭐')) {
+                    btn.innerHTML = translations.github_btn;
+                }
+            });
+        }
+
+        // Update stats
+        if (translations.stats_distributions) {
+            const statElements = document.querySelectorAll('.stat-label');
+            statElements.forEach(el => {
+                if (el.textContent.includes('Distributions') || el.textContent.includes('Distribution')) {
+                    el.textContent = translations.stats_distributions;
+                }
+            });
+        }
+        
+        if (translations.stats_automated) {
+            const statElements = document.querySelectorAll('.stat-label');
+            statElements.forEach(el => {
+                if (el.textContent.includes('Automated')) {
+                    el.textContent = translations.stats_automated;
+                }
+            });
+        }
+        
+        if (translations.stats_production) {
+            const statElements = document.querySelectorAll('.stat-label');
+            statElements.forEach(el => {
+                if (el.textContent.includes('Production')) {
+                    el.textContent = translations.stats_production;
+                }
+            });
+        }
+        
+        if (translations.stats_enterprise) {
+            const statElements = document.querySelectorAll('.stat-label');
+            statElements.forEach(el => {
+                if (el.textContent.includes('Enterprise')) {
+                    el.textContent = translations.stats_enterprise;
+                }
+            });
+        }
+
+        // Update section titles
+        if (translations.features_title) {
+            const featuresTitle = document.querySelector('.features-title, .section-title');
+            if (featuresTitle && featuresTitle.textContent.includes('Why')) {
+                featuresTitle.textContent = translations.features_title;
+            }
+        }
     }
 }
 
-// Initialize when DOM is loaded
+// Initialize when DOM is loaded - ensure only one instance
 document.addEventListener('DOMContentLoaded', () => {
-    new LanguageSelector();
+    if (!window.languageSelectorInstance) {
+        window.languageSelectorInstance = new LanguageSelector();
+    }
 });

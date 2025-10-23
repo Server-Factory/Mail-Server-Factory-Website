@@ -47,6 +47,27 @@ if [ ! -f "docker-compose.yml" ]; then
     exit 1
 fi
 
+# Function to find first available port starting from 4000
+find_available_port() {
+    local port=4000
+    while [ $port -le 4100 ]; do
+        if ! lsof -i :$port > /dev/null 2>&1; then
+            echo $port
+            return 0
+        fi
+        port=$((port + 1))
+    done
+    print_error "No available ports found between 4000-4100"
+    exit 1
+}
+
+# Find available port
+AVAILABLE_PORT=$(find_available_port)
+print_status "Using port $AVAILABLE_PORT for the website"
+
+# Update docker-compose.yml with the available port
+sed -i.bak "s/4000:4000/$AVAILABLE_PORT:4000/" docker-compose.yml
+
 print_status "Starting Mail Server Factory website..."
 print_status "Building Docker image (this may take a few minutes on first run)..."
 
@@ -61,7 +82,7 @@ sleep 10
 if docker-compose ps | grep -q "Up"; then
     print_success "Website is now running!"
     echo ""
-    echo -e "${GREEN}🌐 Website URL:${NC} http://localhost:4000"
+    echo -e "${GREEN}🌐 Website URL:${NC} http://localhost:$AVAILABLE_PORT"
     echo -e "${GREEN}📊 Live Reload:${NC} Enabled - changes will be reflected automatically"
     echo -e "${GREEN}🐳 Container:${NC} mail-server-factory-website"
     echo ""
@@ -71,7 +92,12 @@ if docker-compose ps | grep -q "Up"; then
     echo -e "  • Restart: ${YELLOW}docker-compose restart${NC}"
     echo ""
     print_status "The website will automatically reload when you make changes to files."
+    
+    # Restore original docker-compose.yml
+    mv docker-compose.yml.bak docker-compose.yml
 else
     print_error "Failed to start the website. Check the logs with: docker-compose logs"
+    # Restore original docker-compose.yml on failure
+    mv docker-compose.yml.bak docker-compose.yml 2>/dev/null || true
     exit 1
 fi

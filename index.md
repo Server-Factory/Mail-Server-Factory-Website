@@ -15,31 +15,31 @@ description: Deploy production-ready mail server infrastructure with zero hassle
       <span class="badge-divider">•</span>
       <span class="badge-text">Multi-Distribution</span>
     </div>
-    <h1 class="hero-title">Run Your Mail Server <span class="highlight">Like The Boss</span></h1>
-    <p class="hero-subtitle">Enterprise-grade mail server automation powered by Kotlin, Docker, and proven technology. Deploy complete mail infrastructure with a single JSON configuration file.</p>
+    <h1 class="hero-title" data-i18n="hero_title">Run Your Mail Server <span class="highlight">Like The Boss</span></h1>
+    <p class="hero-subtitle" data-i18n="hero_subtitle">Enterprise-grade mail server automation powered by Kotlin, Docker, and proven technology. Deploy complete mail infrastructure with a single JSON configuration file.</p>
     <div class="hero-cta">
-      <a href="https://github.com/Server-Factory/Mail-Server-Factory/releases" class="btn btn-primary" target="_blank">
+      <a href="https://github.com/Server-Factory/Mail-Server-Factory/releases" class="btn btn-primary" target="_blank" data-i18n="download_btn">
         <span class="btn-icon">⬇</span> Download Latest Release
       </a>
-      <a href="https://github.com/Server-Factory/Mail-Server-Factory" class="btn btn-secondary" target="_blank">
+      <a href="https://github.com/Server-Factory/Mail-Server-Factory" class="btn btn-secondary" target="_blank" data-i18n="github_btn">
         <span class="btn-icon">⭐</span> View on GitHub
       </a>
     </div>
     <div class="hero-stats">
       <div class="stat">
-        <div class="stat-value">12 Distributions</div>
+        <div class="stat-value" data-i18n="stats_distributions">12 Distributions</div>
         <div class="stat-label">Fully Tested & Supported</div>
       </div>
       <div class="stat">
-        <div class="stat-value">100% Automated</div>
+        <div class="stat-value" data-i18n="stats_automated">100% Automated</div>
         <div class="stat-label">Single JSON Config</div>
       </div>
       <div class="stat">
-        <div class="stat-value">Production Ready</div>
+        <div class="stat-value" data-i18n="stats_production">Production Ready</div>
         <div class="stat-label">SMTP/IMAP/POP3</div>
       </div>
       <div class="stat">
-        <div class="stat-value">Enterprise Grade</div>
+        <div class="stat-value" data-i18n="stats_enterprise">Enterprise Grade</div>
         <div class="stat-label">Docker + QEMU Ready</div>
       </div>
     </div>
@@ -48,8 +48,8 @@ description: Deploy production-ready mail server infrastructure with zero hassle
 
 <section class="features">
   <div class="container">
-    <h2 class="section-title">Why Mail Server Factory?</h2>
-    <p class="section-subtitle">Enterprise features without the enterprise complexity</p>
+    <h2 class="section-title" data-i18n="features_title">Why Mail Server Factory?</h2>
+    <p class="section-subtitle" data-i18n="features_subtitle">Enterprise features without the enterprise complexity</p>
 
     <div class="features-grid">
       <div class="feature-card">
