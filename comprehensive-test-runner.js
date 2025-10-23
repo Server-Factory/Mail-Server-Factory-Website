@@ -57,6 +57,7 @@ class ComprehensiveTestRunner {
         console.log('🚀 Starting Comprehensive Mail Server Factory Website Tests...');
         console.log(`📍 Testing URL: ${url}`);
         console.log(`🌍 Languages to test: ${this.supportedLanguages.length}`);
+        console.log(`📱 Viewports to test: Desktop, Tablet, Mobile`);
 
         let browser;
         try {
@@ -65,21 +66,37 @@ class ComprehensiveTestRunner {
                 args: ['--no-sandbox', '--disable-setuid-sandbox']
             });
 
-            const page = await browser.newPage();
-            await page.setViewport({ width: 1280, height: 1024 });
+            // Test multiple viewports
+            const viewports = [
+                { name: 'Desktop', width: 1280, height: 1024 },
+                { name: 'Tablet', width: 768, height: 1024 },
+                { name: 'Mobile', width: 375, height: 667 }
+            ];
 
-            // Navigate to the website
-            console.log('📄 Loading website...');
-            await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
+            for (const viewport of viewports) {
+                console.log(`\n📱 Testing viewport: ${viewport.name} (${viewport.width}x${viewport.height})`);
 
-            // Wait for page to load completely
-            await page.waitForTimeout(2000);
+                const page = await browser.newPage();
+                await page.setViewport({ width: viewport.width, height: viewport.height });
 
-            // Run basic functionality tests
-            await this.runBasicTests(page);
+                // Navigate to the website
+                console.log('📄 Loading website...');
+                await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
 
-            // Run comprehensive localization tests
-            await this.runLocalizationTests(page);
+                // Wait for page to load completely
+                await page.waitForTimeout(2000);
+
+                // Run responsiveness tests
+                await this.runResponsivenessTests(page, viewport);
+
+                // Run basic functionality tests
+                await this.runBasicTests(page, viewport);
+
+                // Run comprehensive localization tests
+                await this.runLocalizationTests(page, viewport);
+
+                await page.close();
+            }
 
             // Generate final report
             this.generateReport();
@@ -96,8 +113,81 @@ class ComprehensiveTestRunner {
         return this.results;
     }
 
-    async runBasicTests(page) {
-        console.log('\n🔧 Running Basic Functionality Tests...');
+    async runResponsivenessTests(page, viewport) {
+        console.log(`📏 Running Responsiveness Tests for ${viewport.name}...`);
+
+        try {
+            // Check for horizontal scroll
+            const scrollWidth = await page.evaluate(() => {
+                return Math.max(
+                    document.body.scrollWidth,
+                    document.body.offsetWidth,
+                    document.documentElement.clientWidth,
+                    document.documentElement.scrollWidth,
+                    document.documentElement.offsetWidth
+                );
+            });
+
+            const viewportWidth = viewport.width;
+
+            if (scrollWidth <= viewportWidth + 10) { // Allow small tolerance
+                this.log(`No horizontal scroll detected (${scrollWidth}px content vs ${viewportWidth}px viewport)`, 'pass');
+                this.results.summary.passed++;
+            } else {
+                this.log(`Horizontal scroll detected: ${scrollWidth}px content vs ${viewportWidth}px viewport`, 'fail');
+                this.results.summary.failed++;
+            }
+            this.results.summary.totalTests++;
+
+            // Check if content is cut off
+            const contentWidth = await page.evaluate(() => {
+                const body = document.body;
+                const html = document.documentElement;
+                return Math.max(body.scrollWidth, body.offsetWidth, html.clientWidth, html.scrollWidth, html.offsetWidth);
+            });
+
+            if (contentWidth <= viewportWidth) {
+                this.log('Content fits within viewport width', 'pass');
+                this.results.summary.passed++;
+            } else {
+                this.log(`Content overflows viewport: ${contentWidth}px vs ${viewportWidth}px`, 'fail');
+                this.results.summary.failed++;
+            }
+            this.results.summary.totalTests++;
+
+            // Check if all text is visible
+            const hiddenText = await page.evaluate(() => {
+                const elements = document.querySelectorAll('*');
+                let hiddenCount = 0;
+                for (const el of elements) {
+                    const style = window.getComputedStyle(el);
+                    if (style.display === 'none' || style.visibility === 'hidden' || style.opacity === '0') {
+                        if (el.textContent.trim()) {
+                            hiddenCount++;
+                        }
+                    }
+                }
+                return hiddenCount;
+            });
+
+            if (hiddenCount === 0) {
+                this.log('All text elements are visible', 'pass');
+                this.results.summary.passed++;
+            } else {
+                this.log(`${hiddenCount} text elements are hidden`, 'warning');
+                this.results.summary.warnings++;
+            }
+            this.results.summary.totalTests++;
+
+        } catch (error) {
+            this.log(`Responsiveness test error: ${error.message}`, 'fail');
+            this.results.summary.failed++;
+            this.results.summary.totalTests++;
+        }
+    }
+
+    async runBasicTests(page, viewport) {
+        console.log(`\n🔧 Running Basic Functionality Tests for ${viewport.name}...`);
 
         try {
             // Test page load
@@ -140,12 +230,12 @@ class ComprehensiveTestRunner {
         }
     }
 
-    async runLocalizationTests(page) {
-        console.log('\n🌍 Running Comprehensive Localization Tests...');
+    async runLocalizationTests(page, viewport) {
+        console.log(`\n🌍 Running Comprehensive Localization Tests for ${viewport.name}...`);
 
         for (const lang of this.supportedLanguages) {
-            console.log(`\n🔄 Testing language: ${lang.toUpperCase()}`);
-            this.results.summary.languages[lang] = { passed: 0, failed: 0, total: 0 };
+            console.log(`\n🔄 Testing language: ${lang.toUpperCase()} on ${viewport.name}`);
+            this.results.summary.languages[lang] = this.results.summary.languages[lang] || { passed: 0, failed: 0, total: 0 };
 
             try {
                 // Change language
