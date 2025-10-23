@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Mail Server Factory - Enterprise Mail Server Automation
-description: Deploy production-ready mail server infrastructure with zero hassle
+description_key: page_description
 ---
 
 <section class="hero">

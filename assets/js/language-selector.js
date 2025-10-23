@@ -86,7 +86,7 @@ class LanguageSelector {
         const languageSelector = document.createElement('div');
         languageSelector.className = 'language-selector';
         languageSelector.innerHTML = `
-            <button class="language-toggle" aria-label="Select language" aria-expanded="false">
+            <button class="language-toggle" data-i18n-aria="select_language" aria-expanded="false">
                 <span class="current-flag">${this.getFlag(this.currentLang)}</span>
                 <span class="current-lang">${this.getLanguageName(this.currentLang)}</span>
                 <span class="dropdown-arrow">▼</span>
@@ -403,6 +403,12 @@ class LanguageSelector {
                 } else {
                     element.textContent = translations[key];
                 }
+            });
+
+            // Handle aria-label attributes
+            const ariaElements = document.querySelectorAll(`[data-i18n-aria="${key}"]`);
+            ariaElements.forEach(element => {
+                element.setAttribute('aria-label', translations[key]);
             });
         });
 

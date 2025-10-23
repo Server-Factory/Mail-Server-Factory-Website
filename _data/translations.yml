@@ -275,6 +275,9 @@ en:
   use_case3_desc: Keep email data on-premises with complete control over security and compliance.
   use_case4: 🎓 Educational Institutions
   use_case4_desc: Deploy cost-effective mail servers for students and staff with minimal maintenance.
+  page_description: Deploy production-ready mail server infrastructure with zero hassle
+  theme_toggle: Toggle theme
+  select_language: Select language
 ru:
   hero_title: Запустите свой почтовый сервер <span class="highlight">Как Босс</span>
   hero_subtitle: Автоматизация почтовых серверов корпоративного уровня на базе Kotlin, Docker и проверенных технологий. Разверните полную почтовую инфраструктуру с помощью одного JSON-файла конфигурации.
@@ -552,8 +555,14 @@ ru:
   launcher_feature2_desc: Поиск среды выполнения Java и проверка версии (минимум Java 17)
   testing_coverage_enterprise: Характеристика предприятия
   enterprise_performance_desc: Производительность корпоративного масштаба с расширенным кэшированием, настройкой JVM и оптимизированным использованием ресурсов.
+  nav_documentation: 📚 Documentation
+  nav_view_github: View on GitHub
+  nav_download: Download
+  page_description: Разверните готовую к продакшену инфраструктуру почтового сервера без лишних хлопот
+  theme_toggle: Переключить тему
+  select_language: Выбрать язык
 zh:
-  hero_title: 像老板一样运行您的邮件服务器 <span class="highlight">Like The Boss</span>
+  hero_title: 运行您的邮件服务器 <span class="highlight">像老板一样</span>
   hero_subtitle: 基于Kotlin、Docker和成熟技术的企业级邮件服务器自动化。通过单个JSON配置文件部署完整的邮件基础设施。
   download_btn: ⬇ 下载最新版本
   github_btn: ⭐ 在GitHub上查看
@@ -829,6 +838,12 @@ zh:
   launcher_feature2_desc: 查找Java运行时并验证版本（最低Java 17 ）
   testing_coverage_enterprise: Enterprise Features
   enterprise_performance_desc: 具有高级缓存、JVM调整和优化资源利用率的企业级性能。
+  nav_documentation: 📚 Documentation
+  nav_view_github: View on GitHub
+  nav_download: Download
+  page_description: 轻松部署生产就绪的邮件服务器基础设施
+  theme_toggle: 切换主题
+  select_language: 选择语言
 be:
   hero_title: Запусціце свой паштовы сервер <span class="highlight">Як Бос</span>
   hero_subtitle: Карпаратыўная аўтаматызацыя паштовых сервераў на базе Kotlin, Docker і правераных тэхналогій. Разгарніце поўную інфраструктуру пошты з дапамогай аднаго JSON-файла канфігурацыі.
@@ -1106,6 +1121,12 @@ be:
   launcher_feature2_desc: Знаходзіць час выканання Java і правярае версію (мінімум Java 17)
   testing_coverage_enterprise: Асаблівасці прадпрыемства
   enterprise_performance_desc: Прадукцыйнасць прадпрыемства з перадавым кэшаваннем, наладай JVM і аптымізаваным выкарыстаннем рэсурсаў.
+  nav_documentation: 📚 Documentation
+  nav_view_github: View on GitHub
+  nav_download: Download
+  page_description: Разгарніце гатовую да прадакшэну інфраструктуру паштовага сервера без лішніх клопатаў
+  theme_toggle: Пераключыць тэму
+  select_language: Выбраць мову
 sr:
   hero_title: Покрените свој поштански сервер <span class="highlight">Као Шеф</span>
   hero_subtitle: Корпоративна аутоматизација поштанских сервера заснована на Kotlin-у, Docker-у и провереним технологијама. Деплојте комплетну инфраструктуру поште са једним JSON конфигурационим фајлом.
@@ -1383,3 +1404,9 @@ sr:
   launcher_feature2_desc: Finds Java runtime and validates version (minimum Java 17)
   testing_coverage_enterprise: Enterprise Features
   enterprise_performance_desc: Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.
+  nav_documentation: 📚 Documentation
+  nav_view_github: View on GitHub
+  nav_download: Download
+  page_description: Поставите инфраструктуру поштанског сервера спремну за продукцију без непотребних проблема
+  theme_toggle: Промени тему
+  select_language: Изабери језик

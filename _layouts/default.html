@@ -32,15 +32,15 @@
             <img src="assets/images/Logo_With_Title_White.png" alt="{{ site.data.translations[site.default_lang].logo_alt }}" />
         </h1>
         <div class="header-actions">
-            <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle theme">
+            <button id="theme-toggle" class="theme-toggle-btn" data-i18n-aria="theme_toggle"></button>
                 <span class="theme-icon">🌙</span>
             </button>
-            <a href="/documentation" class="btn" data-i18n="nav_documentation">📚 Documentation</a>
-            <a href="https://github.com/Server-Factory/Mail-Server-Factory" class="btn" target="_blank" data-i18n="nav_view_github">View on GitHub</a>
-            <a href="https://github.com/Server-Factory/Mail-Server-Factory/releases" class="btn" target="_blank" data-i18n="nav_download">Download</a>
+            <a href="/documentation" class="btn" data-i18n="nav_documentation"></a>
+            <a href="https://github.com/Server-Factory/Mail-Server-Factory" class="btn" target="_blank" data-i18n="nav_view_github"></a>
+            <a href="https://github.com/Server-Factory/Mail-Server-Factory/releases" class="btn" target="_blank" data-i18n="nav_download"></a>
         </div>
     </div>
-    <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+    <h2 class="project-tagline" data-i18n="{{ page.description_key | default: 'page_description' }}"></h2>
 </header>
 
 <main id="content" class="main-content" role="main">
