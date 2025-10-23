@@ -18,9 +18,9 @@ description: Complete documentation for Mail Server Factory
         <h3 data-i18n="getting_started_title">Getting Started</h3>
         <p data-i18n="getting_started_desc">New to Mail Server Factory? Start here with installation and first deployment.</p>
         <div class="doc-links">
-          <a href="#overview" class="doc-link">Overview</a>
-          <a href="#installation" class="doc-link">Installation</a>
-          <a href="#quick-start" class="doc-link">Quick Start</a>
+          <a href="#overview" class="doc-link" data-i18n="doc_link_overview">Overview</a>
+          <a href="#installation" class="doc-link" data-i18n="doc_link_installation">Installation</a>
+          <a href="#quick-start" class="doc-link" data-i18n="doc_link_quick_start">Quick Start</a>
         </div>
       </div>
 
@@ -30,9 +30,9 @@ description: Complete documentation for Mail Server Factory
         <h3 data-i18n="configuration_title">Configuration</h3>
         <p data-i18n="configuration_desc">Learn about JSON configuration system, variables, and validation.</p>
         <div class="doc-links">
-          <a href="#config-system" class="doc-link">Configuration System</a>
-          <a href="#file-structure" class="doc-link">File Structure</a>
-          <a href="#variables" class="doc-link">Variables</a>
+          <a href="#config-system" class="doc-link" data-i18n="doc_link_config_system">Configuration System</a>
+          <a href="#file-structure" class="doc-link" data-i18n="doc_link_file_structure">File Structure</a>
+          <a href="#variables" class="doc-link" data-i18n="doc_link_variables">Variables</a>
         </div>
       </div>
 
@@ -42,9 +42,9 @@ description: Complete documentation for Mail Server Factory
         <h3 data-i18n="deployment_title">Deployment</h3>
         <p data-i18n="deployment_desc">Understand the deployment pipeline and remote execution model.</p>
         <div class="doc-links">
-          <a href="#deployment-overview" class="doc-link">Deployment Process</a>
-          <a href="#docker-stack" class="doc-link">Docker Stack</a>
-          <a href="#verification" class="doc-link">Verification</a>
+          <a href="#deployment-overview" class="doc-link" data-i18n="doc_link_deployment_overview">Deployment Process</a>
+          <a href="#docker-stack" class="doc-link" data-i18n="doc_link_docker_stack">Docker Stack</a>
+          <a href="#verification" class="doc-link" data-i18n="doc_link_verification">Verification</a>
         </div>
       </div>
 
@@ -54,9 +54,9 @@ description: Complete documentation for Mail Server Factory
         <h3 data-i18n="architecture_title">Architecture</h3>
         <p data-i18n="architecture_desc">Explore the system architecture and component design.</p>
         <div class="doc-links">
-          <a href="#system-architecture" class="doc-link">System Architecture</a>
-          <a href="#components" class="doc-link">Components</a>
-          <a href="#execution-flow" class="doc-link">Execution Flow</a>
+          <a href="#system-architecture" class="doc-link" data-i18n="doc_link_system_architecture">System Architecture</a>
+          <a href="#components" class="doc-link" data-i18n="doc_link_components">Components</a>
+          <a href="#execution-flow" class="doc-link" data-i18n="doc_link_execution_flow">Execution Flow</a>
         </div>
       </div>
 
@@ -66,10 +66,10 @@ description: Complete documentation for Mail Server Factory
         <h3 data-i18n="components_title">Mail Server Components</h3>
         <p data-i18n="components_desc">Detailed information about each mail server component.</p>
         <div class="doc-links">
-          <a href="#postfix" class="doc-link">Postfix</a>
-          <a href="#dovecot" class="doc-link">Dovecot</a>
-          <a href="#rspamd" class="doc-link">Rspamd</a>
-          <a href="#clamav" class="doc-link">ClamAV</a>
+          <a href="#postfix" class="doc-link" data-i18n="doc_link_postfix">Postfix</a>
+          <a href="#dovecot" class="doc-link" data-i18n="doc_link_dovecot">Dovecot</a>
+          <a href="#rspamd" class="doc-link" data-i18n="doc_link_rspamd">Rspamd</a>
+          <a href="#clamav" class="doc-link" data-i18n="doc_link_clamav">ClamAV</a>
         </div>
       </div>
 
@@ -79,9 +79,9 @@ description: Complete documentation for Mail Server Factory
         <h3 data-i18n="development_title">Development</h3>
         <p data-i18n="development_desc">Build system, testing infrastructure, and contribution guidelines.</p>
         <div class="doc-links">
-          <a href="#build-system" class="doc-link">Build System</a>
-          <a href="#testing" class="doc-link">Testing</a>
-          <a href="#distributions" class="doc-link">Supported Distributions</a>
+          <a href="#build-system" class="doc-link" data-i18n="doc_link_build_system">Build System</a>
+          <a href="#testing" class="doc-link" data-i18n="doc_link_testing">Testing</a>
+          <a href="#distributions" class="doc-link" data-i18n="doc_link_distributions">Supported Distributions</a>
         </div>
       </div>
 
@@ -91,9 +91,9 @@ description: Complete documentation for Mail Server Factory
         <h3 data-i18n="enterprise_title">Enterprise Features</h3>
         <p data-i18n="enterprise_desc">Security, performance, monitoring, and logging capabilities.</p>
         <div class="doc-links">
-          <a href="#security" class="doc-link">Security</a>
-          <a href="#performance" class="doc-link">Performance</a>
-          <a href="#monitoring" class="doc-link">Monitoring</a>
+          <a href="#security" class="doc-link" data-i18n="doc_link_security">Security</a>
+          <a href="#performance" class="doc-link" data-i18n="doc_link_performance">Performance</a>
+          <a href="#monitoring" class="doc-link" data-i18n="doc_link_monitoring">Monitoring</a>
         </div>
       </div>
 
@@ -103,9 +103,9 @@ description: Complete documentation for Mail Server Factory
         <h3 data-i18n="reference_title">Reference</h3>
         <p data-i18n="reference_desc">CLI reference, API documentation, and troubleshooting guides.</p>
         <div class="doc-links">
-          <a href="#cli-reference" class="doc-link">CLI Reference</a>
-          <a href="#api-reference" class="doc-link">API Reference</a>
-          <a href="#troubleshooting" class="doc-link">Troubleshooting</a>
+          <a href="#cli-reference" class="doc-link" data-i18n="doc_link_cli_reference">CLI Reference</a>
+          <a href="#api-reference" class="doc-link" data-i18n="doc_link_api_reference">API Reference</a>
+          <a href="#troubleshooting" class="doc-link" data-i18n="doc_link_troubleshooting">Troubleshooting</a>
         </div>
       </div>
     </div>
@@ -115,10 +115,10 @@ description: Complete documentation for Mail Server Factory
       
       <!-- Overview Section -->
       <section id="overview" class="doc-section">
-        <h2>What is Mail Server Factory</h2>
+        <h2 data-i18n="doc_what_is">What is Mail Server Factory</h2>
         <p>Mail Server Factory is a Kotlin-based automation tool that deploys complete, production-ready mail server stacks on remote Linux servers. Users provide JSON configuration files that specify target hosts, mail accounts, and service parameters. The system then performs remote installation, Docker container deployment, database initialization, and mail account creation via SSH.</p>
         
-        <h3>Deployed Components</h3>
+        <h3 data-i18n="doc_deployed_components">Deployed Components</h3>
         <ul>
           <li><strong>Postfix</strong> (SMTP sending on port 465)</li>
           <li><strong>Dovecot</strong> (IMAPS receiving on port 993)</li>
@@ -133,31 +133,31 @@ description: Complete documentation for Mail Server Factory
 
       <!-- Installation Section -->
       <section id="installation" class="doc-section">
-        <h2>Installation Methods</h2>
+        <h2 data-i18n="doc_installation_methods">Installation Methods</h2>
         
-        <h3>Web Installer (Recommended)</h3>
-        <p>Quickest setup for production use:</p>
+        <h3 data-i18n="doc_web_installer">Web Installer (Recommended)</h3>
+        <p data-i18n="doc_web_installer_desc">Quickest setup for production use:</p>
         <pre><code>curl -fsSL https://raw.githubusercontent.com/Server-Factory/Utils/master/web_installer.sh | /bin/bash</code></pre>
         
-        <h3>Local Installer</h3>
-        <p>For development or customized installation:</p>
+        <h3 data-i18n="doc_local_installer">Local Installer</h3>
+        <p data-i18n="doc_local_installer_desc">For development or customized installation:</p>
         <pre><code>./installer.sh [install_path]</code></pre>
         
-        <h3>Manual Build</h3>
-        <p>For development and source code modifications:</p>
+        <h3 data-i18n="doc_manual_build">Manual Build</h3>
+        <p data-i18n="doc_manual_build_desc">For development and source code modifications:</p>
         <pre><code>git clone --recurse-submodules
 ./gradlew assemble</code></pre>
         
-        <h3>System Requirements</h3>
+        <h3 data-i18n="doc_system_requirements">System Requirements</h3>
         
-        <h4>Local Machine</h4>
+        <h4 data-i18n="doc_local_machine">Local Machine</h4>
         <ul>
           <li>Java 17 or higher (OpenJDK recommended)</li>
           <li>Linux, macOS, or Windows with bash</li>
           <li>Internet access for downloading dependencies</li>
         </ul>
         
-        <h4>Target Server</h4>
+        <h4 data-i18n="doc_target_server">Target Server</h4>
         <ul>
           <li>Modern Linux distribution (12 supported distributions)</li>
           <li>SSH access with key-based authentication</li>
@@ -170,10 +170,10 @@ description: Complete documentation for Mail Server Factory
 
       <!-- Configuration System Section -->
       <section id="config-system" class="doc-section">
-        <h2>Configuration System</h2>
+        <h2 data-i18n="doc_configuration_system">Configuration System</h2>
         <p>Mail Server Factory uses a JSON-based configuration system with variable substitution and file inclusion. The configuration defines everything about your mail server deployment.</p>
         
-        <h3>Key Features</h3>
+        <h3 data-i18n="doc_key_features">Key Features</h3>
         <ul>
           <li><strong>Hierarchical Configuration</strong>: JSON files can include other JSON files</li>
           <li><strong>Variable Substitution</strong>: Dynamic variable resolution using `${CONTEXT.KEY}` syntax</li>
@@ -182,7 +182,7 @@ description: Complete documentation for Mail Server Factory
           <li><strong>Merging</strong>: Multiple configuration files combined into final config</li>
         </ul>
         
-        <h3>Basic Configuration Structure</h3>
+        <h3 data-i18n="doc_basic_config_structure">Basic Configuration Structure</h3>
         <pre><code>{
   "name": "Mail Server Configuration",
   "remote": {
@@ -200,14 +200,14 @@ description: Complete documentation for Mail Server Factory
   }
 }</code></pre>
         
-        <h3>Variable Substitution</h3>
+        <h3 data-i18n="doc_variable_substitution">Variable Substitution</h3>
         <p>Variables use the format `${CONTEXT.SUBCONTEXT.KEY}` and can reference other variables:</p>
         <pre><code>"certificate_endpoint": "https://${PROXY.HOSTNAME}:8080/api/v1/certificate"</code></pre>
       </section>
 
       <!-- Deployment Overview Section -->
       <section id="deployment-overview" class="doc-section">
-        <h2>Deployment Process</h2>
+        <h2 data-i18n="doc_deployment_process">Deployment Process</h2>
         <p>The deployment follows a sequential flow through four main stages:</p>
         
         <div class="deployment-flow">
@@ -244,10 +244,10 @@ description: Complete documentation for Mail Server Factory
           </div>
         </div>
         
-        <h3>Running a Deployment</h3>
+        <h3 data-i18n="doc_running_deployment">Running a Deployment</h3>
         <pre><code>mail_factory config.json</code></pre>
         
-        <h3>Example Configurations</h3>
+        <h3 data-i18n="doc_example_configurations">Example Configurations</h3>
         <p>The <code>Examples/</code> directory contains pre-configured files for all supported distributions:</p>
         <ul>
           <li><code>Ubuntu_22.json</code> - Ubuntu 22.04 LTS</li>
@@ -260,9 +260,9 @@ description: Complete documentation for Mail Server Factory
 
       <!-- Mail Server Components Section -->
       <section id="components" class="doc-section">
-        <h2>Mail Server Components</h2>
+        <h2 data-i18n="doc_mail_server_components">Mail Server Components</h2>
         
-        <h3>Postfix (Mail Sending)</h3>
+        <h3 data-i18n="doc_mail_sending">Postfix (Mail Sending)</h3>
         <p>SMTP server responsible for outgoing email delivery. Configured for:</p>
         <ul>
           <li>SMTPS on port 465</li>
@@ -271,7 +271,7 @@ description: Complete documentation for Mail Server Factory
           <li>Integration with Dovecot for authentication</li>
         </ul>
         
-        <h3>Dovecot (Mail Receiving)</h3>
+        <h3 data-i18n="doc_mail_receiving">Dovecot (Mail Receiving)</h3>
         <p>IMAP/POP3 server for incoming email and mail storage. Features:</p>
         <ul>
           <li>IMAPS on port 993</li>
@@ -280,7 +280,7 @@ description: Complete documentation for Mail Server Factory
           <li>SSL/TLS support</li>
         </ul>
         
-        <h3>Rspamd (Anti-Spam)</h3>
+        <h3 data-i18n="doc_anti_spam">Rspamd (Anti-Spam)</h3>
         <p>Advanced spam filtering system:</p>
         <ul>
           <li>Real-time spam scanning</li>
@@ -289,7 +289,7 @@ description: Complete documentation for Mail Server Factory
           <li>Redis integration for caching</li>
         </ul>
         
-        <h3>ClamAV (Anti-Virus)</h3>
+        <h3 data-i18n="doc_anti_virus">ClamAV (Anti-Virus)</h3>
         <p>Virus scanning for email attachments:</p>
         <ul>
           <li>Real-time virus database updates</li>
@@ -297,17 +297,17 @@ description: Complete documentation for Mail Server Factory
           <li>Automatic quarantine of infected files</li>
         </ul>
         
-        <h3>Database Services</h3>
+        <h3 data-i18n="doc_database_services">Database Services</h3>
         <p><strong>PostgreSQL</strong>: User authentication, domains, aliases storage</p>
         <p><strong>Redis</strong>: Rspamd caching and learning data</p>
       </section>
 
       <!-- Testing Section -->
       <section id="testing" class="doc-section">
-        <h2>Testing Infrastructure</h2>
+        <h2 data-i18n="doc_testing_infrastructure">Testing Infrastructure</h2>
         <p>Mail Server Factory includes comprehensive automated testing across 12 Linux distributions using QEMU virtualization:</p>
         
-        <h3>Test Coverage</h3>
+        <h3 data-i18n="doc_test_coverage">Test Coverage</h3>
         <div class="test-stats">
           <div class="test-stat">
             <div class="stat-number">47</div>
@@ -327,7 +327,7 @@ description: Complete documentation for Mail Server Factory
           </div>
         </div>
         
-        <h3>Supported Distributions</h3>
+        <h3 data-i18n="doc_supported_distributions">Supported Distributions</h3>
         <div class="dist-grid">
           <div class="dist-family">
             <h4>Debian-based</h4>
@@ -356,10 +356,10 @@ description: Complete documentation for Mail Server Factory
 
       <!-- Security Section -->
       <section id="security" class="doc-section">
-        <h2>Security Features</h2>
+        <h2 data-i18n="doc_security_features">Security Features</h2>
         <p>Enterprise-grade security built into every deployment:</p>
         
-        <h3>Authentication & Encryption</h3>
+        <h3 data-i18n="doc_authentication_encryption">Authentication & Encryption</h3>
         <ul>
           <li>AES-256-GCM encryption for sensitive data</li>
           <li>SSH key-based authentication (no passwords)</li>
@@ -367,14 +367,14 @@ description: Complete documentation for Mail Server Factory
           <li>SSL/TLS enforcement for mail protocols</li>
         </ul>
         
-        <h3>Password Policies</h3>
+        <h3 data-i18n="doc_password_policies">Password Policies</h3>
         <ul>
           <li>MEDIUM strength requirements enforced</li>
           <li>Minimum length and complexity rules</li>
           <li>Password hashing before database storage</li>
         </ul>
         
-        <h3>System Security</h3>
+        <h3 data-i18n="doc_system_security">System Security</h3>
         <ul>
           <li>Container isolation for all services</li>
           <li>Audit logging for all operations</li>
@@ -385,12 +385,12 @@ description: Complete documentation for Mail Server Factory
 
       <!-- CLI Reference Section -->
       <section id="cli-reference" class="doc-section">
-        <h2>CLI Reference</h2>
+        <h2 data-i18n="doc_cli_reference">CLI Reference</h2>
         
-        <h3>Basic Usage</h3>
+        <h3 data-i18n="doc_basic_usage">Basic Usage</h3>
         <pre><code>mail_factory [options] configuration.json</code></pre>
         
-        <h3>Common Options</h3>
+        <h3 data-i18n="doc_common_options">Common Options</h3>
         <div class="cli-options">
           <div class="cli-option">
             <code>--help, -h</code>
@@ -418,7 +418,7 @@ description: Complete documentation for Mail Server Factory
           </div>
         </div>
         
-        <h3>Environment Variables</h3>
+        <h3 data-i18n="doc_environment_variables">Environment Variables</h3>
         <div class="env-vars">
           <div class="env-var">
             <code>JAVA_HOME</code>
@@ -434,7 +434,7 @@ description: Complete documentation for Mail Server Factory
           </div>
         </div>
         
-        <h3>Exit Codes</h3>
+        <h3 data-i18n="doc_exit_codes">Exit Codes</h3>
         <div class="exit-codes">
           <div class="exit-code">
             <code>0</code>
@@ -461,12 +461,12 @@ description: Complete documentation for Mail Server Factory
 
       <!-- Troubleshooting Section -->
       <section id="troubleshooting" class="doc-section">
-        <h2>Troubleshooting</h2>
+        <h2 data-i18n="doc_troubleshooting">Troubleshooting</h2>
         
-        <h3>Common Issues</h3>
+        <h3 data-i18n="doc_common_issues">Common Issues</h3>
         
         <div class="troubleshoot-item">
-          <h4>SSH Connection Failed</h4>
+          <h4 data-i18n="doc_ssh_issue">SSH Connection Failed</h4>
           <p><strong>Cause:</strong> SSH key not configured or network issue</p>
           <p><strong>Solution:</strong></p>
           <ul>
@@ -477,7 +477,7 @@ description: Complete documentation for Mail Server Factory
         </div>
         
         <div class="troubleshoot-item">
-          <h4>Docker Deployment Failed</h4>
+          <h4 data-i18n="doc_docker_issue">Docker Deployment Failed</h4>
           <p><strong>Cause:</strong> Docker not installed or conflicting containers</p>
           <p><strong>Solution:</strong></p>
           <ul>
@@ -488,7 +488,7 @@ description: Complete documentation for Mail Server Factory
         </div>
         
         <div class="troubleshoot-item">
-          <h4>Configuration Validation Failed</h4>
+          <h4 data-i18n="doc_config_issue">Configuration Validation Failed</h4>
           <p><strong>Cause:</strong> Invalid email format or weak password</p>
           <p><strong>Solution:</strong></p>
           <ul>
@@ -499,7 +499,7 @@ description: Complete documentation for Mail Server Factory
         </div>
         
         <div class="troubleshoot-item">
-          <h4>Mail Account Creation Failed</h4>
+          <h4 data-i18n="doc_account_issue">Mail Account Creation Failed</h4>
           <p><strong>Cause:</strong> Database connection issue or account validation error</p>
           <p><strong>Solution:</strong></p>
           <ul>
