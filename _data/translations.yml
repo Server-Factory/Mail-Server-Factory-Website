@@ -951,17 +951,17 @@ hi:
   enterprise_config_desc: पर्यावरण समर्थन, हॉट रीलोडिंग और एंटरप्राइज़ सत्यापन के साथ उन्नत कॉन्फ़िगरेशन सिस्टम।
   enterprise_monitoring_desc: Prometheus मेट्रिक्स, स्वास्थ्य जांच, संरचित लॉगिंग और एंटरप्राइज़ अलर्टिंग के साथ पूर्ण निगरानी समाधान।
   enterprise_security_desc: AES-256-GCM एन्क्रिप्शन, व्यापक ऑडिट लॉगिंग, सेशन प्रबंधन और TLS 1.3 प्रवर्तन के साथ एंटरप्राइज़-ग्रेड सुरक्षा।
-    tech_stack_title: प्रौद्योगिकी स्टैक
-    tech_stack_subtitle: उद्योग-अग्रणी ओपन सोर्स तकनीकों द्वारा संचालित
-    architecture_title: एंटरप्राइज़ आर्किटेक्चर
-    architecture_subtitle: एंटरप्राइज़ स्केलेबिलिटी और सुरक्षा के लिए डिज़ाइन की गई बहु-स्तरीय आर्किटेक्चर
-    how_it_works_title: यह कैसे काम करता है
-    how_it_works_subtitle: आपके उत्पादन मेल सर्वर तक तीन सरल कदम
-    step_configure: कॉन्फ़िगर करें
-    step_configure_desc: अपने मेल सर्वर विवरण, खातों और लक्ष्य होस्ट को निर्दिष्ट करते हुए एक JSON कॉन्फ़िगरेशन फ़ाइल बनाएं।
-    step_deploy: तैनात करें
-    step_deploy_desc: अपनी कॉन्फ़िगरेशन के साथ mail_factory लॉन्चर चलाएं। यह सब कुछ स्थापित और कॉन्फ़िगर करता है, आप आराम से बैठें।
-    step_use: उपयोग करें
+  tech_stack_title: प्रौद्योगिकी स्टैक
+  tech_stack_subtitle: उद्योग-अग्रणी ओपन सोर्स तकनीकों द्वारा संचालित
+  architecture_title: एंटरप्राइज़ आर्किटेक्चर
+  architecture_subtitle: एंटरप्राइज़ स्केलेबिलिटी और सुरक्षा के लिए डिज़ाइन की गई बहु-स्तरीय आर्किटेक्चर
+  how_it_works_title: यह कैसे काम करता है
+  how_it_works_subtitle: आपके उत्पादन मेल सर्वर तक तीन सरल कदम
+  step_configure: कॉन्फ़िगर करें
+  step_configure_desc: अपने मेल सर्वर विवरण, खातों और लक्ष्य होस्ट को निर्दिष्ट करते हुए एक JSON कॉन्फ़िगरेशन फ़ाइल बनाएं।
+  step_deploy: तैनात करें
+  step_deploy_desc: अपनी कॉन्फ़िगरेशन के साथ mail_factory लॉन्चर चलाएं। यह सब कुछ स्थापित और कॉन्फ़िगर करता है, आप आराम से बैठें।
+  step_use: उपयोग करें
   step_use_desc: Connect your email clients to the deployed server. All services are
     running, configured, and ready to handle email.
   testing_title: Quality & Testing
