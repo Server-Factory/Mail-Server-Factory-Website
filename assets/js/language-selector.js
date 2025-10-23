@@ -257,13 +257,13 @@ class LanguageSelector {
     }
 
     getTranslationsFromJekyll() {
+        // Try to get from window.siteTranslations first (works with both Jekyll and static server)
+        if (typeof window.siteTranslations !== 'undefined') {
+            return window.siteTranslations;
+        }
         // Try to get translations from Jekyll site data
         if (typeof site !== 'undefined' && site.data && site.data.translations) {
             return site.data.translations;
-        }
-        // Try to get from window.siteTranslations if available
-        if (typeof window.siteTranslations !== 'undefined') {
-            return window.siteTranslations;
         }
         return this.getTranslations();
     }
