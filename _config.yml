@@ -33,6 +33,12 @@ languages:
   - tg
   - tr
 default_lang: en
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
 exclude:
   - "Gemfile"
   - "Gemfile.lock"
