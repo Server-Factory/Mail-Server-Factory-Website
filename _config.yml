@@ -34,13 +34,6 @@ languages:
   - tr
 default_lang: en
 exclude:
-  - "*.md"
-  - "*.html"
-  - "_layouts/"
-  - "_includes/"
-  - "assets/"
-  - "_data/"
-  - "_sass/"
   - "Gemfile"
   - "Gemfile.lock"
   - "node_modules/"
