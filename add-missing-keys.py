@@ -1,92 +1,80 @@
 #!/usr/bin/env python3
+
 """
-Add Missing Translation Keys Script
-Adds all missing translation keys to all languages with English values as placeholders.
-This provides a foundation for completing translations.
+Add missing translation keys that are used in index.md but not in translations.yml
 """
 
 import yaml
-import sys
-from pathlib import Path
+from collections import OrderedDict
 
-def load_yaml(file_path):
-    """Load YAML file safely."""
-    with open(file_path, 'r', encoding='utf-8') as f:
-        return yaml.safe_load(f)
+# Missing keys - use English for all languages (non-critical content)
+MISSING_KEYS_EN = {
+    'enterprise_performance_desc': 'Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.',
+    'testing_run_command': 'Run tests: ./gradlew test',
+    'table_family_debian': 'Debian',
+    'table_family_rhel': 'RHEL',
+    'table_family_suse': 'SUSE',
+    'compatibility_note': 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux in permissive mode or disabled.',
+}
 
-def save_yaml(file_path, data):
-    """Save YAML file safely."""
-    with open(file_path, 'w', encoding='utf-8') as f:
-        yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
+def load_yaml_ordered(filepath):
+    """Load YAML while preserving order"""
+    class OrderedLoader(yaml.SafeLoader):
+        pass
 
-def get_missing_keys(translations, english_keys, lang):
-    """Get missing translation keys for a language."""
-    if lang not in translations:
-        return english_keys
+    def construct_mapping(loader, node):
+        loader.flatten_mapping(node)
+        return OrderedDict(loader.construct_pairs(node))
 
-    lang_keys = set(translations[lang].keys())
-    return english_keys - lang_keys
+    OrderedLoader.add_constructor(
+        yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG,
+        construct_mapping)
 
-def add_missing_keys_to_language(translations, english_keys, lang):
-    """Add all missing keys to a language with English values as placeholders."""
-    print(f"Adding missing keys for {lang}...")
+    with open(filepath, 'r', encoding='utf-8') as f:
+        return yaml.load(f, OrderedLoader)
 
-    if lang not in translations:
-        translations[lang] = {}
+def save_yaml_ordered(data, filepath):
+    """Save YAML while preserving order"""
+    class OrderedDumper(yaml.SafeDumper):
+        pass
 
-    missing_keys = get_missing_keys(translations, english_keys, lang)
-    print(f"  Missing keys: {len(missing_keys)}")
+    def _dict_representer(dumper, data):
+        return dumper.represent_mapping(
+            yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG,
+            data.items())
 
-    for key in missing_keys:
-        # Use English value as placeholder
-        translations[lang][key] = translations['en'][key]
+    OrderedDumper.add_representer(OrderedDict, _dict_representer)
 
-    return translations
+    with open(filepath, 'w', encoding='utf-8') as f:
+        yaml.dump(data, f, Dumper=OrderedDumper,
+                 allow_unicode=True, default_flow_style=False,
+                 sort_keys=False, width=120)
 
-def main():
-    """Main function to add missing keys to all languages."""
-    print("🚀 Adding Missing Translation Keys...")
-    print("=" * 50)
+def add_missing_keys(translations_path):
+    """Add missing keys to all languages"""
 
-    # Load current translations
-    translations = load_yaml('_data/translations.yml')
-    english_keys = set(translations['en'].keys())
+    print("Loading translations...")
+    translations = load_yaml_ordered(translations_path)
 
-    # Get all languages that need keys added
-    all_languages = [k for k in translations.keys() if isinstance(k, str) and k != 'en']
+    keys_added = 0
 
-    print(f"📋 Languages to process: {len(all_languages)}")
-    print(f"📝 Total keys per language: {len(english_keys)}")
+    for lang_code, lang_data in translations.items():
+        if not lang_data:
+            continue
 
-    # Add missing keys to each language
-    for lang in all_languages:
-        print(f"\n🔄 Processing {lang}...")
-        translations = add_missing_keys_to_language(translations, english_keys, lang)
+        for key, value in MISSING_KEYS_EN.items():
+            if key not in lang_data:
+                lang_data[key] = value
+                print(f"  [{lang_code}] Added '{key}'")
+                keys_added += 1
 
-        # Save progress periodically
-        save_yaml('_data/translations.yml', translations)
-        print(f"  ✅ Added missing keys for {lang}")
+    print(f"\nAdded {keys_added} keys across all languages")
 
-    print("\n🎉 Key addition completed!")
-    print(f"   Processed {len(all_languages)} languages")
-    print(f"   Total keys per language: {len(english_keys)}")
+    print(f"Writing to {translations_path}...")
+    save_yaml_ordered(translations, translations_path)
+    print("✓ Missing keys added successfully!")
 
-    # Validate completion
-    print("\n🔍 Validating completion...")
-    all_have_all_keys = True
+    return keys_added
 
-    for lang in all_languages:
-        missing = get_missing_keys(translations, english_keys, lang)
-        if missing:
-            print(f"❌ {lang} still missing {len(missing)} keys: {list(missing)[:5]}...")
-            all_have_all_keys = False
-        else:
-            print(f"✅ {lang} has all keys")
-
-    if all_have_all_keys:
-        print("\n🎉 ALL LANGUAGES HAVE ALL KEYS!")
-        print("   Ready for translation completion.")
-    else:
-        print("\n⚠️  Some languages still have missing keys")
 if __name__ == '__main__':
-    main()
+    add_missing_keys('_data/translations.yml')

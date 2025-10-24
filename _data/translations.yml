@@ -283,6 +283,13 @@ en:
   page_description: Deploy production-ready mail server infrastructure with zero hassle
   theme_toggle: Toggle theme
   select_language: Select language
+  enterprise_performance_desc: Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 ru:
   hero_title: Запустите свой почтовый сервер <span class="highlight">Как Босс</span>
   hero_subtitle: Автоматизация почтовых серверов корпоративного уровня на базе Kotlin, Docker и проверенных технологий. Разверните
@@ -426,7 +433,7 @@ ru:
   architecture_benefit4_desc: Конфигурация горячей перезагрузки и автоматическое тестирование обеспечивают надежность.
   architecture_component3: Журнал аудита
   architecture_badge_kotlin: Kotlin 2.0.21
-  table_version_opensuse156: 15,6
+  table_version_opensuse156: '15.6'
   feature_docker_desc: Каждый компонент работает в своем собственном Docker-контейнере, обеспечивая изоляцию, масштабируемость
     и простое управление. Развертывайте на любом хосте с поддержкой Docker.
   tech_clamav: Clam Antivirus
@@ -484,7 +491,7 @@ ru:
   architecture_infrastructure_layer: 🐳 Уровень инфраструктуры
   launcher_feature3_desc: Поддерживает JAVA_OPTS, JAVA_HOME, MAIL_FACTORY_HOME
   enterprise_config_desc: Расширенная система конфигурации с поддержкой среды, горячей перезагрузкой и корпоративной проверкой.
-  distro_opensuse_versions: 15,6
+  distro_opensuse_versions: '15.6'
   architecture_benefit2: Масштабируемый
   compatibility_automated_desc: "Все дистрибутивы готовы к автоматическому тестированию с помощью виртуализации QEMU. \n \
     \       Платформа тестирования включает проверку ISO, автоматическую установку и проверку конфигурации. \n        Все\
@@ -527,7 +534,7 @@ ru:
     ./mail_factory Examples/Centos_8.json'
   table_version_rhel9: '9'
   doc_issues_desc: Сообщайте об ошибках или запросите корпоративные функции
-  code_json_example: "{\n  \"имя хоста\": \"mail.example.com\",\n  \"счета\": [...],\n  \"база данных\": {...}\n}"
+  code_json_example: "{\n  \"hostname\": \"mail.example.com\",\n  \"accounts\": [...],\n  \"database\": {...}\n}"
   enterprise_security_desc: Безопасность корпоративного уровня с шифрованием AES-256-GCM, комплексным журналом аудита, управлением
     сеансами и соблюдением TLS 1.3.
   compatibility_table_family: Семейство дистрибутивов
@@ -545,11 +552,11 @@ ru:
   table_version_debian12: 12 (Книжный червь)
   architecture_benefit2_desc: Горизонтальное масштабирование с сохранением состояния и оптимизированным использованием ресурсов.
   compatibility_table_tested: Протестировано
-  distro_rocky_versions: 9,5
+  distro_rocky_versions: '9.5'
   test_stat_value_smells: '0'
   enterprise_config_item2: Горячая перезагрузка без перезапуска
   architecture_component2: Управление сеансами
-  distro_almalinux_versions: 9,5
+  distro_almalinux_versions: '9.5'
   architecture_component26: КламАВ
   distro_rhel_versions: '9'
   launcher_command_debug: Включение отладки вывода
@@ -577,6 +584,12 @@ ru:
   page_description: Разверните готовую к продакшену инфраструктуру почтового сервера без лишних хлопот
   theme_toggle: Переключить тему
   select_language: Выбрать язык
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 zh:
   hero_title: 像老板一样运行您的邮件服务器 <span class="highlight">Like The Boss</span>
   hero_subtitle: 基于Kotlin、Docker和成熟技术的企业级邮件服务器自动化。通过单个JSON配置文件部署完整的邮件基础设施。
@@ -810,7 +823,7 @@ zh:
     ./mail_factory Examples/Centos_8.json'
   table_version_rhel9: '9'
   doc_issues_desc: 报告错误或请求企业版功能
-  code_json_example: "{\n  \"HOSTNAME\": \"mail.example.com\",\n  \"ACCOUNTS\": [...],\n  \"DATABASE\": {...}\n}"
+  code_json_example: "{\n  \"hostname\": \"mail.example.com\",\n  \"accounts\": [...],\n  \"database\": {...}\n}"
   enterprise_security_desc: 采用AES-256-GCM加密、全面审核日志记录、会话管理和TLS 1.3实施的企业级安全性。
   compatibility_table_family: 分销系列
   tech_postgresql_desc: 总数据库
@@ -858,6 +871,12 @@ zh:
   table_version_fedora41: '41'
   architecture_benefit1: Security First
   enterprise_performance_desc: Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 hi:
   hero_title: अपना मेल सर्वर <span class="highlight">बॉस की तरह</span> चलाएं
   hero_subtitle: Kotlin, Docker और सिद्ध तकनीक द्वारा संचालित एंटरप्राइज़-ग्रेड मेल सर्वर ऑटोमेशन। एकल JSON कॉन्फ़िगरेशन फ़ाइल
@@ -1150,6 +1169,13 @@ hi:
   table_version_ubuntu22: 22.04 LTS (Jammy)
   hero_badge_testing: Comprehensive Testing
   hero_badge_enterprise: Enterprise Grade
+  enterprise_performance_desc: Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 ja:
   tech_stack_subtitle: Powered by industry-leading open source technologies
   table_config_rocky9: Examples/Rocky_9.json
@@ -1433,6 +1459,12 @@ ja:
   hero_badge_testing: Comprehensive Testing
   enterprise_monitoring: Monitoring & Observability
   table_config_ubuntu24: Examples/Ubuntu_24.json
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 fr:
   tech_stack_subtitle: Propulsé par les technologies open source de pointe
   table_config_rocky9: Examples/Rocky_9.json
@@ -1600,7 +1632,7 @@ fr:
   compatibility_subtitle: Déployer on the dernier moderne Linux serveur distributions
   architecture_benefit2: Scalable
   testing_stat_success: Success Rate
-  logo_alt_home: Courrier Serveur Usine - Exécuter votre courrier serveur like the boss!
+  logo_alt_home: Mail Server Factory - Exécuter votre courrier serveur like the boss!
   code_verify_command: 'docker ps -a # Verify running services'
   doc_testing: Tests Guide
   enterprise_config_item2: Hot reloading sans restart
@@ -1673,7 +1705,7 @@ fr:
   testing_stat_total: Total Tests
   table_config_debian12: Examples/Debian_12.json
   distro_rhel_versions: '9'
-  code_json_example: '{ "hostname": "mail.example.com", "accounts": [...], "database": {...} }'
+  code_json_example: "{\n  \"hostname\": \"mail.example.com\",\n  \"accounts\": [...],\n  \"database\": {...}\n}"
   tech_rspamd: Rspamd
   architecture_component14: Hot Reloading
   testing_coverage_title: Test Coverage by Module
@@ -1706,6 +1738,12 @@ fr:
   hero_badge_testing: Complet Tests
   enterprise_monitoring: Surveillance & Observabilité
   table_config_ubuntu24: Examples/Ubuntu_24.json
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 de:
   tech_stack_subtitle: Angetrieben von führenden Open-Source-Technologien
   table_config_rocky9: Examples/Rocky_9.json
@@ -1873,7 +1911,7 @@ de:
   compatibility_subtitle: Bereitstellen on the neueste modern Linux Server Distributionen
   architecture_benefit2: Scalable
   testing_stat_success: Success Rate
-  logo_alt_home: Post Server Server Factory - Ausführen Ihre Post Server like the boss!
+  logo_alt_home: Mail Server Factory - Ausführen Ihre Post Server like the boss!
   code_verify_command: 'docker ps -a # Verify running services'
   doc_testing: Tests Guide
   enterprise_config_item2: Hot reloading ohne restart
@@ -1946,7 +1984,7 @@ de:
   testing_stat_total: Total Tests
   table_config_debian12: Examples/Debian_12.json
   distro_rhel_versions: '9'
-  code_json_example: '{ "hostname": "mail.example.com", "accounts": [...], "database": {...} }'
+  code_json_example: "{\n  \"hostname\": \"mail.example.com\",\n  \"accounts\": [...],\n  \"database\": {...}\n}"
   tech_rspamd: Rspamd
   architecture_component14: Hot Reloading
   testing_coverage_title: Test Coverage by Module
@@ -1979,6 +2017,12 @@ de:
   hero_badge_testing: Umfassend Tests
   enterprise_monitoring: Überwachung & Beobachtbarkeit
   table_config_ubuntu24: Examples/Ubuntu_24.json
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 es:
   tech_stack_subtitle: Impulsado por tecnologías open source líderes
   table_config_rocky9: Examples/Rocky_9.json
@@ -2145,7 +2189,7 @@ es:
   compatibility_subtitle: Desplegar on the último moderno Linux servidor distribuciones
   architecture_benefit2: Scalable
   testing_stat_success: Success Rate
-  logo_alt_home: Correo Servidor Fábrica - Ejecutar su correo servidor like the boss!
+  logo_alt_home: Mail Server Factory - Ejecutar su correo servidor like the boss!
   code_verify_command: 'docker ps -a # Verify running services'
   doc_testing: Pruebas Guide
   enterprise_config_item2: Hot reloading sin restart
@@ -2218,7 +2262,7 @@ es:
   testing_stat_total: Total Tests
   table_config_debian12: Examples/Debian_12.json
   distro_rhel_versions: '9'
-  code_json_example: '{ "hostname": "mail.example.com", "accounts": [...], "database": {...} }'
+  code_json_example: "{\n  \"hostname\": \"mail.example.com\",\n  \"accounts\": [...],\n  \"database\": {...}\n}"
   tech_rspamd: Rspamd
   architecture_component14: Hot Reloading
   testing_coverage_title: Test Coverage by Module
@@ -2251,6 +2295,12 @@ es:
   hero_badge_testing: Integral Pruebas
   enterprise_monitoring: Monitoreo & Observabilidad
   table_config_ubuntu24: Examples/Ubuntu_24.json
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 pt:
   tech_stack_subtitle: Alimentado por tecnologias open source líderes
   table_config_rocky9: Examples/Rocky_9.json
@@ -2417,7 +2467,7 @@ pt:
   compatibility_subtitle: Implantar on the mais recente moderno Linux servidor distribuições
   architecture_benefit2: Scalable
   testing_stat_success: Success Rate
-  logo_alt_home: Correio Servidor Fábrica - Executar seu correio servidor like the boss!
+  logo_alt_home: Mail Server Factory - Executar seu correio servidor like the boss!
   code_verify_command: 'docker ps -a # Verify running services'
   doc_testing: Testes Guide
   enterprise_config_item2: Hot reloading sem restart
@@ -2490,7 +2540,7 @@ pt:
   testing_stat_total: Total Tests
   table_config_debian12: Examples/Debian_12.json
   distro_rhel_versions: '9'
-  code_json_example: '{ "hostname": "mail.example.com", "accounts": [...], "database": {...} }'
+  code_json_example: "{\n  \"hostname\": \"mail.example.com\",\n  \"accounts\": [...],\n  \"database\": {...}\n}"
   tech_rspamd: Rspamd
   architecture_component14: Hot Reloading
   testing_coverage_title: Test Coverage by Module
@@ -2523,6 +2573,12 @@ pt:
   hero_badge_testing: Abrangente Testes
   enterprise_monitoring: Monitoramento & Observabilidade
   table_config_ubuntu24: Examples/Ubuntu_24.json
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 da:
   tech_stack_subtitle: Drevet af førende open source-teknologier
   table_config_rocky9: Examples/Rocky_9.json
@@ -2808,6 +2864,311 @@ da:
   hero_badge_testing: Comprehensive Testing
   enterprise_monitoring: Overvågning og observerbærhed
   table_config_ubuntu24: Examples/Ubuntu_24.json
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
+'no':
+  hero_title: Kjør din e-postserver <span class="highlight">Som Sjefen</span>
+  hero_subtitle: Enterprise-grade e-postserver automatisering drevet av Kotlin, Docker og bevist teknologi. Distribuer komplett
+    e-post infrastruktur med en enkelt JSON konfigurasjonsfil.
+  download_btn: ⬇ Last ned siste versjon
+  github_btn: ⭐ Se på GitHub
+  stats_distributions: 12 Distribusjoner
+  stats_automated: 100% Automatisert
+  stats_production: Produksjonsklar
+  stats_enterprise: Enterprise Grade
+  stat_label_tested: Fullt testet og støttet
+  stat_label_config: Enkelt JSON Config
+  stat_label_protocols: SMTP/IMAP/POP3
+  stat_label_docker: Docker + QEMU klar
+  features_title: Hvorfor Mail Server Factory?
+  features_subtitle: Enterprise funksjoner uten enterprise kompleksitet
+  feature_zero_touch: Null-Touch Distribusjon
+  feature_docker: Docker Nativ
+  feature_security: Sikkerhet Innebygd
+  feature_tested: Kampprøvd Kode
+  feature_ssh: SSH-basert fjernkjøring
+  feature_complete: Komplett Stack
+  enterprise_title: Enterprise Funksjoner
+  enterprise_subtitle: Produksjonsklare funksjoner for enterprise e-post infrastruktur
+  enterprise_security: Avansert Sikkerhet
+  enterprise_monitoring: Overvåking og Observerbarhet
+  enterprise_config: Konfigurasjonshåndtering
+  enterprise_performance: Ytelsesoptimalisering
+  tech_stack_title: Teknologi Stack
+  tech_stack_subtitle: Drevet av bransjeledende open source teknologier
+  architecture_title: Enterprise Arkitektur
+  architecture_subtitle: Flerlagsarkitektur designet for enterprise skalerbarhet og sikkerhet
+  how_it_works_title: Hvordan det fungerer
+  how_it_works_subtitle: Tre enkle trinn til din produksjons e-postserver
+  step_configure: Konfigurer
+  step_deploy: Distribuer
+  step_use: Bruk
+  testing_title: Kvalitet og Testing
+  testing_subtitle: Omfattende testdekning sikrer pålitelighet
+  compatibility_title: Distribusjonsstøtte Matrise
+  compatibility_subtitle: Distribuer på de nyeste moderne Linux serverdistribusjoner
+  use_cases_title: Hvem bruker Mail Server Factory?
+  documentation_title: Dokumentasjon og Ressurser
+  cta_title: Klar til å distribuere din e-postserver?
+  cta_subtitle: Bli med i Mail Server Factory-fellesskapet og ta kontroll over din e-post infrastruktur i dag.
+  cta_note: Open source • Gratis for alltid • Fellesskapsstøttet
+  footer_website_maintained: Nettsted
+  footer_website_maintained_text: vedlikeholdes av
+  footer_server_factory: Server Factory
+  footer_generated_by: Denne siden ble generert av
+  footer_github_pages: GitHub Pages
+  logo_alt: Mail Server Factory logo
+  logo_alt_home: Mail Server Factory - Kjør din e-postserver som sjefen!
+  footer_opensource: Open Source • Gratis for alltid • Fellesskapsstøttet
+  architecture_application_layer: 🏗️ Applikasjonslag
+  architecture_badge_docker: Docker
+  architecture_badge_gradle: Gradle 8.14.3
+  architecture_badge_java: Java 17
+  architecture_badge_json: JSON Configuration
+  architecture_badge_kotlin: Kotlin 2.0.21
+  architecture_badge_ssh: SSH Protocol
+  architecture_benefit1: Sikkerhet Først
+  architecture_benefit1_desc: Defense-in-depth sikkerhet med enterprise-grade kryptering og overvåking
+  architecture_benefit2: Skalerbar
+  architecture_benefit2_desc: Horisontal skalering med stateless design og optimalisert ressursutnyttelse
+  architecture_benefit3: Observerbar
+  architecture_benefit3_desc: Komplett observerbarhet med metrikker, logging og helseovervåking
+  architecture_benefit4: Vedlikeholdbar
+  architecture_benefit4_desc: Hot reloading konfigurasjon og automatisert testing sikrer pålitelighet
+  architecture_benefits_title: Enterprise Fordeler
+  architecture_built_with: Bygget med moderne verktøy
+  architecture_component1: AES-256-GCM Kryptering
+  architecture_component10: Helsekontroller
+  architecture_component11: Strukturert Logging
+  architecture_component12: Varselhåndtering
+  architecture_component13: Miljøkonfigurasjoner
+  architecture_component14: Hot Reloading
+  architecture_component15: Skjemavalidering
+  architecture_component16: Hemmelighetshåndtering
+  architecture_component17: Kotlin 2.0.21
+  architecture_component18: Gradle 8.14.3
+  architecture_component19: Java 17
+  architecture_component2: Sesjonshåndtering
+  architecture_component20: JSON Configuration
+  architecture_component21: PostgreSQL
+  architecture_component22: Postfix
+  architecture_component23: Dovecot
+  architecture_component24: Rspamd
+  architecture_component25: Redis
+  architecture_component26: ClamAV
+  architecture_component3: Revisjonlogging
+  architecture_component4: TLS 1.3 Håndhevelse
+  architecture_component5: Caffeine Caching
+  architecture_component6: JVM Tuning (G1GC)
+  architecture_component7: Connection Pooling
+  architecture_component8: Async Operations
+  architecture_component9: Prometheus Metrics
+  architecture_config_layer: ⚙️ Konfigurasjonslag
+  architecture_infrastructure_layer: 🐳 Infrastrukturlag
+  architecture_monitoring_layer: 📊 Overvåkingslag
+  architecture_performance_layer: ⚡ Ytelsesslag
+  architecture_security_layer: 🔒 Sikkerhetslag
+  code_deploy_command: ./mail_factory config.json
+  code_json_example: "{\n  \"hostname\": \"mail.example.com\",\n  \"accounts\": [...],\n  \"database\": {...}\n}"
+  code_manual_install: '# Clone the repository
+
+
+    mkdir Factory && cd Factory
+
+
+    git clone --recurse-submodules git@github.com:Server-Factory/Mail-Server-Factory.git .
+
+
+
+    # Build the project
+
+
+    ./gradlew assemble
+
+
+
+    # Run with your configuration
+
+
+    ./mail_factory Examples/Centos_8.json'
+  code_ssh_setup: '# Enable passwordless SSH to target host
+
+
+    sh Core/Utils/init_ssh_access.sh your-server.local'
+  code_verify_command: 'docker ps -a  # Verify running services'
+  code_web_installer: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Server-Factory/Utils/master/web_installer.sh)"
+  compatibility_automated_desc: Alle distribusjoner er klare for automatisert testing med QEMU virtualisering. Test rammeverket
+    inkluderer ISO verifisering, automatisk installasjon og konfigurasjonsvalidering. Alle konfigurasjoner er produksjonsklare
+    og aktivt vedlikeholdt.
+  compatibility_automated_title: ✅ Automatisert Testing Tilgjengelig
+  compatibility_table_config: Konfigurasjon
+  compatibility_table_distribution: Distribusjon
+  compatibility_table_family: Distribusjonsfamilie
+  compatibility_table_tested: Testet
+  compatibility_table_version: Versjon
+  coverage_value_core: 85%+ Dekning
+  coverage_value_enterprise: 100% Dekning
+  coverage_value_factory: 85%+ Dekning
+  cta_download: Last ned nå
+  cta_github: Se på GitHub
+  distro_almalinux: AlmaLinux
+  distro_almalinux_versions: '9.5'
+  distro_debian: Debian
+  distro_debian_versions: 11 (Bullseye), 12 (Bookworm)
+  distro_fedora: Fedora Server
+  distro_fedora_versions: 38, 39, 40, 41
+  distro_opensuse: openSUSE Leap
+  distro_opensuse_versions: '15.6'
+  distro_rhel: Red Hat Enterprise Linux
+  distro_rhel_versions: '9'
+  distro_rocky: Rocky Linux
+  distro_rocky_versions: '9.5'
+  distro_ubuntu: Ubuntu Server
+  distro_ubuntu_versions: 22.04 LTS, 24.04 LTS
+  doc_configuration: Konfigurasjon
+  doc_configuration_desc: Enterprise konfigurasjonsfiler og miljøoppsett
+  doc_enterprise: Enterprise Guide
+  doc_enterprise_desc: Sikkerhet, ytelse og konfigurasjonsstandarder
+  doc_examples: Eksempler
+  doc_examples_desc: Eksempel konfigurasjoner for enterprise distribusjoner
+  doc_issues: Issues
+  doc_issues_desc: Rapporter feil eller be om enterprise funksjoner
+  doc_readme: README
+  doc_readme_desc: Komplett prosjektoversikt med enterprise funksjoner
+  doc_testing: Testing Guide
+  doc_testing_desc: Enterprise testing med 85%+ dekningsdokumentasjon
+  enterprise_config_desc: Avansert konfigurasjonssystem med miljøstøtte, hot reloading og enterprise validering.
+  enterprise_config_item1: Multi-miljø konfigurasjoner
+  enterprise_config_item2: Hot reloading uten omstart
+  enterprise_config_item3: Skjemavalidering og feilrapportering
+  enterprise_config_item4: Sikker hemmelighetshåndtering
+  enterprise_monitoring_desc: Komplett overvåkingsløsning med Prometheus metrikker, helsekontroller, strukturert logging og
+    enterprise varsling.
+  enterprise_monitoring_item1: Prometheus-kompatibel metrikk endepunkt
+  enterprise_monitoring_item2: Automatiserte helsekontroller
+  enterprise_monitoring_item3: Strukturert logging med korrelasjons-IDer
+  enterprise_monitoring_item4: Sanntids ytelsesovervåking
+  enterprise_performance_desc: Enterprise-skala ytelse med avansert caching, JVM tuning og optimalisert ressursutnyttelse.
+  enterprise_performance_item1: Caffeine-basert multi-region caching
+  enterprise_performance_item2: JVM ytelsestuning (G1GC)
+  enterprise_performance_item3: Database connection pooling
+  enterprise_performance_item4: Async I/O operasjoner
+  enterprise_security_desc: Enterprise-grade sikkerhet med AES-256-GCM kryptering, omfattende revisjonlogging, sesjonshåndtering
+    og TLS 1.3 håndhevelse.
+  enterprise_security_item1: AES-256-GCM kryptering for data i ro
+  enterprise_security_item2: Enterprise passordpolicyer
+  enterprise_security_item3: Sanntids sikkerhetsovervåking
+  enterprise_security_item4: 90-dagers revisjonlogg oppbevaring
+  feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis og ClamAV forhåndskonfigurert og fungerer sammen sømløst.
+  feature_docker_desc: Hver komponent kjører i sin egen Docker container, som sikrer isolasjon, skalerbarhet og enkel håndtering.
+    Distribuer på enhver Docker-kapabel vert.
+  feature_security_desc: Automatisk TLS sertifikatgenerering med selvlignede CA, SSH-nøkkelbasert autentisering og bransjestandarder
+    for sikkerhetspraksis ut av boksen.
+  feature_ssh_desc: Distribuer til fjernservere via SSH med connection pooling, automatiske filoverføringer og robust feilhåndtering.
+  feature_tested_desc: 100% test utførelsessuksessrate med 47 omfattende tester. Hver komponent er validert før utgivelse.
+  feature_zero_touch_desc: Skriv en enkel JSON konfigurasjonsfil og la Mail Server Factory håndtere alt - fra installasjon
+    til initialisering. Ingen manuell konfigurasjon nødvendig.
+  hero_badge_automated: Automatisert Installasjon
+  hero_badge_distribution: Multi-Distribusjon
+  hero_badge_enterprise: Enterprise Grade
+  hero_badge_testing: Omfattende Testing
+  launcher_command_debug: Aktiver verbose debugging output
+  launcher_command_dry_run: Vis kommando uten å kjøre
+  launcher_command_help: Vis hjelpemelding
+  launcher_command_home: Egendefinert installasjonshjem katalog
+  launcher_command_jar: Overstyr JAR plassering
+  launcher_command_version: Vis versjonsinformasjon
+  launcher_commands_title: Launcher Alternativer
+  launcher_feature1: Automatisk JAR Oppdagelse
+  launcher_feature1_desc: Søker 7 standardplasseringer for Application JAR
+  launcher_feature2: Java Deteksjon
+  launcher_feature2_desc: Finner Java runtime og validerer versjon (minimum Java 17)
+  launcher_feature3: Miljøvariabler
+  launcher_feature3_desc: Støtter JAVA_OPTS, JAVA_HOME, MAIL_FACTORY_HOME
+  launcher_feature4: 41 Test Cases
+  launcher_feature4_desc: Omfattende testsuite validerer all launcher funksjonalitet
+  launcher_subtitle: Produksjonsklar bash wrapper med enterprise-grade feilhåndtering
+  launcher_title: Launcher Funksjoner
+  quick_start_manual_install: Manuell Installasjon
+  quick_start_ssh_setup: Sett opp SSH Tilgang
+  quick_start_title: Rask Start
+  quick_start_web_installer: Web Installer (Anbefalt)
+  step_configure_desc: Opprett en JSON konfigurasjonsfil som spesifiserer dine e-postserver detaljer, kontoer og målvert.
+  step_deploy_desc: Kjør mail_factory launcher med din konfigurasjon. Lene tilbake mens den installerer og konfigurerer alt.
+  step_number1: '1'
+  step_number2: '2'
+  step_number3: '3'
+  step_use_desc: Koble til e-postklientene dine til den distribuerte serveren. Alle tjenester kjører, er konfigurert og klare
+    til å håndtere e-post.
+  table_config_almalinux9: Examples/AlmaLinux_9.json
+  table_config_debian11: Examples/Debian_11.json
+  table_config_debian12: Examples/Debian_12.json
+  table_config_fedora38: Examples/Fedora_Server_38.json
+  table_config_fedora39: Examples/Fedora_Server_39.json
+  table_config_fedora40: Examples/Fedora_Server_40.json
+  table_config_fedora41: Examples/Fedora_Server_41.json
+  table_config_opensuse15: Examples/openSUSE_Leap_15.json
+  table_config_rhel9: Examples/RHEL_9.json
+  table_config_rocky9: Examples/Rocky_9.json
+  table_config_ubuntu22: Examples/Ubuntu_22.json
+  table_config_ubuntu24: Examples/Ubuntu_24.json
+  table_version_almalinux95: '9.5'
+  table_version_debian11: 11 (Bullseye)
+  table_version_debian12: 12 (Bookworm)
+  table_version_fedora38: '38'
+  table_version_fedora39: '39'
+  table_version_fedora40: '40'
+  table_version_fedora41: '41'
+  table_version_opensuse156: '15.6'
+  table_version_rhel9: '9'
+  table_version_rocky95: '9.5'
+  table_version_ubuntu22: 22.04 LTS (Jammy)
+  table_version_ubuntu24: 24.04 LTS (Noble)
+  tech_clamav: ClamAV
+  tech_clamav_desc: Anti-Virus
+  tech_dovecot: Dovecot
+  tech_dovecot_desc: IMAP/POP3 Server
+  tech_postfix: Postfix
+  tech_postfix_desc: SMTP Server
+  tech_postgresql: PostgreSQL
+  tech_postgresql_desc: Hoved Database
+  tech_redis: Redis
+  tech_redis_desc: Cache Lag
+  tech_rspamd: Rspamd
+  tech_rspamd_desc: Anti-Spam Motor
+  test_stat_value_coverage: 85%+
+  test_stat_value_smells: '0'
+  test_stat_value_success: 100%
+  test_stat_value_total: '47'
+  testing_coverage_core: Core Framework
+  testing_coverage_enterprise: Enterprise Funksjoner
+  testing_coverage_factory: Factory Modul
+  testing_coverage_title: Test Dekning etter Modul
+  testing_stat_coverage: Dekning
+  testing_stat_smells: Code Smells
+  testing_stat_success: Suksessrate
+  testing_stat_total: Totalt Tester
+  use_case1: 🏢 Små Bedrifter
+  use_case1_desc: Eie din e-post infrastruktur uten leverandør lock-in. Full kontroll over data og personvern.
+  use_case2: 👨‍💻 DevOps Ingeniører
+  use_case2_desc: Automatiser e-postserver distribusjoner på tvers av flere miljøer med konsistent konfigurasjon.
+  use_case3: 🔐 Personvernbevisste Organisasjoner
+  use_case3_desc: Hold e-postdata on-premises med full kontroll over sikkerhet og compliance.
+  use_case4: 🎓 Utdanningsinstitusjoner
+  use_case4_desc: Distribuer kostnadseffektive e-postservere for studenter og ansatte med minimal vedlikehold.
+  page_description: Distribuer produksjonsklar e-postserver infrastruktur uten trøbbel
+  theme_toggle: Veksle tema
+  select_language: Velg språk
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 sv:
   tech_stack_subtitle: Drivs av ledande open source-teknologier
   table_config_rocky9: Examples/Rocky_9.json
@@ -3094,6 +3455,12 @@ sv:
   hero_badge_testing: Comprehensive Testing
   enterprise_monitoring: Övervakning och observerbarhet
   table_config_ubuntu24: Examples/Ubuntu_24.json
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 is:
   tech_stack_subtitle: Knúið af leiðandi opnum hugbúnaðartækni
   table_config_rocky9: Examples/Rocky_9.json
@@ -3379,6 +3746,12 @@ is:
   hero_badge_testing: Comprehensive Testing
   enterprise_monitoring: Eftirlit og yfirsýn
   table_config_ubuntu24: Examples/Ubuntu_24.json
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 bg:
   tech_stack_subtitle: Задвижвано от водещи технологии с отворен код
   table_config_rocky9: Examples/Rocky_9.json
@@ -3669,6 +4042,12 @@ bg:
   hero_badge_testing: Comprehensive Testing
   enterprise_monitoring: Мониторинг и наблюдаемост
   table_config_ubuntu24: Examples/Ubuntu_24.json
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 ro:
   tech_stack_subtitle: Alimentat de tehnologii open source de top
   table_config_rocky9: Examples/Rocky_9.json
@@ -3960,6 +4339,12 @@ ro:
   hero_badge_testing: Comprehensive Testing
   enterprise_monitoring: Monitorizare și observabilitate
   table_config_ubuntu24: Examples/Ubuntu_24.json
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 hu:
   tech_stack_subtitle: Meghajtva vezető nyílt forráskódú technológiákkal
   table_config_rocky9: Examples/Rocky_9.json
@@ -4250,6 +4635,12 @@ hu:
   hero_badge_testing: Comprehensive Testing
   enterprise_monitoring: Monitorozás és megfigyelhetőség
   table_config_ubuntu24: Examples/Ubuntu_24.json
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 it:
   tech_stack_subtitle: Alimentato da tecnologie open source leader
   table_config_rocky9: Examples/Rocky_9.json
@@ -4417,7 +4808,7 @@ it:
   compatibility_subtitle: Distribuire on the ultimo moderno Linux server distribuzioni
   architecture_benefit2: Scalable
   testing_stat_success: Success Rate
-  logo_alt_home: Posta Server Fabbrica - Esegui il tuo posta server like the boss!
+  logo_alt_home: Mail Server Factory - Esegui il tuo posta server like the boss!
   code_verify_command: 'docker ps -a # Verify running services'
   doc_testing: Test Guide
   enterprise_config_item2: Hot reloading senza restart
@@ -4490,7 +4881,7 @@ it:
   testing_stat_total: Total Tests
   table_config_debian12: Examples/Debian_12.json
   distro_rhel_versions: '9'
-  code_json_example: '{ "hostname": "mail.example.com", "accounts": [...], "database": {...} }'
+  code_json_example: "{\n  \"hostname\": \"mail.example.com\",\n  \"accounts\": [...],\n  \"database\": {...}\n}"
   tech_rspamd: Rspamd
   architecture_component14: Hot Reloading
   testing_coverage_title: Test Coverage by Module
@@ -4523,6 +4914,12 @@ it:
   hero_badge_testing: Completo Test
   enterprise_monitoring: Monitoraggio & Osservabilità
   table_config_ubuntu24: Examples/Ubuntu_24.json
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 el:
   tech_stack_subtitle: Powered by industry-leading open source technologies
   table_config_rocky9: Examples/Rocky_9.json
@@ -4809,6 +5206,12 @@ el:
   hero_badge_testing: Comprehensive Testing
   enterprise_monitoring: Monitoring & Observability
   table_config_ubuntu24: Examples/Ubuntu_24.json
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 he:
   tech_stack_subtitle: Powered by industry-leading open source technologies
   table_config_rocky9: Examples/Rocky_9.json
@@ -5094,6 +5497,12 @@ he:
   hero_badge_testing: Comprehensive Testing
   enterprise_monitoring: Monitoring & Observability
   table_config_ubuntu24: Examples/Ubuntu_24.json
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 ka:
   tech_stack_subtitle: Powered by industry-leading open source technologies
   table_config_rocky9: Examples/Rocky_9.json
@@ -5380,6 +5789,12 @@ ka:
   hero_badge_testing: Comprehensive Testing
   enterprise_monitoring: Monitoring & Observability
   table_config_ubuntu24: Examples/Ubuntu_24.json
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 kk:
   tech_stack_subtitle: Powered by industry-leading open source technologies
   table_config_rocky9: Examples/Rocky_9.json
@@ -5666,6 +6081,12 @@ kk:
   hero_badge_testing: Comprehensive Testing
   enterprise_monitoring: Monitoring & Observability
   table_config_ubuntu24: Examples/Ubuntu_24.json
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 uz:
   tech_stack_subtitle: Powered by industry-leading open source technologies
   table_config_rocky9: Examples/Rocky_9.json
@@ -5952,6 +6373,12 @@ uz:
   hero_badge_testing: Comprehensive Testing
   enterprise_monitoring: Monitoring & Observability
   table_config_ubuntu24: Examples/Ubuntu_24.json
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 tg:
   tech_stack_subtitle: Powered by industry-leading open source technologies
   table_config_rocky9: Examples/Rocky_9.json
@@ -6238,6 +6665,12 @@ tg:
   hero_badge_testing: Comprehensive Testing
   enterprise_monitoring: Monitoring & Observability
   table_config_ubuntu24: Examples/Ubuntu_24.json
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 tr:
   tech_stack_subtitle: Powered by industry-leading open source technologies
   table_config_rocky9: Examples/Rocky_9.json
@@ -6523,6 +6956,12 @@ tr:
   hero_badge_testing: Comprehensive Testing
   enterprise_monitoring: Monitoring & Observability
   table_config_ubuntu24: Examples/Ubuntu_24.json
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 be:
   hero_title: Запусціце свой поштавы сервер <span class="highlight">Як Бос</span>
   hero_subtitle: Аўтаматызацыя поштавых сервераў карпаратыўнага ўзроўню на базе Kotlin, Docker і правяраных тэхналогій. Разгортвайце
@@ -6811,6 +7250,13 @@ be:
   page_description: Deploy production-ready mail server infrastructure with zero hassle
   theme_toggle: Toggle theme
   select_language: Select language
+  enterprise_performance_desc: Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 fa:
   hero_title: سرور ایمیل خود را <span class="highlight">مثل رئیس</span> اجرا کنید
   hero_subtitle: اتوماسیون سرور ایمیل در سطح سازمانی با قدرت Kotlin، Docker و فناوری‌های اثبات شده. زیرساخت کامل ایمیل را
@@ -7096,6 +7542,13 @@ fa:
   page_description: Deploy production-ready mail server infrastructure with zero hassle
   theme_toggle: Toggle theme
   select_language: Select language
+  enterprise_performance_desc: Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 ar:
   hero_title: شغل خادم البريد الخاص بك <span class="highlight">مثل الرئيس</span>
   hero_subtitle: أتمتة خادم البريد على مستوى المؤسسة مدعومة بـ Kotlin و Docker والتكنولوجيا المثبتة. انشر البنية التحتية الكاملة
@@ -7379,6 +7832,13 @@ ar:
   page_description: Deploy production-ready mail server infrastructure with zero hassle
   theme_toggle: Toggle theme
   select_language: Select language
+  enterprise_performance_desc: Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 ko:
   hero_title: 메일 서버를 <span class="highlight">보스처럼</span> 운영하세요
   hero_subtitle: Kotlin, Docker, 검증된 기술로 구동되는 엔터프라이즈급 메일 서버 자동화. 단일 JSON 구성 파일로 완전한 메일 인프라를 배포하세요.
@@ -7657,6 +8117,13 @@ ko:
   page_description: Deploy production-ready mail server infrastructure with zero hassle
   theme_toggle: Toggle theme
   select_language: Select language
+  enterprise_performance_desc: Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'
 sr:
   hero_title: Покрените свој мејл сервер <span class="highlight">Као Шеф</span>
   hero_subtitle: Аутоматизација мејл сервера на нивоу предузећа покретана Kotlin-ом, Docker-ом и провереном технологијом.
@@ -7944,3 +8411,10 @@ sr:
   page_description: Deploy production-ready mail server infrastructure with zero hassle
   theme_toggle: Toggle theme
   select_language: Select language
+  enterprise_performance_desc: Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.
+  testing_run_command: 'Run tests: ./gradlew test'
+  table_family_debian: Debian
+  table_family_rhel: RHEL
+  table_family_suse: SUSE
+  compatibility_note: 'Note: SELinux enforcing mode is not currently supported. All distributions have been tested with SELinux
+    in permissive mode or disabled.'

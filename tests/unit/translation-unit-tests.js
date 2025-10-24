@@ -272,11 +272,33 @@ suite.test('Code samples remain in English', function() {
                 const enValue = this.translations.en[key];
                 const langValue = langData[key];
 
-                // Code should be identical or very similar
-                this.assertTrue(
-                    langValue.includes('./mail_factory') || langValue.includes('docker') || langValue.includes('sh '),
-                    `${lang}.${key} should contain command-line code`
-                );
+                // Different validation per code type
+                if (key === 'code_json_example') {
+                    // JSON should be identical
+                    this.assertEquals(
+                        langValue,
+                        enValue,
+                        `${lang}.${key} JSON should be identical to English`
+                    );
+                } else if (key === 'code_deploy_command') {
+                    // Should contain the command
+                    this.assertTrue(
+                        langValue.includes('./mail_factory'),
+                        `${lang}.${key} should contain './mail_factory' command`
+                    );
+                } else if (key === 'code_verify_command') {
+                    // Should contain docker command
+                    this.assertTrue(
+                        langValue.includes('docker'),
+                        `${lang}.${key} should contain 'docker' command`
+                    );
+                } else if (key === 'code_ssh_setup') {
+                    // Should contain shell command
+                    this.assertTrue(
+                        langValue.includes('sh ') || langValue.includes('.sh'),
+                        `${lang}.${key} should contain shell command`
+                    );
+                }
             }
         }
     }
