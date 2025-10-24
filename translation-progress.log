@@ -1,0 +1,141 @@
+🚀 Starting comprehensive translation...
+
+
+============================================================
+🌍 Processing RU...
+============================================================
+
+  🔄 Translating: stat_label_protocols
+     EN: SMTP/IMAP/POP3
+  ✗ Failed to translate stat_label_protocols: All translation strategies failed for "SMTP/IMAP/POP3" to ru
+  ⊘ Technical key skipped: architecture_component21
+  ⊘ Technical key skipped: code_deploy_command
+  ⊘ Technical key skipped: code_web_installer
+  ⊘ Too short, skipped: distro_rhel_versions
+
+  🔄 Translating: hero_badge_distribution
+     EN: Multi-Distribution
+  ✗ Failed to translate hero_badge_distribution: All translation strategies failed for "Multi-Distribution" to ru
+  ⊘ Technical key skipped: step_number1
+  ⊘ Technical key skipped: step_number2
+  ⊘ Technical key skipped: step_number3
+  ⊘ Technical key skipped: table_version_almalinux95
+  ⊘ Technical key skipped: table_version_fedora38
+  ⊘ Technical key skipped: table_version_fedora39
+  ⊘ Technical key skipped: table_version_fedora40
+  ⊘ Technical key skipped: table_version_fedora41
+  ⊘ Technical key skipped: table_version_rhel9
+  ⊘ Technical key skipped: table_version_rocky95
+  ⊘ Technical key skipped: table_version_ubuntu22
+  ⊘ Technical key skipped: table_version_ubuntu24
+  ⊘ Technical key skipped: tech_dovecot
+  ⊘ Technical key skipped: tech_postgresql
+  ⊘ Technical key skipped: tech_redis
+  ⊘ Technical key skipped: tech_rspamd
+  ⊘ Technical key skipped: test_stat_value_smells
+  ⊘ Technical key skipped: test_stat_value_success
+  ⊘ Technical key skipped: test_stat_value_total
+
+  🔄 Translating: use_case2
+     EN: 👨‍💻 DevOps Engineers
+  ✗ Failed to translate use_case2: All translation strategies failed for "👨‍💻 DevOps Engineers" to ru
+
+  ✅ RU Summary:
+     Translated: 0
+     Skipped: 23
+     Failed: 3
+  💾 Saved all ru translations
+
+============================================================
+🌍 Processing ZH...
+============================================================
+
+  🔄 Translating: stat_label_protocols
+     EN: SMTP/IMAP/POP3
+  ✗ Failed to translate stat_label_protocols: All translation strategies failed for "SMTP/IMAP/POP3" to zh
+
+  🔄 Translating: architecture_badge_docker
+     EN: Docker
+  ✗ Failed to translate architecture_badge_docker: All translation strategies failed for "Docker" to zh
+
+  🔄 Translating: architecture_badge_kotlin
+     EN: Kotlin 2.0.21
+  ✗ Failed to translate architecture_badge_kotlin: All translation strategies failed for "Kotlin 2.0.21" to zh
+  ⊘ Technical key skipped: architecture_component17
+  ⊘ Technical key skipped: architecture_component18
+  ⊘ Technical key skipped: architecture_component19
+  ⊘ Technical key skipped: architecture_component21
+  ⊘ Technical key skipped: architecture_component24
+  ⊘ Technical key skipped: code_deploy_command
+  ⊘ Technical key skipped: distro_opensuse
+
+  🔄 Translating: distro_opensuse_versions
+     EN: 15.6
+  ✗ Failed to translate distro_opensuse_versions: All translation strategies failed for "15.6" to zh
+  ⊘ Technical key skipped: distro_rocky
+  ⊘ Technical key skipped: step_number1
+  ⊘ Technical key skipped: step_number2
+  ⊘ Technical key skipped: step_number3
+  ⊘ Technical key skipped: table_version_almalinux95
+  ⊘ Technical key skipped: table_version_fedora38
+  ⊘ Technical key skipped: table_version_fedora40
+  ⊘ Technical key skipped: table_version_opensuse156
+  ⊘ Technical key skipped: table_version_rhel9
+  ⊘ Technical key skipped: table_version_rocky95
+  ⊘ Technical key skipped: tech_clamav
+  ⊘ Technical key skipped: tech_rspamd
+  ⊘ Technical key skipped: test_stat_value_success
+  ⊘ Technical key skipped: test_stat_value_total
+
+  ✅ ZH Summary:
+     Translated: 0
+     Skipped: 21
+     Failed: 4
+  💾 Saved all zh translations
+
+============================================================
+🌍 Processing HI...
+============================================================
+
+  🔄 Translating: stat_label_protocols
+     EN: SMTP/IMAP/POP3
+  ✗ Failed to translate stat_label_protocols: All translation strategies failed for "SMTP/IMAP/POP3" to hi
+
+  🔄 Translating: testing_title
+     EN: Quality & Testing
+  ✗ Failed to translate testing_title: All translation strategies failed for "Quality & Testing" to hi
+
+  🔄 Translating: testing_subtitle
+     EN: Comprehensive test coverage ensures reliability
+  ✗ Failed to translate testing_subtitle: All translation strategies failed for "Comprehensive test coverage ensures reliability" to hi
+
+  🔄 Translating: compatibility_title
+     EN: Distribution Support Matrix
+  ✗ Failed to translate compatibility_title: All translation strategies failed for "Distribution Support Matrix" to hi
+
+  🔄 Translating: compatibility_subtitle
+     EN: Deploy on the latest modern Linux server distributions
+  ✗ Failed to translate compatibility_subtitle: All translation strategies failed for "Deploy on the latest modern Linux server distributions" to hi
+
+  🔄 Translating: use_cases_title
+     EN: Who Uses Mail Server Factory?
+  ✗ Failed to translate use_cases_title: All translation strategies failed for "Who Uses Mail Server Factory?" to hi
+
+  🔄 Translating: documentation_title
+     EN: Documentation & Resources
+  ✗ Failed to translate documentation_title: All translation strategies failed for "Documentation & Resources" to hi
+
+  🔄 Translating: cta_title
+     EN: Ready to Deploy Your Mail Server?
+  ✗ Failed to translate cta_title: All translation strategies failed for "Ready to Deploy Your Mail Server?" to hi
+
+  🔄 Translating: cta_subtitle
+     EN: Join the Mail Server Factory community and take control of your email infrastructure today.
+  ✗ Failed to translate cta_subtitle: All translation strategies failed for "Join the Mail Server Factory community and take control of your email infrastructure today." to hi
+
+  🔄 Translating: cta_note
+     EN: Open source • Free forever • Community supported
+  ✗ Failed to translate cta_note: All translation strategies failed for "Open source • Free forever • Community supported" to hi
+
+  🔄 Translating: footer_website_maintained
+     EN: Website
