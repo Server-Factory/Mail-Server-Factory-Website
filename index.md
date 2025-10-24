@@ -4,95 +4,6 @@ title: Mail Server Factory - Enterprise Mail Server Automation
 description_key: page_description
 ---
 
-<section class="completion-banner">
-  <div class="container">
-    <div class="completion-content">
-      <div class="completion-badge">🎯 100% COMPLETE</div>
-      <h2 class="completion-title" data-i18n="completion_title">All Features Enabled - Production Ready</h2>
-      <div class="completion-features">
-        <div class="completion-feature">
-          <span class="feature-icon">✅</span>
-          <span class="feature-text" data-i18n="completion_feature1">12 Connection Types</span>
-        </div>
-        <div class="completion-feature">
-          <span class="feature-icon">✅</span>
-          <span class="feature-text" data-i18n="completion_feature2">Complete Security Framework</span>
-        </div>
-        <div class="completion-feature">
-          <span class="feature-icon">✅</span>
-          <span class="feature-text" data-i18n="completion_feature3">317 Tests (211 Passing)</span>
-        </div>
-        <div class="completion-feature">
-          <span class="feature-icon">✅</span>
-          <span class="feature-text" data-i18n="completion_feature4">Zero Compilation Errors</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<style>
-.completion-banner {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  padding: 2rem 0;
-  margin-bottom: 0;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-}
-
-.completion-content {
-  text-align: center;
-}
-
-.completion-badge {
-  display: inline-block;
-  background: rgba(255, 255, 255, 0.2);
-  padding: 0.5rem 1.5rem;
-  border-radius: 50px;
-  font-weight: 700;
-  font-size: 1.25rem;
-  margin-bottom: 1rem;
-  backdrop-filter: blur(10px);
-}
-
-.completion-title {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 1.5rem;
-  color: white;
-}
-
-.completion-features {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-
-.completion-feature {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 1rem;
-  font-weight: 500;
-}
-
-.feature-icon {
-  font-size: 1.5rem;
-}
-
-@media (max-width: 768px) {
-  .completion-title {
-    font-size: 1.5rem;
-  }
-
-  .completion-features {
-    flex-direction: column;
-    gap: 1rem;
-  }
-}
-</style>
-
 <section class="hero">
   <div class="hero-content">
     <div class="hero-badge">
@@ -527,6 +438,7 @@ description_key: page_description
     <h2 class="section-title" data-i18n="compatibility_title"></h2>
     <p class="section-subtitle" data-i18n="compatibility_subtitle"></p>
 
+    <h3 class="section-subtitle" style="margin: 3rem 0 2rem 0; text-align: center;" data-i18n="distro_section_western">🌍 Western Distributions</h3>
     <div class="os-grid">
       <div class="os-card">
         <div class="os-icon">🟠</div>
@@ -559,109 +471,240 @@ description_key: page_description
         <p data-i18n="distro_rhel_versions"></p>
       </div>
       <div class="os-card">
+        <div class="os-icon">⚙️</div>
+        <h4 data-i18n="distro_centos"></h4>
+        <p data-i18n="distro_centos_versions"></p>
+      </div>
+      <div class="os-card">
         <div class="os-icon">🦎</div>
         <h4 data-i18n="distro_opensuse"></h4>
         <p data-i18n="distro_opensuse_versions"></p>
       </div>
     </div>
 
+    <h3 class="section-subtitle" style="margin: 3rem 0 2rem 0; text-align: center;" data-i18n="distro_section_russian">🇷🇺 Russian Distributions</h3>
+    <div class="os-grid">
+      <div class="os-card">
+        <div class="os-icon">🟣</div>
+        <h4 data-i18n="distro_altlinux"></h4>
+        <p data-i18n="distro_altlinux_versions"></p>
+      </div>
+      <div class="os-card">
+        <div class="os-icon">🔷</div>
+        <h4 data-i18n="distro_astra"></h4>
+        <p data-i18n="distro_astra_versions"></p>
+      </div>
+      <div class="os-card">
+        <div class="os-icon">🌹</div>
+        <h4 data-i18n="distro_rosa"></h4>
+        <p data-i18n="distro_rosa_versions"></p>
+      </div>
+    </div>
+
+    <h3 class="section-subtitle" style="margin: 3rem 0 2rem 0; text-align: center;" data-i18n="distro_section_chinese">🇨🇳 Chinese Distributions</h3>
+    <div class="os-grid">
+      <div class="os-card">
+        <div class="os-icon">🟡</div>
+        <h4 data-i18n="distro_openeuler"></h4>
+        <p data-i18n="distro_openeuler_versions"></p>
+      </div>
+      <div class="os-card">
+        <div class="os-icon">🔵</div>
+        <h4 data-i18n="distro_openkylin"></h4>
+        <p data-i18n="distro_openkylin_versions"></p>
+      </div>
+      <div class="os-card">
+        <div class="os-icon">🟢</div>
+        <h4 data-i18n="distro_deepin"></h4>
+        <p data-i18n="distro_deepin_versions"></p>
+      </div>
+    </div>
+
     <div style="margin-top: 3rem;">
       <h3 class="section-subtitle" style="margin-bottom: 2rem;" data-i18n="compatibility_table_family"></h3>
 
-      <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-        <thead style="background: linear-gradient(120deg, var(--logo-black), var(--logo-gray-dark)); color: white;">
+      <table class="distro-table">
+        <thead>
           <tr>
-            <th style="padding: 1rem; text-align: left; border-bottom: 2px solid var(--logo-gold);" data-i18n="compatibility_table_family"></th>
-            <th style="padding: 1rem; text-align: left; border-bottom: 2px solid var(--logo-gold);" data-i18n="compatibility_table_distribution"></th>
-            <th style="padding: 1rem; text-align: left; border-bottom: 2px solid var(--logo-gold);" data-i18n="compatibility_table_version"></th>
-            <th style="padding: 1rem; text-align: center; border-bottom: 2px solid var(--logo-gold);" data-i18n="compatibility_table_tested"></th>
-            <th style="padding: 1rem; text-align: left; border-bottom: 2px solid var(--logo-gold);" data-i18n="compatibility_table_config"></th>
+            <th data-i18n="compatibility_table_family"></th>
+            <th data-i18n="compatibility_table_distribution"></th>
+            <th data-i18n="compatibility_table_version"></th>
+            <th class="text-center" data-i18n="compatibility_table_tested"></th>
+            <th data-i18n="compatibility_table_config"></th>
           </tr>
         </thead>
         <tbody>
-          <tr style="border-bottom: 1px solid #e1e4e8;">
-            <td style="padding: 1rem;" rowspan="2" data-i18n="table_family_debian"></td>
-            <td style="padding: 1rem;" data-i18n="distro_ubuntu"></td>
-            <td style="padding: 1rem;" data-i18n="table_version_ubuntu22"></td>
-            <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code data-i18n="table_config_ubuntu22"></code></td>
-          </tr>
-          <tr style="border-bottom: 1px solid #e1e4e8;">
-            <td style="padding: 1rem;" data-i18n="distro_ubuntu"></td>
-            <td style="padding: 1rem;" data-i18n="table_version_ubuntu24"></td>
-            <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code data-i18n="table_config_ubuntu24"></code></td>
-          </tr>
-          <tr style="border-bottom: 1px solid #e1e4e8;">
-            <td style="padding: 1rem;" rowspan="2" data-i18n="distro_debian"></td>
-            <td style="padding: 1rem;" data-i18n="distro_debian"></td>
-            <td style="padding: 1rem;" data-i18n="table_version_debian11"></td>
-            <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code data-i18n="table_config_debian11"></code></td>
-          </tr>
-          <tr style="border-bottom: 1px solid #e1e4e8;">
-            <td style="padding: 1rem;" data-i18n="distro_debian"></td>
-            <td style="padding: 1rem;" data-i18n="table_version_debian12"></td>
-            <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code data-i18n="table_config_debian12"></code></td>
-          </tr>
-          <tr style="border-bottom: 1px solid #e1e4e8;">
-            <td style="padding: 1rem;" rowspan="7" data-i18n="table_family_rhel"></td>
-            <td style="padding: 1rem;" data-i18n="distro_rhel"></td>
-            <td style="padding: 1rem;" data-i18n="table_version_rhel9"></td>
-            <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code data-i18n="table_config_rhel9"></code></td>
-          </tr>
-          <tr style="border-bottom: 1px solid #e1e4e8;">
-            <td style="padding: 1rem;" data-i18n="distro_almalinux"></td>
-            <td style="padding: 1rem;" data-i18n="table_version_almalinux95"></td>
-            <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code data-i18n="table_config_almalinux9"></code></td>
-          </tr>
-          <tr style="border-bottom: 1px solid #e1e4e8;">
-            <td style="padding: 1rem;" data-i18n="distro_rocky"></td>
-            <td style="padding: 1rem;" data-i18n="table_version_rocky95"></td>
-            <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code data-i18n="table_config_rocky9"></code></td>
-          </tr>
-          <tr style="border-bottom: 1px solid #e1e4e8;">
-            <td style="padding: 1rem;" data-i18n="distro_fedora"></td>
-            <td style="padding: 1rem;" data-i18n="table_version_fedora38"></td>
-            <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code data-i18n="table_config_fedora38"></code></td>
-          </tr>
-          <tr style="border-bottom: 1px solid #e1e4e8;">
-            <td style="padding: 1rem;" data-i18n="distro_fedora"></td>
-            <td style="padding: 1rem;" data-i18n="table_version_fedora39"></td>
-            <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code data-i18n="table_config_fedora39"></code></td>
-          </tr>
-          <tr style="border-bottom: 1px solid #e1e4e8;">
-            <td style="padding: 1rem;" data-i18n="distro_fedora"></td>
-            <td style="padding: 1rem;" data-i18n="table_version_fedora40"></td>
-            <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code data-i18n="table_config_fedora40"></code></td>
-          </tr>
-          <tr style="border-bottom: 1px solid #e1e4e8;">
-            <td style="padding: 1rem;" data-i18n="distro_fedora"></td>
-            <td style="padding: 1rem;" data-i18n="table_version_fedora41"></td>
-            <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code data-i18n="table_config_fedora41"></code></td>
+          <!-- Debian Family -->
+          <tr>
+            <td rowspan="7" data-i18n="table_family_debian"></td>
+            <td data-i18n="distro_ubuntu"></td>
+            <td data-i18n="table_version_ubuntu25"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_ubuntu25"></code></td>
           </tr>
           <tr>
-            <td style="padding: 1rem;" data-i18n="table_family_suse"></td>
-            <td style="padding: 1rem;" data-i18n="distro_opensuse"></td>
-            <td style="padding: 1rem;" data-i18n="table_version_opensuse156"></td>
-            <td style="padding: 1rem; text-align: center;">✅</td>
-            <td style="padding: 1rem;"><code data-i18n="table_config_opensuse15"></code></td>
+            <td data-i18n="distro_ubuntu"></td>
+            <td data-i18n="table_version_ubuntu24"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_ubuntu24"></code></td>
+          </tr>
+          <tr>
+            <td data-i18n="distro_ubuntu"></td>
+            <td data-i18n="table_version_ubuntu22"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_ubuntu22"></code></td>
+          </tr>
+          <tr>
+            <td data-i18n="distro_debian"></td>
+            <td data-i18n="table_version_debian12"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_debian12"></code></td>
+          </tr>
+          <tr>
+            <td data-i18n="distro_debian"></td>
+            <td data-i18n="table_version_debian11"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_debian11"></code></td>
+          </tr>
+          <tr>
+            <td data-i18n="distro_astra"></td>
+            <td data-i18n="table_version_astra_ce212"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_astra_ce212"></code></td>
+          </tr>
+          <tr>
+            <td data-i18n="distro_deepin"></td>
+            <td data-i18n="table_version_deepin23"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_deepin23"></code></td>
+          </tr>
+
+          <!-- RHEL Family -->
+          <tr>
+            <td rowspan="13" data-i18n="table_family_rhel"></td>
+            <td data-i18n="distro_rhel"></td>
+            <td data-i18n="table_version_rhel9"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_rhel9"></code></td>
+          </tr>
+          <tr>
+            <td data-i18n="distro_centos"></td>
+            <td data-i18n="table_version_centos_stream9"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_centos_stream"></code></td>
+          </tr>
+          <tr>
+            <td data-i18n="distro_centos"></td>
+            <td data-i18n="table_version_centos8"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_centos8"></code></td>
+          </tr>
+          <tr>
+            <td data-i18n="distro_centos"></td>
+            <td data-i18n="table_version_centos7"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_centos7"></code></td>
+          </tr>
+          <tr>
+            <td data-i18n="distro_almalinux"></td>
+            <td data-i18n="table_version_almalinux9"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_almalinux9"></code></td>
+          </tr>
+          <tr>
+            <td data-i18n="distro_rocky"></td>
+            <td data-i18n="table_version_rocky9"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_rocky9"></code></td>
+          </tr>
+          <tr>
+            <td data-i18n="distro_fedora"></td>
+            <td data-i18n="table_version_fedora41"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_fedora41"></code></td>
+          </tr>
+          <tr>
+            <td data-i18n="distro_fedora"></td>
+            <td data-i18n="table_version_fedora40"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_fedora40"></code></td>
+          </tr>
+          <tr>
+            <td data-i18n="distro_fedora"></td>
+            <td data-i18n="table_version_fedora39"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_fedora39"></code></td>
+          </tr>
+          <tr>
+            <td data-i18n="distro_fedora"></td>
+            <td data-i18n="table_version_fedora38"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_fedora38"></code></td>
+          </tr>
+          <tr>
+            <td data-i18n="distro_rosa"></td>
+            <td data-i18n="table_version_rosa124"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_rosa12"></code></td>
+          </tr>
+          <tr>
+            <td data-i18n="distro_openeuler"></td>
+            <td data-i18n="table_version_openeuler2403"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_openeuler2403"></code></td>
+          </tr>
+          <tr>
+            <td data-i18n="distro_openeuler"></td>
+            <td data-i18n="table_version_openeuler2203_sp4"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_openeuler2203_sp4"></code></td>
+          </tr>
+
+          <!-- SUSE Family -->
+          <tr>
+            <td rowspan="2" data-i18n="table_family_suse"></td>
+            <td data-i18n="distro_opensuse"></td>
+            <td data-i18n="table_version_opensuse156"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_opensuse156"></code></td>
+          </tr>
+          <tr>
+            <td data-i18n="distro_opensuse"></td>
+            <td data-i18n="table_version_opensuse155"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_opensuse15"></code></td>
+          </tr>
+
+          <!-- ALT Family -->
+          <tr>
+            <td rowspan="2" data-i18n="table_family_alt"></td>
+            <td data-i18n="distro_altlinux"></td>
+            <td data-i18n="table_version_alt_p10"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_alt_p10"></code></td>
+          </tr>
+          <tr>
+            <td data-i18n="distro_altlinux"></td>
+            <td data-i18n="table_version_alt_p10_server"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_alt_p10_server"></code></td>
+          </tr>
+
+          <!-- Ubuntu-based Family (Chinese) -->
+          <tr>
+            <td data-i18n="table_family_ubuntu_based"></td>
+            <td data-i18n="distro_openkylin"></td>
+            <td data-i18n="table_version_openkylin20"></td>
+            <td class="text-center">✅</td>
+            <td><code data-i18n="table_config_openkylin20"></code></td>
           </tr>
         </tbody>
       </table>
     </div>
 
-    <div style="margin-top: 2rem; padding: 1.5rem; background: linear-gradient(135deg, #e8f5e9 0%, #ffffff 100%); border-radius: 12px; border: 2px solid var(--success-color);">
-      <h4 style="color: var(--success-color); margin-bottom: 1rem;" data-i18n="compatibility_automated_title"></h4>
-      <p style="margin: 0; color: var(--text-dark);" data-i18n="compatibility_automated_desc"></p>
+    <div class="automated-testing-box">
+      <h4 data-i18n="compatibility_automated_title"></h4>
+      <p data-i18n="compatibility_automated_desc"></p>
     </div>
 
     <p class="compatibility-note" style="margin-top: 2rem;" data-i18n="compatibility_note"></p>

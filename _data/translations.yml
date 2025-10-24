@@ -346,6 +346,39 @@ en:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 Western Distributions
+  distro_section_russian: 🇷🇺 Russian Distributions
+  distro_section_chinese: 🇨🇳 Chinese Distributions
+  table_family_alt: ALT
+  table_family_ubuntu_based: Ubuntu-based
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: Tests Passing (66.6%)
+  testing_stat_connections: Connection Types
+  testing_stat_completion: Feature Completion
 ru:
   hero_title: Запустите свой почтовый сервер <span class="highlight">Как Босс</span>
   hero_subtitle: Автоматизация почтовых серверов корпоративного уровня на базе Kotlin,
@@ -703,6 +736,39 @@ ru:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 Западные дистрибутивы
+  distro_section_russian: 🇷🇺 Российские дистрибутивы
+  distro_section_chinese: 🇨🇳 Китайские дистрибутивы
+  table_family_alt: ALT
+  table_family_ubuntu_based: На основе Ubuntu
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: Тесты пройдены (66,6%)
+  testing_stat_connections: Типы подключений
+  testing_stat_completion: Завершение функций
 zh:
   hero_title: 像老板一样运行您的邮件服务器 <span class="highlight">Like The Boss</span>
   hero_subtitle: 基于Kotlin、Docker和成熟技术的企业级邮件服务器自动化。通过单个JSON配置文件部署完整的邮件基础设施。
@@ -1027,6 +1093,39 @@ zh:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 西方发行版
+  distro_section_russian: 🇷🇺 俄罗斯发行版
+  distro_section_chinese: 🇨🇳 中国发行版
+  table_family_alt: ALT
+  table_family_ubuntu_based: 基于Ubuntu
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: 测试通过 (66.6%)
+  testing_stat_connections: 连接类型
+  testing_stat_completion: 功能完成
 hi:
   hero_title: अपना मेल सर्वर <span class="highlight">बॉस की तरह</span> चलाएं
   hero_subtitle: Kotlin, Docker और सिद्ध तकनीक द्वारा संचालित एंटरप्राइज़-ग्रेड मेल
@@ -1375,6 +1474,39 @@ hi:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 पश्चिमी वितरण
+  distro_section_russian: 🇷🇺 रूसी वितरण
+  distro_section_chinese: 🇨🇳 चीनी वितरण
+  table_family_alt: ALT
+  table_family_ubuntu_based: Ubuntu आधारित
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: परीक्षण सफल (66.6%)
+  testing_stat_connections: कनेक्शन प्रकार
+  testing_stat_completion: सुविधा पूर्णता
 ja:
   tech_stack_subtitle: Powered by industry-leading open source technologies
   table_config_rocky9: Examples/Rocky_9.json
@@ -1715,6 +1847,39 @@ ja:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 西洋のディストリビューション
+  distro_section_russian: 🇷🇺 ロシアのディストリビューション
+  distro_section_chinese: 🇨🇳 中国のディストリビューション
+  table_family_alt: ALT
+  table_family_ubuntu_based: Ubuntuベース
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: テスト合格 (66.6%)
+  testing_stat_connections: 接続タイプ
+  testing_stat_completion: 機能完了
 fr:
   tech_stack_subtitle: Propulsé par les technologies open source de pointe
   table_config_rocky9: Examples/Rocky_9.json
@@ -2047,6 +2212,39 @@ fr:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 Distributions occidentales
+  distro_section_russian: 🇷🇺 Distributions russes
+  distro_section_chinese: 🇨🇳 Distributions chinoises
+  table_family_alt: ALT
+  table_family_ubuntu_based: Basé sur Ubuntu
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: Tests réussis (66,6 %)
+  testing_stat_connections: Types de connexion
+  testing_stat_completion: Achèvement des fonctionnalités
 de:
   tech_stack_subtitle: Angetrieben von führenden Open-Source-Technologien
   table_config_rocky9: Examples/Rocky_9.json
@@ -2381,6 +2579,39 @@ de:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 Westliche Distributionen
+  distro_section_russian: 🇷🇺 Russische Distributionen
+  distro_section_chinese: 🇨🇳 Chinesische Distributionen
+  table_family_alt: ALT
+  table_family_ubuntu_based: Ubuntu-basiert
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: Tests bestanden (66,6 %)
+  testing_stat_connections: Verbindungstypen
+  testing_stat_completion: Funktionsvollständigkeit
 es:
   tech_stack_subtitle: Impulsado por tecnologías open source líderes
   table_config_rocky9: Examples/Rocky_9.json
@@ -2716,6 +2947,39 @@ es:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 Distribuciones occidentales
+  distro_section_russian: 🇷🇺 Distribuciones rusas
+  distro_section_chinese: 🇨🇳 Distribuciones chinas
+  table_family_alt: ALT
+  table_family_ubuntu_based: Basado en Ubuntu
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: Pruebas aprobadas (66,6%)
+  testing_stat_connections: Tipos de conexión
+  testing_stat_completion: Finalización de funciones
 pt:
   tech_stack_subtitle: Alimentado por tecnologias open source líderes
   table_config_rocky9: Examples/Rocky_9.json
@@ -3050,6 +3314,39 @@ pt:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 Distribuições ocidentais
+  distro_section_russian: 🇷🇺 Distribuições russas
+  distro_section_chinese: 🇨🇳 Distribuições chinesas
+  table_family_alt: ALT
+  table_family_ubuntu_based: Baseado em Ubuntu
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: Testes aprovados (66,6%)
+  testing_stat_connections: Tipos de conexão
+  testing_stat_completion: Conclusão de recursos
 da:
   tech_stack_subtitle: Drevet af førende open source-teknologier
   table_config_rocky9: Examples/Rocky_9.json
@@ -3394,6 +3691,39 @@ da:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 Vestlige distributioner
+  distro_section_russian: 🇷🇺 Russiske distributioner
+  distro_section_chinese: 🇨🇳 Kinesiske distributioner
+  table_family_alt: ALT
+  table_family_ubuntu_based: Ubuntu-baseret
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: Tests Passing (66.6%)
+  testing_stat_connections: Connection Types
+  testing_stat_completion: Feature Completion
 'no':
   hero_title: Kjør din e-postserver <span class="highlight">Som Sjefen</span>
   hero_subtitle: Enterprise-grade e-postserver automatisering drevet av Kotlin, Docker
@@ -3745,6 +4075,39 @@ da:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 Vestlige distribusjoner
+  distro_section_russian: 🇷🇺 Russiske distribusjoner
+  distro_section_chinese: 🇨🇳 Kinesiske distribusjoner
+  table_family_alt: ALT
+  table_family_ubuntu_based: Ubuntu-basert
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: Tests Passing (66.6%)
+  testing_stat_connections: Connection Types
+  testing_stat_completion: Feature Completion
 sv:
   tech_stack_subtitle: Drivs av ledande open source-teknologier
   table_config_rocky9: Examples/Rocky_9.json
@@ -4090,6 +4453,39 @@ sv:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 Västerländska distributioner
+  distro_section_russian: 🇷🇺 Ryska distributioner
+  distro_section_chinese: 🇨🇳 Kinesiska distributioner
+  table_family_alt: ALT
+  table_family_ubuntu_based: Ubuntu-baserad
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: Tests Passing (66.6%)
+  testing_stat_connections: Connection Types
+  testing_stat_completion: Feature Completion
 is:
   tech_stack_subtitle: Knúið af leiðandi opnum hugbúnaðartækni
   table_config_rocky9: Examples/Rocky_9.json
@@ -4432,6 +4828,39 @@ is:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 Vestrænar dreifingar
+  distro_section_russian: 🇷🇺 Rússneskar dreifingar
+  distro_section_chinese: 🇨🇳 Kínverskar dreifingar
+  table_family_alt: ALT
+  table_family_ubuntu_based: Ubuntu-byggt
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: Tests Passing (66.6%)
+  testing_stat_connections: Connection Types
+  testing_stat_completion: Feature Completion
 bg:
   tech_stack_subtitle: Задвижвано от водещи технологии с отворен код
   table_config_rocky9: Examples/Rocky_9.json
@@ -4778,6 +5207,39 @@ bg:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 Западни дистрибуции
+  distro_section_russian: 🇷🇺 Руски дистрибуции
+  distro_section_chinese: 🇨🇳 Китайски дистрибуции
+  table_family_alt: ALT
+  table_family_ubuntu_based: Базиран на Ubuntu
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: Tests Passing (66.6%)
+  testing_stat_connections: Connection Types
+  testing_stat_completion: Feature Completion
 ro:
   tech_stack_subtitle: Alimentat de tehnologii open source de top
   table_config_rocky9: Examples/Rocky_9.json
@@ -5125,6 +5587,39 @@ ro:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 Distribuții occidentale
+  distro_section_russian: 🇷🇺 Distribuții rusești
+  distro_section_chinese: 🇨🇳 Distribuții chinezești
+  table_family_alt: ALT
+  table_family_ubuntu_based: Bazat pe Ubuntu
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: Tests Passing (66.6%)
+  testing_stat_connections: Connection Types
+  testing_stat_completion: Feature Completion
 hu:
   tech_stack_subtitle: Meghajtva vezető nyílt forráskódú technológiákkal
   table_config_rocky9: Examples/Rocky_9.json
@@ -5470,6 +5965,39 @@ hu:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 Nyugati disztribúciók
+  distro_section_russian: 🇷🇺 Orosz disztribúciók
+  distro_section_chinese: 🇨🇳 Kínai disztribúciók
+  table_family_alt: ALT
+  table_family_ubuntu_based: Ubuntu-alapú
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: Tests Passing (66.6%)
+  testing_stat_connections: Connection Types
+  testing_stat_completion: Feature Completion
 it:
   tech_stack_subtitle: Alimentato da tecnologie open source leader
   table_config_rocky9: Examples/Rocky_9.json
@@ -5804,6 +6332,39 @@ it:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 Distribuzioni occidentali
+  distro_section_russian: 🇷🇺 Distribuzioni russe
+  distro_section_chinese: 🇨🇳 Distribuzioni cinesi
+  table_family_alt: ALT
+  table_family_ubuntu_based: Basato su Ubuntu
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: Test superati (66,6%)
+  testing_stat_connections: Tipi di connessione
+  testing_stat_completion: Completamento funzionalità
 el:
   tech_stack_subtitle: Powered by industry-leading open source technologies
   table_config_rocky9: Examples/Rocky_9.json
@@ -6149,6 +6710,39 @@ el:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 Δυτικές διανομές
+  distro_section_russian: 🇷🇺 Ρωσικές διανομές
+  distro_section_chinese: 🇨🇳 Κινεζικές διανομές
+  table_family_alt: ALT
+  table_family_ubuntu_based: Βασισμένο σε Ubuntu
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: Tests Passing (66.6%)
+  testing_stat_connections: Connection Types
+  testing_stat_completion: Feature Completion
 he:
   tech_stack_subtitle: Powered by industry-leading open source technologies
   table_config_rocky9: Examples/Rocky_9.json
@@ -6493,6 +7087,39 @@ he:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 הפצות מערביות
+  distro_section_russian: 🇷🇺 הפצות רוסיות
+  distro_section_chinese: 🇨🇳 הפצות סיניות
+  table_family_alt: ALT
+  table_family_ubuntu_based: מבוסס Ubuntu
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: Tests Passing (66.6%)
+  testing_stat_connections: Connection Types
+  testing_stat_completion: Feature Completion
 ka:
   tech_stack_subtitle: Powered by industry-leading open source technologies
   table_config_rocky9: Examples/Rocky_9.json
@@ -6838,6 +7465,39 @@ ka:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 დასავლური დისტრიბუციები
+  distro_section_russian: 🇷🇺 რუსული დისტრიბუციები
+  distro_section_chinese: 🇨🇳 ჩინური დისტრიბუციები
+  table_family_alt: ALT
+  table_family_ubuntu_based: Ubuntu-ზე დაფუძნებული
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: Tests Passing (66.6%)
+  testing_stat_connections: Connection Types
+  testing_stat_completion: Feature Completion
 kk:
   tech_stack_subtitle: Powered by industry-leading open source technologies
   table_config_rocky9: Examples/Rocky_9.json
@@ -7183,6 +7843,39 @@ kk:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 Батыс дистрибутивтері
+  distro_section_russian: 🇷🇺 Орыс дистрибутивтері
+  distro_section_chinese: 🇨🇳 Қытай дистрибутивтері
+  table_family_alt: ALT
+  table_family_ubuntu_based: Ubuntu негізінде
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: Tests Passing (66.6%)
+  testing_stat_connections: Connection Types
+  testing_stat_completion: Feature Completion
 uz:
   tech_stack_subtitle: Powered by industry-leading open source technologies
   table_config_rocky9: Examples/Rocky_9.json
@@ -7528,6 +8221,39 @@ uz:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 G'arbiy tarqatmalar
+  distro_section_russian: 🇷🇺 Rus tarqatmalari
+  distro_section_chinese: 🇨🇳 Xitoy tarqatmalari
+  table_family_alt: ALT
+  table_family_ubuntu_based: Ubuntu asosida
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: Tests Passing (66.6%)
+  testing_stat_connections: Connection Types
+  testing_stat_completion: Feature Completion
 tg:
   tech_stack_subtitle: Powered by industry-leading open source technologies
   table_config_rocky9: Examples/Rocky_9.json
@@ -7873,6 +8599,39 @@ tg:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 Тақсимотҳои ғарбӣ
+  distro_section_russian: 🇷🇺 Тақсимотҳои русӣ
+  distro_section_chinese: 🇨🇳 Тақсимотҳои хитоӣ
+  table_family_alt: ALT
+  table_family_ubuntu_based: Дар асоси Ubuntu
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: Tests Passing (66.6%)
+  testing_stat_connections: Connection Types
+  testing_stat_completion: Feature Completion
 tr:
   tech_stack_subtitle: Powered by industry-leading open source technologies
   table_config_rocky9: Examples/Rocky_9.json
@@ -8218,6 +8977,39 @@ tr:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 Batı Dağıtımları
+  distro_section_russian: 🇷🇺 Rus Dağıtımları
+  distro_section_chinese: 🇨🇳 Çin Dağıtımları
+  table_family_alt: ALT
+  table_family_ubuntu_based: Ubuntu tabanlı
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: Başarılı testler (%66,6)
+  testing_stat_connections: Bağlantı türleri
+  testing_stat_completion: Özellik tamamlanması
 be:
   hero_title: Запусціце свой поштавы сервер <span class="highlight">Як Бос</span>
   hero_subtitle: Аўтаматызацыя поштавых сервераў карпаратыўнага ўзроўню на базе Kotlin,
@@ -8565,6 +9357,39 @@ be:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 Заходнія дыстрыбутывы
+  distro_section_russian: 🇷🇺 Расійскія дыстрыбутывы
+  distro_section_chinese: 🇨🇳 Кітайскія дыстрыбутывы
+  table_family_alt: ALT
+  table_family_ubuntu_based: На аснове Ubuntu
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: Тэсты пройдзены (66,6%)
+  testing_stat_connections: Тыпы злучэнняў
+  testing_stat_completion: Завяршэнне функцый
 fa:
   hero_title: سرور ایمیل خود را <span class="highlight">مثل رئیس</span> اجرا کنید
   hero_subtitle: اتوماسیون سرور ایمیل در سطح سازمانی با قدرت Kotlin، Docker و فناوری‌های
@@ -8908,6 +9733,39 @@ fa:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 توزیع‌های غربی
+  distro_section_russian: 🇷🇺 توزیع‌های روسی
+  distro_section_chinese: 🇨🇳 توزیع‌های چینی
+  table_family_alt: ALT
+  table_family_ubuntu_based: مبتنی بر Ubuntu
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: آزمون‌های قبول شده (66.6٪)
+  testing_stat_connections: انواع اتصال
+  testing_stat_completion: تکمیل ویژگی
 ar:
   hero_title: شغل خادم البريد الخاص بك <span class="highlight">مثل الرئيس</span>
   hero_subtitle: أتمتة خادم البريد على مستوى المؤسسة مدعومة بـ Kotlin و Docker والتكنولوجيا
@@ -9250,6 +10108,39 @@ ar:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 التوزيعات الغربية
+  distro_section_russian: 🇷🇺 التوزيعات الروسية
+  distro_section_chinese: 🇨🇳 التوزيعات الصينية
+  table_family_alt: ALT
+  table_family_ubuntu_based: مبني على Ubuntu
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: الاختبارات المجتازة (66.6٪)
+  testing_stat_connections: أنواع الاتصالات
+  testing_stat_completion: اكتمال الميزات
 ko:
   hero_title: 메일 서버를 <span class="highlight">보스처럼</span> 운영하세요
   hero_subtitle: Kotlin, Docker, 검증된 기술로 구동되는 엔터프라이즈급 메일 서버 자동화. 단일 JSON 구성 파일로 완전한
@@ -9585,6 +10476,39 @@ ko:
   table_config_ubuntu25: Examples/Ubuntu_25.json
   table_config_centos_stream: Examples/CentOS_Stream.json
   table_config_opensuse156: Examples/openSUSE_Leap_15.6.json
+  distro_section_western: 🌍 서양 배포판
+  distro_section_russian: 🇷🇺 러시아 배포판
+  distro_section_chinese: 🇨🇳 중국 배포판
+  table_family_alt: ALT
+  table_family_ubuntu_based: Ubuntu 기반
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
+  testing_stat_passing: 테스트 통과 (66.6%)
+  testing_stat_connections: 연결 유형
+  testing_stat_completion: 기능 완료
 sr:
   hero_title: Покрените свој мејл сервер <span class="highlight">Као Шеф</span>
   hero_subtitle: Аутоматизација мејл сервера на нивоу предузећа покретана Kotlin-ом,
@@ -9592,7 +10516,7 @@ sr:
     једним JSON конфигурационим фајлом.
   download_btn: ⬇ Преузми најновију верзију
   github_btn: ⭐ Погледај на GitHub-у
-  stats_distributions: 25 Distributions
+  stats_distributions: 25 дистрибуција
   stats_automated: 100% Аутоматизовано
   stats_production: Спремно за производњу
   stats_enterprise: Ниво предузећа
@@ -9634,56 +10558,55 @@ sr:
   cta_subtitle: Придружи се Mail Server Factory заједници и преузми контролу над својом
     мејл инфраструктуром данас.
   cta_note: Отворени код • Бесплатно заувек • Подршка заједнице
-  footer_website_maintained: Website
-  footer_website_maintained_text: is maintained by
+  footer_website_maintained: Веб сајт
+  footer_website_maintained_text: одржава
   footer_server_factory: Server Factory
-  footer_generated_by: This page was generated by
+  footer_generated_by: Ову страницу је генерисао
   footer_github_pages: GitHub Pages
-  logo_alt: Mail Server Factory logo
-  logo_alt_home: Mail Server Factory - Run your mail server like the boss!
-  footer_opensource: Open Source • Free Forever • Community Supported
-  architecture_application_layer: 🏗️ Application Layer
+  logo_alt: Mail Server Factory лого
+  logo_alt_home: Mail Server Factory - Покрените свој мејл сервер као шеф!
+  footer_opensource: Отворени код • Бесплатно заувек • Подршка заједнице
+  architecture_application_layer: 🏗️ Апликациони слој
   architecture_badge_docker: Docker
   architecture_badge_gradle: Gradle 8.14.3
   architecture_badge_java: Java 17
-  architecture_badge_json: JSON Configuration
+  architecture_badge_json: JSON конфигурација
   architecture_badge_kotlin: Kotlin 2.0.21
-  architecture_badge_ssh: SSH Protocol
-  architecture_benefit1: Security First
-  architecture_benefit1_desc: Defense-in-depth security with enterprise-grade encryption
-    and monitoring
-  architecture_benefit2: Scalable
-  architecture_benefit2_desc: Horizontal scaling with stateless design and optimized
-    resource utilization
-  architecture_benefit3: Observable
-  architecture_benefit3_desc: Complete observability with metrics, logging, and health
-    monitoring
-  architecture_benefit4: Maintainable
-  architecture_benefit4_desc: Hot reloading configuration and automated testing ensure
-    reliability
-  architecture_benefits_title: Enterprise Benefits
-  architecture_built_with: Built With Modern Tools
-  architecture_component1: AES-256-GCM Encryption
-  architecture_component10: Health Checks
-  architecture_component11: Structured Logging
-  architecture_component12: Alert Management
-  architecture_component13: Environment Configs
-  architecture_component14: Hot Reloading
-  architecture_component15: Schema Validation
-  architecture_component16: Secrets Management
+  architecture_badge_ssh: SSH протокол
+  architecture_benefit1: Безбедност на првом месту
+  architecture_benefit1_desc: Вишеслојна безбедност са енкрипцијом и мониторингом
+    предузећа
+  architecture_benefit2: Скалабилно
+  architecture_benefit2_desc: Хоризонтално скалирање са оптимизованим коришћењем ресурса
+  architecture_benefit3: Посматрљиво
+  architecture_benefit3_desc: Потпуна посматрљивост са метрикама, логовањем и мониторингом
+    здравља
+  architecture_benefit4: Одрживо
+  architecture_benefit4_desc: Аутоматско учитавање конфигурације и тестирање осигуравају
+    поузданост
+  architecture_benefits_title: Предности предузећа
+  architecture_built_with: Направљено са модерним алатима
+  architecture_component1: AES-256-GCM енкрипција
+  architecture_component10: Провере здравља
+  architecture_component11: Структурисано логовање
+  architecture_component12: Управљање упозорењима
+  architecture_component13: Конфигурације окружења
+  architecture_component14: Аутоматско учитавање
+  architecture_component15: Валидација шеме
+  architecture_component16: Управљање тајнама
   architecture_component17: Kotlin 2.0.21
   architecture_component18: Gradle 8.14.3
   architecture_component19: Java 17
-  architecture_component2: Session Management
-  architecture_component20: JSON Configuration
+  architecture_component2: Управљање сесијама
+  architecture_component20: JSON конфигурација
   architecture_component21: PostgreSQL
   architecture_component22: Postfix
   architecture_component23: Dovecot
   architecture_component24: Rspamd
   architecture_component25: Redis
   architecture_component26: ClamAV
-  architecture_component3: Audit Logging
-  architecture_component4: TLS 1.3 Enforcement
+  architecture_component3: Логовање ревизије
+  architecture_component4: Примена TLS 1.3
   architecture_component5: Caffeine Caching
   architecture_component6: JVM Tuning (G1GC)
   architecture_component7: Connection Pooling
@@ -9952,3 +10875,33 @@ sr:
   testing_stat_passing: Tests Passing (66.6%)
   testing_stat_connections: Connection Types
   testing_stat_completion: Feature Completion
+  distro_section_western: 🌍 Западне дистрибуције
+  distro_section_russian: 🇷🇺 Руске дистрибуције
+  distro_section_chinese: 🇨🇳 Кинеске дистрибуције
+  table_family_alt: ALT
+  table_family_ubuntu_based: Базирано на Ubuntu
+  table_version_ubuntu25: '25.10'
+  table_version_centos_stream9: Stream 9
+  table_version_centos8: '8'
+  table_version_centos7: '7'
+  table_config_centos8: Examples/Centos_8.json
+  table_config_centos7: Examples/Centos_7.json
+  table_version_almalinux9: '9'
+  table_version_rocky9: '9'
+  table_version_opensuse155: '15.5'
+  table_version_alt_p10: p10
+  table_version_alt_p10_server: p10-server
+  table_config_alt_p10: Examples/ALTLinux_p10.json
+  table_config_alt_p10_server: Examples/ALTLinux_p10_Server.json
+  table_version_astra_ce212: CE 2.12
+  table_config_astra_ce212: Examples/Astra_Linux_CE_2.12.json
+  table_version_rosa124: '12.4'
+  table_config_rosa12: Examples/ROSA_Linux_12.json
+  table_version_openeuler2403: 24.03 LTS
+  table_version_openeuler2203_sp4: 22.03 LTS SP4
+  table_config_openeuler2403: Examples/openEuler_24.03_LTS.json
+  table_config_openeuler2203_sp4: Examples/openEuler_22.03_LTS_SP4.json
+  table_version_openkylin20: '2.0'
+  table_config_openkylin20: Examples/openKylin_2.0.json
+  table_version_deepin23: '23'
+  table_config_deepin23: Examples/Deepin_23.json
