@@ -85,6 +85,18 @@ description: Complete documentation for Mail Server Factory
         </div>
       </div>
 
+      <!-- Connection API -->
+      <div class="doc-card">
+        <div class="doc-icon">🔌</div>
+        <h3 data-i18n="connection_api_title">Connection API</h3>
+        <p data-i18n="connection_api_desc">12 connection types for flexible deployment across platforms.</p>
+        <div class="doc-links">
+          <a href="#connection-types" class="doc-link" data-i18n="doc_link_connection_types">Connection Types</a>
+          <a href="#connection-pool" class="doc-link" data-i18n="doc_link_connection_pool">Connection Pool</a>
+          <a href="#cloud-providers" class="doc-link" data-i18n="doc_link_cloud_providers">Cloud Providers</a>
+        </div>
+      </div>
+
       <!-- Enterprise Features -->
       <div class="doc-card">
         <div class="doc-icon">🏢</div>
@@ -459,6 +471,162 @@ description: Complete documentation for Mail Server Factory
         </div>
       </section>
 
+      <!-- Connection API Section -->
+      <section id="connection-types" class="doc-section">
+        <h2 data-i18n="doc_connection_api">Connection API - 12 Connection Types</h2>
+        <p>Mail Server Factory provides a comprehensive connection abstraction layer supporting 12 different connection types for maximum deployment flexibility.</p>
+
+        <h3 data-i18n="doc_standard_connections">Standard Connections</h3>
+        <div class="connection-grid">
+          <div class="connection-item">
+            <h4>1. SSH Connection</h4>
+            <p>Standard SSH protocol for remote server access with key-based authentication.</p>
+            <ul>
+              <li>Command execution and file transfer</li>
+              <li>Connection pooling for performance</li>
+              <li>Automatic reconnection handling</li>
+            </ul>
+          </div>
+
+          <div class="connection-item">
+            <h4>2. Docker Connection</h4>
+            <p>Direct Docker daemon communication for container management.</p>
+            <ul>
+              <li>Container lifecycle operations</li>
+              <li>Volume and network management</li>
+              <li>Image pull and build operations</li>
+            </ul>
+          </div>
+
+          <div class="connection-item">
+            <h4>3. Kubernetes Connection</h4>
+            <p>Kubernetes cluster management and orchestration.</p>
+            <ul>
+              <li>Pod and deployment operations</li>
+              <li>Service mesh integration</li>
+              <li>ConfigMap and Secret management</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 data-i18n="doc_cloud_connections">Cloud Provider Connections</h3>
+        <div class="connection-grid">
+          <div class="connection-item">
+            <h4>4. AWS SSM Connection</h4>
+            <p>AWS Systems Manager Session Manager for secure EC2 access.</p>
+            <ul>
+              <li>No inbound ports required</li>
+              <li>IAM-based authentication</li>
+              <li>Session logging and auditing</li>
+            </ul>
+          </div>
+
+          <div class="connection-item">
+            <h4>5. Azure Serial Console</h4>
+            <p>Azure VM serial console for emergency access.</p>
+            <ul>
+              <li>Access when SSH unavailable</li>
+              <li>Boot diagnostics integration</li>
+              <li>Direct VM console access</li>
+            </ul>
+          </div>
+
+          <div class="connection-item">
+            <h4>6. GCP OS Login</h4>
+            <p>Google Cloud Platform OS Login with IAM integration.</p>
+            <ul>
+              <li>IAM-based SSH access</li>
+              <li>Two-factor authentication</li>
+              <li>Centralized user management</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 data-i18n="doc_specialized_connections">Specialized Connections</h3>
+        <div class="connection-grid">
+          <div class="connection-item">
+            <h4>7. Libvirt Connection</h4>
+            <p>KVM/QEMU virtualization management.</p>
+            <ul>
+              <li>VM lifecycle operations</li>
+              <li>Virtual network management</li>
+              <li>Storage pool operations</li>
+            </ul>
+          </div>
+
+          <div class="connection-item">
+            <h4>8. Custom Protocol</h4>
+            <p>Extensible connection interface for custom protocols.</p>
+            <ul>
+              <li>Plugin architecture</li>
+              <li>User-defined connection logic</li>
+              <li>Protocol-agnostic design</li>
+            </ul>
+          </div>
+
+          <div class="connection-item">
+            <h4>9. Database Connection</h4>
+            <p>Direct database access and management.</p>
+            <ul>
+              <li>SQL execution and migrations</li>
+              <li>Connection pooling</li>
+              <li>Transaction management</li>
+            </ul>
+          </div>
+
+          <div class="connection-item">
+            <h4>10. File System Connection</h4>
+            <p>Local and remote file system operations.</p>
+            <ul>
+              <li>NFS and CIFS support</li>
+              <li>File synchronization</li>
+              <li>Mount management</li>
+            </ul>
+          </div>
+
+          <div class="connection-item">
+            <h4>11. Cloud Provider</h4>
+            <p>Multi-cloud provider abstraction.</p>
+            <ul>
+              <li>AWS, Azure, GCP unified interface</li>
+              <li>Resource provisioning</li>
+              <li>Cost optimization</li>
+            </ul>
+          </div>
+
+          <div class="connection-item">
+            <h4>12. Container Runtime</h4>
+            <p>OCI-compliant container runtime support.</p>
+            <ul>
+              <li>Podman, containerd, CRI-O</li>
+              <li>Runtime abstraction layer</li>
+              <li>Cross-runtime compatibility</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 id="connection-pool" data-i18n="doc_connection_pool_mgmt">Connection Pool Management</h3>
+        <p>All connections are managed through the <strong>ConnectionPool</strong> which provides:</p>
+        <ul>
+          <li><strong>Connection Reuse</strong>: Efficient connection lifecycle management</li>
+          <li><strong>Automatic Reconnection</strong>: Handles transient failures gracefully</li>
+          <li><strong>Thread Safety</strong>: Concurrent connection access</li>
+          <li><strong>Resource Cleanup</strong>: Automatic disposal and cleanup</li>
+          <li><strong>Health Monitoring</strong>: Connection health checks</li>
+        </ul>
+
+        <h3 data-i18n="doc_usage_example">Usage Example</h3>
+        <pre><code>// Create SSH connection
+val sshConnection = SSHConnection(hostname, username, port)
+
+// Execute command
+val result = sshConnection.execute("docker ps -a")
+
+// Connection automatically managed by ConnectionPool
+// No manual cleanup required
+</code></pre>
+      </section>
+
       <!-- Troubleshooting Section -->
       <section id="troubleshooting" class="doc-section">
         <h2 data-i18n="doc_troubleshooting">Troubleshooting</h2>
@@ -773,6 +941,44 @@ description: Complete documentation for Mail Server Factory
 .troubleshoot-item h4 {
   color: #dc3545;
   margin-top: 0;
+}
+
+.connection-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.connection-item {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 1.5rem;
+  border-left: 4px solid #4a90e2;
+}
+
+.connection-item h4 {
+  color: #2c3e50;
+  margin: 0 0 0.75rem 0;
+  font-size: 1.1rem;
+}
+
+.connection-item p {
+  color: #6c757d;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.connection-item ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.connection-item li {
+  color: #495057;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
 }
 
 @media (max-width: 768px) {
