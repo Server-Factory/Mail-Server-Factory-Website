@@ -1,6 +1,7 @@
 en:
   hero_title: Run Your Mail Server <span class="highlight">Like The Boss</span>
-  hero_subtitle: Enterprise-grade mail server automation powered by Kotlin, Docker, and proven technology. Deploy complete mail infrastructure with a single JSON configuration file.
+  hero_subtitle: Enterprise-grade mail server automation powered by Kotlin, Docker, and proven technology. Deploy complete
+    mail infrastructure with a single JSON configuration file.
   download_btn: ⬇ Download Latest Release
   github_btn: ⭐ View on GitHub
   stats_distributions: 12 Distributions
@@ -121,7 +122,9 @@ en:
     sh Core/Utils/init_ssh_access.sh your-server.local'
   code_verify_command: 'docker ps -a  # Verify running services'
   code_web_installer: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Server-Factory/Utils/master/web_installer.sh)"
-  compatibility_automated_desc: "All distributions are ready for automated testing with QEMU virtualization. \n        The testing framework includes ISO verification, automated installation, and configuration validation. \n        All configurations are production-ready and actively maintained."
+  compatibility_automated_desc: "All distributions are ready for automated testing with QEMU virtualization. \n        The\
+    \ testing framework includes ISO verification, automated installation, and configuration validation. \n        All configurations\
+    \ are production-ready and actively maintained."
   compatibility_automated_title: ✅ Automated Testing Available
   compatibility_table_config: Configuration
   compatibility_table_distribution: Distribution
@@ -164,7 +167,8 @@ en:
   enterprise_config_item2: Hot reloading without restart
   enterprise_config_item3: Schema validation and error reporting
   enterprise_config_item4: Secure secrets management
-  enterprise_monitoring_desc: Complete monitoring solution with Prometheus metrics, health checks, structured logging, and enterprise alerting.
+  enterprise_monitoring_desc: Complete monitoring solution with Prometheus metrics, health checks, structured logging, and
+    enterprise alerting.
   enterprise_monitoring_item1: Prometheus-compatible metrics endpoint
   enterprise_monitoring_item2: Automated health checks
   enterprise_monitoring_item3: Structured logging with correlation IDs
@@ -173,17 +177,21 @@ en:
   enterprise_performance_item2: JVM performance tuning (G1GC)
   enterprise_performance_item3: Database connection pooling
   enterprise_performance_item4: Async I/O operations
-  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, comprehensive audit logging, session management, and TLS 1.3 enforcement.
+  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, comprehensive audit logging, session management,
+    and TLS 1.3 enforcement.
   enterprise_security_item1: AES-256-GCM encryption for data at rest
   enterprise_security_item2: Enterprise password policies
   enterprise_security_item3: Real-time security monitoring
   enterprise_security_item4: 90-day audit log retention
   feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis, and ClamAV pre-configured and working together seamlessly.
-  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, scalability, and easy management. Deploy on any Docker-capable host.
-  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard security practices out of the box.
+  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, scalability, and easy management.
+    Deploy on any Docker-capable host.
+  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard
+    security practices out of the box.
   feature_ssh_desc: Deploy to remote servers via SSH with connection pooling, automatic file transfers, and robust error handling.
   feature_tested_desc: 100% test execution success rate with 47 comprehensive tests. Every component is validated before release.
-  feature_zero_touch_desc: Write a simple JSON configuration file and let Mail Server Factory handle everything - from installation to initialization. No manual configuration needed.
+  feature_zero_touch_desc: Write a simple JSON configuration file and let Mail Server Factory handle everything - from installation
+    to initialization. No manual configuration needed.
   hero_badge_automated: Automated Installation
   hero_badge_distribution: Multi-Distribution
   hero_badge_enterprise: Enterprise Grade
@@ -214,7 +222,8 @@ en:
   step_number1: '1'
   step_number2: '2'
   step_number3: '3'
-  step_use_desc: Connect your email clients to the deployed server. All services are running, configured, and ready to handle email.
+  step_use_desc: Connect your email clients to the deployed server. All services are running, configured, and ready to handle
+    email.
   table_config_almalinux9: Examples/AlmaLinux_9.json
   table_config_debian11: Examples/Debian_11.json
   table_config_debian12: Examples/Debian_12.json
@@ -276,7 +285,8 @@ en:
   select_language: Select language
 ru:
   hero_title: Запустите свой почтовый сервер <span class="highlight">Как Босс</span>
-  hero_subtitle: Автоматизация почтовых серверов корпоративного уровня на базе Kotlin, Docker и проверенных технологий. Разверните полную почтовую инфраструктуру с помощью одного JSON-файла конфигурации.
+  hero_subtitle: Автоматизация почтовых серверов корпоративного уровня на базе Kotlin, Docker и проверенных технологий. Разверните
+    полную почтовую инфраструктуру с помощью одного JSON-файла конфигурации.
   download_btn: ⬇ Скачать последнюю версию
   github_btn: ⭐ Посмотреть на GitHub
   stats_distributions: 12 Дистрибутивов
@@ -321,9 +331,9 @@ ru:
   cta_note: Открытый исходный код • Бесплатно навсегда • Поддержка сообщества
   footer_website_maintained: Веб-сайт
   footer_website_maintained_text: поддерживается
-  footer_server_factory: Фабрика серверов
+  footer_server_factory: Server Factory
   footer_generated_by: Эта страница создана с помощью
-  footer_github_pages: Страницы GitHub
+  footer_github_pages: GitHub Pages
   logo_alt: Логотип Mail Server Factory
   logo_alt_home: Mail Server Factory - Запустите свой почтовый сервер как босс!
   footer_opensource: Открытый исходный код • Бесплатно навсегда • Поддержка сообщества
@@ -332,7 +342,8 @@ ru:
   architecture_built_with: Построен с использованием современных инструментов
   tech_postfix_desc: SMTP-сервер
   launcher_subtitle: Готовая к производству обертка bash с обработкой ошибок корпоративного уровня
-  use_case3_desc: Храните данные электронной почты в локальной среде с полным контролем над безопасностью и соответствием нормативным требованиям.
+  use_case3_desc: Храните данные электронной почты в локальной среде с полным контролем над безопасностью и соответствием
+    нормативным требованиям.
   enterprise_monitoring_item3: Структурированное журналирование с идентификаторами корреляции
   launcher_command_dry_run: Показать команду без выполнения
   doc_enterprise_desc: Стандарты безопасности, производительности и конфигурации
@@ -340,7 +351,7 @@ ru:
   enterprise_performance_item2: Настройка производительности JVM (G1GC)
   architecture_component1: Шифрование AES-256-GCM
   testing_stat_success: Процент успешных попыток
-  table_config_rhel9: Примеры/RHEL_9.json
+  table_config_rhel9: Examples/RHEL_9.json
   testing_coverage_title: Тестовое покрытие по модулям
   architecture_performance_layer: ⚡ Уровень производительности
   distro_ubuntu_versions: 22.04 ЛТС, 24.04 ЛТС
@@ -359,7 +370,7 @@ ru:
   test_stat_value_total: '47'
   code_web_installer: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Server-Factory/Utils/master/web_installer.sh)"
   architecture_component17: Котлин 2.0.21
-  table_config_fedora39: Примеры/Fedora_Server_39.json
+  table_config_fedora39: Examples/Fedora_Server_39.json
   doc_configuration: Конфигурация
   tech_redis: Redis
   enterprise_security_item1: Шифрование AES-256-GCM для данных в состоянии покоя
@@ -370,24 +381,28 @@ ru:
   architecture_component8: Асинхронные операции
   table_version_fedora40: '40'
   compatibility_table_distribution: Распределение
-  feature_ssh_desc: Развертывание на удаленные серверы через SSH с пулингом соединений, автоматической передачей файлов и надежной обработкой ошибок.
-  table_config_ubuntu24: Примеры/Ubuntu_24.json
-  table_config_ubuntu22: Примеры/Ubuntu_22.json
-  step_use_desc: Подключите почтовые клиенты к развернутому серверу. Все службы работают, настроены и готовы к работе с электронной почтой.
+  feature_ssh_desc: Развертывание на удаленные серверы через SSH с пулингом соединений, автоматической передачей файлов и
+    надежной обработкой ошибок.
+  table_config_ubuntu24: Examples/Ubuntu_24.json
+  table_config_ubuntu22: Examples/Ubuntu_22.json
+  step_use_desc: Подключите почтовые клиенты к развернутому серверу. Все службы работают, настроены и готовы к работе с электронной
+    почтой.
   feature_tested_desc: 100% успешное выполнение тестов с 47 комплексными тестами. Каждый компонент проверяется перед выпуском.
   launcher_commands_title: Параметры пусковой установки
   table_version_rocky95: '9.5'
   tech_redis_desc: Уровень кэша
   cta_github: Посмотреть на GitHub
   architecture_component20: Конфигурация JSON
-  table_config_fedora38: Примеры/Fedora_Server_38.json
-  feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis и ClamAV предварительно настроены и работают вместе без проблем.
+  table_config_fedora38: Examples/Fedora_Server_38.json
+  feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis и ClamAV предварительно настроены и работают вместе без
+    проблем.
   table_version_ubuntu24: 24.04 LTS (Noble)
-  enterprise_monitoring_desc: Полное решение для мониторинга с метриками Prometheus, проверками работоспособности, структурированным журналированием и корпоративными оповещениями.
+  enterprise_monitoring_desc: Полное решение для мониторинга с метриками Prometheus, проверками работоспособности, структурированным
+    журналированием и корпоративными оповещениями.
   doc_readme: ЧИТАЙТЕ
   hero_badge_enterprise: Уровень предприятия.
   use_case4_desc: Развертывание экономичных почтовых серверов для студентов и сотрудников с минимальным обслуживанием.
-  table_config_fedora41: Примеры/Fedora_Server_41.json
+  table_config_fedora41: Examples/Fedora_Server_41.json
   architecture_benefit1_desc: Глубокая защита с шифрованием и мониторингом корпоративного уровня
   code_deploy_command: ./mail_factory config.json
   architecture_component11: Структурированное ведение журнала
@@ -400,19 +415,20 @@ ru:
   compatibility_table_version: Версия
   doc_examples_desc: Примеры конфигураций для корпоративного развертывания
   hero_badge_automated: Автоматическая установка
-  table_config_opensuse15: Примеры/openSUSE_Leap_15.json
+  table_config_opensuse15: Examples/openSUSE_Leap_15.json
   tech_clamav_desc: Антивирусная программа
-  architecture_badge_json: Конфигурация JSON
+  architecture_badge_json: JSON Configuration
   launcher_command_help: Показать справочную информацию
   use_case1: Малый бизнес
-  table_config_rocky9: Примеры/Rocky_9.json
+  table_config_rocky9: Examples/Rocky_9.json
   architecture_benefit3_desc: Полная наблюдаемость с метриками, журналированием и мониторингом работоспособности.
   architecture_component10: Проверка здоровья
   architecture_benefit4_desc: Конфигурация горячей перезагрузки и автоматическое тестирование обеспечивают надежность.
   architecture_component3: Журнал аудита
-  architecture_badge_kotlin: Котлин 2.0.21
+  architecture_badge_kotlin: Kotlin 2.0.21
   table_version_opensuse156: 15,6
-  feature_docker_desc: Каждый компонент работает в своем собственном Docker-контейнере, обеспечивая изоляцию, масштабируемость и простое управление. Развертывайте на любом хосте с поддержкой Docker.
+  feature_docker_desc: Каждый компонент работает в своем собственном Docker-контейнере, обеспечивая изоляцию, масштабируемость
+    и простое управление. Развертывайте на любом хосте с поддержкой Docker.
   tech_clamav: Clam Antivirus
   tech_dovecot_desc: Сервер IMAP/POP3
   test_stat_value_coverage: '85'
@@ -434,7 +450,7 @@ ru:
   architecture_component18: Градл 8.14.3
   architecture_component15: Проверка схемы
   doc_examples: Примеры
-  table_config_almalinux9: Примеры/AlmaLinux_9.json
+  table_config_almalinux9: Examples/AlmaLinux_9.json
   launcher_command_jar: Переопределить расположение БАНКИ
   architecture_monitoring_layer: 📊 Уровень мониторинга
   tech_dovecot: Dovecot
@@ -449,7 +465,8 @@ ru:
   hero_badge_testing: Комплексное опробование
   distro_opensuse: openSUSE Прыжок
   architecture_component21: PostgreSQL
-  feature_zero_touch_desc: Напишите простой JSON-файл конфигурации и позвольте Mail Server Factory сделать все остальное - от установки до инициализации. Никаких ручных настроек не требуется.
+  feature_zero_touch_desc: Напишите простой JSON-файл конфигурации и позвольте Mail Server Factory сделать все остальное -
+    от установки до инициализации. Никаких ручных настроек не требуется.
   table_version_debian11: 11 (Яблочко)
   architecture_benefit4: Ремонтопригодность
   code_ssh_setup: '# Включить SSH без пароля для целевого хоста
@@ -459,7 +476,8 @@ ru:
   enterprise_performance_item3: Пул соединений с базой данных
   coverage_value_core: 85%+ покрытие
   doc_readme_desc: Полный обзор проекта с корпоративными функциями
-  step_deploy_desc: Запустите лаунчер mail_factory с вашей конфигурацией. Откиньтесь на спинку кресла, пока он устанавливает и настраивает все.
+  step_deploy_desc: Запустите лаунчер mail_factory с вашей конфигурацией. Откиньтесь на спинку кресла, пока он устанавливает
+    и настраивает все.
   test_stat_value_success: 100%
   architecture_component5: Кофеиновое кэширование
   distro_rhel: Ред Хэт Энтерпрайз Линукс
@@ -468,10 +486,12 @@ ru:
   enterprise_config_desc: Расширенная система конфигурации с поддержкой среды, горячей перезагрузкой и корпоративной проверкой.
   distro_opensuse_versions: 15,6
   architecture_benefit2: Масштабируемый
-  compatibility_automated_desc: "Все дистрибутивы готовы к автоматическому тестированию с помощью виртуализации QEMU. \n        Платформа тестирования включает проверку ISO, автоматическую установку и проверку конфигурации. \n        Все конфигурации готовы к работе и активно поддерживаются."
+  compatibility_automated_desc: "Все дистрибутивы готовы к автоматическому тестированию с помощью виртуализации QEMU. \n \
+    \       Платформа тестирования включает проверку ISO, автоматическую установку и проверку конфигурации. \n        Все\
+    \ конфигурации готовы к работе и активно поддерживаются."
   architecture_component6: Настройка JVM (G1GC)
   doc_testing_desc: Корпоративное тестирование с документацией о покрытии более 85 %
-  table_config_debian12: Примеры/Debian_12.json
+  table_config_debian12: Examples/Debian_12.json
   use_case2: 👨‍💻 DevOps-инженеры
   enterprise_monitoring_item4: Мониторинг производительности в режиме реального времени
   architecture_component9: Метрики Прометея
@@ -482,33 +502,34 @@ ru:
   doc_issues: Проблемы
   hero_badge_distribution: Мультидистрибутивная поддержка
   code_verify_command: 'docker ps -a # Проверка запущенных служб'
-  table_config_debian11: Примеры/Debian_11.json
+  table_config_debian11: Examples/Debian_11.json
   doc_enterprise: Руководство для предприятий
-  architecture_badge_docker: Докер
-  architecture_badge_ssh: SSH-протокол
+  architecture_badge_docker: Docker
+  architecture_badge_ssh: SSH Protocol
   enterprise_performance_item4: Асинхронные операции ввода-вывода
   step_configure_desc: Создайте файл конфигурации JSON, указав сведения о почтовом сервере, учетных записях и целевом хосте.
   doc_configuration_desc: Файлы конфигурации предприятия и настройка среды
   enterprise_config_item3: Проверка схемы и отчет об ошибках
-  code_manual_install: '# Клонируем репозиторий
+  code_manual_install: '# Clone the repository
 
-    Фабрика mkdir && Фабрика компакт-дисков
+    mkdir Factory && cd Factory
 
     git clone --recurse-submodules git@github.com:Server-Factory/Mail-Server-Factory.git .
 
 
-    # Сборка проекта
+    # Build the project
 
-    ./gradlew собрать
+    ./gradlew assemble
 
 
-    # Запускаем с вашей конфигурацией
+    # Run with your configuration
 
-    ./mail_factory Примеры/Centos_8.json'
+    ./mail_factory Examples/Centos_8.json'
   table_version_rhel9: '9'
   doc_issues_desc: Сообщайте об ошибках или запросите корпоративные функции
   code_json_example: "{\n  \"имя хоста\": \"mail.example.com\",\n  \"счета\": [...],\n  \"база данных\": {...}\n}"
-  enterprise_security_desc: Безопасность корпоративного уровня с шифрованием AES-256-GCM, комплексным журналом аудита, управлением сеансами и соблюдением TLS 1.3.
+  enterprise_security_desc: Безопасность корпоративного уровня с шифрованием AES-256-GCM, комплексным журналом аудита, управлением
+    сеансами и соблюдением TLS 1.3.
   compatibility_table_family: Семейство дистрибутивов
   tech_postgresql_desc: Main Database Основная база данных
   architecture_benefit3: наблюдаемый
@@ -517,8 +538,8 @@ ru:
   architecture_component22: Постфикс
   quick_start_ssh_setup: Настройка SSH-доступа
   architecture_component23: Голубятня
-  architecture_badge_gradle: Градл 8.14.3
-  table_config_fedora40: Примеры/Fedora_Server_40.json
+  architecture_badge_gradle: Gradle 8.14.3
+  table_config_fedora40: Examples/Fedora_Server_40.json
   testing_stat_smells: Запахи кода
   enterprise_performance_item1: Многорегиональное кэширование на основе кофеина
   table_version_debian12: 12 (Книжный червь)
@@ -535,19 +556,21 @@ ru:
   table_version_fedora39: '39'
   architecture_component12: Управление оповещениями
   cta_download: Скачать сейчас
-  feature_security_desc: Автоматическая генерация TLS-сертификатов с самоподписанным CA, аутентификация на основе SSH-ключей и отраслевые стандарты безопасности из коробки.
+  feature_security_desc: Автоматическая генерация TLS-сертификатов с самоподписанным CA, аутентификация на основе SSH-ключей
+    и отраслевые стандарты безопасности из коробки.
   enterprise_monitoring_item1: Конечная точка метрик, совместимая с Prometheus
   enterprise_monitoring_item2: Автоматизированные проверки здоровья
   launcher_feature3: Переменные среды
   use_case1_desc: Владейте своей почтовой инфраструктурой без привязки к поставщику. Полный контроль над данными и конфиденциальностью.
   testing_coverage_core: Основная структура
-  architecture_badge_java: Ява 17
+  architecture_badge_java: Java 17
   quick_start_web_installer: Веб-установщик (рекомендуется)
   table_version_fedora41: '41'
   tech_postgresql: PostgreSQL
   launcher_feature2_desc: Поиск среды выполнения Java и проверка версии (минимум Java 17)
   testing_coverage_enterprise: Характеристика предприятия
-  enterprise_performance_desc: Производительность корпоративного масштаба с расширенным кэшированием, настройкой JVM и оптимизированным использованием ресурсов.
+  enterprise_performance_desc: Производительность корпоративного масштаба с расширенным кэшированием, настройкой JVM и оптимизированным
+    использованием ресурсов.
   nav_documentation: 📚 Документация
   nav_view_github: Посмотреть на GitHub
   nav_download: Скачать
@@ -601,9 +624,9 @@ zh:
   cta_note: 开源 • 永久免费 • 社区支持
   footer_website_maintained: 网站
   footer_website_maintained_text: 由维护
-  footer_server_factory: 服务器工厂
+  footer_server_factory: Server Factory
   footer_generated_by: 此页面由生成
-  footer_github_pages: GitHub页面
+  footer_github_pages: GitHub Pages
   logo_alt: Mail Server Factory 标志
   logo_alt_home: Mail Server Factory - 像老板一样运行您的邮件服务器！
   footer_opensource: 开源 • 永久免费 • 社区支持
@@ -620,7 +643,7 @@ zh:
   enterprise_performance_item2: JVM性能优化(G1GC)
   architecture_component1: AES-256-GCM加密
   testing_stat_success: 成功率
-  table_config_rhel9: 示例/RHEL_9.json
+  table_config_rhel9: Examples/RHEL_9.json
   testing_coverage_title: 按模块的测试覆盖率
   architecture_performance_layer: ⚡ 性能层
   distro_ubuntu_versions: 22.04 LTS ， 24.04 LTS
@@ -639,7 +662,7 @@ zh:
   test_stat_value_total: '47'
   code_web_installer: /bin/bash -c "$ (curl -fsSL https://raw.githubusercontent.com/Server-Factory/Utils/master/web_installer.sh)"
   architecture_component17: Kotlin 2.0.21
-  table_config_fedora39: 示例/Fedora_Server_39.json
+  table_config_fedora39: Examples/Fedora_Server_39.json
   doc_configuration: 确认
   tech_redis: 对象缓存
   enterprise_security_item1: 用于静态数据的AES-256-GCM加密
@@ -651,8 +674,8 @@ zh:
   table_version_fedora40: '40'
   compatibility_table_distribution: 分布
   feature_ssh_desc: 通过SSH部署到远程服务器，包括连接池、自动文件传输和强大的错误处理。
-  table_config_ubuntu24: 示例/Ubuntu_24.json
-  table_config_ubuntu22: 示例/Ubuntu_22.json
+  table_config_ubuntu24: Examples/Ubuntu_24.json
+  table_config_ubuntu22: Examples/Ubuntu_22.json
   step_use_desc: 将电子邮件客户端连接到已部署的服务器。所有服务都在运行、配置并准备好处理电子邮件。
   feature_tested_desc: 通过47次全面测试，测试执行成功率达到100%。每个组件在发布前都经过验证。
   launcher_commands_title: 启动器选项
@@ -660,14 +683,14 @@ zh:
   tech_redis_desc: 缓存层
   cta_github: 查看GitHub
   architecture_component20: JSON配置：
-  table_config_fedora38: 示例/Fedora_Server_38.json
+  table_config_fedora38: Examples/Fedora_Server_38.json
   feature_complete_desc: Postfix、Dovecot、PostgreSQL、Rspamd、Redis和ClamAV已预先配置并无缝协作。
   table_version_ubuntu24: 24.04 LTS （贵族）
   enterprise_monitoring_desc: 使用Prometheus指标、运行状况检查、结构化日志记录和企业警报的完整监控解决方案。
   doc_readme: 讀我檔案
   hero_badge_enterprise: 企业级
   use_case4_desc: 以最少的维护为学生和员工部署经济高效的邮件服务器。
-  table_config_fedora41: 示例/Fedora_Server_41.json
+  table_config_fedora41: Examples/Fedora_Server_41.json
   architecture_benefit1_desc: 采用企业级加密和监控的深度防御安全
   code_deploy_command: ./mail_factory config.json
   architecture_component11: 结构化日志记录
@@ -680,12 +703,12 @@ zh:
   compatibility_table_version: 版本
   doc_examples_desc: 企业部署的示例配置
   hero_badge_automated: 自动安装
-  table_config_opensuse15: 示例/openSUSE_Leap_15.json
+  table_config_opensuse15: Examples/openSUSE_Leap_15.json
   tech_clamav_desc: 防病毒
-  architecture_badge_json: JSON配置：
+  architecture_badge_json: JSON Configuration
   launcher_command_help: 显示此帮助
   use_case1: 小型企业
-  table_config_rocky9: 示例/Rocky_9.json
+  table_config_rocky9: Examples/Rocky_9.json
   architecture_benefit3_desc: 通过指标、日志记录和运行状况监控实现完整的可观察性
   architecture_component10: 健康检查
   architecture_benefit4_desc: 热重新加载配置和自动化测试确保可靠性
@@ -714,7 +737,7 @@ zh:
   architecture_component18: Gradle 8.14.3
   architecture_component15: 大纲校验
   doc_examples: 示例
-  table_config_almalinux9: 示例/AlmaLinux_9.json
+  table_config_almalinux9: Examples/AlmaLinux_9.json
   launcher_command_jar: 覆盖JAR位置
   architecture_monitoring_layer: 📊 监控层
   tech_dovecot: dovecot
@@ -729,7 +752,7 @@ zh:
   hero_badge_testing: 综合测试
   distro_opensuse: openSUSE Leap
   architecture_component21: PostgreSQL
-  feature_zero_touch_desc: 编写一个简单的JSON配置文件，让邮件服务器工厂处理所有事情-从安装到初始化。无需手动配置。
+  feature_zero_touch_desc: 编写一个简单的JSON配置文件，让邮件Server Factory处理所有事情-从安装到初始化。无需手动配置。
   table_version_debian11: 11 （靶心）
   architecture_benefit4: 可维护
   code_ssh_setup: '#为目标主机启用无密码SSH
@@ -751,7 +774,7 @@ zh:
   compatibility_automated_desc: "所有发行版都已准备好通过QEMU虚拟化进行自动化测试。 \n        测试框架包括ISO验证、自动化安装和配置验证。 \n        所有配置均已就绪并积极维护。"
   architecture_component6: JVM优化(G1GC)
   doc_testing_desc: 企业测试， 85%以上的覆盖范围文档
-  table_config_debian12: 示例/Debian_12.json
+  table_config_debian12: Examples/Debian_12.json
   use_case2: 👨‍💻 DevOps工程师
   enterprise_monitoring_item4: 实时性能监控
   architecture_component9: Prometheus指标
@@ -762,29 +785,29 @@ zh:
   doc_issues: 问题
   hero_badge_distribution: 多重分配
   code_verify_command: 'docker ps -a #验证正在运行的服务'
-  table_config_debian11: 示例/Debian_11.json
+  table_config_debian11: Examples/Debian_11.json
   doc_enterprise: 企业指南
   architecture_badge_docker: Docker
-  architecture_badge_ssh: SSH协议
+  architecture_badge_ssh: SSH Protocol
   enterprise_performance_item4: 异步I/O操作
   step_configure_desc: 创建JSON配置文件，指定邮件服务器详细信息、帐户和目标主机。
   doc_configuration_desc: 企业配置文件和环境设置
   enterprise_config_item3: 架构验证和错误报告
-  code_manual_install: '#克隆存储库
+  code_manual_install: '# Clone the repository
 
-    mkdir工厂& & cd工厂
+    mkdir Factory && cd Factory
 
-    git clone --recurse-submodules git@github.com ： Server-Factory/Mail-Server-Factory.git。
+    git clone --recurse-submodules git@github.com:Server-Factory/Mail-Server-Factory.git .
 
 
-    #构建项目
+    # Build the project
 
     ./gradlew assemble
 
 
-    #使用您的配置运行
+    # Run with your configuration
 
-    ./mail_factory示例/Centos_8.json'
+    ./mail_factory Examples/Centos_8.json'
   table_version_rhel9: '9'
   doc_issues_desc: 报告错误或请求企业版功能
   code_json_example: "{\n  \"HOSTNAME\": \"mail.example.com\",\n  \"ACCOUNTS\": [...],\n  \"DATABASE\": {...}\n}"
@@ -800,7 +823,8 @@ zh:
   select_language: 选择语言
   architecture_component2: Session Management
   enterprise_config_item2: Hot reloading without restart
-  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard security practices out of the box.
+  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard
+    security practices out of the box.
   architecture_component22: Postfix
   architecture_badge_java: Java 17
   distro_rhel_versions: '9'
@@ -836,7 +860,8 @@ zh:
   enterprise_performance_desc: Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.
 hi:
   hero_title: अपना मेल सर्वर <span class="highlight">बॉस की तरह</span> चलाएं
-  hero_subtitle: Kotlin, Docker और सिद्ध तकनीक द्वारा संचालित एंटरप्राइज़-ग्रेड मेल सर्वर ऑटोमेशन। एकल JSON कॉन्फ़िगरेशन फ़ाइल के साथ पूरी मेल इन्फ्रास्ट्रक्चर को तैनात करें।
+  hero_subtitle: Kotlin, Docker और सिद्ध तकनीक द्वारा संचालित एंटरप्राइज़-ग्रेड मेल सर्वर ऑटोमेशन। एकल JSON कॉन्फ़िगरेशन फ़ाइल
+    के साथ पूरी मेल इन्फ्रास्ट्रक्चर को तैनात करें।
   download_btn: ⬇ नवीनतम रिलीज़ डाउनलोड करें
   github_btn: ⭐ GitHub पर देखें
   stats_distributions: 12 वितरण
@@ -850,17 +875,23 @@ hi:
   features_title: Mail Server Factory क्यों?
   features_subtitle: एंटरप्राइज़ जटिलता के बिना एंटरप्राइज़ सुविधाएं
   feature_zero_touch: शून्य-स्पर्श तैनाती
-  feature_zero_touch_desc: एक सरल JSON कॉन्फ़िगरेशन फ़ाइल लिखें और Mail Server Factory को सब कुछ संभालने दें - स्थापना से लेकर आरंभीकरण तक। कोई मैनुअल कॉन्फ़िगरेशन आवश्यक नहीं।
+  feature_zero_touch_desc: एक सरल JSON कॉन्फ़िगरेशन फ़ाइल लिखें और Mail Server Factory को सब कुछ संभालने दें - स्थापना से
+    लेकर आरंभीकरण तक। कोई मैनुअल कॉन्फ़िगरेशन आवश्यक नहीं।
   feature_docker: Docker मूल
-  feature_docker_desc: प्रत्येक घटक अपने स्वयं के Docker कंटेनर में चलता है, जो अलगाव, स्केलेबिलिटी और आसान प्रबंधन सुनिश्चित करता है। किसी भी Docker-सक्षम होस्ट पर तैनात करें।
+  feature_docker_desc: प्रत्येक घटक अपने स्वयं के Docker कंटेनर में चलता है, जो अलगाव, स्केलेबिलिटी और आसान प्रबंधन सुनिश्चित
+    करता है। किसी भी Docker-सक्षम होस्ट पर तैनात करें।
   feature_security: सुरक्षा अंतर्निहित
-  feature_security_desc: स्व-हस्ताक्षरित CA के साथ स्वचालित TLS प्रमाणपत्र पीढ़ी, SSH कुंजी-आधारित प्रमाणीकरण, और बॉक्स से बाहर उद्योग-मानक सुरक्षा प्रथाएं।
+  feature_security_desc: स्व-हस्ताक्षरित CA के साथ स्वचालित TLS प्रमाणपत्र पीढ़ी, SSH कुंजी-आधारित प्रमाणीकरण, और बॉक्स से
+    बाहर उद्योग-मानक सुरक्षा प्रथाएं।
   feature_tested: युद्ध-परीक्षण कोड
-  feature_tested_desc: 47 व्यापक परीक्षणों के साथ 100% परीक्षण निष्पादन सफलता दर। प्रत्येक घटक रिलीज़ से पहले सत्यापित किया जाता है।
+  feature_tested_desc: 47 व्यापक परीक्षणों के साथ 100% परीक्षण निष्पादन सफलता दर। प्रत्येक घटक रिलीज़ से पहले सत्यापित किया
+    जाता है।
   feature_ssh: SSH-आधारित दूरस्थ निष्पादन
-  feature_ssh_desc: कनेक्शन पूलिंग, स्वचालित फ़ाइल ट्रांसफर और मजबूत त्रुटि हैंडलिंग के साथ SSH के माध्यम से दूरस्थ सर्वरों पर तैनात करें।
+  feature_ssh_desc: कनेक्शन पूलिंग, स्वचालित फ़ाइल ट्रांसफर और मजबूत त्रुटि हैंडलिंग के साथ SSH के माध्यम से दूरस्थ सर्वरों
+    पर तैनात करें।
   feature_complete: पूरा स्टैक
-  feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis, और ClamAV पूर्व-कॉन्फ़िगर किए गए हैं और निर्बाध रूप से साथ काम करते हैं।
+  feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis, और ClamAV पूर्व-कॉन्फ़िगर किए गए हैं और निर्बाध रूप
+    से साथ काम करते हैं।
   enterprise_title: एंटरप्राइज़ सुविधाएं
   enterprise_subtitle: एंटरप्राइज़ मेल इन्फ्रास्ट्रक्चर के लिए उत्पादन-तैयार क्षमताएं
   enterprise_security: उन्नत सुरक्षा
@@ -868,8 +899,10 @@ hi:
   enterprise_config: कॉन्फ़िगरेशन प्रबंधन
   enterprise_performance: प्रदर्शन अनुकूलन
   enterprise_config_desc: पर्यावरण समर्थन, हॉट रीलोडिंग और एंटरप्राइज़ सत्यापन के साथ उन्नत कॉन्फ़िगरेशन सिस्टम।
-  enterprise_monitoring_desc: Prometheus मेट्रिक्स, स्वास्थ्य जांच, संरचित लॉगिंग और एंटरप्राइज़ अलर्टिंग के साथ पूर्ण निगरानी समाधान।
-  enterprise_security_desc: AES-256-GCM एन्क्रिप्शन, व्यापक ऑडिट लॉगिंग, सेशन प्रबंधन और TLS 1.3 प्रवर्तन के साथ एंटरप्राइज़-ग्रेड सुरक्षा।
+  enterprise_monitoring_desc: Prometheus मेट्रिक्स, स्वास्थ्य जांच, संरचित लॉगिंग और एंटरप्राइज़ अलर्टिंग के साथ पूर्ण निगरानी
+    समाधान।
+  enterprise_security_desc: AES-256-GCM एन्क्रिप्शन, व्यापक ऑडिट लॉगिंग, सेशन प्रबंधन और TLS 1.3 प्रवर्तन के साथ एंटरप्राइज़-ग्रेड
+    सुरक्षा।
   tech_stack_title: प्रौद्योगिकी स्टैक
   tech_stack_subtitle: उद्योग-अग्रणी ओपन सोर्स तकनीकों द्वारा संचालित
   architecture_title: एंटरप्राइज़ आर्किटेक्चर
@@ -879,9 +912,11 @@ hi:
   step_configure: कॉन्फ़िगर करें
   step_configure_desc: अपने मेल सर्वर विवरण, खातों और लक्ष्य होस्ट को निर्दिष्ट करते हुए एक JSON कॉन्फ़िगरेशन फ़ाइल बनाएं।
   step_deploy: तैनात करें
-  step_deploy_desc: अपनी कॉन्फ़िगरेशन के साथ mail_factory लॉन्चर चलाएं। यह सब कुछ स्थापित और कॉन्फ़िगर करता है, आप आराम से बैठें।
+  step_deploy_desc: अपनी कॉन्फ़िगरेशन के साथ mail_factory लॉन्चर चलाएं। यह सब कुछ स्थापित और कॉन्फ़िगर करता है, आप आराम से
+    बैठें।
   step_use: उपयोग करें
-  step_use_desc: तैनात सर्वर से अपने ईमेल क्लाइंट कनेक्ट करें। सभी सेवाएं चल रही हैं, कॉन्फ़िगर की गई हैं और ईमेल संभालने के लिए तैयार हैं।
+  step_use_desc: तैनात सर्वर से अपने ईमेल क्लाइंट कनेक्ट करें। सभी सेवाएं चल रही हैं, कॉन्फ़िगर की गई हैं और ईमेल संभालने
+    के लिए तैयार हैं।
   testing_title: Quality & Testing
   testing_subtitle: Comprehensive test coverage ensures reliability
   compatibility_title: Distribution Support Matrix
@@ -977,7 +1012,9 @@ hi:
     sh Core/Utils/init_ssh_access.sh your-server.local'
   code_verify_command: 'docker ps -a  # Verify running services'
   code_web_installer: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Server-Factory/Utils/master/web_installer.sh)"
-  compatibility_automated_desc: "All distributions are ready for automated testing with QEMU virtualization. \n        The testing framework includes ISO verification, automated installation, and configuration validation. \n        All configurations are production-ready and actively maintained."
+  compatibility_automated_desc: "All distributions are ready for automated testing with QEMU virtualization. \n        The\
+    \ testing framework includes ISO verification, automated installation, and configuration validation. \n        All configurations\
+    \ are production-ready and actively maintained."
   compatibility_automated_title: ✅ Automated Testing Available
   compatibility_table_config: Configuration
   compatibility_table_distribution: Distribution
@@ -1208,7 +1245,8 @@ ja:
   doc_configuration_desc: Enterprise configuration files and environment setup
   doc_readme: README
   enterprise_config_item1: Multi-environment configurations
-  step_use_desc: Connect your email clients to the deployed server. All services are running, configured, and ready to handle email.
+  step_use_desc: Connect your email clients to the deployed server. All services are running, configured, and ready to handle
+    email.
   architecture_component19: Java 17
   launcher_title: Launcher Features
   architecture_application_layer: 🏗️ Application Layer
@@ -1259,13 +1297,15 @@ ja:
   architecture_component17: Kotlin 2.0.21
   footer_generated_by: This page was generated by
   table_version_ubuntu24: 24.04 LTS (Noble)
-  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, scalability, and easy management. Deploy on any Docker-capable host.
+  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, scalability, and easy management.
+    Deploy on any Docker-capable host.
   test_stat_value_coverage: 85%+
   enterprise_config_item4: Secure secrets management
   architecture_security_layer: 🔒 Security Layer
   code_deploy_command: ./mail_factory config.json
   distro_rocky_versions: '9.5'
-  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, comprehensive audit logging, session management, and TLS 1.3 enforcement.
+  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, comprehensive audit logging, session management,
+    and TLS 1.3 enforcement.
   quick_start_manual_install: Manual Installation
   cta_title: Ready to Deploy Your Mail Server?
   test_stat_value_success: 100%
@@ -1307,10 +1347,12 @@ ja:
   table_version_debian11: 11 (Bullseye)
   distro_ubuntu_versions: 22.04 LTS, 24.04 LTS
   hero_title: メールサーバーを<span class="highlight">ボスのように</span>運用
-  feature_zero_touch_desc: Write a simple JSON configuration file and let Mail Server Factory handle everything - from installation to initialization. No manual configuration needed.
+  feature_zero_touch_desc: Write a simple JSON configuration file and let Mail Server Factory handle everything - from installation
+    to initialization. No manual configuration needed.
   step_number1: '1'
   architecture_component16: Secrets Management
-  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard security practices out of the box.
+  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard
+    security practices out of the box.
   tech_rspamd_desc: Anti-Spam Engine
   architecture_badge_java: Java 17
   use_cases_title: Who Uses Mail Server Factory?
@@ -1331,8 +1373,7 @@ ja:
   step_configure_desc: Create a JSON configuration file specifying your mail server details, accounts, and target host.
   compatibility_table_tested: Tested
   architecture_component20: JSON Configuration
-  compatibility_automated_desc: |-
-    すべてのディストリビューションは、QEMU仮想化による自動テストに対応しています。テストフレームワークには、ISOの検証、自動インストール、構成の検証が含まれています。すべての構成は本番環境対応で、積極的にメンテナンスされています。
+  compatibility_automated_desc: すべてのディストリビューションは、QEMU仮想化による自動テストに対応しています。テストフレームワークには、ISOの検証、自動インストール、構成の検証が含まれています。すべての構成は本番環境対応で、積極的にメンテナンスされています。
   table_version_rocky95: '9.5'
   testing_coverage_factory: Factory Module
   theme_toggle: Toggle theme
@@ -1382,7 +1423,8 @@ ja:
   step_deploy: Deploy
   architecture_benefit3_desc: Complete observability with metrics, logging, and health monitoring
   compatibility_table_family: Distribution Family
-  enterprise_monitoring_desc: Complete monitoring solution with Prometheus metrics, health checks, structured logging, and enterprise alerting.
+  enterprise_monitoring_desc: Complete monitoring solution with Prometheus metrics, health checks, structured logging, and
+    enterprise alerting.
   launcher_subtitle: Production-ready bash wrapper with enterprise-grade error handling
   enterprise_performance_desc: Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.
   architecture_component1: AES-256-GCM Encryption
@@ -1394,7 +1436,8 @@ ja:
 fr:
   tech_stack_subtitle: Propulsé par les technologies open source de pointe
   table_config_rocky9: Examples/Rocky_9.json
-  step_deploy_desc: Exécuter the mail_factory launcher with votre configuration. Sit back while it installs and configures everything.
+  step_deploy_desc: Exécuter the mail_factory launcher with votre configuration. Sit back while it installs and configures
+    everything.
   architecture_component22: Postfix
   cta_subtitle: Rejoindre the Courrier Serveur Usine communauté and prendre contrôle of votre email infrastructure aujourd'hui.
   enterprise_config_item3: Schema validation and erreur reporting
@@ -1405,7 +1448,7 @@ fr:
   architecture_benefits_title: Entreprise Benefits
   footer_website_maintained: Website
   feature_zero_touch: Zero-Touch Déploiement
-  logo_alt: Courrier Serveur Usine logo
+  logo_alt: Mail Server Factory logo
   table_config_ubuntu22: Examples/Ubuntu_22.json
   tech_postgresql: PostgreSQL
   enterprise_config: Configuration Gestion
@@ -1476,7 +1519,8 @@ fr:
   distro_almalinux_versions: '9.5'
   table_version_fedora39: '39'
   tech_redis: Redis
-  feature_ssh_desc: Déployer to remote servers via SSH with connection pooling, automatic file transfers, and robust erreur gestion.
+  feature_ssh_desc: Déployer to remote servers via SSH with connection pooling, automatic file transfers, and robust erreur
+    gestion.
   test_stat_value_total: '47'
   feature_tested_desc: 100% test execution success rate with 47 complet tests. Every component is validated before release.
   architecture_component4: TLS 1.3 Enforcement
@@ -1484,7 +1528,8 @@ fr:
   doc_configuration_desc: Entreprise configuration files and environment setup
   doc_readme: README
   enterprise_config_item1: Multi-environment configurations
-  step_use_desc: Connect votre email clients to the deployed serveur. All services are running, configured, and prêt to handle email.
+  step_use_desc: Connect votre email clients to the deployed serveur. All services are running, configured, and prêt to handle
+    email.
   architecture_component19: Java 17
   launcher_title: Lanceur Fonctionnalités
   architecture_application_layer: 🏗️ Application Layer
@@ -1511,7 +1556,8 @@ fr:
   table_version_rhel9: '9'
   testing_subtitle: Complet test couverture assure fiabilité
   stats_automated: 100% Automatisé
-  hero_subtitle: Automatisation de serveur de messagerie de niveau entreprise alimentée par Kotlin, Docker et des technologies éprouvées. Déployez une infrastructure de messagerie complète avec un seul fichier de configuration JSON.
+  hero_subtitle: Automatisation de serveur de messagerie de niveau entreprise alimentée par Kotlin, Docker et des technologies
+    éprouvées. Déployez une infrastructure de messagerie complète avec un seul fichier de configuration JSON.
   use_case3_desc: Keep email data on-premises with complete contrôle over security and compliance.
   cta_download: Télécharger Now
   feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis, and ClamAV pre-configured and working together seamlessly.
@@ -1530,18 +1576,20 @@ fr:
   launcher_command_jar: Override JAR location
   stats_production: Prêt pour la production
   launcher_feature3_desc: Supports JAVA_OPTS, JAVA_HOME, MAIL_FACTORY_HOME
-  footer_server_factory: Serveur Usine
+  footer_server_factory: Server Factory
   enterprise_security_item1: AES-256-GCM encryption for data at rest
   architecture_component17: Kotlin 2.0.21
   footer_generated_by: This page was generated by
   table_version_ubuntu24: 24.04 LTS (Noble)
-  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, évolutivité, and easy management. Déployer on any Docker-capable host.
+  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, évolutivité, and easy management.
+    Déployer on any Docker-capable host.
   test_stat_value_coverage: 85%+
   enterprise_config_item4: Secure secrets management
   architecture_security_layer: 🔒 Sécurité Layer
   code_deploy_command: ./mail_factory config.json
   distro_rocky_versions: '9.5'
-  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, complet audit logging, session management, and TLS 1.3 enforcement.
+  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, complet audit logging, session management,
+    and TLS 1.3 enforcement.
   quick_start_manual_install: Manual Installation
   cta_title: Prêt to Déployer Votre Courrier Serveur?
   test_stat_value_success: 100%
@@ -1583,10 +1631,12 @@ fr:
   table_version_debian11: 11 (Bullseye)
   distro_ubuntu_versions: 22.04 LTS, 24.04 LTS
   hero_title: Gérez votre serveur de messagerie <span class="highlight">Comme un Patron</span>
-  feature_zero_touch_desc: Write a simple JSON configuration file and let Courrier Serveur Usine handle everything - from installation to initialization. No manual configuration needed.
+  feature_zero_touch_desc: Write a simple JSON configuration file and let Courrier Serveur Usine handle everything - from
+    installation to initialization. No manual configuration needed.
   step_number1: '1'
   architecture_component16: Secrets Gestion
-  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard security practices out of the box.
+  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard
+    security practices out of the box.
   tech_rspamd_desc: Anti-Spam Engine
   architecture_badge_java: Java 17
   use_cases_title: Qui Utilise Courrier Serveur Usine?
@@ -1607,7 +1657,9 @@ fr:
   step_configure_desc: Create a JSON configuration file specifying votre courrier serveur details, accounts, and target host.
   compatibility_table_tested: Testé
   architecture_component20: JSON Configuration
-  compatibility_automated_desc: All distributions are prêt for automated testing with QEMU virtualization. The testing framework includes ISO verification, automated installation, and configuration validation. All configurations are production-ready and actively maintained.
+  compatibility_automated_desc: All distributions are prêt for automated testing with QEMU virtualization. The testing framework
+    includes ISO verification, automated installation, and configuration validation. All configurations are production-ready
+    and actively maintained.
   table_version_rocky95: '9.5'
   testing_coverage_factory: Usine Module
   theme_toggle: Toggle theme
@@ -1631,7 +1683,8 @@ fr:
   launcher_command_dry_run: Show command sans executing
   table_version_almalinux95: '9.5'
   footer_opensource: Ouvert Source • Gratuit Forever • Communauté Supported
-  code_manual_install: '# Clone the repository mkdir Usine && cd Usine git clone --recurse-submodules git@github.com:Server-Factory/Mail-Server-Factory.git . # Build the project ./gradlew assemble # Exécuter with votre configuration ./mail_factory Examples/Centos_8.json'
+  code_manual_install: '# Clone the repository mkdir Usine && cd Usine git clone --recurse-submodules git@github.com:Server-Factory/Mail-Server-Factory.git
+    . # Build the project ./gradlew assemble # Exécuter with votre configuration ./mail_factory Examples/Centos_8.json'
   features_subtitle: Entreprise features sans the enterprise complexité
   architecture_title: Entreprise Architecture
   tech_redis_desc: Cache Layer
@@ -1643,7 +1696,8 @@ fr:
   step_deploy: Déployer
   architecture_benefit3_desc: Complet observability with metrics, logging, and health monitoring
   compatibility_table_family: Distribution Family
-  enterprise_monitoring_desc: Complet monitoring solution with Prometheus metrics, health checks, structured logging, and enterprise alerting.
+  enterprise_monitoring_desc: Complet monitoring solution with Prometheus metrics, health checks, structured logging, and
+    enterprise alerting.
   launcher_subtitle: Production-ready bash wrapper with enterprise-grade erreur gestion
   enterprise_performance_desc: Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.
   architecture_component1: AES-256-GCM Encryption
@@ -1655,9 +1709,10 @@ fr:
 de:
   tech_stack_subtitle: Angetrieben von führenden Open-Source-Technologien
   table_config_rocky9: Examples/Rocky_9.json
-  step_deploy_desc: Ausführen the mail_factory launcher with Ihre configuration. Sit back while it installs and configures everything.
+  step_deploy_desc: Ausführen the mail_factory launcher with Ihre configuration. Sit back while it installs and configures
+    everything.
   architecture_component22: Postfix
-  cta_subtitle: Beitreten the Post Server Fabrik Gemeinschaft and nehmen Kontrolle of Ihre E-Mail Infrastruktur heute.
+  cta_subtitle: Beitreten the Post Server Server Factory Gemeinschaft and nehmen Kontrolle of Ihre E-Mail Infrastruktur heute.
   enterprise_config_item3: Schema validation and Fehler reporting
   table_config_opensuse15: Examples/openSUSE_Leap_15.json
   code_web_installer: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Server-Factory/Utils/master/web_installer.sh)"
@@ -1666,7 +1721,7 @@ de:
   architecture_benefits_title: Unternehmens Benefits
   footer_website_maintained: Website
   feature_zero_touch: Zero-Touch Bereitstellung
-  logo_alt: Post Server Fabrik logo
+  logo_alt: Mail Server Factory logo
   table_config_ubuntu22: Examples/Ubuntu_22.json
   tech_postgresql: PostgreSQL
   enterprise_config: Konfiguration Verwaltung
@@ -1676,7 +1731,7 @@ de:
   architecture_monitoring_layer: 📊 Überwachung Layer
   doc_examples: Examples
   testing_coverage_enterprise: Unternehmens Funktionen
-  architecture_badge_json: JSON Konfiguration
+  architecture_badge_json: JSON Configuration
   table_config_rhel9: Examples/RHEL_9.json
   testing_title: Qualität & Tests
   feature_ssh: SSH-Based Fern Ausführung
@@ -1715,7 +1770,7 @@ de:
   feature_complete: Vollständig Stapel
   distro_rhel: Red Hat Unternehmens Linux
   doc_readme_desc: Vollständig project overview with enterprise features
-  features_title: Warum Post Server Fabrik?
+  features_title: Warum Post Server Server Factory?
   table_version_fedora41: '41'
   enterprise_monitoring_item4: Real-time performance monitoring
   architecture_infrastructure_layer: 🐳 Infrastructure Layer
@@ -1737,7 +1792,8 @@ de:
   distro_almalinux_versions: '9.5'
   table_version_fedora39: '39'
   tech_redis: Redis
-  feature_ssh_desc: Bereitstellen to remote servers via SSH with connection pooling, automatic file transfers, and robust Fehler Behandlung.
+  feature_ssh_desc: Bereitstellen to remote servers via SSH with connection pooling, automatic file transfers, and robust
+    Fehler Behandlung.
   test_stat_value_total: '47'
   feature_tested_desc: 100% Test execution success rate with 47 umfassend tests. Every component is validated before release.
   architecture_component4: TLS 1.3 Enforcement
@@ -1745,7 +1801,8 @@ de:
   doc_configuration_desc: Unternehmens configuration files and environment setup
   doc_readme: README
   enterprise_config_item1: Multi-environment configurations
-  step_use_desc: Connect Ihre E-Mail clients to the deployed Server. All services are running, configured, and bereit to handle E-Mail.
+  step_use_desc: Connect Ihre E-Mail clients to the deployed Server. All services are running, configured, and bereit to handle
+    E-Mail.
   architecture_component19: Java 17
   launcher_title: Starter Funktionen
   architecture_application_layer: 🏗️ Application Layer
@@ -1772,7 +1829,8 @@ de:
   table_version_rhel9: '9'
   testing_subtitle: Umfassend Test Abdeckung stellt sicher Zuverlässigkeit
   stats_automated: 100% Automatisiert
-  hero_subtitle: Automatisierung von Mail-Servern auf Enterprise-Niveau, angetrieben von Kotlin, Docker und bewährter Technologie. Implementieren Sie eine vollständige Mail-Infrastruktur mit einer einzigen JSON-Konfigurationsdatei.
+  hero_subtitle: Automatisierung von Mail-Servern auf Enterprise-Niveau, angetrieben von Kotlin, Docker und bewährter Technologie.
+    Implementieren Sie eine vollständige Mail-Infrastruktur mit einer einzigen JSON-Konfigurationsdatei.
   use_case3_desc: Keep E-Mail data on-premises with complete Kontrolle over security and compliance.
   cta_download: Herunterladen Now
   feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis, and ClamAV pre-configured and working together seamlessly.
@@ -1791,18 +1849,20 @@ de:
   launcher_command_jar: Override JAR location
   stats_production: Produktionsbereit
   launcher_feature3_desc: Supports JAVA_OPTS, JAVA_HOME, MAIL_FACTORY_HOME
-  footer_server_factory: Server Fabrik
+  footer_server_factory: Server Factory
   enterprise_security_item1: AES-256-GCM encryption for data at rest
   architecture_component17: Kotlin 2.0.21
   footer_generated_by: This page was generated by
   table_version_ubuntu24: 24.04 LTS (Noble)
-  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, Skalierbarkeit, and easy management. Bereitstellen on any Docker-capable host.
+  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, Skalierbarkeit, and easy management.
+    Bereitstellen on any Docker-capable host.
   test_stat_value_coverage: 85%+
   enterprise_config_item4: Secure secrets management
   architecture_security_layer: 🔒 Sicherheit Layer
   code_deploy_command: ./mail_factory config.json
   distro_rocky_versions: '9.5'
-  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, umfassend audit logging, session management, and TLS 1.3 enforcement.
+  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, umfassend audit logging, session management,
+    and TLS 1.3 enforcement.
   quick_start_manual_install: Manual Installation
   cta_title: Bereit to Bereitstellen Ihre Post Server?
   test_stat_value_success: 100%
@@ -1813,7 +1873,7 @@ de:
   compatibility_subtitle: Bereitstellen on the neueste modern Linux Server Distributionen
   architecture_benefit2: Scalable
   testing_stat_success: Success Rate
-  logo_alt_home: Post Server Fabrik - Ausführen Ihre Post Server like the boss!
+  logo_alt_home: Post Server Server Factory - Ausführen Ihre Post Server like the boss!
   code_verify_command: 'docker ps -a # Verify running services'
   doc_testing: Tests Guide
   enterprise_config_item2: Hot reloading ohne restart
@@ -1844,13 +1904,15 @@ de:
   table_version_debian11: 11 (Bullseye)
   distro_ubuntu_versions: 22.04 LTS, 24.04 LTS
   hero_title: Verwalten Sie Ihren Mail-Server <span class="highlight">Wie ein Chef</span>
-  feature_zero_touch_desc: Write a einfach JSON configuration file and let Post Server Fabrik handle everything - from installation to initialization. No manual configuration needed.
+  feature_zero_touch_desc: Write a einfach JSON configuration file and let Post Server Server Factory handle everything -
+    from installation to initialization. No manual configuration needed.
   step_number1: '1'
   architecture_component16: Secrets Verwaltung
-  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard security practices out of the box.
+  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard
+    security practices out of the box.
   tech_rspamd_desc: Anti-Spam Engine
   architecture_badge_java: Java 17
-  use_cases_title: Wer Verwendet Post Server Fabrik?
+  use_cases_title: Wer Verwendet Post Server Server Factory?
   compatibility_table_distribution: Verteilung
   use_case4_desc: Bereitstellen cost-effective Post servers for students and staff with minimal maintenance.
   architecture_component25: Redis
@@ -1868,9 +1930,11 @@ de:
   step_configure_desc: Create a JSON configuration file specifying Ihre Post Server details, accounts, and target host.
   compatibility_table_tested: Getestet
   architecture_component20: JSON Konfiguration
-  compatibility_automated_desc: All Distributionen are bereit for automated testing with QEMU virtualization. The testing framework includes ISO verification, automated installation, and configuration validation. All configurations are production-ready and actively maintained.
+  compatibility_automated_desc: All Distributionen are bereit for automated testing with QEMU virtualization. The testing
+    framework includes ISO verification, automated installation, and configuration validation. All configurations are production-ready
+    and actively maintained.
   table_version_rocky95: '9.5'
-  testing_coverage_factory: Fabrik Module
+  testing_coverage_factory: Server Factory Module
   theme_toggle: Toggle theme
   use_case1: 🏢 Small Businesses
   tech_stack_title: Technologie Stapel
@@ -1892,7 +1956,8 @@ de:
   launcher_command_dry_run: Show command ohne executing
   table_version_almalinux95: '9.5'
   footer_opensource: Offen Source • Kostenlos Forever • Gemeinschaft Supported
-  code_manual_install: '# Clone the repository mkdir Fabrik && cd Fabrik git clone --recurse-submodules git@github.com:Server-Factory/Mail-Server-Factory.git . # Build the project ./gradlew assemble # Ausführen with Ihre configuration ./mail_factory Examples/Centos_8.json'
+  code_manual_install: '# Clone the repository mkdir Server Factory && cd Server Factory git clone --recurse-submodules git@github.com:Server-Factory/Mail-Server-Factory.git
+    . # Build the project ./gradlew assemble # Ausführen with Ihre configuration ./mail_factory Examples/Centos_8.json'
   features_subtitle: Unternehmens features ohne the enterprise Komplexität
   architecture_title: Unternehmens Architektur
   tech_redis_desc: Cache Layer
@@ -1904,7 +1969,8 @@ de:
   step_deploy: Bereitstellen
   architecture_benefit3_desc: Vollständig observability with metrics, logging, and health monitoring
   compatibility_table_family: Verteilung Family
-  enterprise_monitoring_desc: Vollständig monitoring solution with Prometheus metrics, health checks, structured logging, and enterprise alerting.
+  enterprise_monitoring_desc: Vollständig monitoring solution with Prometheus metrics, health checks, structured logging,
+    and enterprise alerting.
   launcher_subtitle: Production-ready bash Wrapper with enterprise-grade Fehler Behandlung
   enterprise_performance_desc: Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.
   architecture_component1: AES-256-GCM Encryption
@@ -1927,7 +1993,7 @@ es:
   architecture_benefits_title: Empresarial Benefits
   footer_website_maintained: Website
   feature_zero_touch: Zero-Touch Despliegue
-  logo_alt: Correo Servidor Fábrica logo
+  logo_alt: Mail Server Factory logo
   table_config_ubuntu22: Examples/Ubuntu_22.json
   tech_postgresql: PostgreSQL
   enterprise_config: Configuración Gestión
@@ -1937,7 +2003,7 @@ es:
   architecture_monitoring_layer: 📊 Monitoreo Layer
   doc_examples: Examples
   testing_coverage_enterprise: Empresarial Características
-  architecture_badge_json: JSON Configuración
+  architecture_badge_json: JSON Configuration
   table_config_rhel9: Examples/RHEL_9.json
   testing_title: Calidad & Pruebas
   feature_ssh: SSH-Based Remoto Ejecución
@@ -1998,7 +2064,8 @@ es:
   distro_almalinux_versions: '9.5'
   table_version_fedora39: '39'
   tech_redis: Redis
-  feature_ssh_desc: Desplegar to remote servers via SSH with connection pooling, automatic file transfers, and robust error manejo.
+  feature_ssh_desc: Desplegar to remote servers via SSH with connection pooling, automatic file transfers, and robust error
+    manejo.
   test_stat_value_total: '47'
   feature_tested_desc: 100% prueba execution success rate with 47 integral tests. Every component is validated before release.
   architecture_component4: TLS 1.3 Enforcement
@@ -2006,7 +2073,8 @@ es:
   doc_configuration_desc: Empresarial configuration files and environment setup
   doc_readme: README
   enterprise_config_item1: Multi-environment configurations
-  step_use_desc: Connect su correo electrónico clients to the deployed servidor. All services are running, configured, and listo to handle correo electrónico.
+  step_use_desc: Connect su correo electrónico clients to the deployed servidor. All services are running, configured, and
+    listo to handle correo electrónico.
   architecture_component19: Java 17
   launcher_title: Lanzador Características
   architecture_application_layer: 🏗️ Application Layer
@@ -2033,7 +2101,8 @@ es:
   table_version_rhel9: '9'
   testing_subtitle: Integral prueba cobertura garantiza fiabilidad
   stats_automated: 100% Automatizado
-  hero_subtitle: Automatización de servidores de correo de nivel empresarial impulsada por Kotlin, Docker y tecnología probada. Despliega infraestructura de correo completa con un solo archivo de configuración JSON.
+  hero_subtitle: Automatización de servidores de correo de nivel empresarial impulsada por Kotlin, Docker y tecnología probada.
+    Despliega infraestructura de correo completa con un solo archivo de configuración JSON.
   use_case3_desc: Keep correo electrónico data on-premises with complete control over security and compliance.
   cta_download: Descargar Now
   feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis, and ClamAV pre-configured and working together seamlessly.
@@ -2052,18 +2121,20 @@ es:
   launcher_command_jar: Override JAR location
   stats_production: Listo para producción
   launcher_feature3_desc: Supports JAVA_OPTS, JAVA_HOME, MAIL_FACTORY_HOME
-  footer_server_factory: Servidor Fábrica
+  footer_server_factory: Server Factory
   enterprise_security_item1: AES-256-GCM encryption for data at rest
   architecture_component17: Kotlin 2.0.21
   footer_generated_by: This page was generated by
   table_version_ubuntu24: 24.04 LTS (Noble)
-  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, escalabilidad, and easy management. Desplegar on any Docker-capable host.
+  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, escalabilidad, and easy management.
+    Desplegar on any Docker-capable host.
   test_stat_value_coverage: 85%+
   enterprise_config_item4: Secure secrets management
   architecture_security_layer: 🔒 Seguridad Layer
   code_deploy_command: ./mail_factory config.json
   distro_rocky_versions: '9.5'
-  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, integral audit logging, session management, and TLS 1.3 enforcement.
+  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, integral audit logging, session management,
+    and TLS 1.3 enforcement.
   quick_start_manual_install: Manual Instalación
   cta_title: Listo to Desplegar Su Correo Servidor?
   test_stat_value_success: 100%
@@ -2105,10 +2176,12 @@ es:
   table_version_debian11: 11 (Bullseye)
   distro_ubuntu_versions: 22.04 LTS, 24.04 LTS
   hero_title: Gestiona tu servidor de correo <span class="highlight">Como un Jefe</span>
-  feature_zero_touch_desc: Write a simple JSON configuration file and let Correo Servidor Fábrica handle everything - from installation to initialization. No manual configuration needed.
+  feature_zero_touch_desc: Write a simple JSON configuration file and let Correo Servidor Fábrica handle everything - from
+    installation to initialization. No manual configuration needed.
   step_number1: '1'
   architecture_component16: Secrets Gestión
-  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard security practices out of the box.
+  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard
+    security practices out of the box.
   tech_rspamd_desc: Anti-Spam Engine
   architecture_badge_java: Java 17
   use_cases_title: Quién Usa Correo Servidor Fábrica?
@@ -2129,7 +2202,9 @@ es:
   step_configure_desc: Create a JSON configuration file specifying su correo servidor details, accounts, and target host.
   compatibility_table_tested: Probado
   architecture_component20: JSON Configuración
-  compatibility_automated_desc: All distribuciones are listo for automated testing with QEMU virtualization. The testing framework includes ISO verification, automated installation, and configuration validation. All configurations are production-ready and actively maintained.
+  compatibility_automated_desc: All distribuciones are listo for automated testing with QEMU virtualization. The testing framework
+    includes ISO verification, automated installation, and configuration validation. All configurations are production-ready
+    and actively maintained.
   table_version_rocky95: '9.5'
   testing_coverage_factory: Fábrica Module
   theme_toggle: Toggle theme
@@ -2153,7 +2228,8 @@ es:
   launcher_command_dry_run: Show command sin executing
   table_version_almalinux95: '9.5'
   footer_opensource: Abierto Source • Gratis Forever • Comunidad Supported
-  code_manual_install: '# Clone the repository mkdir Fábrica && cd Fábrica git clone --recurse-submodules git@github.com:Server-Factory/Mail-Server-Factory.git . # Build the project ./gradlew assemble # Ejecutar with su configuration ./mail_factory Examples/Centos_8.json'
+  code_manual_install: '# Clone the repository mkdir Fábrica && cd Fábrica git clone --recurse-submodules git@github.com:Server-Factory/Mail-Server-Factory.git
+    . # Build the project ./gradlew assemble # Ejecutar with su configuration ./mail_factory Examples/Centos_8.json'
   features_subtitle: Empresarial features sin the enterprise complejidad
   architecture_title: Empresarial Arquitectura
   tech_redis_desc: Cache Layer
@@ -2165,7 +2241,8 @@ es:
   step_deploy: Desplegar
   architecture_benefit3_desc: Completo observability with metrics, logging, and health monitoring
   compatibility_table_family: Distribución Family
-  enterprise_monitoring_desc: Completo monitoring solution with Prometheus metrics, health checks, structured logging, and enterprise alerting.
+  enterprise_monitoring_desc: Completo monitoring solution with Prometheus metrics, health checks, structured logging, and
+    enterprise alerting.
   launcher_subtitle: Production-ready bash envoltorio with enterprise-grade error manejo
   enterprise_performance_desc: Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.
   architecture_component1: AES-256-GCM Encryption
@@ -2188,7 +2265,7 @@ pt:
   architecture_benefits_title: Empresarial Benefits
   footer_website_maintained: Website
   feature_zero_touch: Zero-Touch Implantação
-  logo_alt: Correio Servidor Fábrica logo
+  logo_alt: Mail Server Factory logo
   table_config_ubuntu22: Examples/Ubuntu_22.json
   tech_postgresql: PostgreSQL
   enterprise_config: Configuração Gerenciamento
@@ -2198,7 +2275,7 @@ pt:
   architecture_monitoring_layer: 📊 Monitoramento Layer
   doc_examples: Examples
   testing_coverage_enterprise: Empresarial Recursos
-  architecture_badge_json: JSON Configuração
+  architecture_badge_json: JSON Configuration
   table_config_rhel9: Examples/RHEL_9.json
   testing_title: Qualidade & Testes
   feature_ssh: SSH-Based Remoto Execução
@@ -2259,7 +2336,8 @@ pt:
   distro_almalinux_versions: '9.5'
   table_version_fedora39: '39'
   tech_redis: Redis
-  feature_ssh_desc: Implantar to remote servers via SSH with connection pooling, automatic file transfers, and robust erro tratamento.
+  feature_ssh_desc: Implantar to remote servers via SSH with connection pooling, automatic file transfers, and robust erro
+    tratamento.
   test_stat_value_total: '47'
   feature_tested_desc: 100% teste execution success rate with 47 abrangente tests. Every component is validated before release.
   architecture_component4: TLS 1.3 Enforcement
@@ -2267,7 +2345,8 @@ pt:
   doc_configuration_desc: Empresarial configuration files and environment setup
   doc_readme: README
   enterprise_config_item1: Multi-environment configurations
-  step_use_desc: Connect seu email clients to the deployed servidor. All services are running, configured, and pronto to handle email.
+  step_use_desc: Connect seu email clients to the deployed servidor. All services are running, configured, and pronto to handle
+    email.
   architecture_component19: Java 17
   launcher_title: Launcher Recursos
   architecture_application_layer: 🏗️ Application Layer
@@ -2294,7 +2373,8 @@ pt:
   table_version_rhel9: '9'
   testing_subtitle: Abrangente teste cobertura garante confiabilidade
   stats_automated: 100% Automatizado
-  hero_subtitle: Automação de servidor de email de nível empresarial alimentada por Kotlin, Docker e tecnologia comprovada. Implante infraestrutura de email completa com um único arquivo de configuração JSON.
+  hero_subtitle: Automação de servidor de email de nível empresarial alimentada por Kotlin, Docker e tecnologia comprovada.
+    Implante infraestrutura de email completa com um único arquivo de configuração JSON.
   use_case3_desc: Keep email data on-premises with complete controle over security and compliance.
   cta_download: Baixar Now
   feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis, and ClamAV pre-configured and working together seamlessly.
@@ -2313,18 +2393,20 @@ pt:
   launcher_command_jar: Override JAR location
   stats_production: Pronto para produção
   launcher_feature3_desc: Supports JAVA_OPTS, JAVA_HOME, MAIL_FACTORY_HOME
-  footer_server_factory: Servidor Fábrica
+  footer_server_factory: Server Factory
   enterprise_security_item1: AES-256-GCM encryption for data at rest
   architecture_component17: Kotlin 2.0.21
   footer_generated_by: This page was generated by
   table_version_ubuntu24: 24.04 LTS (Noble)
-  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, escalabilidade, and easy management. Implantar on any Docker-capable host.
+  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, escalabilidade, and easy management.
+    Implantar on any Docker-capable host.
   test_stat_value_coverage: 85%+
   enterprise_config_item4: Secure secrets management
   architecture_security_layer: 🔒 Segurança Layer
   code_deploy_command: ./mail_factory config.json
   distro_rocky_versions: '9.5'
-  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, abrangente audit logging, session management, and TLS 1.3 enforcement.
+  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, abrangente audit logging, session management,
+    and TLS 1.3 enforcement.
   quick_start_manual_install: Manual Instalação
   cta_title: Pronto to Implantar Seu Correio Servidor?
   test_stat_value_success: 100%
@@ -2366,10 +2448,12 @@ pt:
   table_version_debian11: 11 (Bullseye)
   distro_ubuntu_versions: 22.04 LTS, 24.04 LTS
   hero_title: Gerencie seu servidor de email <span class="highlight">Como um Chefe</span>
-  feature_zero_touch_desc: Write a simples JSON configuration file and let Correio Servidor Fábrica handle everything - from installation to initialization. No manual configuration needed.
+  feature_zero_touch_desc: Write a simples JSON configuration file and let Correio Servidor Fábrica handle everything - from
+    installation to initialization. No manual configuration needed.
   step_number1: '1'
   architecture_component16: Secrets Gerenciamento
-  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard security practices out of the box.
+  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard
+    security practices out of the box.
   tech_rspamd_desc: Anti-Spam Engine
   architecture_badge_java: Java 17
   use_cases_title: Quem Usa Correio Servidor Fábrica?
@@ -2390,7 +2474,9 @@ pt:
   step_configure_desc: Create a JSON configuration file specifying seu correio servidor details, accounts, and target host.
   compatibility_table_tested: Testado
   architecture_component20: JSON Configuração
-  compatibility_automated_desc: All distribuições are pronto for automated testing with QEMU virtualization. The testing framework includes ISO verification, automated installation, and configuration validation. All configurations are production-ready and actively maintained.
+  compatibility_automated_desc: All distribuições are pronto for automated testing with QEMU virtualization. The testing framework
+    includes ISO verification, automated installation, and configuration validation. All configurations are production-ready
+    and actively maintained.
   table_version_rocky95: '9.5'
   testing_coverage_factory: Fábrica Module
   theme_toggle: Toggle theme
@@ -2414,7 +2500,8 @@ pt:
   launcher_command_dry_run: Show command sem executing
   table_version_almalinux95: '9.5'
   footer_opensource: Aberto Source • Grátis Forever • Comunidade Supported
-  code_manual_install: '# Clone the repository mkdir Fábrica && cd Fábrica git clone --recurse-submodules git@github.com:Server-Factory/Mail-Server-Factory.git . # Build the project ./gradlew assemble # Executar with seu configuration ./mail_factory Examples/Centos_8.json'
+  code_manual_install: '# Clone the repository mkdir Fábrica && cd Fábrica git clone --recurse-submodules git@github.com:Server-Factory/Mail-Server-Factory.git
+    . # Build the project ./gradlew assemble # Executar with seu configuration ./mail_factory Examples/Centos_8.json'
   features_subtitle: Empresarial features sem the enterprise complexidade
   architecture_title: Empresarial Arquitetura
   tech_redis_desc: Cache Layer
@@ -2426,7 +2513,8 @@ pt:
   step_deploy: Implantar
   architecture_benefit3_desc: Completo observability with metrics, logging, and health monitoring
   compatibility_table_family: Distribuição Family
-  enterprise_monitoring_desc: Completo monitoring solution with Prometheus metrics, health checks, structured logging, and enterprise alerting.
+  enterprise_monitoring_desc: Completo monitoring solution with Prometheus metrics, health checks, structured logging, and
+    enterprise alerting.
   launcher_subtitle: Production-ready bash wrapper with enterprise-grade erro tratamento
   enterprise_performance_desc: Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.
   architecture_component1: AES-256-GCM Encryption
@@ -2530,7 +2618,8 @@ da:
   doc_configuration_desc: Enterprise configuration files and environment setup
   doc_readme: README
   enterprise_config_item1: Multi-environment configurations
-  step_use_desc: Forbind dine e-mail-klienter til den implementerede server. Alle tjenester kører, er konfigureret og klar til at håndtere e-mail.
+  step_use_desc: Forbind dine e-mail-klienter til den implementerede server. Alle tjenester kører, er konfigureret og klar
+    til at håndtere e-mail.
   architecture_component19: Java 17
   launcher_title: Launcher Features
   architecture_application_layer: 🏗️ Application Layer
@@ -2557,7 +2646,8 @@ da:
   table_version_rhel9: '9'
   testing_subtitle: Omfattende testdækning sikrer pålidelighed
   stats_automated: 100% Automatiseret
-  hero_subtitle: Enterprise-grade mailserver-automation drevet af Kotlin, Docker og bevist teknologi. Implementer komplet mail-infrastruktur med en enkelt JSON-konfigurationsfil.
+  hero_subtitle: Enterprise-grade mailserver-automation drevet af Kotlin, Docker og bevist teknologi. Implementer komplet
+    mail-infrastruktur med en enkelt JSON-konfigurationsfil.
   use_case3_desc: Keep email data on-premises with complete control over security and compliance.
   cta_download: Download nu
   feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis og ClamAV forudkonfigureret og arbejder sammen problemfrit.
@@ -2581,13 +2671,15 @@ da:
   architecture_component17: Kotlin 2.0.21
   footer_generated_by: This page was generated by
   table_version_ubuntu24: 24.04 LTS (Noble)
-  feature_docker_desc: Hver komponent kører i sin egen Docker-container, hvilket sikrer isolering, skalerbarhed og nem administration. Implementer på enhver Docker-kompatibel vært.
+  feature_docker_desc: Hver komponent kører i sin egen Docker-container, hvilket sikrer isolering, skalerbarhed og nem administration.
+    Implementer på enhver Docker-kompatibel vært.
   test_stat_value_coverage: 85%+
   enterprise_config_item4: Secure secrets management
   architecture_security_layer: 🔒 Security Layer
   code_deploy_command: ./mail_factory config.json
   distro_rocky_versions: '9.5'
-  enterprise_security_desc: Enterprise-sikkerhed med AES-256-GCM-kryptering, omfattende revisionslogning, sessionsstyring og TLS 1.3-håndhævelse.
+  enterprise_security_desc: Enterprise-sikkerhed med AES-256-GCM-kryptering, omfattende revisionslogning, sessionsstyring
+    og TLS 1.3-håndhævelse.
   quick_start_manual_install: Manual Installation
   cta_title: Klar til at implementere din mailserver?
   test_stat_value_success: 100%
@@ -2629,10 +2721,12 @@ da:
   table_version_debian11: 11 (Bullseye)
   distro_ubuntu_versions: 22.04 LTS, 24.04 LTS
   hero_title: Kør din mailserver <span class="highlight">Som en Chef</span>
-  feature_zero_touch_desc: Skriv en simpel JSON-konfigurationsfil og lad Mail Server Factory håndtere alt - fra installation til initialisering. Ingen manuel konfiguration nødvendig.
+  feature_zero_touch_desc: Skriv en simpel JSON-konfigurationsfil og lad Mail Server Factory håndtere alt - fra installation
+    til initialisering. Ingen manuel konfiguration nødvendig.
   step_number1: '1'
   architecture_component16: Secrets Management
-  feature_security_desc: Automatisk TLS-certifikatgenerering med selvsigneret CA, SSH-nøglebaseret autentificering og industristandard sikkerhedspraksisser ud af boksen.
+  feature_security_desc: Automatisk TLS-certifikatgenerering med selvsigneret CA, SSH-nøglebaseret autentificering og industristandard
+    sikkerhedspraksisser ud af boksen.
   tech_rspamd_desc: Anti-Spam Engine
   architecture_badge_java: Java 17
   use_cases_title: Hvem bruger Mail Server Factory?
@@ -2653,8 +2747,9 @@ da:
   step_configure_desc: Opret en JSON-konfigurationsfil, der specificerer dine mailserver-detaljer, konti og targethost.
   compatibility_table_tested: Tested
   architecture_component20: JSON Configuration
-  compatibility_automated_desc: |-
-    Alle distributioner er klar til automatiseret test med QEMU-virtualisering. Testrammen omfatter ISO-verifikation, automatiseret installation og konfigurationsvalidering. Alle konfigurationer er produktionsklare og aktivt vedligeholdt.
+  compatibility_automated_desc: Alle distributioner er klar til automatiseret test med QEMU-virtualisering. Testrammen omfatter
+    ISO-verifikation, automatiseret installation og konfigurationsvalidering. Alle konfigurationer er produktionsklare og
+    aktivt vedligeholdt.
   table_version_rocky95: '9.5'
   testing_coverage_factory: Factory Module
   theme_toggle: Toggle theme
@@ -2808,7 +2903,8 @@ sv:
   doc_configuration_desc: Enterprise configuration files and environment setup
   doc_readme: README
   enterprise_config_item1: Multi-environment configurations
-  step_use_desc: Anslut dina e-postklienter till den distribuerade servern. Alla tjänster körs, är konfigurerade och redo att hantera e-post.
+  step_use_desc: Anslut dina e-postklienter till den distribuerade servern. Alla tjänster körs, är konfigurerade och redo
+    att hantera e-post.
   architecture_component19: Java 17
   launcher_title: Launcher Features
   architecture_application_layer: 🏗️ Application Layer
@@ -2835,7 +2931,8 @@ sv:
   table_version_rhel9: '9'
   testing_subtitle: Omfattande testtäckning säkerställer tillförlitlighet
   stats_automated: 100% Automatiserad
-  hero_subtitle: Enterprise-grade e-postserver-automatisering driven av Kotlin, Docker och beprövad teknologi. Distribuera komplett e-postinfrastruktur med en enda JSON-konfigurationsfil.
+  hero_subtitle: Enterprise-grade e-postserver-automatisering driven av Kotlin, Docker och beprövad teknologi. Distribuera
+    komplett e-postinfrastruktur med en enda JSON-konfigurationsfil.
   use_case3_desc: Keep email data on-premises with complete control over security and compliance.
   cta_download: Ladda ner nu
   feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis och ClamAV förkonfigurerade och arbetar sömlöst tillsammans.
@@ -2859,13 +2956,15 @@ sv:
   architecture_component17: Kotlin 2.0.21
   footer_generated_by: This page was generated by
   table_version_ubuntu24: 24.04 LTS (Noble)
-  feature_docker_desc: Varje komponent kör i sin egen Docker-container, vilket säkerställer isolering, skalbarhet och enkel hantering. Distribuera på vilken Docker-kompatibel värd som helst.
+  feature_docker_desc: Varje komponent kör i sin egen Docker-container, vilket säkerställer isolering, skalbarhet och enkel
+    hantering. Distribuera på vilken Docker-kompatibel värd som helst.
   test_stat_value_coverage: 85%+
   enterprise_config_item4: Secure secrets management
   architecture_security_layer: 🔒 Security Layer
   code_deploy_command: ./mail_factory config.json
   distro_rocky_versions: '9.5'
-  enterprise_security_desc: Enterprise-säkerhet med AES-256-GCM-kryptering, omfattande revisionsloggning, sessionshantering och TLS 1.3-tvång.
+  enterprise_security_desc: Enterprise-säkerhet med AES-256-GCM-kryptering, omfattande revisionsloggning, sessionshantering
+    och TLS 1.3-tvång.
   quick_start_manual_install: Manual Installation
   cta_title: Redo att distribuera din e-postserver?
   test_stat_value_success: 100%
@@ -2907,10 +3006,12 @@ sv:
   table_version_debian11: 11 (Bullseye)
   distro_ubuntu_versions: 22.04 LTS, 24.04 LTS
   hero_title: Kör din e-postserver <span class="highlight">Som en Chef</span>
-  feature_zero_touch_desc: Skriv en enkel JSON-konfigurationsfil och låt Mail Server Factory hantera allt - från installation till initiering. Ingen manuell konfiguration behövs.
+  feature_zero_touch_desc: Skriv en enkel JSON-konfigurationsfil och låt Mail Server Factory hantera allt - från installation
+    till initiering. Ingen manuell konfiguration behövs.
   step_number1: '1'
   architecture_component16: Secrets Management
-  feature_security_desc: Automatisk TLS-certifikatgenerering med självsignerad CA, SSH-nyckelbaserad autentisering och industristandard säkerhetspraxis direkt ur lådan.
+  feature_security_desc: Automatisk TLS-certifikatgenerering med självsignerad CA, SSH-nyckelbaserad autentisering och industristandard
+    säkerhetspraxis direkt ur lådan.
   tech_rspamd_desc: Anti-Spam Engine
   architecture_badge_java: Java 17
   use_cases_title: Vem använder Mail Server Factory?
@@ -2931,8 +3032,9 @@ sv:
   step_configure_desc: Skapa en JSON-konfigurationsfil som specificerar dina e-postserverdetaljer, konton och målvärd.
   compatibility_table_tested: Tested
   architecture_component20: JSON Configuration
-  compatibility_automated_desc: |-
-    Alla distributioner är redo för automatiserad testning med QEMU-virtualisering. Testramverket inkluderar ISO-verifiering, automatiserad installation och konfigurationsvalidering. Alla konfigurationer är produktionsklara och aktivt underhållna.
+  compatibility_automated_desc: Alla distributioner är redo för automatiserad testning med QEMU-virtualisering. Testramverket
+    inkluderar ISO-verifiering, automatiserad installation och konfigurationsvalidering. Alla konfigurationer är produktionsklara
+    och aktivt underhållna.
   table_version_rocky95: '9.5'
   testing_coverage_factory: Factory Module
   theme_toggle: Toggle theme
@@ -2982,7 +3084,8 @@ sv:
   step_deploy: Distribuera
   architecture_benefit3_desc: Complete observability with metrics, logging, and health monitoring
   compatibility_table_family: Distribution Family
-  enterprise_monitoring_desc: Komplett övervakningslösning med Prometheus-mätvärden, hälsokontroller, strukturerad loggning och enterprise-alarmering.
+  enterprise_monitoring_desc: Komplett övervakningslösning med Prometheus-mätvärden, hälsokontroller, strukturerad loggning
+    och enterprise-alarmering.
   launcher_subtitle: Production-ready bash wrapper with enterprise-grade error handling
   enterprise_performance_desc: Enterprise-skala prestanda med avancerad cachning, JVM-justering och optimerad resursutnyttjande.
   architecture_component1: AES-256-GCM Encryption
@@ -3086,7 +3189,8 @@ is:
   doc_configuration_desc: Enterprise configuration files and environment setup
   doc_readme: README
   enterprise_config_item1: Multi-environment configurations
-  step_use_desc: Tengdu póstforrit þín við uppsettann þjón. Allar þjónustur keyra, eru stilltar og tilbúnar til að meðhöndla póst.
+  step_use_desc: Tengdu póstforrit þín við uppsettann þjón. Allar þjónustur keyra, eru stilltar og tilbúnar til að meðhöndla
+    póst.
   architecture_component19: Java 17
   launcher_title: Launcher Features
   architecture_application_layer: 🏗️ Application Layer
@@ -3113,7 +3217,8 @@ is:
   table_version_rhel9: '9'
   testing_subtitle: Ítarlegt prófunarþekking tryggir áreiðanleika
   stats_automated: 100% Sjálfvirk
-  hero_subtitle: Fyrirtækja-stigs póstþjóna sjálfvirkni knúin af Kotlin, Docker og sannaðri tækni. Setja upp heildar póstvef með einni JSON stillingarskrá.
+  hero_subtitle: Fyrirtækja-stigs póstþjóna sjálfvirkni knúin af Kotlin, Docker og sannaðri tækni. Setja upp heildar póstvef
+    með einni JSON stillingarskrá.
   use_case3_desc: Keep email data on-premises with complete control over security and compliance.
   cta_download: Sækja núna
   feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis og ClamAV fyrirfram stillt og vinnur saman án vandræða.
@@ -3137,13 +3242,15 @@ is:
   architecture_component17: Kotlin 2.0.21
   footer_generated_by: This page was generated by
   table_version_ubuntu24: 24.04 LTS (Noble)
-  feature_docker_desc: Hver þáttur keyrir í sínum eigin Docker umbúðum, tryggir einangrun, stækkun og auðvelda stjórnun. Setja upp á hvaða Docker-hæfu gestgjafa sem er.
+  feature_docker_desc: Hver þáttur keyrir í sínum eigin Docker umbúðum, tryggir einangrun, stækkun og auðvelda stjórnun. Setja
+    upp á hvaða Docker-hæfu gestgjafa sem er.
   test_stat_value_coverage: 85%+
   enterprise_config_item4: Secure secrets management
   architecture_security_layer: 🔒 Security Layer
   code_deploy_command: ./mail_factory config.json
   distro_rocky_versions: '9.5'
-  enterprise_security_desc: Fyrirtækja-öryggi með AES-256-GCM dulritun, ítarlegri endurskoðunarskrám, setustjórnun og TLS 1.3 framfylgd.
+  enterprise_security_desc: Fyrirtækja-öryggi með AES-256-GCM dulritun, ítarlegri endurskoðunarskrám, setustjórnun og TLS
+    1.3 framfylgd.
   quick_start_manual_install: Manual Installation
   cta_title: Tilbúinn til að setja upp póstþjóninn þinn?
   test_stat_value_success: 100%
@@ -3185,10 +3292,12 @@ is:
   table_version_debian11: 11 (Bullseye)
   distro_ubuntu_versions: 22.04 LTS, 24.04 LTS
   hero_title: Keyrðu póstþjóninn þinn <span class="highlight">Eins og Stjórnandi</span>
-  feature_zero_touch_desc: Skrifaðu einfalda JSON stillingarskrá og láttu Mail Server Factory sjá um allt - frá uppsetningu til frumstillingar. Engin handvirk stilling þarf.
+  feature_zero_touch_desc: Skrifaðu einfalda JSON stillingarskrá og láttu Mail Server Factory sjá um allt - frá uppsetningu
+    til frumstillingar. Engin handvirk stilling þarf.
   step_number1: '1'
   architecture_component16: Secrets Management
-  feature_security_desc: Sjálfvirk TLS-skírteinis myndun með sjálf-rituðu CA, SSH-lykil byggð auðkenning og iðnaðarstaðla öryggisvenjur beint úr kassanum.
+  feature_security_desc: Sjálfvirk TLS-skírteinis myndun með sjálf-rituðu CA, SSH-lykil byggð auðkenning og iðnaðarstaðla
+    öryggisvenjur beint úr kassanum.
   tech_rspamd_desc: Anti-Spam Engine
   architecture_badge_java: Java 17
   use_cases_title: Hver notar Mail Server Factory?
@@ -3209,8 +3318,9 @@ is:
   step_configure_desc: Búðu til JSON stillingarskrá sem tilgreinir póstþjóna upplýsingar þínar, reikninga og markgestgjafa.
   compatibility_table_tested: Tested
   architecture_component20: JSON Configuration
-  compatibility_automated_desc: |-
-    Allar dreifingar eru tilbúnar fyrir sjálfvirkar prófanir með QEMU-sýndartækni. Prófunarrammi inniheldur ISO-staðfestingu, sjálfvirka uppsetningu og stillingar staðfestingu. Allar stillingar eru framleiðslutilbúnar og virkt viðhaldnar.
+  compatibility_automated_desc: Allar dreifingar eru tilbúnar fyrir sjálfvirkar prófanir með QEMU-sýndartækni. Prófunarrammi
+    inniheldur ISO-staðfestingu, sjálfvirka uppsetningu og stillingar staðfestingu. Allar stillingar eru framleiðslutilbúnar
+    og virkt viðhaldnar.
   table_version_rocky95: '9.5'
   testing_coverage_factory: Factory Module
   theme_toggle: Toggle theme
@@ -3272,7 +3382,8 @@ is:
 bg:
   tech_stack_subtitle: Задвижвано от водещи технологии с отворен код
   table_config_rocky9: Examples/Rocky_9.json
-  step_deploy_desc: Стартирайте mail_factory стартера с вашата конфигурация. Отпуснете се, докато той инсталира и конфигурира всичко.
+  step_deploy_desc: Стартирайте mail_factory стартера с вашата конфигурация. Отпуснете се, докато той инсталира и конфигурира
+    всичко.
   architecture_component22: Postfix
   cta_subtitle: Присъединете се към общността на Mail Server Factory и поемете контрол над вашата имейл инфраструктура днес.
   enterprise_config_item3: Schema validation and error reporting
@@ -3356,7 +3467,8 @@ bg:
   distro_almalinux_versions: '9.5'
   table_version_fedora39: '39'
   tech_redis: Redis
-  feature_ssh_desc: Разгръщане на отдалечени сървъри чрез SSH с пулинг на връзки, автоматично прехвърляне на файлове и стабилно обработване на грешки.
+  feature_ssh_desc: Разгръщане на отдалечени сървъри чрез SSH с пулинг на връзки, автоматично прехвърляне на файлове и стабилно
+    обработване на грешки.
   test_stat_value_total: '47'
   feature_tested_desc: 100% успех при изпълнение на тестове с 47 изчерпателни теста. Всеки компонент се валидира преди пускане.
   architecture_component4: TLS 1.3 Enforcement
@@ -3364,7 +3476,8 @@ bg:
   doc_configuration_desc: Enterprise configuration files and environment setup
   doc_readme: README
   enterprise_config_item1: Multi-environment configurations
-  step_use_desc: Свържете вашите имейл клиенти към разгърнатия сървър. Всички услуги работят, конфигурирани са и са готови да обработват имейли.
+  step_use_desc: Свържете вашите имейл клиенти към разгърнатия сървър. Всички услуги работят, конфигурирани са и са готови
+    да обработват имейли.
   architecture_component19: Java 17
   launcher_title: Launcher Features
   architecture_application_layer: 🏗️ Application Layer
@@ -3391,10 +3504,12 @@ bg:
   table_version_rhel9: '9'
   testing_subtitle: Изчерпателно покритие на тестовете осигурява надеждност
   stats_automated: 100% Автоматизирано
-  hero_subtitle: Автоматизация на имейл сървъри на корпоративно ниво, задвижвана от Kotlin, Docker и доказани технологии. Разгърнете пълна имейл инфраструктура с един JSON конфигурационен файл.
+  hero_subtitle: Автоматизация на имейл сървъри на корпоративно ниво, задвижвана от Kotlin, Docker и доказани технологии.
+    Разгърнете пълна имейл инфраструктура с един JSON конфигурационен файл.
   use_case3_desc: Keep email data on-premises with complete control over security and compliance.
   cta_download: Изтеглете сега
-  feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis и ClamAV предварително конфигурирани и работят заедно безпроблемно.
+  feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis и ClamAV предварително конфигурирани и работят заедно
+    безпроблемно.
   tech_clamav_desc: Anti-Virus
   enterprise_performance_item1: Caffeine-based multi-region caching
   launcher_command_debug: Enable verbose debugging output
@@ -3415,13 +3530,15 @@ bg:
   architecture_component17: Kotlin 2.0.21
   footer_generated_by: This page was generated by
   table_version_ubuntu24: 24.04 LTS (Noble)
-  feature_docker_desc: Всеки компонент работи в собствен Docker контейнер, осигурявайки изолация, мащабируемост и лесно управление. Разгръщайте на всеки хост с поддръжка на Docker.
+  feature_docker_desc: Всеки компонент работи в собствен Docker контейнер, осигурявайки изолация, мащабируемост и лесно управление.
+    Разгръщайте на всеки хост с поддръжка на Docker.
   test_stat_value_coverage: 85%+
   enterprise_config_item4: Secure secrets management
   architecture_security_layer: 🔒 Security Layer
   code_deploy_command: ./mail_factory config.json
   distro_rocky_versions: '9.5'
-  enterprise_security_desc: Корпоративна сигурност с AES-256-GCM криптиране, изчерпателно логване за одит, управление на сесии и прилагане на TLS 1.3.
+  enterprise_security_desc: Корпоративна сигурност с AES-256-GCM криптиране, изчерпателно логване за одит, управление на сесии
+    и прилагане на TLS 1.3.
   quick_start_manual_install: Manual Installation
   cta_title: Готови ли сте да разгърнете вашия имейл сървър?
   test_stat_value_success: 100%
@@ -3463,10 +3580,12 @@ bg:
   table_version_debian11: 11 (Bullseye)
   distro_ubuntu_versions: 22.04 LTS, 24.04 LTS
   hero_title: Стартирайте вашия имейл сървър <span class="highlight">Като Шеф</span>
-  feature_zero_touch_desc: Напишете прост JSON конфигурационен файл и оставете Mail Server Factory да се погрижи за всичко - от инсталация до инициализация. Не се изисква ръчна конфигурация.
+  feature_zero_touch_desc: Напишете прост JSON конфигурационен файл и оставете Mail Server Factory да се погрижи за всичко
+    - от инсталация до инициализация. Не се изисква ръчна конфигурация.
   step_number1: '1'
   architecture_component16: Secrets Management
-  feature_security_desc: Автоматично генериране на TLS сертификати със самоподписан CA, удостоверяване, базирано на SSH ключове и индустриални стандарти за сигурност от кутията.
+  feature_security_desc: Автоматично генериране на TLS сертификати със самоподписан CA, удостоверяване, базирано на SSH ключове
+    и индустриални стандарти за сигурност от кутията.
   tech_rspamd_desc: Anti-Spam Engine
   architecture_badge_java: Java 17
   use_cases_title: Кой използва Mail Server Factory?
@@ -3487,8 +3606,9 @@ bg:
   step_configure_desc: Създайте JSON конфигурационен файл, указващ детайлите на вашия имейл сървър, акаунтите и целевия хост.
   compatibility_table_tested: Tested
   architecture_component20: JSON Configuration
-  compatibility_automated_desc: |-
-    Всички дистрибуции са готови за автоматизирано тестване с QEMU виртуализация. Тестовата рамка включва ISO проверка, автоматизирана инсталация и валидиране на конфигурацията. Всички конфигурации са готови за производство и активно поддържани.
+  compatibility_automated_desc: Всички дистрибуции са готови за автоматизирано тестване с QEMU виртуализация. Тестовата рамка
+    включва ISO проверка, автоматизирана инсталация и валидиране на конфигурацията. Всички конфигурации са готови за производство
+    и активно поддържани.
   table_version_rocky95: '9.5'
   testing_coverage_factory: Factory Module
   theme_toggle: Toggle theme
@@ -3538,9 +3658,11 @@ bg:
   step_deploy: Разгръщане
   architecture_benefit3_desc: Complete observability with metrics, logging, and health monitoring
   compatibility_table_family: Distribution Family
-  enterprise_monitoring_desc: Пълно решение за мониторинг с Prometheus метрики, проверки за здраве, структурирано логване и корпоративни известия.
+  enterprise_monitoring_desc: Пълно решение за мониторинг с Prometheus метрики, проверки за здраве, структурирано логване
+    и корпоративни известия.
   launcher_subtitle: Production-ready bash wrapper with enterprise-grade error handling
-  enterprise_performance_desc: Производителност в корпоративен мащаб с разширено кеширане, настройка на JVM и оптимизирано използване на ресурси.
+  enterprise_performance_desc: Производителност в корпоративен мащаб с разширено кеширане, настройка на JVM и оптимизирано
+    използване на ресурси.
   architecture_component1: AES-256-GCM Encryption
   architecture_benefit1: Security First
   table_version_ubuntu22: 22.04 LTS (Jammy)
@@ -3550,7 +3672,8 @@ bg:
 ro:
   tech_stack_subtitle: Alimentat de tehnologii open source de top
   table_config_rocky9: Examples/Rocky_9.json
-  step_deploy_desc: Rulează lansatorul mail_factory cu configurația ta. Relaxează-te în timp ce instalează și configurează totul.
+  step_deploy_desc: Rulează lansatorul mail_factory cu configurația ta. Relaxează-te în timp ce instalează și configurează
+    totul.
   architecture_component22: Postfix
   cta_subtitle: Alătură-te comunității Mail Server Factory și preia controlul asupra infrastructurii tale de mail astăzi.
   enterprise_config_item3: Schema validation and error reporting
@@ -3634,15 +3757,18 @@ ro:
   distro_almalinux_versions: '9.5'
   table_version_fedora39: '39'
   tech_redis: Redis
-  feature_ssh_desc: Implementare pe servere la distanță prin SSH cu pool de conexiuni, transfer automat de fișiere și gestionare robustă a erorilor.
+  feature_ssh_desc: Implementare pe servere la distanță prin SSH cu pool de conexiuni, transfer automat de fișiere și gestionare
+    robustă a erorilor.
   test_stat_value_total: '47'
-  feature_tested_desc: Rată de succes 100% la execuția testelor cu 47 teste comprehensive. Fiecare componentă este validată înainte de lansare.
+  feature_tested_desc: Rată de succes 100% la execuția testelor cu 47 teste comprehensive. Fiecare componentă este validată
+    înainte de lansare.
   architecture_component4: TLS 1.3 Enforcement
   coverage_value_enterprise: 100% Coverage
   doc_configuration_desc: Enterprise configuration files and environment setup
   doc_readme: README
   enterprise_config_item1: Multi-environment configurations
-  step_use_desc: Conectează-ți clienții de mail la serverul implementat. Toate serviciile rulează, sunt configurate și gata să proceseze mail.
+  step_use_desc: Conectează-ți clienții de mail la serverul implementat. Toate serviciile rulează, sunt configurate și gata
+    să proceseze mail.
   architecture_component19: Java 17
   launcher_title: Launcher Features
   architecture_application_layer: 🏗️ Application Layer
@@ -3669,10 +3795,12 @@ ro:
   table_version_rhel9: '9'
   testing_subtitle: Acoperire testare cuprinzătoare asigură fiabilitate
   stats_automated: 100% Automatizat
-  hero_subtitle: Automatizare server de mail la nivel enterprise alimentată de Kotlin, Docker și tehnologii dovedite. Implementează infrastructură completă de mail cu un singur fișier de configurare JSON.
+  hero_subtitle: Automatizare server de mail la nivel enterprise alimentată de Kotlin, Docker și tehnologii dovedite. Implementează
+    infrastructură completă de mail cu un singur fișier de configurare JSON.
   use_case3_desc: Keep email data on-premises with complete control over security and compliance.
   cta_download: Descarcă acum
-  feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis și ClamAV pre-configurate și funcționează împreună fără probleme.
+  feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis și ClamAV pre-configurate și funcționează împreună fără
+    probleme.
   tech_clamav_desc: Anti-Virus
   enterprise_performance_item1: Caffeine-based multi-region caching
   launcher_command_debug: Enable verbose debugging output
@@ -3693,13 +3821,15 @@ ro:
   architecture_component17: Kotlin 2.0.21
   footer_generated_by: This page was generated by
   table_version_ubuntu24: 24.04 LTS (Noble)
-  feature_docker_desc: Fiecare componentă rulează în propriul container Docker, asigurând izolare, scalabilitate și gestionare ușoară. Implementează pe orice gazdă compatibilă cu Docker.
+  feature_docker_desc: Fiecare componentă rulează în propriul container Docker, asigurând izolare, scalabilitate și gestionare
+    ușoară. Implementează pe orice gazdă compatibilă cu Docker.
   test_stat_value_coverage: 85%+
   enterprise_config_item4: Secure secrets management
   architecture_security_layer: 🔒 Security Layer
   code_deploy_command: ./mail_factory config.json
   distro_rocky_versions: '9.5'
-  enterprise_security_desc: Securitate enterprise cu criptare AES-256-GCM, jurnalizare audit cuprinzătoare, gestionare sesiuni și aplicare TLS 1.3.
+  enterprise_security_desc: Securitate enterprise cu criptare AES-256-GCM, jurnalizare audit cuprinzătoare, gestionare sesiuni
+    și aplicare TLS 1.3.
   quick_start_manual_install: Manual Installation
   cta_title: Gata să-ți implementezi serverul de mail?
   test_stat_value_success: 100%
@@ -3741,10 +3871,12 @@ ro:
   table_version_debian11: 11 (Bullseye)
   distro_ubuntu_versions: 22.04 LTS, 24.04 LTS
   hero_title: Rulează-ți serverul de mail <span class="highlight">Ca un Șef</span>
-  feature_zero_touch_desc: Scrie un fișier de configurare JSON simplu și lasă Mail Server Factory să se ocupe de tot - de la instalare la inițializare. Nu este necesară nicio configurare manuală.
+  feature_zero_touch_desc: Scrie un fișier de configurare JSON simplu și lasă Mail Server Factory să se ocupe de tot - de
+    la instalare la inițializare. Nu este necesară nicio configurare manuală.
   step_number1: '1'
   architecture_component16: Secrets Management
-  feature_security_desc: Generare automată certificate TLS cu CA auto-semnat, autentificare bazată pe chei SSH și practici de securitate standard din industrie gata de utilizare.
+  feature_security_desc: Generare automată certificate TLS cu CA auto-semnat, autentificare bazată pe chei SSH și practici
+    de securitate standard din industrie gata de utilizare.
   tech_rspamd_desc: Anti-Spam Engine
   architecture_badge_java: Java 17
   use_cases_title: Cine folosește Mail Server Factory?
@@ -3762,11 +3894,13 @@ ro:
   use_case1_desc: Own your email infrastructure without vendor lock-in. Full control over data and privacy.
   enterprise_monitoring_item3: Structured logging with correlation IDs
   doc_issues: Issues
-  step_configure_desc: Creează un fișier de configurare JSON specificând detaliile serverului de mail, conturile și gazda țintă.
+  step_configure_desc: Creează un fișier de configurare JSON specificând detaliile serverului de mail, conturile și gazda
+    țintă.
   compatibility_table_tested: Tested
   architecture_component20: JSON Configuration
-  compatibility_automated_desc: |-
-    Toate distribuțiile sunt pregătite pentru testare automatizată cu virtualizare QEMU. Framework-ul de testare include verificarea ISO, instalare automatizată și validarea configurației. Toate configurațiile sunt gata pentru producție și întreținute activ.
+  compatibility_automated_desc: Toate distribuțiile sunt pregătite pentru testare automatizată cu virtualizare QEMU. Framework-ul
+    de testare include verificarea ISO, instalare automatizată și validarea configurației. Toate configurațiile sunt gata
+    pentru producție și întreținute activ.
   table_version_rocky95: '9.5'
   testing_coverage_factory: Factory Module
   theme_toggle: Toggle theme
@@ -3816,7 +3950,8 @@ ro:
   step_deploy: Implementează
   architecture_benefit3_desc: Complete observability with metrics, logging, and health monitoring
   compatibility_table_family: Distribution Family
-  enterprise_monitoring_desc: Soluție completă de monitorizare cu metrici Prometheus, verificări de sănătate, jurnalizare structurată și alerte enterprise.
+  enterprise_monitoring_desc: Soluție completă de monitorizare cu metrici Prometheus, verificări de sănătate, jurnalizare
+    structurată și alerte enterprise.
   launcher_subtitle: Production-ready bash wrapper with enterprise-grade error handling
   enterprise_performance_desc: Performanță la scară enterprise cu caching avansat, reglare JVM și utilizare optimizată a resurselor.
   architecture_component1: AES-256-GCM Encryption
@@ -3912,15 +4047,18 @@ hu:
   distro_almalinux_versions: '9.5'
   table_version_fedora39: '39'
   tech_redis: Redis
-  feature_ssh_desc: Telepítés távoli szerverekre SSH-n keresztül kapcsolat pool-lal, automatikus fájlátvitellel és robusztus hibakezeléssel.
+  feature_ssh_desc: Telepítés távoli szerverekre SSH-n keresztül kapcsolat pool-lal, automatikus fájlátvitellel és robusztus
+    hibakezeléssel.
   test_stat_value_total: '47'
-  feature_tested_desc: 100% teszt végrehajtási sikerarány 47 átfogó teszttel. Minden komponens ellenőrzésen megy keresztül kiadás előtt.
+  feature_tested_desc: 100% teszt végrehajtási sikerarány 47 átfogó teszttel. Minden komponens ellenőrzésen megy keresztül
+    kiadás előtt.
   architecture_component4: TLS 1.3 Enforcement
   coverage_value_enterprise: 100% Coverage
   doc_configuration_desc: Enterprise configuration files and environment setup
   doc_readme: README
   enterprise_config_item1: Multi-environment configurations
-  step_use_desc: Csatlakoztasd az e-mail klienseidet a telepített szerverhez. Minden szolgáltatás fut, konfigurálva van és kész az e-mailek kezelésére.
+  step_use_desc: Csatlakoztasd az e-mail klienseidet a telepített szerverhez. Minden szolgáltatás fut, konfigurálva van és
+    kész az e-mailek kezelésére.
   architecture_component19: Java 17
   launcher_title: Launcher Features
   architecture_application_layer: 🏗️ Application Layer
@@ -3947,7 +4085,8 @@ hu:
   table_version_rhel9: '9'
   testing_subtitle: Átfogó tesztlefedettség biztosítja a megbízhatóságot
   stats_automated: 100% Automatizált
-  hero_subtitle: Vállalati szintű levelezőszerver automatizálás Kotlin, Docker és bevált technológiák által. Telepíts teljes levelező infrastruktúrát egyetlen JSON konfigurációs fájllal.
+  hero_subtitle: Vállalati szintű levelezőszerver automatizálás Kotlin, Docker és bevált technológiák által. Telepíts teljes
+    levelező infrastruktúrát egyetlen JSON konfigurációs fájllal.
   use_case3_desc: Keep email data on-premises with complete control over security and compliance.
   cta_download: Letöltés most
   feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis és ClamAV előre konfigurálva és zökkenőmentesen együttműködve.
@@ -3971,13 +4110,15 @@ hu:
   architecture_component17: Kotlin 2.0.21
   footer_generated_by: This page was generated by
   table_version_ubuntu24: 24.04 LTS (Noble)
-  feature_docker_desc: Minden komponens a saját Docker konténerében fut, biztosítva izolációt, skálázhatóságot és könnyű kezelhetőséget. Telepíts bármely Docker-kompatibilis hosztra.
+  feature_docker_desc: Minden komponens a saját Docker konténerében fut, biztosítva izolációt, skálázhatóságot és könnyű kezelhetőséget.
+    Telepíts bármely Docker-kompatibilis hosztra.
   test_stat_value_coverage: 85%+
   enterprise_config_item4: Secure secrets management
   architecture_security_layer: 🔒 Security Layer
   code_deploy_command: ./mail_factory config.json
   distro_rocky_versions: '9.5'
-  enterprise_security_desc: Vállalati biztonság AES-256-GCM titkosítással, átfogó audit naplózással, munkamenet kezeléssel és TLS 1.3 kényszerítéssel.
+  enterprise_security_desc: Vállalati biztonság AES-256-GCM titkosítással, átfogó audit naplózással, munkamenet kezeléssel
+    és TLS 1.3 kényszerítéssel.
   quick_start_manual_install: Manual Installation
   cta_title: Készen állsz a levelezőszervered telepítésére?
   test_stat_value_success: 100%
@@ -4019,10 +4160,12 @@ hu:
   table_version_debian11: 11 (Bullseye)
   distro_ubuntu_versions: 22.04 LTS, 24.04 LTS
   hero_title: Futtasd a levelező szerveredet <span class="highlight">Mint egy Főnök</span>
-  feature_zero_touch_desc: Írj egy egyszerű JSON konfigurációs fájlt és hagyd, hogy a Mail Server Factory intézzen mindent - telepítéstől inicializálásig. Nincs szükség kézi konfigurációra.
+  feature_zero_touch_desc: Írj egy egyszerű JSON konfigurációs fájlt és hagyd, hogy a Mail Server Factory intézzen mindent
+    - telepítéstől inicializálásig. Nincs szükség kézi konfigurációra.
   step_number1: '1'
   architecture_component16: Secrets Management
-  feature_security_desc: Automatikus TLS tanúsítvány generálás ön-aláírt CA-val, SSH kulcs alapú hitelesítés és iparági szabványú biztonsági gyakorlatok készen.
+  feature_security_desc: Automatikus TLS tanúsítvány generálás ön-aláírt CA-val, SSH kulcs alapú hitelesítés és iparági szabványú
+    biztonsági gyakorlatok készen.
   tech_rspamd_desc: Anti-Spam Engine
   architecture_badge_java: Java 17
   use_cases_title: Ki használja a Mail Server Factory-t?
@@ -4040,11 +4183,13 @@ hu:
   use_case1_desc: Own your email infrastructure without vendor lock-in. Full control over data and privacy.
   enterprise_monitoring_item3: Structured logging with correlation IDs
   doc_issues: Issues
-  step_configure_desc: Készíts egy JSON konfigurációs fájlt, amely meghatározza a levelezőszervered részleteit, fiókokat és cél hosztot.
+  step_configure_desc: Készíts egy JSON konfigurációs fájlt, amely meghatározza a levelezőszervered részleteit, fiókokat és
+    cél hosztot.
   compatibility_table_tested: Tested
   architecture_component20: JSON Configuration
-  compatibility_automated_desc: |-
-    Minden disztribúció készen áll az automatizált tesztelésre QEMU virtualizációval. A tesztelési keretrendszer magában foglalja az ISO ellenőrzést, az automatizált telepítést és a konfigurációs ellenőrzést. Minden konfiguráció éles környezetre kész és aktívan karbantartott.
+  compatibility_automated_desc: Minden disztribúció készen áll az automatizált tesztelésre QEMU virtualizációval. A tesztelési
+    keretrendszer magában foglalja az ISO ellenőrzést, az automatizált telepítést és a konfigurációs ellenőrzést. Minden konfiguráció
+    éles környezetre kész és aktívan karbantartott.
   table_version_rocky95: '9.5'
   testing_coverage_factory: Factory Module
   theme_toggle: Toggle theme
@@ -4094,9 +4239,11 @@ hu:
   step_deploy: Telepítés
   architecture_benefit3_desc: Complete observability with metrics, logging, and health monitoring
   compatibility_table_family: Distribution Family
-  enterprise_monitoring_desc: Teljes monitorozási megoldás Prometheus metrikákkal, egészségügyi ellenőrzésekkel, strukturált naplózással és vállalati riasztásokkal.
+  enterprise_monitoring_desc: Teljes monitorozási megoldás Prometheus metrikákkal, egészségügyi ellenőrzésekkel, strukturált
+    naplózással és vállalati riasztásokkal.
   launcher_subtitle: Production-ready bash wrapper with enterprise-grade error handling
-  enterprise_performance_desc: Vállalati szintű teljesítmény speciális gyorsítótárral, JVM hangolással és optimalizált erőforrás felhasználással.
+  enterprise_performance_desc: Vállalati szintű teljesítmény speciális gyorsítótárral, JVM hangolással és optimalizált erőforrás
+    felhasználással.
   architecture_component1: AES-256-GCM Encryption
   architecture_benefit1: Security First
   table_version_ubuntu22: 22.04 LTS (Jammy)
@@ -4106,7 +4253,8 @@ hu:
 it:
   tech_stack_subtitle: Alimentato da tecnologie open source leader
   table_config_rocky9: Examples/Rocky_9.json
-  step_deploy_desc: Esegui the mail_factory launcher with il tuo configuration. Sit back while it installs and configures everything.
+  step_deploy_desc: Esegui the mail_factory launcher with il tuo configuration. Sit back while it installs and configures
+    everything.
   architecture_component22: Postfix
   cta_subtitle: Unirsi the Posta Server Fabbrica comunità and prendere controllo of il tuo email infrastruttura oggi.
   enterprise_config_item3: Schema validation and errore reporting
@@ -4117,7 +4265,7 @@ it:
   architecture_benefits_title: Aziendale Benefits
   footer_website_maintained: Website
   feature_zero_touch: Zero-Touch Distribuzione
-  logo_alt: Posta Server Fabbrica logo
+  logo_alt: Mail Server Factory logo
   table_config_ubuntu22: Examples/Ubuntu_22.json
   tech_postgresql: PostgreSQL
   enterprise_config: Configurazione Gestione
@@ -4127,7 +4275,7 @@ it:
   architecture_monitoring_layer: 📊 Monitoraggio Layer
   doc_examples: Examples
   testing_coverage_enterprise: Aziendale Caratteristiche
-  architecture_badge_json: JSON Configurazione
+  architecture_badge_json: JSON Configuration
   table_config_rhel9: Examples/RHEL_9.json
   testing_title: Qualità & Test
   feature_ssh: SSH-Based Remoto Esecuzione
@@ -4188,7 +4336,8 @@ it:
   distro_almalinux_versions: '9.5'
   table_version_fedora39: '39'
   tech_redis: Redis
-  feature_ssh_desc: Distribuire to remote servers via SSH with connection pooling, automatic file transfers, and robust errore gestione.
+  feature_ssh_desc: Distribuire to remote servers via SSH with connection pooling, automatic file transfers, and robust errore
+    gestione.
   test_stat_value_total: '47'
   feature_tested_desc: 100% test execution success rate with 47 completo tests. Every component is validated before release.
   architecture_component4: TLS 1.3 Enforcement
@@ -4196,7 +4345,8 @@ it:
   doc_configuration_desc: Aziendale configuration files and environment setup
   doc_readme: README
   enterprise_config_item1: Multi-environment configurations
-  step_use_desc: Connect il tuo email clients to the deployed server. All services are running, configured, and pronto to handle email.
+  step_use_desc: Connect il tuo email clients to the deployed server. All services are running, configured, and pronto to
+    handle email.
   architecture_component19: Java 17
   launcher_title: Launcher Caratteristiche
   architecture_application_layer: 🏗️ Application Layer
@@ -4223,7 +4373,8 @@ it:
   table_version_rhel9: '9'
   testing_subtitle: Completo test copertura assicura affidabilità
   stats_automated: 100% Automatizzato
-  hero_subtitle: Automazione del server di posta di livello enterprise alimentata da Kotlin, Docker e tecnologia collaudata. Distribuisci infrastruttura di posta completa con un singolo file di configurazione JSON.
+  hero_subtitle: Automazione del server di posta di livello enterprise alimentata da Kotlin, Docker e tecnologia collaudata.
+    Distribuisci infrastruttura di posta completa con un singolo file di configurazione JSON.
   use_case3_desc: Keep email data on-premises with complete controllo over security and compliance.
   cta_download: Scarica Now
   feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis, and ClamAV pre-configured and working together seamlessly.
@@ -4242,18 +4393,20 @@ it:
   launcher_command_jar: Override JAR location
   stats_production: Pronto per la produzione
   launcher_feature3_desc: Supports JAVA_OPTS, JAVA_HOME, MAIL_FACTORY_HOME
-  footer_server_factory: Server Fabbrica
+  footer_server_factory: Server Factory
   enterprise_security_item1: AES-256-GCM encryption for data at rest
   architecture_component17: Kotlin 2.0.21
   footer_generated_by: This page was generated by
   table_version_ubuntu24: 24.04 LTS (Noble)
-  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, scalabilità, and easy management. Distribuire on any Docker-capable host.
+  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, scalabilità, and easy management.
+    Distribuire on any Docker-capable host.
   test_stat_value_coverage: 85%+
   enterprise_config_item4: Secure secrets management
   architecture_security_layer: 🔒 Sicurezza Layer
   code_deploy_command: ./mail_factory config.json
   distro_rocky_versions: '9.5'
-  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, completo audit logging, session management, and TLS 1.3 enforcement.
+  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, completo audit logging, session management,
+    and TLS 1.3 enforcement.
   quick_start_manual_install: Manual Installazione
   cta_title: Pronto to Distribuire Il tuo Posta Server?
   test_stat_value_success: 100%
@@ -4295,10 +4448,12 @@ it:
   table_version_debian11: 11 (Bullseye)
   distro_ubuntu_versions: 22.04 LTS, 24.04 LTS
   hero_title: Gestisci il tuo server di posta <span class="highlight">Come un Capo</span>
-  feature_zero_touch_desc: Write a semplice JSON configuration file and let Posta Server Fabbrica handle everything - from installation to initialization. No manual configuration needed.
+  feature_zero_touch_desc: Write a semplice JSON configuration file and let Posta Server Fabbrica handle everything - from
+    installation to initialization. No manual configuration needed.
   step_number1: '1'
   architecture_component16: Secrets Gestione
-  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard security practices out of the box.
+  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard
+    security practices out of the box.
   tech_rspamd_desc: Anti-Spam Engine
   architecture_badge_java: Java 17
   use_cases_title: Chi Usa Posta Server Fabbrica?
@@ -4319,7 +4474,9 @@ it:
   step_configure_desc: Create a JSON configuration file specifying il tuo posta server details, accounts, and target host.
   compatibility_table_tested: Testato
   architecture_component20: JSON Configurazione
-  compatibility_automated_desc: All distribuzioni are pronto for automated testing with QEMU virtualization. The testing framework includes ISO verification, automated installation, and configuration validation. All configurations are production-ready and actively maintained.
+  compatibility_automated_desc: All distribuzioni are pronto for automated testing with QEMU virtualization. The testing framework
+    includes ISO verification, automated installation, and configuration validation. All configurations are production-ready
+    and actively maintained.
   table_version_rocky95: '9.5'
   testing_coverage_factory: Fabbrica Module
   theme_toggle: Toggle theme
@@ -4343,7 +4500,8 @@ it:
   launcher_command_dry_run: Show command senza executing
   table_version_almalinux95: '9.5'
   footer_opensource: Aperto Source • Gratuito Forever • Comunità Supported
-  code_manual_install: '# Clone the repository mkdir Fabbrica && cd Fabbrica git clone --recurse-submodules git@github.com:Server-Factory/Mail-Server-Factory.git . # Build the project ./gradlew assemble # Esegui with il tuo configuration ./mail_factory Examples/Centos_8.json'
+  code_manual_install: '# Clone the repository mkdir Fabbrica && cd Fabbrica git clone --recurse-submodules git@github.com:Server-Factory/Mail-Server-Factory.git
+    . # Build the project ./gradlew assemble # Esegui with il tuo configuration ./mail_factory Examples/Centos_8.json'
   features_subtitle: Aziendale features senza the enterprise complessità
   architecture_title: Aziendale Architettura
   tech_redis_desc: Cache Layer
@@ -4355,7 +4513,8 @@ it:
   step_deploy: Distribuire
   architecture_benefit3_desc: Completo observability with metrics, logging, and health monitoring
   compatibility_table_family: Distribuzione Family
-  enterprise_monitoring_desc: Completo monitoring solution with Prometheus metrics, health checks, structured logging, and enterprise alerting.
+  enterprise_monitoring_desc: Completo monitoring solution with Prometheus metrics, health checks, structured logging, and
+    enterprise alerting.
   launcher_subtitle: Production-ready bash wrapper with enterprise-grade errore gestione
   enterprise_performance_desc: Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.
   architecture_component1: AES-256-GCM Encryption
@@ -4459,7 +4618,8 @@ el:
   doc_configuration_desc: Enterprise configuration files and environment setup
   doc_readme: README
   enterprise_config_item1: Multi-environment configurations
-  step_use_desc: Connect your email clients to the deployed server. All services are running, configured, and ready to handle email.
+  step_use_desc: Connect your email clients to the deployed server. All services are running, configured, and ready to handle
+    email.
   architecture_component19: Java 17
   launcher_title: Launcher Features
   architecture_application_layer: 🏗️ Application Layer
@@ -4486,7 +4646,8 @@ el:
   table_version_rhel9: '9'
   testing_subtitle: Comprehensive test coverage ensures reliability
   stats_automated: 100% Automated
-  hero_subtitle: Enterprise-grade mail server automation powered by Kotlin, Docker, and proven technology. Deploy complete mail infrastructure with a single JSON configuration file.
+  hero_subtitle: Enterprise-grade mail server automation powered by Kotlin, Docker, and proven technology. Deploy complete
+    mail infrastructure with a single JSON configuration file.
   use_case3_desc: Keep email data on-premises with complete control over security and compliance.
   cta_download: Download Now
   feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis, and ClamAV pre-configured and working together seamlessly.
@@ -4510,13 +4671,15 @@ el:
   architecture_component17: Kotlin 2.0.21
   footer_generated_by: This page was generated by
   table_version_ubuntu24: 24.04 LTS (Noble)
-  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, scalability, and easy management. Deploy on any Docker-capable host.
+  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, scalability, and easy management.
+    Deploy on any Docker-capable host.
   test_stat_value_coverage: 85%+
   enterprise_config_item4: Secure secrets management
   architecture_security_layer: 🔒 Security Layer
   code_deploy_command: ./mail_factory config.json
   distro_rocky_versions: '9.5'
-  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, comprehensive audit logging, session management, and TLS 1.3 enforcement.
+  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, comprehensive audit logging, session management,
+    and TLS 1.3 enforcement.
   quick_start_manual_install: Manual Installation
   cta_title: Ready to Deploy Your Mail Server?
   test_stat_value_success: 100%
@@ -4558,10 +4721,12 @@ el:
   table_version_debian11: 11 (Bullseye)
   distro_ubuntu_versions: 22.04 LTS, 24.04 LTS
   hero_title: Run Your Mail Server <span class="highlight">Like The Boss</span>
-  feature_zero_touch_desc: Write a simple JSON configuration file and let Mail Server Factory handle everything - from installation to initialization. No manual configuration needed.
+  feature_zero_touch_desc: Write a simple JSON configuration file and let Mail Server Factory handle everything - from installation
+    to initialization. No manual configuration needed.
   step_number1: '1'
   architecture_component16: Secrets Management
-  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard security practices out of the box.
+  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard
+    security practices out of the box.
   tech_rspamd_desc: Anti-Spam Engine
   architecture_badge_java: Java 17
   use_cases_title: Who Uses Mail Server Factory?
@@ -4582,8 +4747,9 @@ el:
   step_configure_desc: Create a JSON configuration file specifying your mail server details, accounts, and target host.
   compatibility_table_tested: Tested
   architecture_component20: JSON Configuration
-  compatibility_automated_desc: |-
-    Όλες οι διανομές είναι έτοιμες για αυτοματοποιημένη δοκιμή με εικονικοποίηση QEMU. Το πλαίσιο δοκιμών περιλαμβάνει επαλήθευση ISO, αυτοματοποιημένη εγκατάσταση και επικύρωση διαμόρφωσης. Όλες οι διαμορφώσεις είναι έτοιμες για παραγωγή και διατηρούνται ενεργά.
+  compatibility_automated_desc: Όλες οι διανομές είναι έτοιμες για αυτοματοποιημένη δοκιμή με εικονικοποίηση QEMU. Το πλαίσιο
+    δοκιμών περιλαμβάνει επαλήθευση ISO, αυτοματοποιημένη εγκατάσταση και επικύρωση διαμόρφωσης. Όλες οι διαμορφώσεις είναι
+    έτοιμες για παραγωγή και διατηρούνται ενεργά.
   table_version_rocky95: '9.5'
   testing_coverage_factory: Factory Module
   theme_toggle: Toggle theme
@@ -4633,7 +4799,8 @@ el:
   step_deploy: Deploy
   architecture_benefit3_desc: Complete observability with metrics, logging, and health monitoring
   compatibility_table_family: Distribution Family
-  enterprise_monitoring_desc: Complete monitoring solution with Prometheus metrics, health checks, structured logging, and enterprise alerting.
+  enterprise_monitoring_desc: Complete monitoring solution with Prometheus metrics, health checks, structured logging, and
+    enterprise alerting.
   launcher_subtitle: Production-ready bash wrapper with enterprise-grade error handling
   enterprise_performance_desc: Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.
   architecture_component1: AES-256-GCM Encryption
@@ -4737,7 +4904,8 @@ he:
   doc_configuration_desc: Enterprise configuration files and environment setup
   doc_readme: README
   enterprise_config_item1: Multi-environment configurations
-  step_use_desc: Connect your email clients to the deployed server. All services are running, configured, and ready to handle email.
+  step_use_desc: Connect your email clients to the deployed server. All services are running, configured, and ready to handle
+    email.
   architecture_component19: Java 17
   launcher_title: Launcher Features
   architecture_application_layer: 🏗️ Application Layer
@@ -4764,7 +4932,8 @@ he:
   table_version_rhel9: '9'
   testing_subtitle: Comprehensive test coverage ensures reliability
   stats_automated: 100% Automated
-  hero_subtitle: Enterprise-grade mail server automation powered by Kotlin, Docker, and proven technology. Deploy complete mail infrastructure with a single JSON configuration file.
+  hero_subtitle: Enterprise-grade mail server automation powered by Kotlin, Docker, and proven technology. Deploy complete
+    mail infrastructure with a single JSON configuration file.
   use_case3_desc: Keep email data on-premises with complete control over security and compliance.
   cta_download: Download Now
   feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis, and ClamAV pre-configured and working together seamlessly.
@@ -4788,13 +4957,15 @@ he:
   architecture_component17: Kotlin 2.0.21
   footer_generated_by: This page was generated by
   table_version_ubuntu24: 24.04 LTS (Noble)
-  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, scalability, and easy management. Deploy on any Docker-capable host.
+  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, scalability, and easy management.
+    Deploy on any Docker-capable host.
   test_stat_value_coverage: 85%+
   enterprise_config_item4: Secure secrets management
   architecture_security_layer: 🔒 Security Layer
   code_deploy_command: ./mail_factory config.json
   distro_rocky_versions: '9.5'
-  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, comprehensive audit logging, session management, and TLS 1.3 enforcement.
+  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, comprehensive audit logging, session management,
+    and TLS 1.3 enforcement.
   quick_start_manual_install: Manual Installation
   cta_title: Ready to Deploy Your Mail Server?
   test_stat_value_success: 100%
@@ -4836,10 +5007,12 @@ he:
   table_version_debian11: 11 (Bullseye)
   distro_ubuntu_versions: 22.04 LTS, 24.04 LTS
   hero_title: Run Your Mail Server <span class="highlight">Like The Boss</span>
-  feature_zero_touch_desc: Write a simple JSON configuration file and let Mail Server Factory handle everything - from installation to initialization. No manual configuration needed.
+  feature_zero_touch_desc: Write a simple JSON configuration file and let Mail Server Factory handle everything - from installation
+    to initialization. No manual configuration needed.
   step_number1: '1'
   architecture_component16: Secrets Management
-  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard security practices out of the box.
+  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard
+    security practices out of the box.
   tech_rspamd_desc: Anti-Spam Engine
   architecture_badge_java: Java 17
   use_cases_title: Who Uses Mail Server Factory?
@@ -4860,8 +5033,8 @@ he:
   step_configure_desc: Create a JSON configuration file specifying your mail server details, accounts, and target host.
   compatibility_table_tested: Tested
   architecture_component20: JSON Configuration
-  compatibility_automated_desc: |-
-    כל ההפצות מוכנות לבדיקה אוטומטית עם וירטואליזציית QEMU. מסגרת הבדיקות כוללת אימות ISO, התקנה אוטומטית ואימות תצורה. כל התצורות מוכנות לייצור ומתוחזקות באופן פעיל.
+  compatibility_automated_desc: כל ההפצות מוכנות לבדיקה אוטומטית עם וירטואליזציית QEMU. מסגרת הבדיקות כוללת אימות ISO, התקנה
+    אוטומטית ואימות תצורה. כל התצורות מוכנות לייצור ומתוחזקות באופן פעיל.
   table_version_rocky95: '9.5'
   testing_coverage_factory: Factory Module
   theme_toggle: Toggle theme
@@ -4911,7 +5084,8 @@ he:
   step_deploy: Deploy
   architecture_benefit3_desc: Complete observability with metrics, logging, and health monitoring
   compatibility_table_family: Distribution Family
-  enterprise_monitoring_desc: Complete monitoring solution with Prometheus metrics, health checks, structured logging, and enterprise alerting.
+  enterprise_monitoring_desc: Complete monitoring solution with Prometheus metrics, health checks, structured logging, and
+    enterprise alerting.
   launcher_subtitle: Production-ready bash wrapper with enterprise-grade error handling
   enterprise_performance_desc: Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.
   architecture_component1: AES-256-GCM Encryption
@@ -5015,7 +5189,8 @@ ka:
   doc_configuration_desc: Enterprise configuration files and environment setup
   doc_readme: README
   enterprise_config_item1: Multi-environment configurations
-  step_use_desc: Connect your email clients to the deployed server. All services are running, configured, and ready to handle email.
+  step_use_desc: Connect your email clients to the deployed server. All services are running, configured, and ready to handle
+    email.
   architecture_component19: Java 17
   launcher_title: Launcher Features
   architecture_application_layer: 🏗️ Application Layer
@@ -5042,7 +5217,8 @@ ka:
   table_version_rhel9: '9'
   testing_subtitle: Comprehensive test coverage ensures reliability
   stats_automated: 100% Automated
-  hero_subtitle: Enterprise-grade mail server automation powered by Kotlin, Docker, and proven technology. Deploy complete mail infrastructure with a single JSON configuration file.
+  hero_subtitle: Enterprise-grade mail server automation powered by Kotlin, Docker, and proven technology. Deploy complete
+    mail infrastructure with a single JSON configuration file.
   use_case3_desc: Keep email data on-premises with complete control over security and compliance.
   cta_download: Download Now
   feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis, and ClamAV pre-configured and working together seamlessly.
@@ -5066,13 +5242,15 @@ ka:
   architecture_component17: Kotlin 2.0.21
   footer_generated_by: This page was generated by
   table_version_ubuntu24: 24.04 LTS (Noble)
-  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, scalability, and easy management. Deploy on any Docker-capable host.
+  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, scalability, and easy management.
+    Deploy on any Docker-capable host.
   test_stat_value_coverage: 85%+
   enterprise_config_item4: Secure secrets management
   architecture_security_layer: 🔒 Security Layer
   code_deploy_command: ./mail_factory config.json
   distro_rocky_versions: '9.5'
-  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, comprehensive audit logging, session management, and TLS 1.3 enforcement.
+  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, comprehensive audit logging, session management,
+    and TLS 1.3 enforcement.
   quick_start_manual_install: Manual Installation
   cta_title: Ready to Deploy Your Mail Server?
   test_stat_value_success: 100%
@@ -5114,10 +5292,12 @@ ka:
   table_version_debian11: 11 (Bullseye)
   distro_ubuntu_versions: 22.04 LTS, 24.04 LTS
   hero_title: Run Your Mail Server <span class="highlight">Like The Boss</span>
-  feature_zero_touch_desc: Write a simple JSON configuration file and let Mail Server Factory handle everything - from installation to initialization. No manual configuration needed.
+  feature_zero_touch_desc: Write a simple JSON configuration file and let Mail Server Factory handle everything - from installation
+    to initialization. No manual configuration needed.
   step_number1: '1'
   architecture_component16: Secrets Management
-  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard security practices out of the box.
+  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard
+    security practices out of the box.
   tech_rspamd_desc: Anti-Spam Engine
   architecture_badge_java: Java 17
   use_cases_title: Who Uses Mail Server Factory?
@@ -5138,8 +5318,9 @@ ka:
   step_configure_desc: Create a JSON configuration file specifying your mail server details, accounts, and target host.
   compatibility_table_tested: Tested
   architecture_component20: JSON Configuration
-  compatibility_automated_desc: |-
-    ყველა დისტრიბუცია მზადაა ავტომატური ტესტირებისთვის QEMU ვირტუალიზაციით. ტესტირების ჩარჩო მოიცავს ISO-ს დადასტურებას, ავტომატურ ინსტალაციას და კონფიგურაციის ვალიდაციას. ყველა კონფიგურაცია წარმოებისთვის მზადაა და აქტიურად არის შენარჩუნებული.
+  compatibility_automated_desc: ყველა დისტრიბუცია მზადაა ავტომატური ტესტირებისთვის QEMU ვირტუალიზაციით. ტესტირების ჩარჩო მოიცავს
+    ISO-ს დადასტურებას, ავტომატურ ინსტალაციას და კონფიგურაციის ვალიდაციას. ყველა კონფიგურაცია წარმოებისთვის მზადაა და აქტიურად
+    არის შენარჩუნებული.
   table_version_rocky95: '9.5'
   testing_coverage_factory: Factory Module
   theme_toggle: Toggle theme
@@ -5189,7 +5370,8 @@ ka:
   step_deploy: Deploy
   architecture_benefit3_desc: Complete observability with metrics, logging, and health monitoring
   compatibility_table_family: Distribution Family
-  enterprise_monitoring_desc: Complete monitoring solution with Prometheus metrics, health checks, structured logging, and enterprise alerting.
+  enterprise_monitoring_desc: Complete monitoring solution with Prometheus metrics, health checks, structured logging, and
+    enterprise alerting.
   launcher_subtitle: Production-ready bash wrapper with enterprise-grade error handling
   enterprise_performance_desc: Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.
   architecture_component1: AES-256-GCM Encryption
@@ -5293,7 +5475,8 @@ kk:
   doc_configuration_desc: Enterprise configuration files and environment setup
   doc_readme: README
   enterprise_config_item1: Multi-environment configurations
-  step_use_desc: Connect your email clients to the deployed server. All services are running, configured, and ready to handle email.
+  step_use_desc: Connect your email clients to the deployed server. All services are running, configured, and ready to handle
+    email.
   architecture_component19: Java 17
   launcher_title: Launcher Features
   architecture_application_layer: 🏗️ Application Layer
@@ -5320,7 +5503,8 @@ kk:
   table_version_rhel9: '9'
   testing_subtitle: Comprehensive test coverage ensures reliability
   stats_automated: 100% Automated
-  hero_subtitle: Enterprise-grade mail server automation powered by Kotlin, Docker, and proven technology. Deploy complete mail infrastructure with a single JSON configuration file.
+  hero_subtitle: Enterprise-grade mail server automation powered by Kotlin, Docker, and proven technology. Deploy complete
+    mail infrastructure with a single JSON configuration file.
   use_case3_desc: Keep email data on-premises with complete control over security and compliance.
   cta_download: Download Now
   feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis, and ClamAV pre-configured and working together seamlessly.
@@ -5344,13 +5528,15 @@ kk:
   architecture_component17: Kotlin 2.0.21
   footer_generated_by: This page was generated by
   table_version_ubuntu24: 24.04 LTS (Noble)
-  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, scalability, and easy management. Deploy on any Docker-capable host.
+  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, scalability, and easy management.
+    Deploy on any Docker-capable host.
   test_stat_value_coverage: 85%+
   enterprise_config_item4: Secure secrets management
   architecture_security_layer: 🔒 Security Layer
   code_deploy_command: ./mail_factory config.json
   distro_rocky_versions: '9.5'
-  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, comprehensive audit logging, session management, and TLS 1.3 enforcement.
+  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, comprehensive audit logging, session management,
+    and TLS 1.3 enforcement.
   quick_start_manual_install: Manual Installation
   cta_title: Ready to Deploy Your Mail Server?
   test_stat_value_success: 100%
@@ -5392,10 +5578,12 @@ kk:
   table_version_debian11: 11 (Bullseye)
   distro_ubuntu_versions: 22.04 LTS, 24.04 LTS
   hero_title: Run Your Mail Server <span class="highlight">Like The Boss</span>
-  feature_zero_touch_desc: Write a simple JSON configuration file and let Mail Server Factory handle everything - from installation to initialization. No manual configuration needed.
+  feature_zero_touch_desc: Write a simple JSON configuration file and let Mail Server Factory handle everything - from installation
+    to initialization. No manual configuration needed.
   step_number1: '1'
   architecture_component16: Secrets Management
-  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard security practices out of the box.
+  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard
+    security practices out of the box.
   tech_rspamd_desc: Anti-Spam Engine
   architecture_badge_java: Java 17
   use_cases_title: Who Uses Mail Server Factory?
@@ -5416,8 +5604,9 @@ kk:
   step_configure_desc: Create a JSON configuration file specifying your mail server details, accounts, and target host.
   compatibility_table_tested: Tested
   architecture_component20: JSON Configuration
-  compatibility_automated_desc: |-
-    Барлық дистрибутивтер QEMU виртуализациясымен автоматты тестілеуге дайын. Тестілеу шеңбері ISO тексеруін, автоматты орнатуды және конфигурация валидациясын қамтиды. Барлық конфигурациялар өндіріске дайын және белсенді түрде қолдау көрсетіледі.
+  compatibility_automated_desc: Барлық дистрибутивтер QEMU виртуализациясымен автоматты тестілеуге дайын. Тестілеу шеңбері
+    ISO тексеруін, автоматты орнатуды және конфигурация валидациясын қамтиды. Барлық конфигурациялар өндіріске дайын және
+    белсенді түрде қолдау көрсетіледі.
   table_version_rocky95: '9.5'
   testing_coverage_factory: Factory Module
   theme_toggle: Toggle theme
@@ -5467,7 +5656,8 @@ kk:
   step_deploy: Deploy
   architecture_benefit3_desc: Complete observability with metrics, logging, and health monitoring
   compatibility_table_family: Distribution Family
-  enterprise_monitoring_desc: Complete monitoring solution with Prometheus metrics, health checks, structured logging, and enterprise alerting.
+  enterprise_monitoring_desc: Complete monitoring solution with Prometheus metrics, health checks, structured logging, and
+    enterprise alerting.
   launcher_subtitle: Production-ready bash wrapper with enterprise-grade error handling
   enterprise_performance_desc: Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.
   architecture_component1: AES-256-GCM Encryption
@@ -5571,7 +5761,8 @@ uz:
   doc_configuration_desc: Enterprise configuration files and environment setup
   doc_readme: README
   enterprise_config_item1: Multi-environment configurations
-  step_use_desc: Connect your email clients to the deployed server. All services are running, configured, and ready to handle email.
+  step_use_desc: Connect your email clients to the deployed server. All services are running, configured, and ready to handle
+    email.
   architecture_component19: Java 17
   launcher_title: Launcher Features
   architecture_application_layer: 🏗️ Application Layer
@@ -5598,7 +5789,8 @@ uz:
   table_version_rhel9: '9'
   testing_subtitle: Comprehensive test coverage ensures reliability
   stats_automated: 100% Automated
-  hero_subtitle: Enterprise-grade mail server automation powered by Kotlin, Docker, and proven technology. Deploy complete mail infrastructure with a single JSON configuration file.
+  hero_subtitle: Enterprise-grade mail server automation powered by Kotlin, Docker, and proven technology. Deploy complete
+    mail infrastructure with a single JSON configuration file.
   use_case3_desc: Keep email data on-premises with complete control over security and compliance.
   cta_download: Download Now
   feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis, and ClamAV pre-configured and working together seamlessly.
@@ -5622,13 +5814,15 @@ uz:
   architecture_component17: Kotlin 2.0.21
   footer_generated_by: This page was generated by
   table_version_ubuntu24: 24.04 LTS (Noble)
-  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, scalability, and easy management. Deploy on any Docker-capable host.
+  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, scalability, and easy management.
+    Deploy on any Docker-capable host.
   test_stat_value_coverage: 85%+
   enterprise_config_item4: Secure secrets management
   architecture_security_layer: 🔒 Security Layer
   code_deploy_command: ./mail_factory config.json
   distro_rocky_versions: '9.5'
-  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, comprehensive audit logging, session management, and TLS 1.3 enforcement.
+  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, comprehensive audit logging, session management,
+    and TLS 1.3 enforcement.
   quick_start_manual_install: Manual Installation
   cta_title: Ready to Deploy Your Mail Server?
   test_stat_value_success: 100%
@@ -5670,10 +5864,12 @@ uz:
   table_version_debian11: 11 (Bullseye)
   distro_ubuntu_versions: 22.04 LTS, 24.04 LTS
   hero_title: Run Your Mail Server <span class="highlight">Like The Boss</span>
-  feature_zero_touch_desc: Write a simple JSON configuration file and let Mail Server Factory handle everything - from installation to initialization. No manual configuration needed.
+  feature_zero_touch_desc: Write a simple JSON configuration file and let Mail Server Factory handle everything - from installation
+    to initialization. No manual configuration needed.
   step_number1: '1'
   architecture_component16: Secrets Management
-  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard security practices out of the box.
+  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard
+    security practices out of the box.
   tech_rspamd_desc: Anti-Spam Engine
   architecture_badge_java: Java 17
   use_cases_title: Who Uses Mail Server Factory?
@@ -5694,8 +5890,9 @@ uz:
   step_configure_desc: Create a JSON configuration file specifying your mail server details, accounts, and target host.
   compatibility_table_tested: Tested
   architecture_component20: JSON Configuration
-  compatibility_automated_desc: |-
-    Barcha tarqatmalar QEMU virtualizatsiyasi bilan avtomatlashtirilgan testlash uchun tayyor. Test tizimi ISO tekshiruvini, avtomatlashtirilgan o'rnatishni va konfiguratsiya validatsiyasini o'z ichiga oladi. Barcha konfiguratsiyalar ishlab chiqarishga tayyor va faol qo'llab-quvvatlanadi.
+  compatibility_automated_desc: Barcha tarqatmalar QEMU virtualizatsiyasi bilan avtomatlashtirilgan testlash uchun tayyor.
+    Test tizimi ISO tekshiruvini, avtomatlashtirilgan o'rnatishni va konfiguratsiya validatsiyasini o'z ichiga oladi. Barcha
+    konfiguratsiyalar ishlab chiqarishga tayyor va faol qo'llab-quvvatlanadi.
   table_version_rocky95: '9.5'
   testing_coverage_factory: Factory Module
   theme_toggle: Toggle theme
@@ -5745,7 +5942,8 @@ uz:
   step_deploy: Deploy
   architecture_benefit3_desc: Complete observability with metrics, logging, and health monitoring
   compatibility_table_family: Distribution Family
-  enterprise_monitoring_desc: Complete monitoring solution with Prometheus metrics, health checks, structured logging, and enterprise alerting.
+  enterprise_monitoring_desc: Complete monitoring solution with Prometheus metrics, health checks, structured logging, and
+    enterprise alerting.
   launcher_subtitle: Production-ready bash wrapper with enterprise-grade error handling
   enterprise_performance_desc: Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.
   architecture_component1: AES-256-GCM Encryption
@@ -5849,7 +6047,8 @@ tg:
   doc_configuration_desc: Enterprise configuration files and environment setup
   doc_readme: README
   enterprise_config_item1: Multi-environment configurations
-  step_use_desc: Connect your email clients to the deployed server. All services are running, configured, and ready to handle email.
+  step_use_desc: Connect your email clients to the deployed server. All services are running, configured, and ready to handle
+    email.
   architecture_component19: Java 17
   launcher_title: Launcher Features
   architecture_application_layer: 🏗️ Application Layer
@@ -5876,7 +6075,8 @@ tg:
   table_version_rhel9: '9'
   testing_subtitle: Comprehensive test coverage ensures reliability
   stats_automated: 100% Automated
-  hero_subtitle: Enterprise-grade mail server automation powered by Kotlin, Docker, and proven technology. Deploy complete mail infrastructure with a single JSON configuration file.
+  hero_subtitle: Enterprise-grade mail server automation powered by Kotlin, Docker, and proven technology. Deploy complete
+    mail infrastructure with a single JSON configuration file.
   use_case3_desc: Keep email data on-premises with complete control over security and compliance.
   cta_download: Download Now
   feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis, and ClamAV pre-configured and working together seamlessly.
@@ -5900,13 +6100,15 @@ tg:
   architecture_component17: Kotlin 2.0.21
   footer_generated_by: This page was generated by
   table_version_ubuntu24: 24.04 LTS (Noble)
-  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, scalability, and easy management. Deploy on any Docker-capable host.
+  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, scalability, and easy management.
+    Deploy on any Docker-capable host.
   test_stat_value_coverage: 85%+
   enterprise_config_item4: Secure secrets management
   architecture_security_layer: 🔒 Security Layer
   code_deploy_command: ./mail_factory config.json
   distro_rocky_versions: '9.5'
-  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, comprehensive audit logging, session management, and TLS 1.3 enforcement.
+  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, comprehensive audit logging, session management,
+    and TLS 1.3 enforcement.
   quick_start_manual_install: Manual Installation
   cta_title: Ready to Deploy Your Mail Server?
   test_stat_value_success: 100%
@@ -5948,10 +6150,12 @@ tg:
   table_version_debian11: 11 (Bullseye)
   distro_ubuntu_versions: 22.04 LTS, 24.04 LTS
   hero_title: Run Your Mail Server <span class="highlight">Like The Boss</span>
-  feature_zero_touch_desc: Write a simple JSON configuration file and let Mail Server Factory handle everything - from installation to initialization. No manual configuration needed.
+  feature_zero_touch_desc: Write a simple JSON configuration file and let Mail Server Factory handle everything - from installation
+    to initialization. No manual configuration needed.
   step_number1: '1'
   architecture_component16: Secrets Management
-  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard security practices out of the box.
+  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard
+    security practices out of the box.
   tech_rspamd_desc: Anti-Spam Engine
   architecture_badge_java: Java 17
   use_cases_title: Who Uses Mail Server Factory?
@@ -5972,8 +6176,9 @@ tg:
   step_configure_desc: Create a JSON configuration file specifying your mail server details, accounts, and target host.
   compatibility_table_tested: Tested
   architecture_component20: JSON Configuration
-  compatibility_automated_desc: |-
-    Ҳамаи дистрибутсияҳо барои санҷиши худкор бо виртуалсозии QEMU омодаанд. Чаҳорчӯбаи санҷиш санҷиши ISO, насби худкор ва тасдиқи конфигуратсияро дар бар мегирад. Ҳамаи конфигуратсияҳо барои истеҳсолот омодаанд ва фаъолона нигаҳдорӣ мешаванд.
+  compatibility_automated_desc: Ҳамаи дистрибутсияҳо барои санҷиши худкор бо виртуалсозии QEMU омодаанд. Чаҳорчӯбаи санҷиш
+    санҷиши ISO, насби худкор ва тасдиқи конфигуратсияро дар бар мегирад. Ҳамаи конфигуратсияҳо барои истеҳсолот омодаанд
+    ва фаъолона нигаҳдорӣ мешаванд.
   table_version_rocky95: '9.5'
   testing_coverage_factory: Factory Module
   theme_toggle: Toggle theme
@@ -6023,7 +6228,8 @@ tg:
   step_deploy: Deploy
   architecture_benefit3_desc: Complete observability with metrics, logging, and health monitoring
   compatibility_table_family: Distribution Family
-  enterprise_monitoring_desc: Complete monitoring solution with Prometheus metrics, health checks, structured logging, and enterprise alerting.
+  enterprise_monitoring_desc: Complete monitoring solution with Prometheus metrics, health checks, structured logging, and
+    enterprise alerting.
   launcher_subtitle: Production-ready bash wrapper with enterprise-grade error handling
   enterprise_performance_desc: Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.
   architecture_component1: AES-256-GCM Encryption
@@ -6127,7 +6333,8 @@ tr:
   doc_configuration_desc: Enterprise configuration files and environment setup
   doc_readme: README
   enterprise_config_item1: Multi-environment configurations
-  step_use_desc: Connect your email clients to the deployed server. All services are running, configured, and ready to handle email.
+  step_use_desc: Connect your email clients to the deployed server. All services are running, configured, and ready to handle
+    email.
   architecture_component19: Java 17
   launcher_title: Launcher Features
   architecture_application_layer: 🏗️ Application Layer
@@ -6154,7 +6361,8 @@ tr:
   table_version_rhel9: '9'
   testing_subtitle: Comprehensive test coverage ensures reliability
   stats_automated: 100% Automated
-  hero_subtitle: Enterprise-grade mail server automation powered by Kotlin, Docker, and proven technology. Deploy complete mail infrastructure with a single JSON configuration file.
+  hero_subtitle: Enterprise-grade mail server automation powered by Kotlin, Docker, and proven technology. Deploy complete
+    mail infrastructure with a single JSON configuration file.
   use_case3_desc: Keep email data on-premises with complete control over security and compliance.
   cta_download: Download Now
   feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis, and ClamAV pre-configured and working together seamlessly.
@@ -6178,13 +6386,15 @@ tr:
   architecture_component17: Kotlin 2.0.21
   footer_generated_by: This page was generated by
   table_version_ubuntu24: 24.04 LTS (Noble)
-  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, scalability, and easy management. Deploy on any Docker-capable host.
+  feature_docker_desc: Every component runs in its own Docker container, ensuring isolation, scalability, and easy management.
+    Deploy on any Docker-capable host.
   test_stat_value_coverage: 85%+
   enterprise_config_item4: Secure secrets management
   architecture_security_layer: 🔒 Security Layer
   code_deploy_command: ./mail_factory config.json
   distro_rocky_versions: '9.5'
-  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, comprehensive audit logging, session management, and TLS 1.3 enforcement.
+  enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption, comprehensive audit logging, session management,
+    and TLS 1.3 enforcement.
   quick_start_manual_install: Manual Installation
   cta_title: Ready to Deploy Your Mail Server?
   test_stat_value_success: 100%
@@ -6226,10 +6436,12 @@ tr:
   table_version_debian11: 11 (Bullseye)
   distro_ubuntu_versions: 22.04 LTS, 24.04 LTS
   hero_title: Run Your Mail Server <span class="highlight">Like The Boss</span>
-  feature_zero_touch_desc: Write a simple JSON configuration file and let Mail Server Factory handle everything - from installation to initialization. No manual configuration needed.
+  feature_zero_touch_desc: Write a simple JSON configuration file and let Mail Server Factory handle everything - from installation
+    to initialization. No manual configuration needed.
   step_number1: '1'
   architecture_component16: Secrets Management
-  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard security practices out of the box.
+  feature_security_desc: Automatic TLS certificate generation with self-signed CA, SSH key-based authentication, and industry-standard
+    security practices out of the box.
   tech_rspamd_desc: Anti-Spam Engine
   architecture_badge_java: Java 17
   use_cases_title: Who Uses Mail Server Factory?
@@ -6250,8 +6462,8 @@ tr:
   step_configure_desc: Create a JSON configuration file specifying your mail server details, accounts, and target host.
   compatibility_table_tested: Tested
   architecture_component20: JSON Configuration
-  compatibility_automated_desc: |-
-    Tüm dağıtımlar, QEMU sanallaştırması ile otomatik test için hazırdır. Test çerçevesi ISO doğrulaması, otomatik kurulum ve yapılandırma doğrulaması içerir. Tüm yapılandırmalar üretime hazırdır ve aktif olarak bakımı yapılmaktadır.
+  compatibility_automated_desc: Tüm dağıtımlar, QEMU sanallaştırması ile otomatik test için hazırdır. Test çerçevesi ISO doğrulaması,
+    otomatik kurulum ve yapılandırma doğrulaması içerir. Tüm yapılandırmalar üretime hazırdır ve aktif olarak bakımı yapılmaktadır.
   table_version_rocky95: '9.5'
   testing_coverage_factory: Factory Module
   theme_toggle: Toggle theme
@@ -6301,7 +6513,8 @@ tr:
   step_deploy: Deploy
   architecture_benefit3_desc: Complete observability with metrics, logging, and health monitoring
   compatibility_table_family: Distribution Family
-  enterprise_monitoring_desc: Complete monitoring solution with Prometheus metrics, health checks, structured logging, and enterprise alerting.
+  enterprise_monitoring_desc: Complete monitoring solution with Prometheus metrics, health checks, structured logging, and
+    enterprise alerting.
   launcher_subtitle: Production-ready bash wrapper with enterprise-grade error handling
   enterprise_performance_desc: Enterprise-scale performance with advanced caching, JVM tuning, and optimized resource utilization.
   architecture_component1: AES-256-GCM Encryption
@@ -6312,7 +6525,8 @@ tr:
   table_config_ubuntu24: Examples/Ubuntu_24.json
 be:
   hero_title: Запусціце свой поштавы сервер <span class="highlight">Як Бос</span>
-  hero_subtitle: Аўтаматызацыя поштавых сервераў карпаратыўнага ўзроўню на базе Kotlin, Docker і правяраных тэхналогій. Разгортвайце поўную поштамую інфраструктуру з дапамогай аднаго JSON-файла канфігурацыі.
+  hero_subtitle: Аўтаматызацыя поштавых сервераў карпаратыўнага ўзроўню на базе Kotlin, Docker і правяраных тэхналогій. Разгортвайце
+    поўную поштамую інфраструктуру з дапамогай аднаго JSON-файла канфігурацыі.
   download_btn: ⬇ Спампаваць апошнюю версію
   github_btn: ⭐ Паглядзець на GitHub
   stats_distributions: 12 Дыстрыбуцыяў
@@ -6433,7 +6647,9 @@ be:
     sh Core/Utils/init_ssh_access.sh your-server.local'
   code_verify_command: 'docker ps -a  # Verify running services'
   code_web_installer: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Server-Factory/Utils/master/web_installer.sh)"
-  compatibility_automated_desc: "All distributions are ready for automated testing with QEMU virtualization. \n        The testing framework includes ISO verification, automated installation, and configuration validation. \n        All configurations are production-ready and actively maintained."
+  compatibility_automated_desc: "All distributions are ready for automated testing with QEMU virtualization. \n        The\
+    \ testing framework includes ISO verification, automated installation, and configuration validation. \n        All configurations\
+    \ are production-ready and actively maintained."
   compatibility_automated_title: ✅ Automated Testing Available
   compatibility_table_config: Configuration
   compatibility_table_distribution: Distribution
@@ -6476,7 +6692,8 @@ be:
   enterprise_config_item2: Hot reloading without restart
   enterprise_config_item3: Schema validation and error reporting
   enterprise_config_item4: Secure secrets management
-  enterprise_monitoring_desc: Поўнае рашэнне маніторынгу з метрыкамі Prometheus, праверкамі здароўя, структураваным лагаваннем і карпаратыўнымі апавяшчэннямі.
+  enterprise_monitoring_desc: Поўнае рашэнне маніторынгу з метрыкамі Prometheus, праверкамі здароўя, структураваным лагаваннем
+    і карпаратыўнымі апавяшчэннямі.
   enterprise_monitoring_item1: Prometheus-compatible metrics endpoint
   enterprise_monitoring_item2: Automated health checks
   enterprise_monitoring_item3: Structured logging with correlation IDs
@@ -6485,17 +6702,22 @@ be:
   enterprise_performance_item2: JVM performance tuning (G1GC)
   enterprise_performance_item3: Database connection pooling
   enterprise_performance_item4: Async I/O operations
-  enterprise_security_desc: Карпаратыўная бяспека з шыфраваннем AES-256-GCM, усёбаковым аўдытам, кіраваннем сесіямі і прымусовым выкарыстаннем TLS 1.3.
+  enterprise_security_desc: Карпаратыўная бяспека з шыфраваннем AES-256-GCM, усёбаковым аўдытам, кіраваннем сесіямі і прымусовым
+    выкарыстаннем TLS 1.3.
   enterprise_security_item1: AES-256-GCM encryption for data at rest
   enterprise_security_item2: Enterprise password policies
   enterprise_security_item3: Real-time security monitoring
   enterprise_security_item4: 90-day audit log retention
   feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis і ClamAV папярэдне настроены і працуюць разам без праблем.
-  feature_docker_desc: Кожны кампанент працуе ў сваім уласным Docker-кантэйнеры, забяспечваючы ізаляцыю, маштабавальнасць і простае кіраванне. Разгортвайце на любым хасту з падтрымкай Docker.
-  feature_security_desc: Аўтаматычная генерацыя TLS-сертыфікатаў з самападпісаным CA, аўтэнтыфікацыя на аснове SSH-ключаў і галіновыя стандарты бяспекі з скрынкі.
-  feature_ssh_desc: Разгортванне на аддаленыя серверы праз SSH з пулінгам злучэнняў, аўтаматычнай перадачай файлаў і надзейнай апрацоўкай памылак.
+  feature_docker_desc: Кожны кампанент працуе ў сваім уласным Docker-кантэйнеры, забяспечваючы ізаляцыю, маштабавальнасць
+    і простае кіраванне. Разгортвайце на любым хасту з падтрымкай Docker.
+  feature_security_desc: Аўтаматычная генерацыя TLS-сертыфікатаў з самападпісаным CA, аўтэнтыфікацыя на аснове SSH-ключаў
+    і галіновыя стандарты бяспекі з скрынкі.
+  feature_ssh_desc: Разгортванне на аддаленыя серверы праз SSH з пулінгам злучэнняў, аўтаматычнай перадачай файлаў і надзейнай
+    апрацоўкай памылак.
   feature_tested_desc: 100% паспяховае выкананне тэстаў з 47 камплекснымі тэстамі. Кожны кампанент правяраецца перад выпускам.
-  feature_zero_touch_desc: Напішыце просты JSON-файл канфігурацыі і дазвольце Mail Server Factory зрабіць усё астатняе - ад устаноўкі да ініцыялізацыі. Ніякіх ручных налад не патрабуецца.
+  feature_zero_touch_desc: Напішыце просты JSON-файл канфігурацыі і дазвольце Mail Server Factory зрабіць усё астатняе - ад
+    устаноўкі да ініцыялізацыі. Ніякіх ручных налад не патрабуецца.
   hero_badge_automated: Automated Installation
   hero_badge_distribution: Multi-Distribution
   hero_badge_enterprise: Enterprise Grade
@@ -6521,12 +6743,15 @@ be:
   quick_start_ssh_setup: Setup SSH Access
   quick_start_title: Хуткі старт
   quick_start_web_installer: Web Installer (Recommended)
-  step_configure_desc: Стварыце JSON-файл канфігурацыі, паказаўшы дэталі вашага поштавага сервера, уліковыя запісы і мэтавы хост.
-  step_deploy_desc: Запусціце mail_factory з вашай канфігурацыяй. Адкіньцеся на спінку крэсла, пакуль ён усталёўвае і наладжвае ўсё.
+  step_configure_desc: Стварыце JSON-файл канфігурацыі, паказаўшы дэталі вашага поштавага сервера, уліковыя запісы і мэтавы
+    хост.
+  step_deploy_desc: Запусціце mail_factory з вашай канфігурацыяй. Адкіньцеся на спінку крэсла, пакуль ён усталёўвае і наладжвае
+    ўсё.
   step_number1: '1'
   step_number2: '2'
   step_number3: '3'
-  step_use_desc: Падключыце вашыя поштавыя кліенты да разгорнутага сервера. Усе сэрвісы запушчаны, настроены і гатовыя апрацоўваць пошту.
+  step_use_desc: Падключыце вашыя поштавыя кліенты да разгорнутага сервера. Усе сэрвісы запушчаны, настроены і гатовыя апрацоўваць
+    пошту.
   table_config_almalinux9: Examples/AlmaLinux_9.json
   table_config_debian11: Examples/Debian_11.json
   table_config_debian12: Examples/Debian_12.json
@@ -6588,10 +6813,11 @@ be:
   select_language: Select language
 fa:
   hero_title: سرور ایمیل خود را <span class="highlight">مثل رئیس</span> اجرا کنید
-  hero_subtitle: اتوماسیون سرور ایمیل در سطح سازمانی با قدرت Kotlin، Docker و فناوری‌های اثبات شده. زیرساخت کامل ایمیل را با یک فایل پیکربندی JSON مستقر کنید.
+  hero_subtitle: اتوماسیون سرور ایمیل در سطح سازمانی با قدرت Kotlin، Docker و فناوری‌های اثبات شده. زیرساخت کامل ایمیل را
+    با یک فایل پیکربندی JSON مستقر کنید.
   download_btn: ⬇ دانلود آخرین نسخه
   github_btn: ⭐ مشاهده در GitHub
-  stats_distributions: ۱۲ توزیع
+  stats_distributions: 12 ۱۲ توزیع
   stats_automated: ۱۰۰٪ خودکار
   stats_production: آماده تولید
   stats_enterprise: سطح سازمانی
@@ -6709,7 +6935,9 @@ fa:
     sh Core/Utils/init_ssh_access.sh your-server.local'
   code_verify_command: 'docker ps -a  # Verify running services'
   code_web_installer: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Server-Factory/Utils/master/web_installer.sh)"
-  compatibility_automated_desc: "All distributions are ready for automated testing with QEMU virtualization. \n        The testing framework includes ISO verification, automated installation, and configuration validation. \n        All configurations are production-ready and actively maintained."
+  compatibility_automated_desc: "All distributions are ready for automated testing with QEMU virtualization. \n        The\
+    \ testing framework includes ISO verification, automated installation, and configuration validation. \n        All configurations\
+    \ are production-ready and actively maintained."
   compatibility_automated_title: ✅ Automated Testing Available
   compatibility_table_config: Configuration
   compatibility_table_distribution: Distribution
@@ -6752,7 +6980,8 @@ fa:
   enterprise_config_item2: Hot reloading without restart
   enterprise_config_item3: Schema validation and error reporting
   enterprise_config_item4: Secure secrets management
-  enterprise_monitoring_desc: راه‌حل کامل مانیتورینگ با متریک‌های Prometheus، بررسی‌های سلامت، لاگ‌گیری ساختاریافته و هشدارهای سازمانی.
+  enterprise_monitoring_desc: راه‌حل کامل مانیتورینگ با متریک‌های Prometheus، بررسی‌های سلامت، لاگ‌گیری ساختاریافته و هشدارهای
+    سازمانی.
   enterprise_monitoring_item1: Prometheus-compatible metrics endpoint
   enterprise_monitoring_item2: Automated health checks
   enterprise_monitoring_item3: Structured logging with correlation IDs
@@ -6766,12 +6995,16 @@ fa:
   enterprise_security_item2: Enterprise password policies
   enterprise_security_item3: Real-time security monitoring
   enterprise_security_item4: 90-day audit log retention
-  feature_complete_desc: Postfix، Dovecot، PostgreSQL، Rspamd، Redis و ClamAV از پیش پیکربندی شده و به طور یکپارچه با هم کار می‌کنند.
-  feature_docker_desc: هر مؤلفه در کانتینر Docker خود اجرا می‌شود و ایزوله‌سازی، مقیاس‌پذیری و مدیریت آسان را تضمین می‌کند. در هر میزبانی با قابلیت Docker مستقر کنید.
-  feature_security_desc: تولید خودکار گواهی TLS با CA خودامضا، احراز هویت مبتنی بر کلید SSH و شیوه‌های امنیتی استاندارد صنعتی از جعبه.
+  feature_complete_desc: Postfix، Dovecot، PostgreSQL، Rspamd، Redis و ClamAV از پیش پیکربندی شده و به طور یکپارچه با هم کار
+    می‌کنند.
+  feature_docker_desc: هر مؤلفه در کانتینر Docker خود اجرا می‌شود و ایزوله‌سازی، مقیاس‌پذیری و مدیریت آسان را تضمین می‌کند.
+    در هر میزبانی با قابلیت Docker مستقر کنید.
+  feature_security_desc: تولید خودکار گواهی TLS با CA خودامضا، احراز هویت مبتنی بر کلید SSH و شیوه‌های امنیتی استاندارد صنعتی
+    از جعبه.
   feature_ssh_desc: استقرار در سرورهای راه دور از طریق SSH با اتصال گروهی، انتقال خودکار فایل‌ها و مدیریت خطای قوی.
   feature_tested_desc: نرخ موفقیت ۱۰۰٪ اجرای تست با ۴۷ تست جامع. هر مؤلفه قبل از انتشار تأیید می‌شود.
-  feature_zero_touch_desc: یک فایل پیکربندی JSON ساده بنویسید و اجازه دهید Mail Server Factory همه چیز را مدیریت کند - از نصب تا راه‌اندازی. هیچ پیکربندی دستی مورد نیاز نیست.
+  feature_zero_touch_desc: یک فایل پیکربندی JSON ساده بنویسید و اجازه دهید Mail Server Factory همه چیز را مدیریت کند - از
+    نصب تا راه‌اندازی. هیچ پیکربندی دستی مورد نیاز نیست.
   hero_badge_automated: Automated Installation
   hero_badge_distribution: Multi-Distribution
   hero_badge_enterprise: Enterprise Grade
@@ -6802,7 +7035,8 @@ fa:
   step_number1: '1'
   step_number2: '2'
   step_number3: '3'
-  step_use_desc: کلاینت‌های ایمیل خود را به سرور مستقر شده متصل کنید. همه سرویس‌ها در حال اجرا، پیکربندی شده و آماده مدیریت ایمیل هستند.
+  step_use_desc: کلاینت‌های ایمیل خود را به سرور مستقر شده متصل کنید. همه سرویس‌ها در حال اجرا، پیکربندی شده و آماده مدیریت
+    ایمیل هستند.
   table_config_almalinux9: Examples/AlmaLinux_9.json
   table_config_debian11: Examples/Debian_11.json
   table_config_debian12: Examples/Debian_12.json
@@ -6864,7 +7098,8 @@ fa:
   select_language: Select language
 ar:
   hero_title: شغل خادم البريد الخاص بك <span class="highlight">مثل الرئيس</span>
-  hero_subtitle: أتمتة خادم البريد على مستوى المؤسسة مدعومة بـ Kotlin و Docker والتكنولوجيا المثبتة. انشر البنية التحتية الكاملة للبريد باستخدام ملف تكوين JSON واحد.
+  hero_subtitle: أتمتة خادم البريد على مستوى المؤسسة مدعومة بـ Kotlin و Docker والتكنولوجيا المثبتة. انشر البنية التحتية الكاملة
+    للبريد باستخدام ملف تكوين JSON واحد.
   download_btn: ⬇ تحميل أحدث إصدار
   github_btn: ⭐ عرض على GitHub
   stats_distributions: 12 توزيعة
@@ -6985,7 +7220,9 @@ ar:
     sh Core/Utils/init_ssh_access.sh your-server.local'
   code_verify_command: 'docker ps -a  # Verify running services'
   code_web_installer: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Server-Factory/Utils/master/web_installer.sh)"
-  compatibility_automated_desc: "All distributions are ready for automated testing with QEMU virtualization. \n        The testing framework includes ISO verification, automated installation, and configuration validation. \n        All configurations are production-ready and actively maintained."
+  compatibility_automated_desc: "All distributions are ready for automated testing with QEMU virtualization. \n        The\
+    \ testing framework includes ISO verification, automated installation, and configuration validation. \n        All configurations\
+    \ are production-ready and actively maintained."
   compatibility_automated_title: ✅ Automated Testing Available
   compatibility_table_config: Configuration
   compatibility_table_distribution: Distribution
@@ -7043,11 +7280,14 @@ ar:
   enterprise_security_item3: Real-time security monitoring
   enterprise_security_item4: 90-day audit log retention
   feature_complete_desc: Postfix و Dovecot و PostgreSQL و Rspamd و Redis و ClamAV مكونة مسبقًا وتعمل معًا بسلاسة.
-  feature_docker_desc: يعمل كل مكون في حاوية Docker الخاصة به، مما يضمن العزل وقابلية التوسع والإدارة السهلة. انشر على أي مضيف يدعم Docker.
-  feature_security_desc: توليد شهادات TLS تلقائي مع CA ذاتي التوقيع، المصادقة القائمة على مفاتيح SSH وممارسات الأمان القياسية في الصناعة جاهزة للاستخدام.
+  feature_docker_desc: يعمل كل مكون في حاوية Docker الخاصة به، مما يضمن العزل وقابلية التوسع والإدارة السهلة. انشر على أي
+    مضيف يدعم Docker.
+  feature_security_desc: توليد شهادات TLS تلقائي مع CA ذاتي التوقيع، المصادقة القائمة على مفاتيح SSH وممارسات الأمان القياسية
+    في الصناعة جاهزة للاستخدام.
   feature_ssh_desc: النشر على الخوادم البعيدة عبر SSH مع تجميع الاتصالات، نقل الملفات التلقائي والتعامل القوي مع الأخطاء.
   feature_tested_desc: معدل نجاح تنفيذ الاختبار 100% مع 47 اختبارًا شاملاً. يتم التحقق من كل مكون قبل الإصدار.
-  feature_zero_touch_desc: اكتب ملف تكوين JSON بسيط ودع Mail Server Factory يتولى كل شيء - من التثبيت إلى التهيئة. لا حاجة لأي تكوين يدوي.
+  feature_zero_touch_desc: اكتب ملف تكوين JSON بسيط ودع Mail Server Factory يتولى كل شيء - من التثبيت إلى التهيئة. لا حاجة
+    لأي تكوين يدوي.
   hero_badge_automated: Automated Installation
   hero_badge_distribution: Multi-Distribution
   hero_badge_enterprise: Enterprise Grade
@@ -7078,7 +7318,8 @@ ar:
   step_number1: '1'
   step_number2: '2'
   step_number3: '3'
-  step_use_desc: قم بتوصيل عملاء البريد الإلكتروني الخاصين بك بالخادم المنشور. جميع الخدمات تعمل ومكونة وجاهزة لمعالجة البريد الإلكتروني.
+  step_use_desc: قم بتوصيل عملاء البريد الإلكتروني الخاصين بك بالخادم المنشور. جميع الخدمات تعمل ومكونة وجاهزة لمعالجة البريد
+    الإلكتروني.
   table_config_almalinux9: Examples/AlmaLinux_9.json
   table_config_debian11: Examples/Debian_11.json
   table_config_debian12: Examples/Debian_12.json
@@ -7261,7 +7502,9 @@ ko:
     sh Core/Utils/init_ssh_access.sh your-server.local'
   code_verify_command: 'docker ps -a  # Verify running services'
   code_web_installer: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Server-Factory/Utils/master/web_installer.sh)"
-  compatibility_automated_desc: "All distributions are ready for automated testing with QEMU virtualization. \n        The testing framework includes ISO verification, automated installation, and configuration validation. \n        All configurations are production-ready and actively maintained."
+  compatibility_automated_desc: "All distributions are ready for automated testing with QEMU virtualization. \n        The\
+    \ testing framework includes ISO verification, automated installation, and configuration validation. \n        All configurations\
+    \ are production-ready and actively maintained."
   compatibility_automated_title: ✅ Automated Testing Available
   compatibility_table_config: Configuration
   compatibility_table_distribution: Distribution
@@ -7416,7 +7659,8 @@ ko:
   select_language: Select language
 sr:
   hero_title: Покрените свој мејл сервер <span class="highlight">Као Шеф</span>
-  hero_subtitle: Аутоматизација мејл сервера на нивоу предузећа покретана Kotlin-ом, Docker-ом и провереном технологијом. Покрените комплетну мејл инфраструктуру са једним JSON конфигурационим фајлом.
+  hero_subtitle: Аутоматизација мејл сервера на нивоу предузећа покретана Kotlin-ом, Docker-ом и провереном технологијом.
+    Покрените комплетну мејл инфраструктуру са једним JSON конфигурационим фајлом.
   download_btn: ⬇ Преузми најновију верзију
   github_btn: ⭐ Погледај на GitHub-у
   stats_distributions: 12 Дистрибуција
@@ -7537,7 +7781,9 @@ sr:
     sh Core/Utils/init_ssh_access.sh your-server.local'
   code_verify_command: 'docker ps -a  # Verify running services'
   code_web_installer: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Server-Factory/Utils/master/web_installer.sh)"
-  compatibility_automated_desc: "All distributions are ready for automated testing with QEMU virtualization. \n        The testing framework includes ISO verification, automated installation, and configuration validation. \n        All configurations are production-ready and actively maintained."
+  compatibility_automated_desc: "All distributions are ready for automated testing with QEMU virtualization. \n        The\
+    \ testing framework includes ISO verification, automated installation, and configuration validation. \n        All configurations\
+    \ are production-ready and actively maintained."
   compatibility_automated_title: ✅ Automated Testing Available
   compatibility_table_config: Configuration
   compatibility_table_distribution: Distribution
@@ -7580,7 +7826,8 @@ sr:
   enterprise_config_item2: Hot reloading without restart
   enterprise_config_item3: Schema validation and error reporting
   enterprise_config_item4: Secure secrets management
-  enterprise_monitoring_desc: Комплетно решење за мониторинг са Prometheus метрикама, проверкама здравља, структурираним логовањем и упозорењима предузећа.
+  enterprise_monitoring_desc: Комплетно решење за мониторинг са Prometheus метрикама, проверкама здравља, структурираним логовањем
+    и упозорењима предузећа.
   enterprise_monitoring_item1: Prometheus-compatible metrics endpoint
   enterprise_monitoring_item2: Automated health checks
   enterprise_monitoring_item3: Structured logging with correlation IDs
@@ -7589,17 +7836,23 @@ sr:
   enterprise_performance_item2: JVM performance tuning (G1GC)
   enterprise_performance_item3: Database connection pooling
   enterprise_performance_item4: Async I/O operations
-  enterprise_security_desc: Безбедност на нивоу предузећа са AES-256-GCM енкрипцијом, свеобухватним логовањем ревизије, управљањем сесијама и принудним коришћењем TLS 1.3.
+  enterprise_security_desc: Безбедност на нивоу предузећа са AES-256-GCM енкрипцијом, свеобухватним логовањем ревизије, управљањем
+    сесијама и принудним коришћењем TLS 1.3.
   enterprise_security_item1: AES-256-GCM encryption for data at rest
   enterprise_security_item2: Enterprise password policies
   enterprise_security_item3: Real-time security monitoring
   enterprise_security_item4: 90-day audit log retention
-  feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis и ClamAV су унапред конфигурисани и раде заједно без проблема.
-  feature_docker_desc: Свака компонента ради у свом Docker контејнеру, осигуравајући изолацију, скалабилност и лако управљање. Покрените на било ком хосту који подржава Docker.
-  feature_security_desc: Аутоматска генерација TLS сертификата са само-потписаним CA, аутентификација базирана на SSH кључевима и индустријски стандарди безбедности одмах доступни.
-  feature_ssh_desc: Покретање на удаљеним серверима преко SSH са груписањем конекција, аутоматским преносом фајлова и робусним руковањем грешкама.
+  feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis и ClamAV су унапред конфигурисани и раде заједно без
+    проблема.
+  feature_docker_desc: Свака компонента ради у свом Docker контејнеру, осигуравајући изолацију, скалабилност и лако управљање.
+    Покрените на било ком хосту који подржава Docker.
+  feature_security_desc: Аутоматска генерација TLS сертификата са само-потписаним CA, аутентификација базирана на SSH кључевима
+    и индустријски стандарди безбедности одмах доступни.
+  feature_ssh_desc: Покретање на удаљеним серверима преко SSH са груписањем конекција, аутоматским преносом фајлова и робусним
+    руковањем грешкама.
   feature_tested_desc: 100% успешност извршавања тестова са 47 свеобухватних тестова. Свака компонента је проверена пре издавања.
-  feature_zero_touch_desc: Напишите једноставан JSON конфигурациони фајл и дозволите Mail Server Factory-ју да уради све остало - од инсталације до иницијализације. Није потребна ручна конфигурација.
+  feature_zero_touch_desc: Напишите једноставан JSON конфигурациони фајл и дозволите Mail Server Factory-ју да уради све остало
+    - од инсталације до иницијализације. Није потребна ручна конфигурација.
   hero_badge_automated: Automated Installation
   hero_badge_distribution: Multi-Distribution
   hero_badge_enterprise: Enterprise Grade
@@ -7630,7 +7883,8 @@ sr:
   step_number1: '1'
   step_number2: '2'
   step_number3: '3'
-  step_use_desc: Повежите ваше мејл клијенте на покренути сервер. Сви сервиси су покренути, конфигурисани и спремни да обрађују мејл.
+  step_use_desc: Повежите ваше мејл клијенте на покренути сервер. Сви сервиси су покренути, конфигурисани и спремни да обрађују
+    мејл.
   table_config_almalinux9: Examples/AlmaLinux_9.json
   table_config_debian11: Examples/Debian_11.json
   table_config_debian12: Examples/Debian_12.json
