@@ -1,0 +1,1440 @@
+{
+  "summary": {
+    "totalTests": 228,
+    "passed": 1,
+    "failed": 227,
+    "warnings": 0,
+    "languages": {
+      "en": {
+        "passed": 1,
+        "failed": 44,
+        "total": 45
+      },
+      "ru": {
+        "passed": 0,
+        "failed": 45,
+        "total": 45
+      },
+      "zh": {
+        "passed": 0,
+        "failed": 45,
+        "total": 45
+      },
+      "be": {
+        "passed": 0,
+        "failed": 45,
+        "total": 45
+      },
+      "sr": {
+        "passed": 0,
+        "failed": 45,
+        "total": 45
+      }
+    }
+  },
+  "details": [
+    {
+      "message": "Unexpected page title: Directory listing for /",
+      "status": "fail",
+      "timestamp": "8:32:49 PM",
+      "language": null
+    },
+    {
+      "message": "Language selector not found",
+      "status": "fail",
+      "timestamp": "8:32:49 PM",
+      "language": null
+    },
+    {
+      "message": "Hero section not found",
+      "status": "fail",
+      "timestamp": "8:32:49 PM",
+      "language": null
+    },
+    {
+      "message": "Language set correctly",
+      "status": "pass",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"hero_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"hero_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"download_btn\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"github_btn\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"stats_distributions\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"stats_automated\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"stats_production\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"stats_enterprise\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"stat_label_tested\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"stat_label_config\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"stat_label_protocols\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"stat_label_docker\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"features_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"features_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"feature_zero_touch\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"feature_docker\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"feature_security\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"feature_tested\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"feature_ssh\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"feature_complete\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_security\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_monitoring\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_config\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_performance\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"tech_stack_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"tech_stack_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"architecture_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"architecture_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"how_it_works_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"how_it_works_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"step_configure\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"step_deploy\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"step_use\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"testing_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"testing_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"compatibility_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"compatibility_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"use_cases_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"documentation_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"cta_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"cta_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "[data-i18n=\"cta_note\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "44 translation issues found",
+      "status": "fail",
+      "timestamp": "8:32:50 PM",
+      "language": "en"
+    },
+    {
+      "message": "Language not set correctly. Expected: ru, Got: en",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"hero_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"hero_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"download_btn\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"github_btn\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"stats_distributions\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"stats_automated\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"stats_production\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"stats_enterprise\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"stat_label_tested\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"stat_label_config\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"stat_label_protocols\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"stat_label_docker\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"features_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"features_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"feature_zero_touch\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"feature_docker\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"feature_security\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"feature_tested\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"feature_ssh\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"feature_complete\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_security\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_monitoring\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_config\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_performance\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"tech_stack_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"tech_stack_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"architecture_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"architecture_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"how_it_works_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"how_it_works_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"step_configure\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"step_deploy\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"step_use\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"testing_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"testing_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"compatibility_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"compatibility_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"use_cases_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"documentation_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"cta_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"cta_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "[data-i18n=\"cta_note\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "44 translation issues found",
+      "status": "fail",
+      "timestamp": "8:32:51 PM",
+      "language": "ru"
+    },
+    {
+      "message": "Language not set correctly. Expected: zh, Got: en",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"hero_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"hero_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"download_btn\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"github_btn\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"stats_distributions\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"stats_automated\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"stats_production\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"stats_enterprise\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"stat_label_tested\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"stat_label_config\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"stat_label_protocols\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"stat_label_docker\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"features_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"features_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"feature_zero_touch\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"feature_docker\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"feature_security\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"feature_tested\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"feature_ssh\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"feature_complete\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_security\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_monitoring\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_config\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_performance\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"tech_stack_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"tech_stack_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"architecture_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"architecture_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"how_it_works_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"how_it_works_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"step_configure\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"step_deploy\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"step_use\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"testing_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"testing_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"compatibility_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"compatibility_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"use_cases_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"documentation_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"cta_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"cta_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "[data-i18n=\"cta_note\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "44 translation issues found",
+      "status": "fail",
+      "timestamp": "8:32:52 PM",
+      "language": "zh"
+    },
+    {
+      "message": "Language not set correctly. Expected: be, Got: en",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"hero_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"hero_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"download_btn\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"github_btn\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"stats_distributions\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"stats_automated\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"stats_production\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"stats_enterprise\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"stat_label_tested\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"stat_label_config\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"stat_label_protocols\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"stat_label_docker\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"features_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"features_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"feature_zero_touch\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"feature_docker\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"feature_security\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"feature_tested\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"feature_ssh\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"feature_complete\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_security\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_monitoring\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_config\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_performance\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"tech_stack_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"tech_stack_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"architecture_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"architecture_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"how_it_works_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"how_it_works_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"step_configure\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"step_deploy\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"step_use\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"testing_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"testing_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"compatibility_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"compatibility_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"use_cases_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"documentation_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"cta_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"cta_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "[data-i18n=\"cta_note\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "44 translation issues found",
+      "status": "fail",
+      "timestamp": "8:32:53 PM",
+      "language": "be"
+    },
+    {
+      "message": "Language not set correctly. Expected: sr, Got: en",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"hero_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"hero_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"download_btn\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"github_btn\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"stats_distributions\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"stats_automated\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"stats_production\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"stats_enterprise\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"stat_label_tested\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"stat_label_config\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"stat_label_protocols\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"stat_label_docker\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"features_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"features_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"feature_zero_touch\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"feature_docker\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"feature_security\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"feature_tested\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"feature_ssh\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"feature_complete\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_security\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_monitoring\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_config\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"enterprise_performance\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"tech_stack_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"tech_stack_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"architecture_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"architecture_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"how_it_works_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"how_it_works_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"step_configure\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"step_deploy\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"step_use\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"testing_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"testing_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"compatibility_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"compatibility_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"use_cases_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"documentation_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"cta_title\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"cta_subtitle\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "[data-i18n=\"cta_note\"] element not found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    },
+    {
+      "message": "44 translation issues found",
+      "status": "fail",
+      "timestamp": "8:32:54 PM",
+      "language": "sr"
+    }
+  ],
+  "metadata": {
+    "timestamp": "2025-10-23T17:32:46.264Z",
+    "version": "1.0.0",
+    "testEnvironment": "puppeteer"
+  }
+}

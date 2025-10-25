@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    
+    <meta charset="UTF-8">
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Documentation | Mail Server Factory</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Documentation" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Complete documentation for Mail Server Factory" />
+<meta property="og:description" content="Complete documentation for Mail Server Factory" />
+<link rel="canonical" href="http://0.0.0.0:4000/documentation.md.backup" />
+<meta property="og:url" content="http://0.0.0.0:4000/documentation.md.backup" />
+<meta property="og:site_name" content="Mail Server Factory" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Documentation" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Complete documentation for Mail Server Factory","headline":"Documentation","url":"http://0.0.0.0:4000/documentation.md.backup"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <link rel="shortcut icon" href="assets/images/Favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/Favicon.ico" type="image/x-icon">
+    <script src="/assets/js/theme-toggle.js" defer></script>
+    <script src="/assets/js/translations.js"></script>
+    <script src="/assets/js/language-selector.js" defer></script>
+</head>
+<body>
+
+<header class="page-header" role="banner">
+    <div class="header-content">
+        <h1 class="project-name">
+            <img src="assets/images/Logo_With_Title_White.png" alt="Mail Server Factory logo" />
+        </h1>
+        <div class="header-actions">
+             <button id="theme-toggle" class="theme-toggle-btn" data-i18n-aria="theme_toggle">
+                 <span class="theme-icon">🌙</span>
+             </button>
+            <a href="/documentation" class="btn" data-i18n="nav_documentation">📚 Documentation</a>
+            <a href="https://github.com/Server-Factory/Mail-Server-Factory" class="btn" target="_blank" data-i18n="nav_view_github">⭐ View on GitHub</a>
+            <a href="https://github.com/Server-Factory/Mail-Server-Factory/releases" class="btn" target="_blank" data-i18n="nav_download">⬇ Download</a>
+        </div>
+    </div>
+    <h2 class="project-tagline" data-i18n="page_description"></h2>
+</header>
+
+<main id="content" class="main-content" role="main">
+    <section class="documentation">
+  <div class="container">
+    <div class="doc-header">
+      <h1 class="doc-title" data-i18n="documentation_title">Documentation & Resources</h1>
+      <p class="doc-subtitle" data-i18n="documentation_subtitle">Comprehensive guides and references for Mail Server Factory</p>
+    </div>
+
+    <div class="doc-grid">
+      <!-- Getting Started -->
+      <div class="doc-card">
+        <div class="doc-icon">🚀</div>
+        <h3 data-i18n="getting_started_title">Getting Started</h3>
+        <p data-i18n="getting_started_desc">New to Mail Server Factory? Start here with installation and first deployment.</p>
+        <div class="doc-links">
+          <a href="#overview" class="doc-link">Overview</a>
+          <a href="#installation" class="doc-link">Installation</a>
+          <a href="#quick-start" class="doc-link">Quick Start</a>
+        </div>
+      </div>
+
+      <!-- Configuration -->
+      <div class="doc-card">
+        <div class="doc-icon">⚙️</div>
+        <h3 data-i18n="configuration_title">Configuration</h3>
+        <p data-i18n="configuration_desc">Learn about JSON configuration system, variables, and validation.</p>
+        <div class="doc-links">
+          <a href="#config-system" class="doc-link">Configuration System</a>
+          <a href="#file-structure" class="doc-link">File Structure</a>
+          <a href="#variables" class="doc-link">Variables</a>
+        </div>
+      </div>
+
+      <!-- Deployment -->
+      <div class="doc-card">
+        <div class="doc-icon">🚢</div>
+        <h3 data-i18n="deployment_title">Deployment</h3>
+        <p data-i18n="deployment_desc">Understand the deployment pipeline and remote execution model.</p>
+        <div class="doc-links">
+          <a href="#deployment-overview" class="doc-link">Deployment Process</a>
+          <a href="#docker-stack" class="doc-link">Docker Stack</a>
+          <a href="#verification" class="doc-link">Verification</a>
+        </div>
+      </div>
+
+      <!-- Architecture -->
+      <div class="doc-card">
+        <div class="doc-icon">🏗️</div>
+        <h3 data-i18n="architecture_title">Architecture</h3>
+        <p data-i18n="architecture_desc">Explore the system architecture and component design.</p>
+        <div class="doc-links">
+          <a href="#system-architecture" class="doc-link">System Architecture</a>
+          <a href="#components" class="doc-link">Components</a>
+          <a href="#execution-flow" class="doc-link">Execution Flow</a>
+        </div>
+      </div>
+
+      <!-- Components -->
+      <div class="doc-card">
+        <div class="doc-icon">📧</div>
+        <h3 data-i18n="components_title">Mail Server Components</h3>
+        <p data-i18n="components_desc">Detailed information about each mail server component.</p>
+        <div class="doc-links">
+          <a href="#postfix" class="doc-link">Postfix</a>
+          <a href="#dovecot" class="doc-link">Dovecot</a>
+          <a href="#rspamd" class="doc-link">Rspamd</a>
+          <a href="#clamav" class="doc-link">ClamAV</a>
+        </div>
+      </div>
+
+      <!-- Development -->
+      <div class="doc-card">
+        <div class="doc-icon">💻</div>
+        <h3 data-i18n="development_title">Development</h3>
+        <p data-i18n="development_desc">Build system, testing infrastructure, and contribution guidelines.</p>
+        <div class="doc-links">
+          <a href="#build-system" class="doc-link">Build System</a>
+          <a href="#testing" class="doc-link">Testing</a>
+          <a href="#distributions" class="doc-link">Supported Distributions</a>
+        </div>
+      </div>
+
+      <!-- Enterprise Features -->
+      <div class="doc-card">
+        <div class="doc-icon">🏢</div>
+        <h3 data-i18n="enterprise_title">Enterprise Features</h3>
+        <p data-i18n="enterprise_desc">Security, performance, monitoring, and logging capabilities.</p>
+        <div class="doc-links">
+          <a href="#security" class="doc-link">Security</a>
+          <a href="#performance" class="doc-link">Performance</a>
+          <a href="#monitoring" class="doc-link">Monitoring</a>
+        </div>
+      </div>
+
+      <!-- Reference -->
+      <div class="doc-card">
+        <div class="doc-icon">📚</div>
+        <h3 data-i18n="reference_title">Reference</h3>
+        <p data-i18n="reference_desc">CLI reference, API documentation, and troubleshooting guides.</p>
+        <div class="doc-links">
+          <a href="#cli-reference" class="doc-link">CLI Reference</a>
+          <a href="#api-reference" class="doc-link">API Reference</a>
+          <a href="#troubleshooting" class="doc-link">Troubleshooting</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Documentation Content Sections -->
+    <div class="doc-content">
+      
+      <!-- Overview Section -->
+      <section id="overview" class="doc-section">
+        <h2>What is Mail Server Factory</h2>
+        <p>Mail Server Factory is a Kotlin-based automation tool that deploys complete, production-ready mail server stacks on remote Linux servers. Users provide JSON configuration files that specify target hosts, mail accounts, and service parameters. The system then performs remote installation, Docker container deployment, database initialization, and mail account creation via SSH.</p>
+        
+        <h3>Deployed Components</h3>
+        <ul>
+          <li><strong>Postfix</strong> (SMTP sending on port 465)</li>
+          <li><strong>Dovecot</strong> (IMAPS receiving on port 993)</li>
+          <li><strong>Rspamd</strong> (anti-spam filtering)</li>
+          <li><strong>ClamAV</strong> (anti-virus scanning)</li>
+          <li><strong>PostgreSQL</strong> (user database)</li>
+          <li><strong>Redis</strong> (Rspamd caching)</li>
+        </ul>
+        
+        <p>All services run in isolated Docker containers with automated security, monitoring, and performance optimization.</p>
+      </section>
+
+      <!-- Installation Section -->
+      <section id="installation" class="doc-section">
+        <h2>Installation Methods</h2>
+        
+        <h3>Web Installer (Recommended)</h3>
+        <p>Quickest setup for production use:</p>
+        <pre><code>curl -fsSL https://raw.githubusercontent.com/Server-Factory/Utils/master/web_installer.sh | /bin/bash</code></pre>
+        
+        <h3>Local Installer</h3>
+        <p>For development or customized installation:</p>
+        <pre><code>./installer.sh [install_path]</code></pre>
+        
+        <h3>Manual Build</h3>
+        <p>For development and source code modifications:</p>
+        <pre><code>git clone --recurse-submodules
+./gradlew assemble</code></pre>
+        
+        <h3>System Requirements</h3>
+        
+        <h4>Local Machine</h4>
+        <ul>
+          <li>Java 17 or higher (OpenJDK recommended)</li>
+          <li>Linux, macOS, or Windows with bash</li>
+          <li>Internet access for downloading dependencies</li>
+        </ul>
+        
+        <h4>Target Server</h4>
+        <ul>
+          <li>Modern Linux distribution (12 supported distributions)</li>
+          <li>SSH access with key-based authentication</li>
+          <li>Docker support (will be installed if missing)</li>
+          <li>Root/sudo access for system modifications</li>
+          <li>Ports 465 (SMTP) and 993 (IMAPS) accessible</li>
+          <li>SELinux disabled or in permissive mode</li>
+        </ul>
+      </section>
+
+      <!-- Configuration System Section -->
+      <section id="config-system" class="doc-section">
+        <h2>Configuration System</h2>
+        <p>Mail Server Factory uses a JSON-based configuration system with variable substitution and file inclusion. The configuration defines everything about your mail server deployment.</p>
+        
+        <h3>Key Features</h3>
+        <ul>
+          <li><strong>Hierarchical Configuration</strong>: JSON files can include other JSON files</li>
+          <li><strong>Variable Substitution</strong>: Dynamic variable resolution using `${CONTEXT.KEY}` syntax</li>
+          <li><strong>Type-Safe Parsing</strong>: Configuration parsed into strongly-typed Kotlin classes</li>
+          <li><strong>Validation</strong>: Comprehensive validation of emails and passwords</li>
+          <li><strong>Merging</strong>: Multiple configuration files combined into final config</li>
+        </ul>
+        
+        <h3>Basic Configuration Structure</h3>
+        <pre><code>{
+  "name": "Mail Server Configuration",
+  "remote": {
+    "hostname": "mail.example.com",
+    "username": "admin",
+    "port": 22
+  },
+  "includes": [
+    "Includes/Common.json"
+  ],
+  "variables": {
+    "SERVER": {
+      "hostname": "mail.example.com"
+    }
+  }
+}</code></pre>
+        
+        <h3>Variable Substitution</h3>
+        <p>Variables use the format `${CONTEXT.SUBCONTEXT.KEY}` and can reference other variables:</p>
+        <pre><code>"certificate_endpoint": "https://${PROXY.HOSTNAME}:8080/api/v1/certificate"</code></pre>
+      </section>
+
+      <!-- Deployment Overview Section -->
+      <section id="deployment-overview" class="doc-section">
+        <h2>Deployment Process</h2>
+        <p>The deployment follows a sequential flow through four main stages:</p>
+        
+        <div class="deployment-flow">
+          <div class="flow-step">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h4>Initialization</h4>
+              <p>Parse configuration, validate accounts, establish SSH/Docker/DB connections</p>
+            </div>
+          </div>
+          
+          <div class="flow-step">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h4>Installation</h4>
+              <p>Install software packages and dependencies on remote server</p>
+            </div>
+          </div>
+          
+          <div class="flow-step">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h4>Docker Deployment</h4>
+              <p>Deploy Docker containers for mail stack services</p>
+            </div>
+          </div>
+          
+          <div class="flow-step">
+            <div class="step-number">4</div>
+            <div class="step-content">
+              <h4>Database Setup</h4>
+              <p>Initialize PostgreSQL database and create mail accounts</p>
+            </div>
+          </div>
+        </div>
+        
+        <h3>Running a Deployment</h3>
+        <pre><code>mail_factory config.json</code></pre>
+        
+        <h3>Example Configurations</h3>
+        <p>The <code>Examples/</code> directory contains pre-configured files for all supported distributions:</p>
+        <ul>
+          <li><code>Ubuntu_22.json</code> - Ubuntu 22.04 LTS</li>
+          <li><code>Debian_12.json</code> - Debian 12 Bookworm</li>
+          <li><code>RHEL_9.json</code> - RHEL 9</li>
+          <li><code>Fedora_Server_41.json</code> - Fedora Server 41</li>
+          <li>And 8 more distributions...</li>
+        </ul>
+      </section>
+
+      <!-- Mail Server Components Section -->
+      <section id="components" class="doc-section">
+        <h2>Mail Server Components</h2>
+        
+        <h3>Postfix (Mail Sending)</h3>
+        <p>SMTP server responsible for outgoing email delivery. Configured for:</p>
+        <ul>
+          <li>SMTPS on port 465</li>
+          <li>TLS encryption</li>
+          <li>Virtual domain hosting</li>
+          <li>Integration with Dovecot for authentication</li>
+        </ul>
+        
+        <h3>Dovecot (Mail Receiving)</h3>
+        <p>IMAP/POP3 server for incoming email and mail storage. Features:</p>
+        <ul>
+          <li>IMAPS on port 993</li>
+          <li>Maildir storage format</li>
+          <li>PostgreSQL authentication backend</li>
+          <li>SSL/TLS support</li>
+        </ul>
+        
+        <h3>Rspamd (Anti-Spam)</h3>
+        <p>Advanced spam filtering system:</p>
+        <ul>
+          <li>Real-time spam scanning</li>
+          <li>Machine learning filters</li>
+          <li>Web UI on localhost:11334</li>
+          <li>Redis integration for caching</li>
+        </ul>
+        
+        <h3>ClamAV (Anti-Virus)</h3>
+        <p>Virus scanning for email attachments:</p>
+        <ul>
+          <li>Real-time virus database updates</li>
+          <li>Integration with Rspamd</li>
+          <li>Automatic quarantine of infected files</li>
+        </ul>
+        
+        <h3>Database Services</h3>
+        <p><strong>PostgreSQL</strong>: User authentication, domains, aliases storage</p>
+        <p><strong>Redis</strong>: Rspamd caching and learning data</p>
+      </section>
+
+      <!-- Testing Section -->
+      <section id="testing" class="doc-section">
+        <h2>Testing Infrastructure</h2>
+        <p>Mail Server Factory includes comprehensive automated testing across 12 Linux distributions using QEMU virtualization:</p>
+        
+        <h3>Test Coverage</h3>
+        <div class="test-stats">
+          <div class="test-stat">
+            <div class="stat-number">47</div>
+            <div class="stat-label">Total Tests</div>
+          </div>
+          <div class="test-stat">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Pass Rate</div>
+          </div>
+          <div class="test-stat">
+            <div class="stat-number">12</div>
+            <div class="stat-label">Distributions</div>
+          </div>
+          <div class="test-stat">
+            <div class="stat-number">85%+</div>
+            <div class="stat-label">Code Coverage</div>
+          </div>
+        </div>
+        
+        <h3>Supported Distributions</h3>
+        <div class="dist-grid">
+          <div class="dist-family">
+            <h4>Debian-based</h4>
+            <ul>
+              <li>Ubuntu 22.04, 24.04</li>
+              <li>Debian 11, 12</li>
+            </ul>
+          </div>
+          <div class="dist-family">
+            <h4>RHEL-based</h4>
+            <ul>
+              <li>RHEL 9</li>
+              <li>AlmaLinux 9</li>
+              <li>Rocky Linux 9</li>
+              <li>Fedora 38-41</li>
+            </ul>
+          </div>
+          <div class="dist-family">
+            <h4>SUSE-based</h4>
+            <ul>
+              <li>openSUSE Leap 15.6</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Security Section -->
+      <section id="security" class="doc-section">
+        <h2>Security Features</h2>
+        <p>Enterprise-grade security built into every deployment:</p>
+        
+        <h3>Authentication & Encryption</h3>
+        <ul>
+          <li>AES-256-GCM encryption for sensitive data</li>
+          <li>SSH key-based authentication (no passwords)</li>
+          <li>TLS certificate generation with self-signed CA</li>
+          <li>SSL/TLS enforcement for mail protocols</li>
+        </ul>
+        
+        <h3>Password Policies</h3>
+        <ul>
+          <li>MEDIUM strength requirements enforced</li>
+          <li>Minimum length and complexity rules</li>
+          <li>Password hashing before database storage</li>
+        </ul>
+        
+        <h3>System Security</h3>
+        <ul>
+          <li>Container isolation for all services</li>
+          <li>Audit logging for all operations</li>
+          <li>Session management with correlation IDs</li>
+          <li>Regular security updates via Docker</li>
+        </ul>
+      </section>
+
+      <!-- CLI Reference Section -->
+      <section id="cli-reference" class="doc-section">
+        <h2>CLI Reference</h2>
+        
+        <h3>Basic Usage</h3>
+        <pre><code>mail_factory [options] configuration.json</code></pre>
+        
+        <h3>Common Options</h3>
+        <div class="cli-options">
+          <div class="cli-option">
+            <code>--help, -h</code>
+            <span>Display help message</span>
+          </div>
+          <div class="cli-option">
+            <code>--version, -v</code>
+            <span>Show version information</span>
+          </div>
+          <div class="cli-option">
+            <code>--debug</code>
+            <span>Enable verbose output</span>
+          </div>
+          <div class="cli-option">
+            <code>--dry-run</code>
+            <span>Preview command without executing</span>
+          </div>
+          <div class="cli-option">
+            <code>--jar &lt;path&gt;</code>
+            <span>Specify JAR location explicitly</span>
+          </div>
+          <div class="cli-option">
+            <code>--installation-home &lt;path&gt;</code>
+            <span>Override installation directory</span>
+          </div>
+        </div>
+        
+        <h3>Environment Variables</h3>
+        <div class="env-vars">
+          <div class="env-var">
+            <code>JAVA_HOME</code>
+            <span>Java installation directory</span>
+          </div>
+          <div class="env-var">
+            <code>JAVA_OPTS</code>
+            <span>JVM options (e.g., -Xmx4g)</span>
+          </div>
+          <div class="env-var">
+            <code>MAIL_FACTORY_HOME</code>
+            <span>Override JAR search location</span>
+          </div>
+        </div>
+        
+        <h3>Exit Codes</h3>
+        <div class="exit-codes">
+          <div class="exit-code">
+            <code>0</code>
+            <span>Success - deployment completed</span>
+          </div>
+          <div class="exit-code">
+            <code>2</code>
+            <span>Java not found or wrong version</span>
+          </div>
+          <div class="exit-code">
+            <code>3</code>
+            <span>JAR file not found</span>
+          </div>
+          <div class="exit-code">
+            <code>4</code>
+            <span>Invalid command line arguments</span>
+          </div>
+          <div class="exit-code">
+            <code>5</code>
+            <span>Configuration file not found</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Troubleshooting Section -->
+      <section id="troubleshooting" class="doc-section">
+        <h2>Troubleshooting</h2>
+        
+        <h3>Common Issues</h3>
+        
+        <div class="troubleshoot-item">
+          <h4>SSH Connection Failed</h4>
+          <p><strong>Cause:</strong> SSH key not configured or network issue</p>
+          <p><strong>Solution:</strong></p>
+          <ul>
+            <li>Verify SSH key-based authentication: <code>ssh user@target</code></li>
+            <li>Check network connectivity: <code>ping target-hostname</code></li>
+            <li>Ensure SSH server is running on port 22</li>
+          </ul>
+        </div>
+        
+        <div class="troubleshoot-item">
+          <h4>Docker Deployment Failed</h4>
+          <p><strong>Cause:</strong> Docker not installed or conflicting containers</p>
+          <p><strong>Solution:</strong></p>
+          <ul>
+            <li>Check Docker installation: <code>docker --version</code></li>
+            <li>Remove conflicting containers: <code>docker ps -a</code></li>
+            <li>Verify Docker service status: <code>systemctl status docker</code></li>
+          </ul>
+        </div>
+        
+        <div class="troubleshoot-item">
+          <h4>Configuration Validation Failed</h4>
+          <p><strong>Cause:</strong> Invalid email format or weak password</p>
+          <p><strong>Solution:</strong></p>
+          <ul>
+            <li>Verify email format: <code>user@domain.com</code></li>
+            <li>Check password strength (minimum 8 characters, mixed case, numbers)</li>
+            <li>Validate JSON syntax using online validator</li>
+          </ul>
+        </div>
+        
+        <div class="troubleshoot-item">
+          <h4>Mail Account Creation Failed</h4>
+          <p><strong>Cause:</strong> Database connection issue or account validation error</p>
+          <p><strong>Solution:</strong></p>
+          <ul>
+            <li>Check PostgreSQL container status: <code>docker ps | grep postmaster_db</code></li>
+            <li>Verify database connectivity: <code>docker exec postmaster_db psql -l</code></li>
+            <li>Review deployment logs for specific error messages</li>
+          </ul>
+        </div>
+        
+        <h3>Getting Help</h3>
+        <ul>
+          <li>Check deployment logs in <code>${INSTALLATION_HOME}/</code></li>
+          <li>Enable debug mode: <code>mail_factory --debug config.json</code></li>
+          <li>Review configuration files for syntax errors</li>
+          <li>Consult GitHub issues for known problems</li>
+        </ul>
+      </section>
+
+    </div>
+  </div>
+</section>
+
+<style>
+.documentation {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.doc-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.doc-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.doc-subtitle {
+  font-size: 1.25rem;
+  color: #6c757d;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.doc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.doc-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.doc-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.doc-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.doc-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.doc-card p {
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.doc-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.doc-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #e9ecef;
+  color: #495057;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  transition: all 0.3s ease;
+}
+
+.doc-link:hover {
+  background: #4a90e2;
+  color: white;
+}
+
+.doc-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.doc-section {
+  background: white;
+  border-radius: 12px;
+  padding: 3rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.doc-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  border-bottom: 3px solid #4a90e2;
+  padding-bottom: 1rem;
+}
+
+.doc-section h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #34495e;
+  margin: 2rem 0 1rem 0;
+}
+
+.doc-section h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #495057;
+  margin: 1.5rem 0 1rem 0;
+}
+
+.doc-section ul {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+.doc-section li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+  color: #495057;
+}
+
+.doc-section pre {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.875rem;
+}
+
+.doc-section code {
+  background: #e9ecef;
+  color: #c7254e;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.875rem;
+}
+
+.deployment-flow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.flow-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.step-number {
+  background: #4a90e2;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.step-content h4 {
+  margin: 0 0 0.5rem 0;
+  color: #2c3e50;
+}
+
+.test-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.test-stat {
+  text-align: center;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 2px solid #e9ecef;
+}
+
+.stat-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #4a90e2;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  color: #6c757d;
+  font-size: 0.875rem;
+}
+
+.dist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.dist-family {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #4a90e2;
+}
+
+.cli-options, .env-vars, .exit-codes {
+  display: grid;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.cli-option, .env-var, .exit-code {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.troubleshoot-item {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.troubleshoot-item h4 {
+  color: #dc3545;
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .doc-title {
+    font-size: 2rem;
+  }
+  
+  .doc-section {
+    padding: 2rem 1rem;
+  }
+  
+  .doc-section h2 {
+    font-size: 2rem;
+  }
+  
+  .deployment-flow {
+    grid-template-columns: 1fr;
+  }
+  
+  .test-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .cli-option, .env-var, .exit-code {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+}
+</style>
+
+    <footer class="site-footer">
+        
+        <span class="site-footer-credits"><span data-i18n="footer_generated_by">This page was generated by</span> <a href="https://pages.github.com" target="_blank" data-i18n="footer_github_pages">GitHub Pages</a>.</span>
+    </footer>
+</main>
+</body>
+</html>

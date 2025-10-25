@@ -1,0 +1,378 @@
+architecture_application_layer: 🏗️ Application Layer
+architecture_badge_docker: Docker
+architecture_badge_gradle: Gradle 8.14.3
+architecture_badge_java: Java 17
+architecture_badge_json: JSON Configuration
+architecture_badge_kotlin: Kotlin 2.0.21
+architecture_badge_ssh: SSH Protocol
+architecture_benefit1_desc: Defense-in-depth security with enterprise-grade encryption
+architecture_benefit1: Security First
+architecture_benefit2_desc: Horizontal scaling with stateless design and optimized
+architecture_benefit2: Scalable
+architecture_benefit3_desc: Complete observability with metrics, logging, and health
+architecture_benefit3: Observable
+architecture_benefit4_desc: Hot reloading configuration and automated testing ensure
+architecture_benefit4: Maintainable
+architecture_benefits_title: Enterprise Benefits
+architecture_built_with: Built With Modern Tools
+architecture_component10: Health Checks
+architecture_component11: Structured Logging
+architecture_component12: Alert Management
+architecture_component13: Конфигурации среды
+architecture_component14: Hot Reloading
+architecture_component15: Schema Validation
+architecture_component16: Secrets Management
+architecture_component17: Kotlin 2.0.21
+architecture_component18: Gradle 8.14.3
+architecture_component19: Java 17
+architecture_component1: AES-256-GCM Encryption
+architecture_component20: JSON Configuration
+architecture_component21: PostgreSQL
+architecture_component22: Postfix
+architecture_component23: Dovecot
+architecture_component24: Rspamd
+architecture_component25: Redis
+architecture_component26: ClamAV
+architecture_component2: Session Management
+architecture_component3: Audit Logging
+architecture_component4: TLS 1.3 Enforcement
+architecture_component5: Caffeine Caching
+architecture_component6: JVM Tuning (G1GC)
+architecture_component7: Connection Pooling
+architecture_component8: Async Operations
+architecture_component9: Prometheus Metrics
+architecture_config_layer: ⚙️ Configuration Layer
+architecture_desc: Explore the system architecture and component design.
+architecture_infrastructure_layer: 🐳 Infrastructure Layer
+architecture_monitoring_layer: 📊 Monitoring Layer
+architecture_performance_layer: ⚡ Performance Layer
+architecture_security_layer: 🔒 Security Layer
+architecture_subtitle: Multi-layered architecture designed for enterprise scalability
+architecture_title: Enterprise Architecture
+back_to_top: Back to top
+code_deploy_command: ./mail_factory config.json
+code_json_example: "{\n  \"hostname\": \"mail.example.com\",\n  \"accounts\": [...],\n\
+code_manual_install: '# Clone the repository
+code_ssh_setup: '# Enable passwordless SSH to target host
+code_verify_command: 'docker ps -a  # Verify running services'
+code_web_installer: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Server-Factory/Utils/master/web_installer.sh)"
+compatibility_automated_desc: All distributions are ready for automated testing
+compatibility_automated_title: ✅ Automated Testing Available
+compatibility_note: 'Note: SELinux enforcing mode is not currently supported. Please
+compatibility_subtitle: Deploy on the latest modern Linux server distributions
+compatibility_table_config: Configuration
+compatibility_table_distribution: Distribution
+compatibility_table_family: Distribution Family
+compatibility_table_tested: Tested
+compatibility_table_version: Version
+compatibility_title: Distribution Support Matrix
+components_desc: Detailed information about each mail server component.
+components_title: Mail Server Components
+configuration_desc: Learn about JSON configuration system, variables, and validation.
+configuration_title: Configuration
+coverage_value_core: 85%+ Coverage
+coverage_value_enterprise: 100% Coverage
+coverage_value_factory: 85%+ Coverage
+cta_download: Download Now
+cta_github: View on GitHub
+cta_note: Open source • Free forever • Community supported
+cta_subtitle: Join the Mail Server Factory community and take control of your email
+cta_title: Ready to Deploy Your Mail Server?
+deployment_desc: Understand the deployment pipeline and remote execution model.
+deployment_title: Deployment
+development_desc: Build system, testing infrastructure, and contribution guidelines.
+development_title: Development
+distro_almalinux: AlmaLinux
+distro_almalinux_versions: '9.5'
+distro_debian: Debian
+distro_debian_versions: 11 (Bullseye), 12 (Bookworm)
+distro_fedora: Fedora Server
+distro_fedora_versions: 38, 39, 40, 41
+distro_opensuse: openSUSE Leap
+distro_opensuse_versions: '15.6'
+distro_rhel: RHEL
+distro_rhel_versions: '9'
+distro_rocky: Rocky Linux
+distro_rocky_versions: '9.5'
+distro_ubuntu: Ubuntu Server
+distro_ubuntu_versions: 22.04 LTS, 24.04 LTS
+doc_account_cause: Database connection issue or account validation error
+doc_account_issue: Mail Account Creation Failed
+doc_anti_spam: Anti-Spam
+doc_anti_virus: Anti-Virus
+doc_auth_encryption: AES-256-GCM encryption for sensitive data, SSH key-based authentication
+doc_authentication_encryption: Authentication & Encryption
+doc_basic_config_structure: Basic Configuration Structure
+doc_basic_usage: Basic Usage
+doc_clamav_desc: 'Virus scanning for email attachments:'
+doc_clamav_features: Real-time virus database updates, Integration with Rspamd,
+doc_cli_basic_usage: mail_factory [options] configuration.json
+doc_cli_reference: CLI Reference
+doc_common_issues: Common Issues
+doc_common_options: Common Options
+doc_components_desc: All services run in isolated Docker containers with automated
+doc_components_list: Postfix (SMTP sending on port 465), Dovecot (IMAPS receiving
+doc_config_cause: Invalid email format or weak password
+doc_config_features: 'Hierarchical Configuration: JSON files can include other JSON
+doc_config_issue: Configuration Validation Failed
+doc_config_system_desc: Mail Server Factory uses a JSON-based configuration system
+doc_configuration: Configuration
+doc_configuration_desc: Enterprise configuration files and environment setup
+doc_configuration_system: Configuration System
+doc_database_services: Database Services
+doc_deployed_components: Deployed Components
+doc_deployment_desc: 'The deployment follows a sequential flow through four main
+doc_deployment_process: Deployment Process
+doc_deployment_stage1: Parse configuration, validate accounts, establish SSH/Docker/DB
+doc_deployment_stage2: Install software packages and dependencies on remote server
+doc_deployment_stage3: Deploy Docker containers for mail stack services
+doc_deployment_stage4: Initialize PostgreSQL database and create mail accounts
+doc_docker_cause: Docker not installed or conflicting containers
+doc_docker_issue: Docker Deployment Failed
+doc_dovecot_desc: 'IMAP/POP3 server for incoming email and mail storage. Features:'
+doc_dovecot_features: IMAPS on port 993, Maildir storage format, PostgreSQL authentication
+doc_enterprise_desc: Стандарты безопасности, производительности и конфигурации
+doc_enterprise: Enterprise Guide
+doc_environment_variables: Environment Variables
+doc_example_configs_desc: 'The Examples/ directory contains pre-configured files
+doc_example_configurations: Example Configurations
+doc_examples_desc: Sample configurations for enterprise deployments
+doc_examples: Examples
+doc_exit_codes: Exit Codes
+doc_getting_help: Getting Help
+doc_help_suggestions: 'Check deployment logs in ${INSTALLATION_HOME}/, Enable debug
+doc_installation_methods: Установка Methods
+doc_issues_desc: Report bugs or request enterprise features
+doc_issues: Issues
+doc_key_features: Key Features
+doc_link_api_reference: API Reference
+doc_link_build_system: Build System
+doc_link_clamav: ClamAV
+doc_link_cli_reference: CLI Reference
+doc_link_components: Components
+doc_link_config_system: Configuration System
+doc_link_deployment_overview: Deployment Process
+doc_link_distributions: Поддерживаемые дистрибутивы
+doc_link_docker_stack: Docker Stack
+doc_link_dovecot: Dovecot
+doc_link_execution_flow: Execution Flow
+doc_link_file_structure: File Structure
+doc_link_installation: Установка
+doc_link_monitoring: Monitoring
+doc_link_overview: Overview
+doc_link_performance: Performance
+doc_link_postfix: Postfix
+doc_link_quick_start: Quick Start
+doc_link_rspamd: Rspamd
+doc_link_security: Security
+doc_link_system_architecture: System Architecture
+doc_link_testing: Testing
+doc_link_troubleshooting: Troubleshooting
+doc_link_variables: Variables
+doc_link_verification: Verification
+doc_local_installer_desc: 'For development or customized installation:'
+doc_local_installer: Local Installer
+doc_local_machine: Local Machine
+doc_local_requirements: Java 17 or higher (OpenJDK recommended), Linux, macOS, or
+doc_mail_receiving: Mail Receiving
+doc_mail_sending: Mail Sending
+doc_mail_server_components: Mail Server Components
+doc_manual_build_desc: 'For development and source code modifications:'
+doc_manual_build: Manual Build
+doc_password_policies_list: MEDIUM strength requirements enforced, Minimum length
+doc_password_policies: Password Policies
+doc_postfix_desc: 'SMTP server responsible for outgoing email delivery. Configured
+doc_postfix_features: SMTPS on port 465, TLS encryption, Virtual domain hosting,
+doc_readme_desc: Complete project overview with enterprise features
+doc_readme: README
+doc_rspamd_desc: 'Advanced spam filtering system:'
+doc_rspamd_features: Real-time spam scanning, Machine learning filters, Web UI on
+doc_running_deployment: Running a Deployment
+doc_security_desc: 'Enterprise-grade security built into every deployment:'
+doc_security_features: Security Features
+doc_ssh_cause: SSH key not configured or network issue
+doc_ssh_issue: SSH Connection Failed
+doc_supported_distributions: Поддерживаемые дистрибутивы
+doc_system_requirements: System Requirements
+doc_system_security_list: Container isolation for all services, Audit logging for
+doc_system_security: System Security
+doc_target_requirements: Modern Linux distribution (12 supported distributions),
+doc_target_server: Target Server
+doc_test_coverage: Test Coverage
+doc_testing_desc: 'Mail Server Factory includes comprehensive automated testing
+doc_testing_infrastructure: Testing Infrastructure
+doc_testing: Testing Guide
+doc_troubleshooting: Troubleshooting
+documentation_subtitle: Comprehensive guides and references for Mail Server Factory
+documentation_title: Documentation & Resources
+doc_variable_substitution: Variable Substitution
+doc_web_installer_desc: 'Quickest setup for production use:'
+doc_web_installer: Web Installer (Recommended)
+doc_what_is_desc: Mail Server Factory is a Kotlin-based automation tool that deploys
+doc_what_is: What is Mail Server Factory
+download_btn: ⬇ Download Latest Release
+enterprise_config: Configuration Management
+enterprise_config_desc: Advanced configuration system with environment support,
+enterprise_config_item1: Multi-environment configurations
+enterprise_config_item2: Hot reloading without restart
+enterprise_config_item3: Schema validation and error reporting
+enterprise_config_item4: Secure secrets management
+enterprise_desc: Security, performance, monitoring, and logging capabilities.
+enterprise_monitoring_desc: Complete monitoring solution with Prometheus metrics,
+enterprise_monitoring_item1: Prometheus-compatible metrics endpoint
+enterprise_monitoring_item2: Automated health checks
+enterprise_monitoring_item3: Structured logging with correlation IDs
+enterprise_monitoring_item4: Real-time performance monitoring
+enterprise_monitoring: Monitoring & Observability
+enterprise_performance_desc: Enterprise-scale performance with advanced caching,
+enterprise_performance_item1: Caffeine-based multi-region caching
+enterprise_performance_item2: JVM performance tuning (G1GC)
+enterprise_performance_item3: Database connection pooling
+enterprise_performance_item4: Async I/O operations
+enterprise_performance: Performance Optimization
+enterprise_security: Advanced Security
+enterprise_security_desc: Enterprise-grade security with AES-256-GCM encryption,
+enterprise_security_item1: AES-256-GCM encryption for data at rest
+enterprise_security_item2: Enterprise password policies
+enterprise_security_item3: Real-time security monitoring
+enterprise_security_item4: 90-day audit log retention
+enterprise_subtitle: Production-ready capabilities for enterprise mail infrastructure
+enterprise_title: Enterprise Features
+feature_complete: Complete Stack
+feature_complete_desc: Postfix, Dovecot, PostgreSQL, Rspamd, Redis, and ClamAV pre-configured
+feature_docker_desc: Every component runs in its own Docker container, ensuring
+feature_docker: Docker Native
+feature_security_desc: Automatic TLS certificate generation with self-signed CA,
+feature_security: Security Built-In
+feature_ssh_desc: Deploy to remote servers via SSH with connection pooling, automatic
+feature_ssh: SSH-Based Remote Execution
+features_subtitle: Enterprise features without the enterprise complexity
+features_title: Why Mail Server Factory?
+feature_tested: Battle-Tested Code
+feature_tested_desc: 100% test execution success rate with 47 comprehensive tests.
+feature_zero_touch_desc: Write a simple JSON configuration file and let Mail Server
+feature_zero_touch: Zero-Touch Deployment
+footer_credits: This page was generated by
+footer_github_pages: GitHub Pages
+footer_opensource: Open Source • Free forever • Community supported
+footer_owner: Website is maintained by
+getting_started_desc: New to Mail Server Factory? Start here with installation and
+getting_started_title: Getting Started
+github_btn: ⭐ View on GitHub
+hero_badge_automated: Automated Установка
+hero_badge_distribution: Multi-Distribution
+hero_badge_enterprise: Enterprise Grade
+hero_badge_testing: Comprehensive Testing
+hero_subtitle: Enterprise-grade mail server automation powered by Kotlin, Docker,
+hero_title: Run Your Mail Server <span class="highlight">Like The Boss</span>
+how_it_works_subtitle: Three simple steps to your production mail server
+how_it_works_title: How It Works
+launcher_command_debug: Enable verbose debugging output
+launcher_command_dry_run: Show command without executing
+launcher_command_help: Show help message
+launcher_command_home: Custom installation home directory
+launcher_command_jar: Override JAR location
+launcher_commands_title: Launcher Options
+launcher_command_version: Show version information
+launcher_feature1: Automatic JAR Discovery
+launcher_feature1_desc: Searches 7 standard locations for the Application JAR
+launcher_feature2_desc: Находит среду выполнения Java и проверяет версию (минимум Java 17)
+launcher_feature2: Java Detection
+launcher_feature3_desc: Поддерживает JAVA_OPTS, JAVA_HOME, MAIL_FACTORY_HOME
+launcher_feature3: Environment Variables
+launcher_feature4: 41 Test Cases
+launcher_feature4_desc: Comprehensive test suite validates all launcher functionality
+launcher_subtitle: Production-ready bash wrapper with enterprise-grade error handling
+launcher_title: Launcher Features
+nav_documentation: 📚 Documentation
+nav_download: Download
+nav_view_github: View on GitHub
+quick_start_manual_install: Manual Установка
+quick_start_ssh_setup: Setup SSH Access
+quick_start_title: Quick Start
+quick_start_web_installer: Web Installer (Recommended)
+reference_desc: Справочник CLI, документация API и руководства по устранению неисправностей.
+reference_title: Reference
+skip_to_content: Skip to main content
+stat_label_config: Single JSON Config
+stat_label_docker: Docker + QEMU Ready
+stat_label_protocols: SMTP/IMAP/POP3
+stat_label_tested: Fully Tested & Supported
+stats_automated: 100% Automated
+stats_distributions: 12 Distributions
+stats_enterprise: Enterprise Grade
+stats_production: Production Ready
+step_configure: Configure
+step_configure_desc: Create a JSON configuration file specifying your mail server
+step_deploy: Deploy
+step_deploy_desc: Run the mail_factory launcher with your configuration. Sit back
+step_number1: '1'
+step_number2: '2'
+step_number3: '3'
+step_use_desc: Connect your email clients to the deployed server. All services are
+step_use: Use
+table_config_almalinux9: Examples/AlmaLinux_9.json
+table_config_debian11: Examples/Debian_11.json
+table_config_debian12: Examples/Debian_12.json
+table_config_fedora38: Examples/Fedora_Server_38.json
+table_config_fedora39: Examples/Fedora_Server_39.json
+table_config_fedora40: Examples/Fedora_Server_40.json
+table_config_fedora41: Examples/Fedora_Server_41.json
+table_config_opensuse15: Examples/openSUSE_Leap_15.json
+table_config_rhel9: Examples/RHEL_9.json
+table_config_rocky9: Examples/Rocky_9.json
+table_config_ubuntu22: Examples/Ubuntu_22.json
+table_config_ubuntu24: Examples/Ubuntu_24.json
+table_family_debian: Debian-based
+table_family_rhel: RHEL-based
+table_family_suse: SUSE-based
+table_version_almalinux95: '9.5'
+table_version_debian11: 11 (Bullseye)
+table_version_debian12: 12 (Bookworm)
+table_version_fedora38: '38'
+table_version_fedora39: '39'
+table_version_fedora40: '40'
+table_version_fedora41: '41'
+table_version_opensuse156: '15.6'
+table_version_rhel9: '9'
+table_version_rocky95: '9.5'
+table_version_ubuntu22: 22.04 LTS (Jammy)
+table_version_ubuntu24: 24.04 LTS (Noble)
+tech_clamav: ClamAV
+tech_clamav_desc: Anti-Virus
+tech_dovecot_desc: IMAP/POP3 Server
+tech_dovecot: Dovecot
+tech_postfix_desc: SMTP Server
+tech_postfix: Postfix
+tech_postgresql_desc: Main Database
+tech_postgresql: PostgreSQL
+tech_redis_desc: Cache Layer
+tech_redis: Redis
+tech_rspamd_desc: Anti-Spam Engine
+tech_rspamd: Rspamd
+tech_stack_subtitle: Powered by industry-leading open source technologies
+tech_stack_title: Technology Stack
+testing_coverage_core: Core Framework
+testing_coverage_enterprise: Enterprise Features
+testing_coverage_factory: Factory Module
+testing_coverage_title: Test Coverage by Module
+testing_run_command: 'Run tests locally with: ./gradlew test'
+testing_stat_coverage: Coverage
+testing_stat_smells: Code Smells
+testing_stat_success: Success Rate
+testing_stat_total: Total Tests
+testing_subtitle: Comprehensive test coverage ensures reliability
+testing_title: Quality & Testing
+test_stat_value_coverage: 85%+
+test_stat_value_smells: '0'
+test_stat_value_success: 100%
+test_stat_value_total: '47'
+use_case1_desc: Own your email infrastructure without vendor lock-in. Full control
+use_case1: 🏢 Small Businesses
+use_case2_desc: Automate mail server deployments across multiple environments with
+use_case2: 👨‍💻 Инженеры DevOps
+use_case3_desc: Keep email data on-premises with complete control over security
+use_case3: 🔐 Организации, заботящиеся о конфиденциальности
+use_case4_desc: Deploy cost-effective mail servers for students and staff with minimal
+use_case4: 🎓 Образовательные учреждения
+use_cases_title: Who Uses Mail Server Factory?

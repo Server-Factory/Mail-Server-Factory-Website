@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localization Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .test-section { margin: 20px 0; padding: 20px; border: 1px solid #ccc; }
+        .success { color: green; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Localization Test</h1>
+    
+    <div class="test-section">
+        <h2>Translation Keys Test</h2>
+        <div id="translation-test">
+            <p>Testing translation keys...</p>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>Language Selector Test</h2>
+        <div id="language-selector-test">
+            <p>Testing language selector...</p>
+        </div>
+    </div>
+
+    <script>
+        // Test if translations are loaded
+        function testTranslations() {
+            const testDiv = document.getElementById('translation-test');
+            
+            // Check if window.siteTranslations exists
+            if (typeof window.siteTranslations !== 'undefined') {
+                testDiv.innerHTML += `<p class="success">✓ Translations object found</p>`;
+                
+                // Check if English translations exist
+                if (window.siteTranslations.en) {
+                    testDiv.innerHTML += `<p class="success">✓ English translations found</p>`;
+                    
+                    // Check a few key translations
+                    const testKeys = ['hero_title', 'hero_subtitle', 'download_btn'];
+                    let allKeysFound = true;
+                    
+                    testKeys.forEach(key => {
+                        if (window.siteTranslations.en[key]) {
+                            testDiv.innerHTML += `<p class="success">✓ Translation key "${key}" found</p>`;
+                        } else {
+                            testDiv.innerHTML += `<p class="error">✗ Translation key "${key}" missing</p>`;
+                            allKeysFound = false;
+                        }
+                    });
+                    
+                    if (allKeysFound) {
+                        testDiv.innerHTML += `<p class="success">✓ All test translation keys found</p>`;
+                    }
+                } else {
+                    testDiv.innerHTML += `<p class="error">✗ English translations missing</p>`;
+                }
+            } else {
+                testDiv.innerHTML += `<p class="error">✗ Translations object not found</p>`;
+            }
+        }
+
+        // Test language selector
+        function testLanguageSelector() {
+            const testDiv = document.getElementById('language-selector-test');
+            
+            // Check if LanguageSelector class exists
+            if (typeof LanguageSelector !== 'undefined') {
+                testDiv.innerHTML += `<p class="success">✓ LanguageSelector class found</p>`;
+                
+                // Test language detection
+                const selector = new LanguageSelector();
+                testDiv.innerHTML += `<p class="success">✓ LanguageSelector instance created</p>`;
+                testDiv.innerHTML += `<p>Current language: ${selector.currentLang}</p>`;
+                
+                // Test language switching
+                const originalLang = selector.currentLang;
+                const testLang = originalLang === 'en' ? 'ru' : 'en';
+                
+                try {
+                    selector.changeLanguage(testLang);
+                    testDiv.innerHTML += `<p class="success">✓ Language changed to: ${testLang}</p>`;
+                    
+                    // Change back
+                    selector.changeLanguage(originalLang);
+                    testDiv.innerHTML += `<p class="success">✓ Language changed back to: ${originalLang}</p>`;
+                } catch (error) {
+                    testDiv.innerHTML += `<p class="error">✗ Language switching failed: ${error.message}</p>`;
+                }
+            } else {
+                testDiv.innerHTML += `<p class="error">✗ LanguageSelector class not found</p>`;
+            }
+        }
+
+        // Run tests when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            testTranslations();
+            testLanguageSelector();
+        });
+    </script>
+
+    <!-- Include the actual language selector script -->
+    <script src="assets/js/language-selector.js"></script>
+</body>
+</html>

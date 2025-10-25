@@ -1,0 +1,119 @@
+{
+  "summary": {
+    "totalChecks": 18,
+    "passed": 16,
+    "failed": 1,
+    "warnings": 1
+  },
+  "details": [
+    {
+      "message": "Found _data/translations.yml",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:45:35.135Z"
+    },
+    {
+      "message": "Found _data/languages.yml",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:45:35.135Z"
+    },
+    {
+      "message": "Found assets/js/language-selector.js",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:45:35.135Z"
+    },
+    {
+      "message": "Found assets/js/translations.js",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:45:35.135Z"
+    },
+    {
+      "message": "Found assets/css/style.scss",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:45:35.135Z"
+    },
+    {
+      "message": "Found _layouts/default.html",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:45:35.136Z"
+    },
+    {
+      "message": "Validation error: bad indentation of a mapping entry (954:21)\n\n 951 |   enterprise_config_desc: पर्यावरण समर्थन, हॉट रीलो ...\n 952 |   enterprise_monitoring_desc: Prometheus मेट्रिक्स, ...\n 953 |   enterprise_security_desc: AES-256-GCM एन्क्रिप्शन ...\n 954 |     tech_stack_title: प्रौद्योगिकी स्टैक\n---------------------------^\n 955 |     tech_stack_subtitle: उद्योग-अग्रणी ओपन सोर्स तक ...\n 956 |     architecture_title: एंटरप्राइज़ आर्किटेक्चर",
+      "status": "fail",
+      "language": null,
+      "timestamp": "2025-10-23T21:45:35.149Z"
+    },
+    {
+      "message": "JavaScript RTL direction setting implemented",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:45:35.149Z"
+    },
+    {
+      "message": "RTL languages properly configured in JavaScript",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:45:35.149Z"
+    },
+    {
+      "message": "CSS RTL styles present",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:45:35.150Z"
+    },
+    {
+      "message": "data-i18n attributes for translations found",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:45:35.150Z"
+    },
+    {
+      "message": "language selector container found",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:45:35.150Z"
+    },
+    {
+      "message": "lang attribute on html element found",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:45:35.150Z"
+    },
+    {
+      "message": "dir attribute on html element missing",
+      "status": "warning",
+      "language": null,
+      "timestamp": "2025-10-23T21:45:35.150Z"
+    },
+    {
+      "message": "Test file comprehensive-test-runner.js present",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:45:35.150Z"
+    },
+    {
+      "message": "Test file test-website.js present",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:45:35.150Z"
+    },
+    {
+      "message": "Test file package.json present",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:45:35.150Z"
+    },
+    {
+      "message": "Test scripts configured in package.json",
+      "status": "pass",
+      "language": null,
+      "timestamp": "2025-10-23T21:45:35.150Z"
+    }
+  ],
+  "languages": {}
+}
