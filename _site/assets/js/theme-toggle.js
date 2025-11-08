@@ -1,7 +1,8 @@
 // Theme Toggle Functionality with System Preference Detection
 document.addEventListener('DOMContentLoaded', function() {
-    const themeToggle = document.getElementById('theme-toggle');
-    const themeIcon = themeToggle.querySelector('.theme-icon');
+    // Try to find floating theme toggle first, then fallback to inline toggle
+    const themeToggle = document.getElementById('floating-theme-toggle') || document.getElementById('theme-toggle');
+    const themeIcon = themeToggle.querySelector('.floating-theme-icon') || themeToggle.querySelector('.theme-icon');
 
     // Function to get system theme preference
     function getSystemThemePreference() {

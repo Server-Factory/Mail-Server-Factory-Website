@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Server Factory Main Project
+    url: https://github.com/Server-Factory/Mail-Server-Factory
+    about: Visit main Mail Server Factory project for core functionality issues
+  - name: Documentation
+    url: https://github.com/Server-Factory/Mail-Server-Factory-Website/blob/main/README.md
+    about: Read project documentation for setup and usage instructions

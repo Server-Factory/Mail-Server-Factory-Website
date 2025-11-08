@@ -1,0 +1,32 @@
+name: "Simple Website Screenshots"
+output: "/Users/milosvasic/Projects/Mail-Server-Factory-Website/screenshots"
+
+apps:
+  - name: "Mail Server Factory"
+    type: "web"
+    url: "http://localhost:4000"
+    timeout: 30
+
+actions:
+  - name: "wait_for_load"
+    type: "wait"
+    wait_time: 5
+
+  - name: "capture_homepage"
+    type: "screenshot"
+    parameters:
+      filename: "homepage.png"
+
+  - name: "capture_full_page"
+    type: "screenshot"
+    parameters:
+      filename: "homepage_full.png"
+      full_page: true
+
+settings:
+  screenshot_format: "png"
+  quality: 90
+  headless: false
+  window_width: 1920
+  window_height: 1080
+  log_level: "info"

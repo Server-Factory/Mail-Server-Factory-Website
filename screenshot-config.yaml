@@ -1,0 +1,125 @@
+name: "Mail Server Factory Website Screenshots"
+output: "/Users/milosvasic/Projects/Mail-Server-Factory-Website/screenshots"
+
+apps:
+  - name: "Mail Server Factory - Homepage"
+    type: "web"
+    url: "http://localhost:4000"
+    timeout: 30
+    window_width: 1920
+    window_height: 1080
+
+actions:
+  - name: "capture_homepage_full"
+    type: "screenshot"
+    parameters:
+      filename: "homepage_full.png"
+      full_page: true
+
+  - name: "capture_homepage_viewport"
+    type: "screenshot"
+    parameters:
+      filename: "homepage_viewport.png"
+      full_page: false
+
+  - name: "wait_for_animations"
+    type: "wait"
+    wait_time: 5
+
+  - name: "capture_header_section"
+    type: "screenshot"
+    parameters:
+      filename: "header_section.png"
+      selector: ".complete-header"
+      full_page: false
+
+  - name: "capture_logo_section"
+    type: "screenshot"
+    parameters:
+      filename: "logo_section.png"
+      selector: ".header-logo-section"
+      full_page: false
+
+  - name: "capture_navigation_section"
+    type: "screenshot"
+    parameters:
+      filename: "navigation_section.png"
+      selector: ".header-nav-section"
+      full_page: false
+
+  - name: "capture_hero_section"
+    type: "screenshot"
+    parameters:
+      filename: "hero_section.png"
+      selector: ".hero"
+      full_page: false
+
+  - name: "capture_features_section"
+    type: "screenshot"
+    parameters:
+      filename: "features_section.png"
+      selector: ".premium-features"
+      full_page: false
+
+  - name: "scroll_to_bottom"
+    type: "scroll"
+    parameters:
+      scroll_to: "bottom"
+      duration: 2
+
+  - name: "wait_after_scroll"
+    type: "wait"
+    wait_time: 3
+
+  - name: "capture_full_page_scrolled"
+    type: "screenshot"
+    parameters:
+      filename: "homepage_full_scrolled.png"
+      full_page: true
+
+  - name: "capture_scroll_button"
+    type: "screenshot"
+    parameters:
+      filename: "scroll_to_top_button.png"
+      selector: ".scroll-to-top"
+      full_page: false
+
+  - name: "hover_logo_test"
+    type: "hover"
+    selector: ".header-main-logo"
+    screenshot: true
+    parameters:
+      filename: "logo_hover.png"
+
+  - name: "hover_nav_item_test"
+    type: "hover"
+    selector: ".header-nav-link:first-child"
+    screenshot: true
+    parameters:
+      filename: "nav_hover.png"
+
+  - name: "click_feature_card_test"
+    type: "click"
+    selector: ".premium-card:first-child"
+    screenshot: true
+    parameters:
+      filename: "feature_card_click.png"
+
+  - name: "final_state_capture"
+    type: "screenshot"
+    parameters:
+      filename: "final_state.png"
+      full_page: true
+
+settings:
+  screenshot_format: "png"
+  quality: 95
+  headless: false
+  window_width: 1920
+  window_height: 1080
+  enable_metrics: true
+  log_level: "debug"
+  enable_console_logs: true
+  enable_network_logs: true
+  capture_on_failure: true
+  wait_for_stability: 2

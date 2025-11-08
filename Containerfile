@@ -1,4 +1,4 @@
-FROM jekyll/jekyll:4.2.2
+FROM docker.io/jekyll/jekyll:4.2.2
 
 # Set working directory
 WORKDIR /srv/jekyll

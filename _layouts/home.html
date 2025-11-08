@@ -34,29 +34,54 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="shortcut icon" href="assets/images/Favicon.ico" type="image/x-icon">
     <link rel="icon" href="assets/images/Favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
     <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}" defer></script>
     <script src="{{ '/assets/js/translations.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/language-selector.js' | relative_url }}" defer></script>
+    <script src="{{ '/assets/js/fractal-background.js' | relative_url }}" defer></script>
+    <script src="{{ '/assets/js/sticky-header.js' | relative_url }}" defer></script>
 </head>
 <body>
     <a id="skip-to-content" href="#content" style="position: absolute; left: -9999px;" data-i18n="skip_to_content">Skip to main content</a>
 
-    <header class="page-header" role="banner">
-        <div class="header-content">
-            <h1 class="project-name">
-                <img src="assets/images/Logo_With_Title_White.png" alt="{{ site.data.translations[site.default_lang].logo_alt_home }}" />
-            </h1>
-            <div class="header-actions">
+<!-- PREMIUM HEADER WITH CENTERED LOGO -->
+<header class="page-header" role="banner">
+    <!-- Logo Section - Centered and Prominent -->
+    <div class="header-logo-section">
+        <h1 class="project-name">
+            <img src="assets/images/Logo_With_Title_White.png" alt="{{ site.data.translations[site.default_lang].logo_alt_home }}" class="main-logo" />
+        </h1>
+        <h2 class="project-tagline" data-i18n="{{ page.description_key | default: 'page_description' }}"></h2>
+    </div>
+
+    <!-- Navigation Menu Below -->
+    <nav class="header-navigation" role="navigation">
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="/documentation" class="nav-link" rel="noopener noreferrer" data-i18n="nav_documentation">
+                    <span class="nav-icon">📚</span>
+                    <span class="nav-text">Documentation</span>
+                </a>
+                <a href="https://github.com/Server-Factory/Mail-Server-Factory" class="nav-link" target="_blank" rel="noopener noreferrer" data-i18n="nav_view_github">
+                    <span class="nav-icon">⭐</span>
+                    <span class="nav-text">View on GitHub</span>
+                </a>
+                <a href="https://github.com/Server-Factory/Mail-Server-Factory/releases" class="nav-link nav-link-primary" target="_blank" rel="noopener noreferrer" data-i18n="nav_download">
+                    <span class="nav-icon">⬇️</span>
+                    <span class="nav-text">Download</span>
+                </a>
+            </div>
+            <div class="nav-controls">
                 <button id="theme-toggle" class="theme-toggle-btn" data-i18n-aria="theme_toggle">
                     <span class="theme-icon">🌙</span>
                 </button>
-                <a href="/documentation" class="btn" rel="noopener noreferrer" data-i18n="nav_documentation">📚 Documentation</a>
-                <a href="https://github.com/Server-Factory/Mail-Server-Factory" class="btn" target="_blank" rel="noopener noreferrer" data-i18n="nav_view_github">View on GitHub</a>
-                <a href="https://github.com/Server-Factory/Mail-Server-Factory/releases" class="btn" target="_blank" rel="noopener noreferrer" data-i18n="nav_download">Download</a>
+                <div class="language-selector-wrapper"></div>
             </div>
         </div>
-        <h2 class="project-tagline" data-i18n="{{ page.description_key | default: 'page_description' }}"></h2>
-    </header>
+    </nav>
+</header>
 
     <main id="content" class="main-content" role="main">
         {{ content }}
